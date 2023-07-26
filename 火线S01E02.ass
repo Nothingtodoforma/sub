@@ -1,0 +1,987 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: YYeTs
+Original Script: YYeTs
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,21,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.20,0:00:12.10,*Default,NTP,0000,0000,0000,,这就是Barksdale案里的那个目击证人\N{\fs14}That's the witness all right, the one from the Barksdale case.
+Dialogue: 0,0:00:12.70,0:00:15.50,*Default,NTP,0000,0000,0000,,Gant William 41岁\N{\fs14}Gant, William. 41 years.
+Dialogue: 0,0:00:15.80,0:00:17.80,*Default,NTP,0000,0000,0000,,头部中了一枪 近距离射击\N{\fs14}Single headshot, close range.
+Dialogue: 0,0:00:18.30,0:00:20.20,*Default,NTP,0000,0000,0000,,子弹卡在了颅内\N{\fs14}Bullet pancaked on the inner skull.
+Dialogue: 0,0:00:26.00,0:00:28.40,*Default,NTP,0000,0000,0000,,- 也许没有你想的那么复杂 - 是么?\N{\fs14}- Ain't necessarily what it looks like. - No?
+Dialogue: 0,0:00:28.60,0:00:30.50,*Default,NTP,0000,0000,0000,,一个人走在西Baltimore的路上\N{\fs14}A man's walking down a street in West Baltimore.
+Dialogue: 0,0:00:30.60,0:00:32.80,*Default,NTP,0000,0000,0000,,有半打理由让你吃上一枪\N{\fs14}That'll catch you a bullet for a half-dozen reasons.
+Dialogue: 0,0:00:32.90,0:00:34.30,*Default,NTP,0000,0000,0000,,嗯 是啊\N{\fs14}Yeah, that it will.
+Dialogue: 0,0:00:34.60,0:00:35.60,*Default,NTP,0000,0000,0000,,查过他案底没?\N{\fs14}You run him for a sheet?
+Dialogue: 0,0:00:35.60,0:00:37.30,*Default,NTP,0000,0000,0000,,有 只有几次妨碍治安罪\N{\fs14}Yeah, a couple of disorderlies is all.
+Dialogue: 0,0:00:37.60,0:00:39.30,*Default,NTP,0000,0000,0000,,这家伙是Poe Homes的维修工人\N{\fs14}Guy works maintenance down at Poe Homes.
+Dialogue: 0,0:00:39.40,0:00:42.40,*Default,NTP,0000,0000,0000,,单身 没老婆 没孩子\N{\fs14}Lives alone, no wife, no kids.
+Dialogue: 0,0:00:42.60,0:00:44.70,*Default,NTP,0000,0000,0000,,他的名字唯一一次出现在法院的电脑里\N{\fs14}Only time his name pops up on the courthouse computer...
+Dialogue: 0,0:00:44.80,0:00:46.70,*Default,NTP,0000,0000,0000,,就是作为Barlow案子里的公诉方证人\N{\fs14}Is for being a state witness in Barlow's case.
+Dialogue: 0,0:00:46.80,0:00:49.20,*Default,NTP,0000,0000,0000,,否则 我根本看不会往那儿想\N{\fs14}Otherwise, I don't even make that connection.
+Dialogue: 0,0:00:53.60,0:00:54.70,*Default,NTP,0000,0000,0000,,我是说 你得承认...\N{\fs14}I mean, you've got to admit...
+Dialogue: 0,0:00:54.80,0:00:57.80,*Default,NTP,0000,0000,0000,,没理由在他做完证后 再做了他\N{\fs14}It don't make sense to ace this motherfucker after he done testified.
+Dialogue: 0,0:00:57.90,0:00:59.30,*Default,NTP,0000,0000,0000,,但是给人看的意思不言而喻\N{\fs14}Sends a hell of a message though.
+Dialogue: 0,0:00:59.50,0:01:01.20,*Default,NTP,0000,0000,0000,,他算是Terrace的一个老顽固吧\N{\fs14}He's one hardheaded fuck in the Terrace
+Dialogue: 0,0:01:01.20,0:01:03.40,*Default,NTP,0000,0000,0000,,赶不走 也收买不了 是吧?\N{\fs14}You can't run off or buy out, right?
+Dialogue: 0,0:01:03.60,0:01:05.20,*Default,NTP,0000,0000,0000,,如果是做给那些高层公寓里的人看\N{\fs14}If your audience is the high-rise projects,
+Dialogue: 0,0:01:05.20,0:01:07.20,*Default,NTP,0000,0000,0000,,这个举动简直是立竿见影\N{\fs14}A move like this cuts right through the shit.
+Dialogue: 0,0:01:07.80,0:01:09.10,*Default,NTP,0000,0000,0000,,你打算怎么对警长说\N{\fs14}What are you gonna tell the major?
+Dialogue: 0,0:01:09.30,0:01:12.20,*Default,NTP,0000,0000,0000,,我碰上了一件难啃的迷案\N{\fs14}That I caught a stone fucking whodunit.
+Dialogue: 0,0:01:12.30,0:01:15.10,*Default,NTP,0000,0000,0000,,- 别轻易把目击证人这茬儿放过去 - 拜托\N{\fs14}- Don't soft-sell the witness angle. - Come on.
+Dialogue: 0,0:01:15.30,0:01:18.60,*Default,NTP,0000,0000,0000,,干嘛在我们认定之前  就先惹毛了老板?\N{\fs14}Why get the bosses riled before we know for sure?
+Dialogue: 0,0:01:18.80,0:01:20.80,*Default,NTP,0000,0000,0000,,如果我开口就说 这个证人被杀...\N{\fs14}If I start talking shit that a witness got killed--
+Dialogue: 0,0:01:21.00,0:01:22.20,*Default,NTP,0000,0000,0000,,- Bunk 告诉他 - 为什么?\N{\fs14}- Bunk, tell him. - Why?
+Dialogue: 0,0:01:22.50,0:01:24.20,*Default,NTP,0000,0000,0000,,这事上罩着自己一点\N{\fs14}Just cover yourself on this.
+Dialogue: 0,0:01:24.50,0:01:25.60,*Default,NTP,0000,0000,0000,,嘿 Jimmy\N{\fs14}Jimmy,
+Dialogue: 0,0:01:26.40,0:01:28.30,*Default,NTP,0000,0000,0000,,你不会是想干我在想的事吧?\N{\fs14}You ain't gonna do what I think?
+Dialogue: 0,0:01:30.40,0:01:31.60,*Default,NTP,0000,0000,0000,,听我说\N{\fs14}Listen to me.
+Dialogue: 0,0:01:32.20,0:01:35.00,*Default,NTP,0000,0000,0000,,这事会闹起来 反咬你一口\N{\fs14}This shit is gonna jump up and bite you in your ass.
+Dialogue: 0,0:01:35.10,0:01:36.50,*Default,NTP,0000,0000,0000,,罩着自己一点吧\N{\fs14}Just cover yourself.
+Dialogue: 0,0:01:38.00,0:01:39.50,*Default,NTP,0000,0000,0000,,你们究竟搞什么名堂啊?\N{\fs14}What the hell was that about?
+Dialogue: 0,0:01:41.00,0:01:42.10,*Default,NTP,0000,0000,0000,,没事\N{\fs14}Nothing.
+Dialogue: 0,0:01:42.70,0:01:46.60,*Default,NTP,0000,0000,0000,,火线重案组 第一季 第二集 专案组\N{\fs14}The Wire S01E02 The Detail
+Dialogue: 0,0:01:49.20,0:01:52.00,*Default,NTP,0000,0000,0000,,{\fs14}* When you walk through the garden *
+Dialogue: 0,0:01:52.80,0:01:55.00,*Default,NTP,0000,0000,0000,,{\fs14}* You gotta watch your back *
+Dialogue: 0,0:01:56.60,0:01:59.70,*Default,NTP,0000,0000,0000,,{\fs14}* Well I beg your pardon *
+Dialogue: 0,0:02:00.30,0:02:02.60,*Default,NTP,0000,0000,0000,,{\fs14}* Walk the straight and narrow track *
+Dialogue: 0,0:02:04.40,0:02:07.00,*Default,NTP,0000,0000,0000,,{\fs14}* If you walk with Jesus *
+Dialogue: 0,0:02:08.10,0:02:11.30,*Default,NTP,0000,0000,0000,,{\fs14}* He's gonna save your soul *
+Dialogue: 0,0:02:12.30,0:02:15.10,*Default,NTP,0000,0000,0000,,{\fs14}* You gotta keep the devil *
+Dialogue: 0,0:02:15.70,0:02:18.70,*Default,NTP,0000,0000,0000,,{\fs14}* Way down in the hole *
+Dialogue: 0,0:02:19.50,0:02:21.90,*Default,NTP,0000,0000,0000,,{\fs14}* All the angels sing *
+Dialogue: 0,0:02:23.00,0:02:26.50,*Default,NTP,0000,0000,0000,,{\fs14}* About Jesus' mighty sword *
+Dialogue: 0,0:02:26.90,0:02:30.00,*Default,NTP,0000,0000,0000,,{\fs14}* And they'll shield you with their wings *
+Dialogue: 0,0:02:30.60,0:02:34.20,*Default,NTP,0000,0000,0000,,{\fs14}* And keep you close to the lord *
+Dialogue: 0,0:02:34.50,0:02:37.40,*Default,NTP,0000,0000,0000,,{\fs14}* Don't pay heed to temptation *
+Dialogue: 0,0:02:38.20,0:02:41.70,*Default,NTP,0000,0000,0000,,{\fs14}* For his hands are so cold *
+Dialogue: 0,0:02:42.50,0:02:45.30,*Default,NTP,0000,0000,0000,,{\fs14}* You gotta help me keep the devil *
+Dialogue: 0,0:02:45.80,0:02:49.40,*Default,NTP,0000,0000,0000,,{\fs14}* Way down in the hole *
+Dialogue: 0,0:02:57.30,0:02:59.10,*Default,NTP,0000,0000,0000,,{\fs14}* Way down in the hole *
+Dialogue: 0,0:03:01.10,0:03:03.20,*Default,NTP,0000,0000,0000,,{\fs14}* Way down in the hole *
+Dialogue: 0,0:03:04.90,0:03:08.40,*Default,NTP,0000,0000,0000,,{\fs14}* Way down in the hole *
+Dialogue: 0,0:03:08.60,0:03:11.30,*Default,NTP,0000,0000,0000,,{\fs14}* Way down in the hole *
+Dialogue: 0,0:03:13.90,0:03:17.30,*Default,NTP,0000,0000,0000,,"不玩就不会输"  ---Marla Daniels
+Dialogue: 0,0:03:27.40,0:03:28.40,*Default,NTP,0000,0000,0000,,早上好\N{\fs14}Morning.
+Dialogue: 0,0:04:19.20,0:04:20.90,*Default,NTP,0000,0000,0000,,我的老天爷\N{\fs14}Jesus Christ.
+Dialogue: 0,0:04:30.80,0:04:32.40,*Default,NTP,0000,0000,0000,,该死的\N{\fs14}Goddamn.
+Dialogue: 0,0:04:33.00,0:04:35.80,*Default,NTP,0000,0000,0000,,你得搞上谁 才能得到一间真正的办公室?\N{\fs14}Who do you got to fuck in this town to get a real office?
+Dialogue: 0,0:04:37.60,0:04:39.30,*Default,NTP,0000,0000,0000,,起码那玩意儿还能响\N{\fs14}At least that works.
+Dialogue: 0,0:04:50.80,0:04:52.20,*Default,NTP,0000,0000,0000,,那是找McNulty的\N{\fs14}It was for McNulty.
+Dialogue: 0,0:04:56.10,0:04:58.40,*Default,NTP,0000,0000,0000,,- 我不该来这儿 - 那你别来啊\N{\fs14}- I shouldn't be here. - Then you shouldn't.
+Dialogue: 0,0:04:58.50,0:05:01.10,*Default,NTP,0000,0000,0000,,可他们在法庭外面杀了你的一个证人\N{\fs14}They killed a fucking witness out of your court.
+Dialogue: 0,0:05:01.50,0:05:03.90,*Default,NTP,0000,0000,0000,,是的 你跟我说了 你尽了你的公民责任\N{\fs14}Yeah, you told me. You did your civic duty.
+Dialogue: 0,0:05:04.00,0:05:07.20,*Default,NTP,0000,0000,0000,,依据Baltimore市巡回法庭赋予我的权力\N{\fs14}Under the power vested in me by the circuit court for Baltimore city...
+Dialogue: 0,0:05:07.40,0:05:09.80,*Default,NTP,0000,0000,0000,,我宽恕你所有的罪孽 McNulty探员\N{\fs14}I absolve you of all your sins, Detective McNulty.
+Dialogue: 0,0:05:09.90,0:05:11.60,*Default,NTP,0000,0000,0000,,你才是我的罪 你知道吗?\N{\fs14}You are my sin, you know that?
+Dialogue: 0,0:05:11.90,0:05:14.30,*Default,NTP,0000,0000,0000,,因为告诉了你 我的警长准备对我抹脖子了\N{\fs14}For talking to you, my major is ready to cut my throat.
+Dialogue: 0,0:05:14.40,0:05:17.40,*Default,NTP,0000,0000,0000,,是啊 Jimmy 你料到我会打那通电话的 承认吧\N{\fs14}Yeah. Jimmy, you knew I was gonna make that call. Admit it.
+Dialogue: 0,0:05:17.60,0:05:18.70,*Default,NTP,0000,0000,0000,,可我没想到你会直言不讳\N{\fs14}I didn't think you would straight-up
+Dialogue: 0,0:05:18.70,0:05:20.90,*Default,NTP,0000,0000,0000,,把我推出去 成了众矢之的\N{\fs14}Hang me out on the line in a shitstorm.
+Dialogue: 0,0:05:22.40,0:05:24.80,*Default,NTP,0000,0000,0000,,瞧 这跟我当检察官的时候不一样了\N{\fs14}Look, it's not like it was when I was a prosecutor.
+Dialogue: 0,0:05:24.80,0:05:26.60,*Default,NTP,0000,0000,0000,,现在我是法官 规则变了\N{\fs14}I'm a judge now, the rules are different.
+Dialogue: 0,0:05:26.80,0:05:28.10,*Default,NTP,0000,0000,0000,,有个地方没擦到\N{\fs14}You missed a spot.
+Dialogue: 0,0:05:28.30,0:05:30.30,*Default,NTP,0000,0000,0000,,是的 木已成舟\N{\fs14}Yeah, what's done is done.
+Dialogue: 0,0:05:31.50,0:05:33.80,*Default,NTP,0000,0000,0000,,问题是 现在你想让我怎么办?\N{\fs14}Question is, what do you want me to do now?
+Dialogue: 0,0:05:34.50,0:05:36.70,*Default,NTP,0000,0000,0000,,我觉得你可以打个电话 给副局施压\N{\fs14}I think you can leverage the Deputy Ops with a phone call.
+Dialogue: 0,0:05:36.70,0:05:39.40,*Default,NTP,0000,0000,0000,,- 他已经成立了专案组 - 什么小组啊\N{\fs14}- He's already detailed people. - Some detail.
+Dialogue: 0,0:05:39.60,0:05:42.70,*Default,NTP,0000,0000,0000,,狗屁的副队长以为 他能通过"钓鱼"钓到Avon Barksdale\N{\fs14}Asshole lieutenant thinks he can buy-bust his way to Avon Barksdale.
+Dialogue: 0,0:05:42.80,0:05:44.10,*Default,NTP,0000,0000,0000,,你想要施压?\N{\fs14}You want leverage?
+Dialogue: 0,0:05:44.40,0:05:46.90,*Default,NTP,0000,0000,0000,,我们可以把证人被杀告诉报纸\N{\fs14}We give the dead-witness angle to the newspapers.
+Dialogue: 0,0:05:46.90,0:05:48.30,*Default,NTP,0000,0000,0000,,搅个天翻地覆\N{\fs14}Stir some real shit.
+Dialogue: 0,0:05:48.40,0:05:50.70,*Default,NTP,0000,0000,0000,,不 那就等于给Barksdale暗示 有人在查他\N{\fs14}No, that tips Barksdale that someone's working him.
+Dialogue: 0,0:05:50.90,0:05:52.90,*Default,NTP,0000,0000,0000,,- 我们不想公开 - 是么?\N{\fs14}- We don't want to go public. - No?
+Dialogue: 0,0:05:53.30,0:05:54.80,*Default,NTP,0000,0000,0000,,只要告诉副局...\N{\fs14}Just put it to the Deputy Ops...
+Dialogue: 0,0:05:54.80,0:05:56.90,*Default,NTP,0000,0000,0000,,一个在你庭上作证的人死了\N{\fs14}You lost a witness who testified in your court.
+Dialogue: 0,0:05:57.10,0:05:59.70,*Default,NTP,0000,0000,0000,,逼着当局去承诺彻查\N{\fs14}That forces the department to commit to the investigation.
+Dialogue: 0,0:06:00.10,0:06:03.00,*Default,NTP,0000,0000,0000,,这次你再给Burrell打电话 能不能拜托别提我这该死的名字?\N{\fs14}And when you call Burrell this time, will you forget my fucking name?
+Dialogue: 0,0:06:10.70,0:06:13.20,*Default,NTP,0000,0000,0000,,嘿 你漏了一个地方\N{\fs14}Hey. You missed a spot.
+Dialogue: 0,0:06:13.40,0:06:15.00,*Default,NTP,0000,0000,0000,,它妈的你怎么不拖?\N{\fs14}Why don't you fucking do it?
+Dialogue: 0,0:06:15.20,0:06:16.50,*Default,NTP,0000,0000,0000,,辈分摆在这儿\N{\fs14}Seniority.
+Dialogue: 0,0:06:32.50,0:06:33.60,*Default,NTP,0000,0000,0000,,你找到我们了\N{\fs14}You found us.
+Dialogue: 0,0:06:33.80,0:06:34.90,*Default,NTP,0000,0000,0000,,不容易啊\N{\fs14}Wasn't easy.
+Dialogue: 0,0:06:35.50,0:06:36.60,*Default,NTP,0000,0000,0000,,你要来的人?\N{\fs14}You asked for these guys?
+Dialogue: 0,0:06:36.70,0:06:38.50,*Default,NTP,0000,0000,0000,,我要的是多点人手\N{\fs14}I asked for more manpower.
+Dialogue: 0,0:06:41.10,0:06:42.30,*Default,NTP,0000,0000,0000,,坐\N{\fs14}Have a seat.
+Dialogue: 0,0:06:51.40,0:06:52.90,*Default,NTP,0000,0000,0000,,搞什么飞机...\N{\fs14}What the fuck....
+Dialogue: 0,0:06:55.10,0:06:56.90,*Default,NTP,0000,0000,0000,,长官 我...\N{\fs14}Sir, l--
+Dialogue: 0,0:06:57.00,0:06:59.40,*Default,NTP,0000,0000,0000,,他在给我看他Glock{\fs14}(自动手枪){\r}的扳机\N{\fs14}He was showing me the trigger pull on his Glock.
+Dialogue: 0,0:06:59.60,0:07:01.50,*Default,NTP,0000,0000,0000,,他就这么...\N{\fs14}And he was just--
+Dialogue: 0,0:07:02.20,0:07:03.30,*Default,NTP,0000,0000,0000,,探员?\N{\fs14}Detective?
+Dialogue: 0,0:07:03.90,0:07:07.00,*Default,NTP,0000,0000,0000,,Pryzbylewski警员开枪打中了墙壁 副队\N{\fs14}Officer Pryzbylewski shot the wall, Lieutenant.
+Dialogue: 0,0:07:07.70,0:07:08.70,*Default,NTP,0000,0000,0000,,为什么?\N{\fs14}Why?
+Dialogue: 0,0:07:08.80,0:07:11.50,*Default,NTP,0000,0000,0000,,你干嘛冲墙开枪 Pryzbylewski警员?\N{\fs14}Why did you shoot the wall, Officer Pryzbylewski?
+Dialogue: 0,0:07:11.70,0:07:15.10,*Default,NTP,0000,0000,0000,,我只是想给Carv看看我的扳扣有多轻巧\N{\fs14}I was just showing Carv how my trigger pull is light, you know.
+Dialogue: 0,0:07:15.80,0:07:17.40,*Default,NTP,0000,0000,0000,,所以证明真的很轻巧\N{\fs14}I got it so it's real light.
+Dialogue: 0,0:07:17.50,0:07:19.20,*Default,NTP,0000,0000,0000,,他卸下弹夹的 老板\N{\fs14}He took the clip out, boss.
+Dialogue: 0,0:07:19.40,0:07:20.90,*Default,NTP,0000,0000,0000,,但不是枪膛里的那条\N{\fs14}But not the one in the chamber.
+Dialogue: 0,0:07:21.10,0:07:24.00,*Default,NTP,0000,0000,0000,,不 我忘记了在枪膛里的\N{\fs14}No, I forgot the one in the chamber,
+Dialogue: 0,0:07:24.70,0:07:26.60,*Default,NTP,0000,0000,0000,,而且...\N{\fs14}And....
+Dialogue: 0,0:07:27.40,0:07:29.90,*Default,NTP,0000,0000,0000,,该死的 对不起 副队\N{\fs14}Shit, I'm sorry, lieutenant.
+Dialogue: 0,0:07:30.70,0:07:31.90,*Default,NTP,0000,0000,0000,,你想让他打报告吗?\N{\fs14}You want him to write on it?
+Dialogue: 0,0:07:32.00,0:07:33.10,*Default,NTP,0000,0000,0000,,打什么报告?\N{\fs14}Write on what?
+Dialogue: 0,0:07:33.10,0:07:34.70,*Default,NTP,0000,0000,0000,,你开了一枪 就得打报告\N{\fs14}You let one go, you got to write.
+Dialogue: 0,0:07:34.90,0:07:37.20,*Default,NTP,0000,0000,0000,,为你使用致命武器正名\N{\fs14}You got to justify the use of deadly force.
+Dialogue: 0,0:07:38.00,0:07:39.80,*Default,NTP,0000,0000,0000,,朝一堵石灰墙而已\N{\fs14}Against a plaster wall.
+Dialogue: 0,0:07:41.60,0:07:45.00,*Default,NTP,0000,0000,0000,,不过是个意外 好吧 它妈的让我喘口气吧\N{\fs14}It's an accident, okay? Give me a fucking break already.
+Dialogue: 0,0:07:45.20,0:07:46.40,*Default,NTP,0000,0000,0000,,你叫什么?\N{\fs14}Your name is what?
+Dialogue: 0,0:07:46.90,0:07:48.30,*Default,NTP,0000,0000,0000,,Pryzbylewski\N{\fs14}Pryzbylewski.
+Dialogue: 0,0:07:50.60,0:07:52.10,*Default,NTP,0000,0000,0000,,从车管队{\fs14}(专门调查汽车犯罪){\r}那调来的 对吧?\N{\fs14}From Auto Unit, right?
+Dialogue: 0,0:07:52.30,0:07:53.70,*Default,NTP,0000,0000,0000,,Cantrell调派的你\N{\fs14}Cantrell sent you.
+Dialogue: 0,0:07:55.10,0:07:56.40,*Default,NTP,0000,0000,0000,,不全对\N{\fs14}Not exactly.
+Dialogue: 0,0:07:56.60,0:07:58.10,*Default,NTP,0000,0000,0000,,Cantrell副队 他...\N{\fs14}Lt. Cantrell
+Dialogue: 0,0:07:58.30,0:08:01.10,*Default,NTP,0000,0000,0000,,几个月前 他调我去了事故科\N{\fs14}He sent me to Casualty Section a couple months back.
+Dialogue: 0,0:08:01.50,0:08:04.10,*Default,NTP,0000,0000,0000,,我请求离开那里\N{\fs14}And I asked out of Casualty.
+Dialogue: 0,0:08:07.90,0:08:10.10,*Default,NTP,0000,0000,0000,,你是从事故科转过来的?\N{\fs14}You came here from Casualty Section?
+Dialogue: 0,0:08:12.80,0:08:14.80,*Default,NTP,0000,0000,0000,,哥们 这东西超正点\N{\fs14}Man, these shits is right, yo.
+Dialogue: 0,0:08:19.20,0:08:21.20,*Default,NTP,0000,0000,0000,,蘸点辣酱也很好吃\N{\fs14}It's good with the hot sauce, too.
+Dialogue: 0,0:08:21.40,0:08:22.70,*Default,NTP,0000,0000,0000,,当然\N{\fs14}Most definite.
+Dialogue: 0,0:08:23.30,0:08:25.20,*Default,NTP,0000,0000,0000,,Dee 要来点麦乐鸡吗?\N{\fs14}Dee, want some nuggets?
+Dialogue: 0,0:08:25.50,0:08:26.60,*Default,NTP,0000,0000,0000,,不了 你们吃吧\N{\fs14}No, go ahead, man.
+Dialogue: 0,0:08:26.70,0:08:29.90,*Default,NTP,0000,0000,0000,,伙计 谁发明了这玩意 谁就发了\N{\fs14}Man, whoever invented these, he off the hook.
+Dialogue: 0,0:08:30.00,0:08:31.10,*Default,NTP,0000,0000,0000,,说得好!\N{\fs14}Word!
+Dialogue: 0,0:08:31.80,0:08:34.90,*Default,NTP,0000,0000,0000,,狗娘养的居然把鸡里的骨头全抽了出来\N{\fs14}Motherfucker got the bone all the way out the damn chicken.
+Dialogue: 0,0:08:35.10,0:08:37.70,*Default,NTP,0000,0000,0000,,在他之前 大家还在啃鸡腿...\N{\fs14}Till he came along, niggas be chewing on drumsticks and shit...
+Dialogue: 0,0:08:37.70,0:08:39.60,*Default,NTP,0000,0000,0000,,把手指弄得油腻腻的\N{\fs14}Getting their fingers all greasy.
+Dialogue: 0,0:08:40.10,0:08:42.00,*Default,NTP,0000,0000,0000,,他对骨头说"别了"\N{\fs14}He said "Later" to the bone.
+Dialogue: 0,0:08:42.20,0:08:44.40,*Default,NTP,0000,0000,0000,,做出了麦乐鸡 挣到了大钱\N{\fs14}Nugget that meat up and make some real money.
+Dialogue: 0,0:08:45.00,0:08:46.60,*Default,NTP,0000,0000,0000,,你觉得那人有钱拿?\N{\fs14}You think the man got paid?
+Dialogue: 0,0:08:46.80,0:08:47.70,*Default,NTP,0000,0000,0000,,谁?\N{\fs14}Who?
+Dialogue: 0,0:08:47.80,0:08:49.00,*Default,NTP,0000,0000,0000,,那个发明这些小吃的\N{\fs14}Man who invented these.
+Dialogue: 0,0:08:49.00,0:08:50.70,*Default,NTP,0000,0000,0000,,操 他娘的比谁都有钱\N{\fs14}Shit, he richer than a motherfucker.
+Dialogue: 0,0:08:50.90,0:08:53.60,*Default,NTP,0000,0000,0000,,为什么? 你觉得他拿到了分成?\N{\fs14}Why? You think he get a percentage?
+Dialogue: 0,0:08:54.50,0:08:55.50,*Default,NTP,0000,0000,0000,,为什么没呢?\N{\fs14}Why not?
+Dialogue: 0,0:08:55.80,0:08:58.50,*Default,NTP,0000,0000,0000,,哥们 拜托 发明了这些东西的人\N{\fs14}Nigga, please, the man who invented them things...
+Dialogue: 0,0:08:58.60,0:09:01.30,*Default,NTP,0000,0000,0000,,不过是在麦当劳的地下室里窝着的倒霉蛋\N{\fs14}Just some sad-ass down at the basement of McDonald's...
+Dialogue: 0,0:09:01.50,0:09:03.60,*Default,NTP,0000,0000,0000,,想着搞出新点子 卖给真正的主来捞钱\N{\fs14}Thinking up some shit to make money for the real players.
+Dialogue: 0,0:09:03.70,0:09:06.20,*Default,NTP,0000,0000,0000,,- 不 伙计 不对 - 妈的有什么不对\N{\fs14}- No man, that ain't right. - Fuck right.
+Dialogue: 0,0:09:06.50,0:09:08.50,*Default,NTP,0000,0000,0000,,管它对不对 要紧的是钱\N{\fs14}It ain't about right, it's about money.
+Dialogue: 0,0:09:08.90,0:09:11.60,*Default,NTP,0000,0000,0000,,你觉得Ronald McDonald会跑到地下室说\N{\fs14}You think Ronald McDonald gonna go down that basement and say,
+Dialogue: 0,0:09:11.70,0:09:14.20,*Default,NTP,0000,0000,0000,,"鸡块先生 你真牛叉"\N{\fs14}"Mr. Nugget, you the bomb.
+Dialogue: 0,0:09:14.50,0:09:16.80,*Default,NTP,0000,0000,0000,,"我们卖鸡的速度比你剔骨的速度还快"\N{\fs14}"We selling chicken faster than you can tear the bone out.
+Dialogue: 0,0:09:17.00,0:09:20.40,*Default,NTP,0000,0000,0000,,"所以 我要在这张给你的大支票上签上我滑稽的名字"\N{\fs14}"So, I'm gonna write my clowny-ass name on this fat-ass check for you."
+Dialogue: 0,0:09:21.70,0:09:22.70,*Default,NTP,0000,0000,0000,,妈的\N{\fs14}Shit.
+Dialogue: 0,0:09:23.70,0:09:25.30,*Default,NTP,0000,0000,0000,,发明了它们的家伙...\N{\fs14}The nigger who invented them things...
+Dialogue: 0,0:09:25.50,0:09:27.50,*Default,NTP,0000,0000,0000,,仍旧在地下室里 为了份普通的工资卖命...\N{\fs14}Still working in the basement for regular wage...
+Dialogue: 0,0:09:27.50,0:09:30.80,*Default,NTP,0000,0000,0000,,琢磨着有什么法子 能让薯条吃上去更脆之类的...\N{\fs14}Thinking of some shit to make the fries taste better some shit like that.
+Dialogue: 0,0:09:31.30,0:09:32.40,*Default,NTP,0000,0000,0000,,相信吧\N{\fs14}Believe.
+Dialogue: 0,0:09:36.80,0:09:38.60,*Default,NTP,0000,0000,0000,,但点子还是他想的\N{\fs14}He still had the idea, though.
+Dialogue: 0,0:09:46.20,0:09:47.00,*Default,NTP,0000,0000,0000,,谁\N{\fs14}Who?
+Dialogue: 0,0:09:47.00,0:09:48.80,*Default,NTP,0000,0000,0000,,Polk和Pat Mahone\N{\fs14}Polk and Pat Mahone.
+Dialogue: 0,0:09:49.00,0:09:51.20,*Default,NTP,0000,0000,0000,,- 两个物管科{\fs14}(管理扣押的物品){\r}来的家伙 - 我不认识他们\N{\fs14}- A couple of drunks from Property. - I don't know them.
+Dialogue: 0,0:09:51.40,0:09:54.00,*Default,NTP,0000,0000,0000,,你们怎么会认识 他们10年没办过案子了\N{\fs14}Why would you? They haven't made a case in 10 years.
+Dialogue: 0,0:09:54.90,0:09:58.00,*Default,NTP,0000,0000,0000,,还有个小毛孩 叫Prezbelowski 或者是Prezbelewski...\N{\fs14}Also got handed some kid named Prezbelowski or Prezbelewski--
+Dialogue: 0,0:09:58.10,0:10:00.60,*Default,NTP,0000,0000,0000,,Pryzbylewski 我知道他\N{\fs14}Pryzbylewski, him, I know.
+Dialogue: 0,0:10:00.80,0:10:03.30,*Default,NTP,0000,0000,0000,,是吗? 他怎么去的事故科?\N{\fs14}Yeah? Why was he in Casualty Section?
+Dialogue: 0,0:10:03.40,0:10:06.30,*Default,NTP,0000,0000,0000,,他打中了自己的车 记得吗?\N{\fs14}He shot up his own car. You remember?
+Dialogue: 0,0:10:06.80,0:10:07.70,*Default,NTP,0000,0000,0000,,他干了什么?\N{\fs14}He did what?
+Dialogue: 0,0:10:07.70,0:10:09.60,*Default,NTP,0000,0000,0000,,他朝一辆没有标志的车开了两梭\N{\fs14}He fired two clips into an unmarked car,
+Dialogue: 0,0:10:09.60,0:10:11.20,*Default,NTP,0000,0000,0000,,就在Baltimore西区某个地方\N{\fs14}Somewhere out in West Baltimore.
+Dialogue: 0,0:10:11.30,0:10:14.60,*Default,NTP,0000,0000,0000,,还向电台请求支援 搞得像是受到了狙击 {\fs14}(讯号13:请求支援){\r}\N{\fs14}Called in a Signal 13 on the radio, like he was under fire from a sniper.
+Dialogue: 0,0:10:15.30,0:10:17.00,*Default,NTP,0000,0000,0000,,你居然没听说过?\N{\fs14}You didn't hear about that?
+Dialogue: 0,0:10:17.50,0:10:19.40,*Default,NTP,0000,0000,0000,,他坚称了半天\N{\fs14}He stuck to his story for half a day,
+Dialogue: 0,0:10:19.40,0:10:22.00,*Default,NTP,0000,0000,0000,,直到弹道科发现 子弹来自他的非当班手枪\N{\fs14}Until Ballistics matched the bullet to his off-duty weapon.
+Dialogue: 0,0:10:22.20,0:10:24.10,*Default,NTP,0000,0000,0000,,我们差点以报假案起诉他\N{\fs14}We almost indicted him for false report.
+Dialogue: 0,0:10:24.20,0:10:25.20,*Default,NTP,0000,0000,0000,,为什么没呢?\N{\fs14}Why didn't you?
+Dialogue: 0,0:10:25.30,0:10:28.40,*Default,NTP,0000,0000,0000,,他和市长办公室有点瓜葛 我说不准\N{\fs14}He's got some kind of suction with the Mayor's office. I'm no exactly.
+Dialogue: 0,0:10:28.50,0:10:31.50,*Default,NTP,0000,0000,0000,,我要说的是 靠这些派给我的废物 我可做不出什么成绩\N{\fs14}My point is, I can't build much with the garbage they sent me.
+Dialogue: 0,0:10:31.70,0:10:34.30,*Default,NTP,0000,0000,0000,,那就去找副局啊 这案子不是他在抓吗?\N{\fs14}So, go to the deputy, right? You've got his ear on this.
+Dialogue: 0,0:10:37.00,0:10:38.20,*Default,NTP,0000,0000,0000,,为什么不去?\N{\fs14}Why not?
+Dialogue: 0,0:10:38.40,0:10:40.30,*Default,NTP,0000,0000,0000,,我向副局要过人手\N{\fs14}I ask the deputy for manpower.
+Dialogue: 0,0:10:40.60,0:10:42.30,*Default,NTP,0000,0000,0000,,然后他让物管科派了两个人来\N{\fs14}He then tells Property to send me two men,
+Dialogue: 0,0:10:42.30,0:10:43.90,*Default,NTP,0000,0000,0000,,另外让特勤科派两个\N{\fs14}And Special to send two more.
+Dialogue: 0,0:10:44.10,0:10:45.20,*Default,NTP,0000,0000,0000,,那些轮班副队...\N{\fs14}And those shift lieutenants...
+Dialogue: 0,0:10:45.30,0:10:47.30,*Default,NTP,0000,0000,0000,,他们知道这是个废物处理的机会\N{\fs14}They know it's a chance to dump their deadwood.
+Dialogue: 0,0:10:47.50,0:10:49.60,*Default,NTP,0000,0000,0000,,而副局 他也知道\N{\fs14}The deputy, he knows this, too.
+Dialogue: 0,0:10:50.00,0:10:52.50,*Default,NTP,0000,0000,0000,,他本可以提出由我挑选 却没有\N{\fs14}He could have offered to let me pick but he didn't.
+Dialogue: 0,0:10:52.70,0:10:55.30,*Default,NTP,0000,0000,0000,,- 算是他给我的暗示吧 - 什么暗示\N{\fs14}- He sent me a message on this. - And the message is?
+Dialogue: 0,0:10:55.50,0:10:57.80,*Default,NTP,0000,0000,0000,,别深入 别搞大\N{\fs14}Don't dig in, don't get fancy.
+Dialogue: 0,0:10:58.10,0:11:00.80,*Default,NTP,0000,0000,0000,,快点给这个Barksdale按个罪名然后结案\N{\fs14}Put a quick charge on this Barksdale and then get out.
+Dialogue: 0,0:11:01.00,0:11:04.50,*Default,NTP,0000,0000,0000,,如果他能给我派些好警察 我自然能好好查\N{\fs14}If he sends me good police, I might do good police work.
+Dialogue: 0,0:11:05.70,0:11:08.30,*Default,NTP,0000,0000,0000,,- 不过如果检察院这里.. - 不 不\N{\fs14}- But if the state's attorney's office were to-- - No, no.
+Dialogue: 0,0:11:21.40,0:11:23.40,*Default,NTP,0000,0000,0000,,Rhonda 亲爱的..\N{\fs14}Rhonda, darling...
+Dialogue: 0,0:11:23.80,0:11:27.50,*Default,NTP,0000,0000,0000,,如果我无视已经得到的帮助 再要求支援就不合情理了\N{\fs14}It's bad protocol for me to ask for help and then trash the help I'm given.
+Dialogue: 0,0:11:27.60,0:11:29.50,*Default,NTP,0000,0000,0000,,- 而你 反过来说... - 没门\N{\fs14}- You, on the other hand-- - No way.
+Dialogue: 0,0:11:29.60,0:11:31.30,*Default,NTP,0000,0000,0000,,我的办公室可不做这种事\N{\fs14}My office doesn't play that way.
+Dialogue: 0,0:11:31.50,0:11:33.80,*Default,NTP,0000,0000,0000,,你们招兵买马查案子 再移交给我们\N{\fs14}You people staff your cases, you bring us casework.
+Dialogue: 0,0:11:33.90,0:11:36.50,*Default,NTP,0000,0000,0000,,我插手 只能把大家都惹毛了\N{\fs14}I cross that line, I only piss everyone off.
+Dialogue: 0,0:11:39.50,0:11:42.40,*Default,NTP,0000,0000,0000,,最多我告诉我的老板 你办案不利\N{\fs14}Best I can do is tell my unit chief that you drew shit.
+Dialogue: 0,0:11:42.50,0:11:46.10,*Default,NTP,0000,0000,0000,,如果他想捅到上面 让人报告给副局 那也得看他的决定了\N{\fs14}He wants to take it upstairs and someone call the deputy for operations, that's his choice.
+Dialogue: 0,0:11:46.10,0:11:48.40,*Default,NTP,0000,0000,0000,,- 不会的 - 很可能不会\N{\fs14}- That won't happen. - Probably not.
+Dialogue: 0,0:11:51.20,0:11:52.60,*Default,NTP,0000,0000,0000,,凑合凑合吧\N{\fs14}Make lemonade.
+Dialogue: 0,0:12:17.70,0:12:18.70,*Default,NTP,0000,0000,0000,,操!\N{\fs14}Fuck!
+Dialogue: 0,0:12:19.10,0:12:21.70,*Default,NTP,0000,0000,0000,,嘿 Kima 你要带我们去哪儿?\N{\fs14}Yo, Kima, where you taking us?
+Dialogue: 0,0:12:22.10,0:12:23.60,*Default,NTP,0000,0000,0000,,- 蹲下 - 什么?\N{\fs14}- Get down. - What?
+Dialogue: 0,0:12:23.70,0:12:26.90,*Default,NTP,0000,0000,0000,,天 你们就不会弯个腰吗\N{\fs14}Jesus. You all ain't got no creep to you.
+Dialogue: 0,0:12:27.10,0:12:29.30,*Default,NTP,0000,0000,0000,,两头该死的大象\N{\fs14}Pair of goddamn elephants.
+Dialogue: 0,0:12:32.50,0:12:34.70,*Default,NTP,0000,0000,0000,,刚有颗生锈的钉子戳穿了我的鞋子\N{\fs14}A rusted nail just went through my shoe.
+Dialogue: 0,0:12:35.10,0:12:37.70,*Default,NTP,0000,0000,0000,,我得去打支破伤风 免得感染了\N{\fs14}I'm gonna need a tetanus to get behind this bullshit.
+Dialogue: 0,0:12:41.90,0:12:42.90,*Default,NTP,0000,0000,0000,,Kima\N{\fs14}Kima.
+Dialogue: 0,0:12:44.00,0:12:45.20,*Default,NTP,0000,0000,0000,,把包递给我\N{\fs14}Hand me that bag.
+Dialogue: 0,0:12:50.10,0:12:52.00,*Default,NTP,0000,0000,0000,,Kima 如果你不介意我多嘴\N{\fs14}Kima, if you don't mind me asking...
+Dialogue: 0,0:12:52.90,0:12:55.90,*Default,NTP,0000,0000,0000,,你什么时候发现你喜欢女人多过男人的?{\fs14}(Kima为拉拉){\r}\N{\fs14}When was it that you first figured you liked women better than men?
+Dialogue: 0,0:12:57.60,0:12:59.30,*Default,NTP,0000,0000,0000,,我介意\N{\fs14}I mind you asking.
+Dialogue: 0,0:13:06.70,0:13:09.80,*Default,NTP,0000,0000,0000,,伙计们 你们好吗 哥们?\N{\fs14}Gentlemen, what's going on there, guys?
+Dialogue: 0,0:13:09.90,0:13:11.40,*Default,NTP,0000,0000,0000,,伙计 货卖完了\N{\fs14}Testers, man, already out.
+Dialogue: 0,0:13:11.60,0:13:14.40,*Default,NTP,0000,0000,0000,,不 我不需要劳驾你们 哥们\N{\fs14}No. I'm not in need of your services, bro.
+Dialogue: 0,0:13:14.40,0:13:16.10,*Default,NTP,0000,0000,0000,,我是来为你们效劳的\N{\fs14}I'm offering my services to y'all.
+Dialogue: 0,0:13:16.20,0:13:17.50,*Default,NTP,0000,0000,0000,,你包里有什么 伙计?\N{\fs14}What you got in the bag, man?
+Dialogue: 0,0:13:17.60,0:13:21.20,*Default,NTP,0000,0000,0000,,比一双时髦的鞋子更受黑兄弟欢迎的\N{\fs14}One thing a gentleman of color like better than a new pair of downtown shoes...
+Dialogue: 0,0:13:22.00,0:13:23.70,*Default,NTP,0000,0000,0000,,是一顶时髦的宽沿帽 不是吗?\N{\fs14}Is a downtown brim, right?
+Dialogue: 0,0:13:52.40,0:13:53.80,*Default,NTP,0000,0000,0000,,那帽子有什么蹊跷么\N{\fs14}What's with the hats?
+Dialogue: 0,0:14:04.10,0:14:05.30,*Default,NTP,0000,0000,0000,,50!{\fs14}(警察){\r}\N{\fs14}Five-o!
+Dialogue: 0,0:14:05.80,0:14:06.90,*Default,NTP,0000,0000,0000,,50!\N{\fs14}Five-o!{\r}
+Dialogue: 0,0:14:07.20,0:14:08.40,*Default,NTP,0000,0000,0000,,收摊!\N{\fs14}Shut it down!
+Dialogue: 0,0:14:11.30,0:14:13.50,*Default,NTP,0000,0000,0000,,- 50! - 收摊!\N{\fs14}- Five-o! - Shut it down!
+Dialogue: 0,0:14:18.20,0:14:19.30,*Default,NTP,0000,0000,0000,,安全?\N{\fs14}Clean?
+Dialogue: 0,0:14:49.00,0:14:50.60,*Default,NTP,0000,0000,0000,,嘿 别想把这东西栽在我头上\N{\fs14}You ain't gonna put that one on me.
+Dialogue: 0,0:14:51.30,0:14:52.30,*Default,NTP,0000,0000,0000,,他是目击证人\N{\fs14}He a witness.
+Dialogue: 0,0:14:52.40,0:14:55.40,*Default,NTP,0000,0000,0000,,这是你从地上捡的  别想栽赃在我身上\N{\fs14}You picked that shit up off the ground, so don't be trying to put shit on me.
+Dialogue: 0,0:14:56.20,0:14:57.80,*Default,NTP,0000,0000,0000,,你以为这是我的打算?\N{\fs14}Is that what you think I'm about?
+Dialogue: 0,0:14:59.60,0:15:01.40,*Default,NTP,0000,0000,0000,,这伙计觉得我会黑他\N{\fs14}Boy thinks I'm gonna dirty him.
+Dialogue: 0,0:15:02.10,0:15:03.50,*Default,NTP,0000,0000,0000,,别说的你们不会似的\N{\fs14}Like y'all won't do it.
+Dialogue: 0,0:15:04.30,0:15:06.90,*Default,NTP,0000,0000,0000,,你们这些西区的缉毒警 一来这儿就会从地上捡个破烂\N{\fs14}You Western knockos come here, picking shit up off the ground...
+Dialogue: 0,0:15:07.00,0:15:09.10,*Default,NTP,0000,0000,0000,,随便栽在哪个想整的人身上\N{\fs14}Putting it on whoever you damn well please.
+Dialogue: 0,0:15:09.20,0:15:10.40,*Default,NTP,0000,0000,0000,,我认识你吗?\N{\fs14}Do I know you?
+Dialogue: 0,0:15:11.90,0:15:13.60,*Default,NTP,0000,0000,0000,,让我们互相理解一下\N{\fs14}Let's understand each other.
+Dialogue: 0,0:15:13.90,0:15:15.70,*Default,NTP,0000,0000,0000,,我不是西区的\N{\fs14}I'm not Western District.
+Dialogue: 0,0:15:15.90,0:15:17.20,*Default,NTP,0000,0000,0000,,我也不是缉毒警\N{\fs14}I'm not a knocko.
+Dialogue: 0,0:15:17.50,0:15:20.50,*Default,NTP,0000,0000,0000,,我不嫁祸谁 因为我不在乎告谁非法藏毒\N{\fs14}I don't dirty people because I don't care about a possession charge.
+Dialogue: 0,0:15:20.50,0:15:24.10,*Default,NTP,0000,0000,0000,,我是干缉凶的 我来这是为了具尸体\N{\fs14}I'm a Murder Police, I'm here about the bodies.
+Dialogue: 0,0:15:25.10,0:15:26.60,*Default,NTP,0000,0000,0000,,这里的D'Angelo清楚这事\N{\fs14}D'Angelo here knows that.
+Dialogue: 0,0:15:26.70,0:15:28.30,*Default,NTP,0000,0000,0000,,他记得我去过他的庭审 对吧?\N{\fs14}He remembers me from the trial, right?
+Dialogue: 0,0:15:28.40,0:15:30.40,*Default,NTP,0000,0000,0000,,我就坐在后排 Stringer后面\N{\fs14}I'm sitting in back there, behind Stringer,
+Dialogue: 0,0:15:30.60,0:15:32.70,*Default,NTP,0000,0000,0000,,看着 听着\N{\fs14}Watching, listening.
+Dialogue: 0,0:15:32.80,0:15:34.70,*Default,NTP,0000,0000,0000,,你们是为那破事找上我?\N{\fs14}Y'all hassling me about that shit?
+Dialogue: 0,0:15:35.30,0:15:37.20,*Default,NTP,0000,0000,0000,,我以为你听到陪审团说的了\N{\fs14}I thought you heard what the jury had to say.
+Dialogue: 0,0:15:37.30,0:15:38.20,*Default,NTP,0000,0000,0000,,去它妈的陪审团\N{\fs14}Fuck the jury.
+Dialogue: 0,0:15:38.20,0:15:40.70,*Default,NTP,0000,0000,0000,,是啊 去它妈的陪审团 我们聊聊而已 不是吗?\N{\fs14}Yeah, fuck the jury. This is just us talking, right?
+Dialogue: 0,0:15:40.90,0:15:42.80,*Default,NTP,0000,0000,0000,,就你 我 我的搭档 还有...\N{\fs14}Just you, me, my partner and....
+Dialogue: 0,0:15:43.10,0:15:44.50,*Default,NTP,0000,0000,0000,,你说你叫什么?\N{\fs14}What did you say your name was?
+Dialogue: 0,0:15:44.70,0:15:45.80,*Default,NTP,0000,0000,0000,,我有放屁吗?\N{\fs14}I didn't say shit.
+Dialogue: 0,0:15:45.90,0:15:48.30,*Default,NTP,0000,0000,0000,,就你 我 我的搭档 还有放屁先生\N{\fs14}Just you, me, my partner and Mr. Shit here.
+Dialogue: 0,0:15:49.30,0:15:51.30,*Default,NTP,0000,0000,0000,,我们不过是在聊聊近况 不是吗?\N{\fs14}We're just talking about how things go, right?
+Dialogue: 0,0:15:51.80,0:15:53.30,*Default,NTP,0000,0000,0000,,交流下想法\N{\fs14}We are just sharing our thoughts here.
+Dialogue: 0,0:15:53.50,0:15:56.00,*Default,NTP,0000,0000,0000,,Bunk 一个给你装想法的小瓶\N{\fs14}Bunk, a vial for your thoughts.
+Dialogue: 0,0:15:56.90,0:15:59.60,*Default,NTP,0000,0000,0000,,我想 你们在Terrace的小伙计\N{\fs14}I'm thinking it's one thing for one of you Iittle Terrace niggers
+Dialogue: 0,0:15:59.60,0:16:02.80,*Default,NTP,0000,0000,0000,,在221大楼的大堂里开枪打死人是一回事\N{\fs14}To shoot somebody in the lobby of the 221 building, you know?
+Dialogue: 0,0:16:02.90,0:16:05.20,*Default,NTP,0000,0000,0000,,- 谁在乎? - 没错 但是当你们干掉一个目击证人\N{\fs14}- Who gives a fuck? - right. But when you ace a witness...
+Dialogue: 0,0:16:05.20,0:16:07.40,*Default,NTP,0000,0000,0000,,- 一个工人 - ...他根本是个局外人\N{\fs14}- A working man. - ... who ain't even in the game.
+Dialogue: 0,0:16:09.40,0:16:11.00,*Default,NTP,0000,0000,0000,,你打算装作才听说?\N{\fs14}You gonna act like this is news?
+Dialogue: 0,0:16:12.70,0:16:14.80,*Default,NTP,0000,0000,0000,,告诉你们 我丫什么都不知道\N{\fs14}I tell you this, I don't know shit about shit,
+Dialogue: 0,0:16:15.00,0:16:16.30,*Default,NTP,0000,0000,0000,,但是我知道这个\N{\fs14}But I do know this.
+Dialogue: 0,0:16:16.70,0:16:19.10,*Default,NTP,0000,0000,0000,,谁无聊到有空作证\N{\fs14}Anyone who spend time witnessing shit,
+Dialogue: 0,0:16:19.50,0:16:20.90,*Default,NTP,0000,0000,0000,,有报应是活该\N{\fs14}You gonna get got.
+Dialogue: 0,0:16:21.40,0:16:22.48,*Default,NTP,0000,0000,0000,,我知道听起来不太顺耳\N{\fs14}I know that sounds kind of harsh,
+Dialogue: 0,0:16:22.48,0:16:26.70,*Default,NTP,0000,0000,0000,,但是在这里就是这样...警官\N{\fs14}But that's the way things go around here... officer.
+Dialogue: 0,0:16:29.50,0:16:30.70,*Default,NTP,0000,0000,0000,,走咯!\N{\fs14}Let's roll.
+Dialogue: 0,0:16:42.40,0:16:44.40,*Default,NTP,0000,0000,0000,,你也这么看吗 D'Angelo?\N{\fs14}That how you see things, D'Angelo?
+Dialogue: 0,0:16:45.20,0:16:46.50,*Default,NTP,0000,0000,0000,,跟你朋友一样的想法?\N{\fs14}Like your friend here?
+Dialogue: 0,0:16:51.90,0:16:55.40,*Default,NTP,0000,0000,0000,,我要在这儿帮哥们打扮打扮 用能让娘们发骚的东西\N{\fs14}I'm here trying to outfit niggers with something to rile up some pussy.
+Dialogue: 0,0:16:55.70,0:16:58.80,*Default,NTP,0000,0000,0000,,你们别不想听 我以前可会钓马子了\N{\fs14}You don't want to know, Bubbles used to get that pussy.
+Dialogue: 0,0:17:00.20,0:17:02.10,*Default,NTP,0000,0000,0000,,我觉得如果不戴上一顶宽沿帽\N{\fs14}I reckon the pussy ain't worth what it used to be...
+Dialogue: 0,0:17:02.20,0:17:04.20,*Default,NTP,0000,0000,0000,,就能泡上的娘们 也许就不值得你费心思了...\N{\fs14}If you can do it without a proper brim, right?
+Dialogue: 0,0:17:04.30,0:17:05.60,*Default,NTP,0000,0000,0000,,来啊 大块头\N{\fs14}Come on, big man.
+Dialogue: 0,0:17:27.80,0:17:29.00,*Default,NTP,0000,0000,0000,,不对劲\N{\fs14}Something's up.
+Dialogue: 0,0:17:29.50,0:17:30.50,*Default,NTP,0000,0000,0000,,什么?\N{\fs14}What?
+Dialogue: 0,0:17:30.90,0:17:32.10,*Default,NTP,0000,0000,0000,,不知道\N{\fs14}Don't know.
+Dialogue: 0,0:17:35.50,0:17:36.60,*Default,NTP,0000,0000,0000,,嘿 Carv\N{\fs14}Yo, Carv.
+Dialogue: 0,0:17:36.90,0:17:37.90,*Default,NTP,0000,0000,0000,,过来\N{\fs14}Come here.
+Dialogue: 0,0:17:38.50,0:17:41.20,*Default,NTP,0000,0000,0000,,听着 你看到Bubbs只要给人戴上帽子\N{\fs14}Listen, you see Bubbs put a hat on anybody...
+Dialogue: 0,0:17:41.30,0:17:42.50,*Default,NTP,0000,0000,0000,,你就拍下来 好吗\N{\fs14}You take some pictures, all right?
+Dialogue: 0,0:17:42.70,0:17:44.40,*Default,NTP,0000,0000,0000,,- 啊? - 特别是红帽子\N{\fs14}- Yeah? - Especially the red one.
+Dialogue: 0,0:17:44.50,0:17:47.30,*Default,NTP,0000,0000,0000,,如果你看到他把红帽子给谁戴上\N{\fs14}If you see him put that red hat on anybody's head...
+Dialogue: 0,0:17:47.90,0:17:49.50,*Default,NTP,0000,0000,0000,,就给我不停地按快门\N{\fs14}Snap your fucking fingers off.
+Dialogue: 0,0:17:49.60,0:17:50.80,*Default,NTP,0000,0000,0000,,你去哪儿?\N{\fs14}Where you going?
+Dialogue: 0,0:17:52.60,0:17:53.70,*Default,NTP,0000,0000,0000,,嘿 Carv\N{\fs14}Yo, Carv.
+Dialogue: 0,0:17:54.30,0:17:57.80,*Default,NTP,0000,0000,0000,,注意到没 很多时候Kima像是在管着我们?\N{\fs14}Notice that most of the time it's like Kima thinks she's above us or something?
+Dialogue: 0,0:17:58.10,0:18:01.20,*Default,NTP,0000,0000,0000,,我是说 我可没在她袖子上看到什么杠杠...\N{\fs14}I mean, I don't see any stripes on her fucking sleeve...
+Dialogue: 0,0:18:01.40,0:18:02.60,*Default,NTP,0000,0000,0000,,我可没看到\N{\fs14}I don't see that.
+Dialogue: 0,0:18:03.10,0:18:05.20,*Default,NTP,0000,0000,0000,,我就看到一个尾巴翘到天上去的死拉拉...\N{\fs14}All I see is some stuck-up dyke bitch...
+Dialogue: 0,0:18:05.40,0:18:07.60,*Default,NTP,0000,0000,0000,,来刑侦处的时间连我们的一半都不及...\N{\fs14}Who ain't been in CID half the time of you or me...
+Dialogue: 0,0:18:07.80,0:18:09.70,*Default,NTP,0000,0000,0000,,它妈的居然敢指挥我们\N{\fs14}And she's fucking telling us what to do.
+Dialogue: 0,0:18:10.00,0:18:11.20,*Default,NTP,0000,0000,0000,,怎么能这样\N{\fs14}It ain't right.
+Dialogue: 0,0:18:12.50,0:18:13.40,*Default,NTP,0000,0000,0000,,你觉得能这样?\N{\fs14}You think it's right?
+Dialogue: 0,0:18:13.50,0:18:16.60,*Default,NTP,0000,0000,0000,,你瞧 伙计 就闭上会儿嘴吧 我正击中精力搞这玩意儿\N{\fs14}Yo,man. Shut up for just a minute. I'm trying to concentrate on this shit here.
+Dialogue: 0,0:18:23.40,0:18:24.70,*Default,NTP,0000,0000,0000,,车子挺拉风\N{\fs14}Nice truck.
+Dialogue: 0,0:18:30.50,0:18:31.50,*Default,NTP,0000,0000,0000,,不要?\N{\fs14}No?
+Dialogue: 0,0:18:31.70,0:18:33.40,*Default,NTP,0000,0000,0000,,让你的口气清新自然\N{\fs14}Makes your breath minty fresh.
+Dialogue: 0,0:18:33.60,0:18:36.10,*Default,NTP,0000,0000,0000,,你们不是来抓我的吗? 那就它妈的放手来抓呀\N{\fs14}Is you all gonna arrest me? Then go the fuck ahead and arrest me.
+Dialogue: 0,0:18:36.10,0:18:37.60,*Default,NTP,0000,0000,0000,,如果不是 丫的闭嘴\N{\fs14}If not, shut the fuck up.
+Dialogue: 0,0:18:37.80,0:18:39.10,*Default,NTP,0000,0000,0000,,- 你想被抓? - 没\N{\fs14}- You want to get arrested? - No.
+Dialogue: 0,0:18:39.20,0:18:42.00,*Default,NTP,0000,0000,0000,,- 那你丫自己闭嘴吧 - 操 我走了\N{\fs14}- Shut the fuck up your own self. - Fuck yo, I'm out of here.
+Dialogue: 0,0:18:42.20,0:18:43.90,*Default,NTP,0000,0000,0000,,嘿 嘿 D'Angelo\N{\fs14}Hey, D'Angelo.
+Dialogue: 0,0:18:44.60,0:18:46.40,*Default,NTP,0000,0000,0000,,你最好乖乖地趴回来\N{\fs14}You better bend the fuck over.
+Dialogue: 0,0:18:47.10,0:18:48.10,*Default,NTP,0000,0000,0000,,操\N{\fs14}Shit.
+Dialogue: 0,0:18:49.20,0:18:51.20,*Default,NTP,0000,0000,0000,,你们今天没别的事做了?\N{\fs14}You ain't got nothing else to do today?
+Dialogue: 0,0:18:51.40,0:18:53.00,*Default,NTP,0000,0000,0000,,没 没 没事了\N{\fs14}No, no, nothing.
+Dialogue: 0,0:18:53.90,0:18:55.60,*Default,NTP,0000,0000,0000,,你们没什么罪名安给我\N{\fs14}Y'all ain't got no charge.
+Dialogue: 0,0:18:59.20,0:19:02.30,*Default,NTP,0000,0000,0000,,你摸得太深了 伙计 你新入行的吗?\N{\fs14}You're getting awfully close, man. You new on the force or some shit?
+Dialogue: 0,0:19:14.50,0:19:15.70,*Default,NTP,0000,0000,0000,,好了 Dee\N{\fs14}All right, Dee.
+Dialogue: 0,0:19:43.50,0:19:44.50,*Default,NTP,0000,0000,0000,,快走\N{\fs14}Move it.
+Dialogue: 0,0:19:54.40,0:19:56.90,*Default,NTP,0000,0000,0000,,我是Greggs 给我接副队\N{\fs14}It's Greggs. Get me the lieutenant.
+Dialogue: 0,0:20:02.10,0:20:04.30,*Default,NTP,0000,0000,0000,,Prez? 在谁手下都没用 他是个废人\N{\fs14}Prez? He's no good to anyone, he's a goof.
+Dialogue: 0,0:20:04.50,0:20:05.80,*Default,NTP,0000,0000,0000,,怎么让他成了我的麻烦?\N{\fs14}How is he my problem then?
+Dialogue: 0,0:20:06.00,0:20:07.90,*Default,NTP,0000,0000,0000,,怎么还给他枪和警徽\N{\fs14}How is he still carrying a gun and badge?
+Dialogue: 0,0:20:08.30,0:20:10.00,*Default,NTP,0000,0000,0000,,你知道东南片的Valchek吗?\N{\fs14}You know Valchek in Southeast?
+Dialogue: 0,0:20:10.20,0:20:11.20,*Default,NTP,0000,0000,0000,,是的\N{\fs14}Yeah.
+Dialogue: 0,0:20:11.40,0:20:12.60,*Default,NTP,0000,0000,0000,,他女婿\N{\fs14}Son-in-law.
+Dialogue: 0,0:20:12.90,0:20:14.50,*Default,NTP,0000,0000,0000,,我没法带他办这案子\N{\fs14}I can't carry him on this.
+Dialogue: 0,0:20:14.80,0:20:16.50,*Default,NTP,0000,0000,0000,,- 你知道特勤科给我派了谁 - 谁?\N{\fs14}- You know who Special sent me? - Who?
+Dialogue: 0,0:20:16.70,0:20:18.10,*Default,NTP,0000,0000,0000,,Polk和Mahoney\N{\fs14}Polk and Mahoney.
+Dialogue: 0,0:20:18.50,0:20:20.90,*Default,NTP,0000,0000,0000,,两个人里面 我连个可靠的司机都找不到{\fs14}(两人都是酒鬼){\r}\N{\fs14}Between the two of them I don't have a designated driver.
+Dialogue: 0,0:20:21.10,0:20:22.70,*Default,NTP,0000,0000,0000,,我听说有个从缉脏科{\fs14}(专门从典当行追踪赃物){\r}那调来的\N{\fs14}I heard you have someone from Pawnshop.
+Dialogue: 0,0:20:22.80,0:20:25.30,*Default,NTP,0000,0000,0000,,Lester Freamon? 一只温驯的家猫\N{\fs14}Lester Freamon? A cuddly housecat.
+Dialogue: 0,0:20:25.50,0:20:27.60,*Default,NTP,0000,0000,0000,,我觉得他连自己的枪都找不到\N{\fs14}I don't think he can even find his gun.
+Dialogue: 0,0:20:30.30,0:20:32.10,*Default,NTP,0000,0000,0000,,瞧 把Pryzbylewski收回去吧\N{\fs14}Look, take Pryzbylewski back.
+Dialogue: 0,0:20:32.30,0:20:33.80,*Default,NTP,0000,0000,0000,,你瞧我办不到  我愿意 但是我不能\N{\fs14}You know I can't. I would, but I can't.
+Dialogue: 0,0:20:33.80,0:20:35.70,*Default,NTP,0000,0000,0000,,我已经答应Valchek了 好吧\N{\fs14}I gave Valchek my word on it, okay?
+Dialogue: 0,0:20:35.90,0:20:37.90,*Default,NTP,0000,0000,0000,,我又没法阻止Prez搞那家伙的女儿\N{\fs14}I can't help it that Prez is fucking the guy's daughter.
+Dialogue: 0,0:20:38.10,0:20:40.40,*Default,NTP,0000,0000,0000,,要不是那样 他早滚了 没得说\N{\fs14}If not for that, he's gone, no question.
+Dialogue: 0,0:20:40.60,0:20:41.80,*Default,NTP,0000,0000,0000,,那你跟Valchek搭上了?\N{\fs14}So, you got suction with Valchek?
+Dialogue: 0,0:20:41.90,0:20:44.60,*Default,NTP,0000,0000,0000,,如果我跟他唱反调 下一轮升迁就没我的戏了\N{\fs14}If I cross him, I'm fucked on the next round of promotions.
+Dialogue: 0,0:20:44.80,0:20:47.80,*Default,NTP,0000,0000,0000,,看在上帝的份上  我和你都在警长的候选名单上\N{\fs14}For Christ's sake, I'm with you on the short list for major.
+Dialogue: 0,0:20:48.30,0:20:50.90,*Default,NTP,0000,0000,0000,,Valchek在一区民主俱乐部活跃\N{\fs14}Valchek has suction with the First District Democratic Club...
+Dialogue: 0,0:20:51.00,0:20:52.60,*Default,NTP,0000,0000,0000,,而他们和市长有往来\N{\fs14}And they got suction with the Mayor,
+Dialogue: 0,0:20:52.80,0:20:54.80,*Default,NTP,0000,0000,0000,,我就是个受压迫的小人物\N{\fs14}And I'm the runt without a tit here.
+Dialogue: 0,0:20:55.40,0:20:56.70,*Default,NTP,0000,0000,0000,,我欠你个人情 好吧\N{\fs14}I owe you, okay?
+Dialogue: 0,0:20:58.80,0:21:00.00,*Default,NTP,0000,0000,0000,,那就把Sydnor调给我\N{\fs14}So, give me Sydnor.
+Dialogue: 0,0:21:00.20,0:21:01.00,*Default,NTP,0000,0000,0000,,没门\N{\fs14}No way.
+Dialogue: 0,0:21:01.00,0:21:02.40,*Default,NTP,0000,0000,0000,,给我Sydnor 我就留下Prez\N{\fs14}Give me Sydnor and I'll keep Prez.
+Dialogue: 0,0:21:02.40,0:21:04.20,*Default,NTP,0000,0000,0000,,他是我最得利的手下 你不能要走他\N{\fs14}He's my best man, you can't take him.
+Dialogue: 0,0:21:04.30,0:21:06.00,*Default,NTP,0000,0000,0000,,我留下了你最烂的一个 记得吗?\N{\fs14}I'm taking your worst, remember?
+Dialogue: 0,0:21:06.20,0:21:07.50,*Default,NTP,0000,0000,0000,,Steinman如何?\N{\fs14}How about Steinman?
+Dialogue: 0,0:21:07.80,0:21:09.60,*Default,NTP,0000,0000,0000,,我查的是Baltimore西区的毒品案\N{\fs14}I'm working drugs in West Baltimore,
+Dialogue: 0,0:21:09.70,0:21:12.20,*Default,NTP,0000,0000,0000,,我需要一个黑人盯梢 我需要Sydnor\N{\fs14}I need a black guy for surveillance. I need Sydnor.
+Dialogue: 0,0:21:13.50,0:21:16.10,*Default,NTP,0000,0000,0000,,老天爷 你知道Prez今天早上干了什么吗?\N{\fs14}Jesus, know what Prez did this morning?
+Dialogue: 0,0:21:16.20,0:21:17.20,*Default,NTP,0000,0000,0000,,说来听听\N{\fs14}Tell me.
+Dialogue: 0,0:21:17.50,0:21:20.30,*Default,NTP,0000,0000,0000,,他开枪打了一堵墙  就在专案组的办公室打空弹\N{\fs14}He put a bullet through a wall, dry-firing in the detail office.
+Dialogue: 0,0:21:20.90,0:21:22.00,*Default,NTP,0000,0000,0000,,瞧 我不给保证\N{\fs14}Look, no promises.
+Dialogue: 0,0:21:22.10,0:21:24.70,*Default,NTP,0000,0000,0000,,不过你给我Sydnor  我就尽量帮你兜着Pryzbylewski\N{\fs14}You give me Sydnor, I'll carry Pryzbylewski as long as I can.
+Dialogue: 0,0:21:24.80,0:21:28.10,*Default,NTP,0000,0000,0000,,好吧 Cedric 操 随便了 老天爷\N{\fs14}Fine, Cedric, fuck, whatever. Jesus Christ.
+Dialogue: 0,0:21:35.00,0:21:36.30,*Default,NTP,0000,0000,0000,,你怎么应付法官的\N{\fs14}How did you handle the judge?
+Dialogue: 0,0:21:36.30,0:21:39.10,*Default,NTP,0000,0000,0000,,我告诉他 我们正查得紧\N{\fs14}I told him we were looking closely at the situation.
+Dialogue: 0,0:21:39.20,0:21:42.00,*Default,NTP,0000,0000,0000,,请他先不要告诉外面\N{\fs14}I asked him not to say anything publicly.
+Dialogue: 0,0:21:43.10,0:21:45.40,*Default,NTP,0000,0000,0000,,那么 他不会公之于众 对吧?\N{\fs14}So, then he's not gonna go public, right?
+Dialogue: 0,0:21:47.70,0:21:49.30,*Default,NTP,0000,0000,0000,,Phelan法官今早打来电话...\N{\fs14}Judge Phelan called this morning...
+Dialogue: 0,0:21:49.30,0:21:52.00,*Default,NTP,0000,0000,0000,,大叫出庭的证人被杀了\N{\fs14}Crying about a witness in his murder trial who was killed.
+Dialogue: 0,0:21:52.80,0:21:54.50,*Default,NTP,0000,0000,0000,,法官有说从哪儿听说的吗?\N{\fs14}Did the judge say where he heard it?
+Dialogue: 0,0:21:54.90,0:21:57.30,*Default,NTP,0000,0000,0000,,从我们的人那听到的 McNulty\N{\fs14}He heard it from our man, McNulty.
+Dialogue: 0,0:21:57.80,0:21:59.40,*Default,NTP,0000,0000,0000,,简直成了他的顺风耳\N{\fs14}That's his pipeline on this crap.
+Dialogue: 0,0:21:59.60,0:22:03.90,*Default,NTP,0000,0000,0000,,抱歉我的口不择言  不过这种时候我一点都不介意那混蛋滚蛋\N{\fs14}Pardon my French, but I got no problem giving that asshole up at this point.
+Dialogue: 0,0:22:04.20,0:22:05.80,*Default,NTP,0000,0000,0000,,我不需要不能让我信任的家伙\N{\fs14}I don't need people I can't trust.
+Dialogue: 0,0:22:05.90,0:22:07.00,*Default,NTP,0000,0000,0000,,谁会想要\N{\fs14}Yeah, who does?
+Dialogue: 0,0:22:07.20,0:22:10.40,*Default,NTP,0000,0000,0000,,要是让报纸听到了这风声 还不炒个天翻地覆\N{\fs14}The newspapers get hold of this, it'll be a complete clusterfuck.
+Dialogue: 0,0:22:10.60,0:22:13.80,*Default,NTP,0000,0000,0000,,好吧 现在要做的事情 是让法官恢复信心...\N{\fs14}Okay, so the thing to do is reassure the judge...
+Dialogue: 0,0:22:14.00,0:22:16.20,*Default,NTP,0000,0000,0000,,让他别站上该死的发言台\N{\fs14}Keep him off his damn soapbox.
+Dialogue: 0,0:22:16.70,0:22:18.70,*Default,NTP,0000,0000,0000,,一两次抓捕行动会有帮助\N{\fs14}An arrest or two would help.
+Dialogue: 0,0:22:20.10,0:22:21.40,*Default,NTP,0000,0000,0000,,如果是真的呢?\N{\fs14}What if it's true?
+Dialogue: 0,0:22:22.30,0:22:24.80,*Default,NTP,0000,0000,0000,,如果的确是Barksdale下令 暗杀公诉方的证人呢?\N{\fs14}What if Barksdale ordered the murder of a state's witness?
+Dialogue: 0,0:22:24.90,0:22:25.90,*Default,NTP,0000,0000,0000,,你不是开玩笑吧?\N{\fs14}Are you serious?
+Dialogue: 0,0:22:26.00,0:22:28.60,*Default,NTP,0000,0000,0000,,谁会在证人做完证后再干这种事?\N{\fs14}Why would anyone do that after the witness testifies?
+Dialogue: 0,0:22:28.80,0:22:30.20,*Default,NTP,0000,0000,0000,,对案子已经没影响了\N{\fs14}It has no effect on the case.
+Dialogue: 0,0:22:30.40,0:22:32.00,*Default,NTP,0000,0000,0000,,报复 直截了当\N{\fs14}Payback, plain and simple.
+Dialogue: 0,0:22:32.20,0:22:33.50,*Default,NTP,0000,0000,0000,,胡扯 什么直截了当\N{\fs14}Bullshit, plain and simple.
+Dialogue: 0,0:22:33.70,0:22:34.60,*Default,NTP,0000,0000,0000,,瞧\N{\fs14}Look,
+Dialogue: 0,0:22:34.70,0:22:38.00,*Default,NTP,0000,0000,0000,,我知道还有十足的理由解释这男人遇害\N{\fs14}I know there could be two dozen other reasons for this man to be murdered,
+Dialogue: 0,0:22:38.20,0:22:40.30,*Default,NTP,0000,0000,0000,,- 但要是... - 没钱搞预审\N{\fs14}- but what if-- - No money for pretrial.
+Dialogue: 0,0:22:40.50,0:22:42.80,*Default,NTP,0000,0000,0000,,没有证人保护计划\N{\fs14}No witness protection program.
+Dialogue: 0,0:22:43.10,0:22:46.50,*Default,NTP,0000,0000,0000,,瞧 这是座一穷二白的城市 先生们\N{\fs14}Look, this is a poor fucking city, gentlemen.
+Dialogue: 0,0:22:46.70,0:22:48.50,*Default,NTP,0000,0000,0000,,我们最不想做的\N{\fs14}The last thing we ever need to do is
+Dialogue: 0,0:22:48.50,0:22:51.10,*Default,NTP,0000,0000,0000,,就是宣布我们失去了一位证人\N{\fs14}To announce we lost a witness.
+Dialogue: 0,0:22:51.30,0:22:53.80,*Default,NTP,0000,0000,0000,,我是说 原本要把重案\N{\fs14}I mean, it's hard enough pushing felony casework
+Dialogue: 0,0:22:53.80,0:22:55.50,*Default,NTP,0000,0000,0000,,搞上法庭就不是一件容易的事\N{\fs14}Through that courthouse as it is.
+Dialogue: 0,0:22:55.60,0:22:57.50,*Default,NTP,0000,0000,0000,,你得把McNulty换下来\N{\fs14}You got to pull McNulty off this.
+Dialogue: 0,0:22:58.00,0:22:59.40,*Default,NTP,0000,0000,0000,,那谁来查凶杀案呢?\N{\fs14}Who caught the murder case?
+Dialogue: 0,0:22:59.60,0:23:01.50,*Default,NTP,0000,0000,0000,,Bunk Moreland...McNulty的搭档\N{\fs14}Bunk Moreland, McNulty's partner.
+Dialogue: 0,0:23:01.70,0:23:02.90,*Default,NTP,0000,0000,0000,,那你也得把他调开\N{\fs14}Then you'd have to pull him, too.
+Dialogue: 0,0:23:03.00,0:23:05.10,*Default,NTP,0000,0000,0000,,不 如果我们换下McNulty\N{\fs14}No, we pull McNulty up,
+Dialogue: 0,0:23:05.10,0:23:07.60,*Default,NTP,0000,0000,0000,,那法官肯定会让媒体搅和进来\N{\fs14}The judge will bring the press into this.
+Dialogue: 0,0:23:07.70,0:23:09.70,*Default,NTP,0000,0000,0000,,我看那情形也不远了\N{\fs14}I can see that a mile away.
+Dialogue: 0,0:23:10.10,0:23:11.70,*Default,NTP,0000,0000,0000,,不 我们得淡定点\N{\fs14}No, we're gonna sit tight,
+Dialogue: 0,0:23:11.80,0:23:13.60,*Default,NTP,0000,0000,0000,,让McNulty自己发挥去\N{\fs14}Let McNulty take his best shot...
+Dialogue: 0,0:23:13.70,0:23:16.00,*Default,NTP,0000,0000,0000,,死命祈祷他功亏一篑\N{\fs14}And hope like hell he comes up short.
+Dialogue: 0,0:23:18.70,0:23:20.10,*Default,NTP,0000,0000,0000,,你想怎么处理?\N{\fs14}How do you wanna handle this?
+Dialogue: 0,0:23:20.60,0:23:21.90,*Default,NTP,0000,0000,0000,,我们手上没他的证据\N{\fs14}We got nothing on him.
+Dialogue: 0,0:23:22.10,0:23:23.80,*Default,NTP,0000,0000,0000,,如果我们正面交锋 他会马上看穿我们\N{\fs14}We try to front, he'll see right through us.
+Dialogue: 0,0:23:23.90,0:23:26.30,*Default,NTP,0000,0000,0000,,- 不过他害怕了 - 蔫了\N{\fs14}-He's scared though. -Soft.
+Dialogue: 0,0:23:26.90,0:23:28.60,*Default,NTP,0000,0000,0000,,- 进去唱双簧? - 嗯\N{\fs14}- Go with the deuce? - mm-uhm.
+Dialogue: 0,0:23:30.10,0:23:31.40,*Default,NTP,0000,0000,0000,,等等 等等\N{\fs14}Hold up, hold up.
+Dialogue: 0,0:23:37.80,0:23:38.90,*Default,NTP,0000,0000,0000,,他牵涉我的案子了?\N{\fs14}He part of my case?
+Dialogue: 0,0:23:39.00,0:23:40.10,*Default,NTP,0000,0000,0000,,不 长官\N{\fs14}No, sir.
+Dialogue: 0,0:23:40.30,0:23:42.70,*Default,NTP,0000,0000,0000,,他是我谋杀案里的嫌疑人\N{\fs14}He's a potential suspect in my murder.
+Dialogue: 0,0:23:44.60,0:23:46.40,*Default,NTP,0000,0000,0000,,也许也涉了我的案\N{\fs14}Which might be part of my case.
+Dialogue: 0,0:23:49.80,0:23:51.80,*Default,NTP,0000,0000,0000,,我想喝点咖啡 你想来点吗?\N{\fs14}I could use some coffee. You want some coffee?
+Dialogue: 0,0:23:57.80,0:23:58.90,*Default,NTP,0000,0000,0000,,我要跟你说几句\N{\fs14}I need a word with you.
+Dialogue: 0,0:23:58.90,0:24:00.80,*Default,NTP,0000,0000,0000,,- 副队 我们正要进去... - 现在\N{\fs14}- Lieutenant, we're just about to go-- - Now.
+Dialogue: 0,0:24:04.30,0:24:07.20,*Default,NTP,0000,0000,0000,,你还记得我对你说的 随时跟我汇报\N{\fs14}You remember all that bullshit I gave you about keeping me informed...
+Dialogue: 0,0:24:07.40,0:24:09.70,*Default,NTP,0000,0000,0000,,让我了解案情进展的每一步吗?\N{\fs14}About nothing happening that I don't know about?
+Dialogue: 0,0:24:09.70,0:24:11.40,*Default,NTP,0000,0000,0000,,- 副队 - 那不是在放屁\N{\fs14}- Lieutenant-- - Wasn't bullshit.
+Dialogue: 0,0:24:11.60,0:24:12.90,*Default,NTP,0000,0000,0000,,我的搭档发现了一件凶杀案\N{\fs14}My partner caught a murder.
+Dialogue: 0,0:24:12.90,0:24:14.90,*Default,NTP,0000,0000,0000,,也许跟Barksdale毫无瓜葛\N{\fs14}It may have nothing with Barksdale at all.
+Dialogue: 0,0:24:15.00,0:24:17.00,*Default,NTP,0000,0000,0000,,我刚从副局的办公室来...\N{\fs14}I just came from Deputy Ops' office
+Dialogue: 0,0:24:17.00,0:24:19.60,*Default,NTP,0000,0000,0000,,在那里 你自己的警长告诉Burrell 要收拾了你\N{\fs14}Where your own major's telling Burrell to do you.
+Dialogue: 0,0:24:19.80,0:24:22.00,*Default,NTP,0000,0000,0000,,你听到了吗? Rawls要让你滚蛋\N{\fs14}You hear me? Rawls is giving you up.
+Dialogue: 0,0:24:22.10,0:24:23.60,*Default,NTP,0000,0000,0000,,它妈的我干什么了\N{\fs14}What the fuck did I do?
+Dialogue: 0,0:24:23.90,0:24:25.50,*Default,NTP,0000,0000,0000,,你闭不上你的嘴\N{\fs14}You can't shut your mouth.
+Dialogue: 0,0:24:26.00,0:24:29.30,*Default,NTP,0000,0000,0000,,你以为那个城里的法官会在这事上保你?\N{\fs14}You think that downtown judge is gonna bail your ass out on this?
+Dialogue: 0,0:24:29.40,0:24:30.90,*Default,NTP,0000,0000,0000,,你真的那么想?\N{\fs14}You really think that?
+Dialogue: 0,0:24:31.50,0:24:32.60,*Default,NTP,0000,0000,0000,,你应该来找我\N{\fs14}You should have come to me.
+Dialogue: 0,0:24:32.80,0:24:35.50,*Default,NTP,0000,0000,0000,,如果我们把这事先通报副局 那我们还有余地\N{\fs14}We bring this business to the deputy first, we got a shot.
+Dialogue: 0,0:24:35.70,0:24:37.90,*Default,NTP,0000,0000,0000,,不过没有 你一个人在外面上蹿下跳\N{\fs14}But no, you're out there all alone, jumping bad.
+Dialogue: 0,0:24:38.10,0:24:40.30,*Default,NTP,0000,0000,0000,,- 你能让副局听你的? - 这案子上 我能\N{\fs14}- You got the deputy's ear? - On this case, I do.
+Dialogue: 0,0:24:40.30,0:24:43.00,*Default,NTP,0000,0000,0000,,那怎么会派一群没用的文职来?\N{\fs14}Then how come they sent every worthless hump in plainclothes?
+Dialogue: 0,0:24:43.20,0:24:45.50,*Default,NTP,0000,0000,0000,,你是要人手 结果他们派来了酒鬼和蠢货\N{\fs14}You ask for men, they send you drunks and fuck-ups.
+Dialogue: 0,0:24:48.90,0:24:50.70,*Default,NTP,0000,0000,0000,,我想破这案子\N{\fs14}I want to do this case.
+Dialogue: 0,0:24:51.00,0:24:52.00,*Default,NTP,0000,0000,0000,,我也是\N{\fs14}So do l.
+Dialogue: 0,0:24:52.00,0:24:54.20,*Default,NTP,0000,0000,0000,,那你就得全心全意地投入了 副队\N{\fs14}Then you're gonna get all the way in, Lieutenant.
+Dialogue: 0,0:24:54.80,0:24:57.80,*Default,NTP,0000,0000,0000,,只有这样 我才能了解你 明白你想干什么\N{\fs14}If I see you get all the way in, then I know who you are, what you're about.
+Dialogue: 0,0:24:59.20,0:25:00.40,*Default,NTP,0000,0000,0000,,他是谁?\N{\fs14}Who is he?
+Dialogue: 0,0:25:01.50,0:25:04.40,*Default,NTP,0000,0000,0000,,D'Angelo Barksdale 国王的外甥\N{\fs14}D'Angelo Barksdale. Nephew to the king.
+Dialogue: 0,0:25:05.10,0:25:06.30,*Default,NTP,0000,0000,0000,,就是那个翻案的家伙?\N{\fs14}That's the one that beat the murder?
+Dialogue: 0,0:25:06.40,0:25:07.60,*Default,NTP,0000,0000,0000,,是的 就是他\N{\fs14}Yeah, him.
+Dialogue: 0,0:25:08.20,0:25:10.10,*Default,NTP,0000,0000,0000,,你有什么能把他和被害的证人联系起来?\N{\fs14}What do you have to connect him to the dead witness?
+Dialogue: 0,0:25:10.30,0:25:11.50,*Default,NTP,0000,0000,0000,,什么都没有\N{\fs14}Not a thing.
+Dialogue: 0,0:25:12.30,0:25:13.60,*Default,NTP,0000,0000,0000,,那你抓他进来干什么?\N{\fs14}Why did you pick him up?
+Dialogue: 0,0:25:14.90,0:25:17.20,*Default,NTP,0000,0000,0000,,给他施压 看他能有什么松动\N{\fs14}Press him. See what kind of flex he shows.
+Dialogue: 0,0:25:19.40,0:25:20.60,*Default,NTP,0000,0000,0000,,她跟你进去\N{\fs14}She goes in with you.
+Dialogue: 0,0:25:20.80,0:25:22.30,*Default,NTP,0000,0000,0000,,我们不需要她\N{\fs14}We don't need her.
+Dialogue: 0,0:25:22.60,0:25:24.40,*Default,NTP,0000,0000,0000,,Bunk和我 我们有自己的节奏\N{\fs14}Bunk and me, we got our own rhythm.
+Dialogue: 0,0:25:24.60,0:25:26.00,*Default,NTP,0000,0000,0000,,你想算上我一个吗 McNulty?\N{\fs14}You want me in, McNulty?
+Dialogue: 0,0:25:26.20,0:25:27.90,*Default,NTP,0000,0000,0000,,我以为你想算上我\N{\fs14}I thought you said you wanted me in.
+Dialogue: 0,0:25:30.10,0:25:33.70,*Default,NTP,0000,0000,0000,,审讯你进去旁听 但这算凶案科的案子 就让他主审好了\N{\fs14}You're along for this interview, but it's Homicide's play, so let him lead.
+Dialogue: 0,0:25:39.40,0:25:42.00,*Default,NTP,0000,0000,0000,,你也许可以去查一下这两辆车的记录\N{\fs14}You might want to run tag and title on these two trucks.
+Dialogue: 0,0:25:42.10,0:25:43.80,*Default,NTP,0000,0000,0000,,我们带走孩子的时候  他们进入了我们的视野\N{\fs14}They scoped us when we jacked the kid.
+Dialogue: 0,0:25:44.40,0:25:45.50,*Default,NTP,0000,0000,0000,,我也在\N{\fs14}Been there.
+Dialogue: 0,0:25:46.30,0:25:48.40,*Default,NTP,0000,0000,0000,,资料已经在案卷里了\N{\fs14}Info's already in the file.
+Dialogue: 0,0:25:48.80,0:25:51.60,*Default,NTP,0000,0000,0000,,今天你们不是唯一在Canyon的公差\N{\fs14}Y'all weren't the only lawmen down in the Canyon today.
+Dialogue: 0,0:25:51.80,0:25:53.70,*Default,NTP,0000,0000,0000,,真的 你在哪儿?\N{\fs14}Really, where were you?
+Dialogue: 0,0:25:54.20,0:25:55.40,*Default,NTP,0000,0000,0000,,她在哪儿?\N{\fs14}Where was she?
+Dialogue: 0,0:26:01.70,0:26:04.80,*Default,NTP,0000,0000,0000,,我是说 我不知道为什么这男人会死\N{\fs14}I mean, the thing is, I can't see a reason for that man to be dead.
+Dialogue: 0,0:26:05.90,0:26:07.10,*Default,NTP,0000,0000,0000,,我想不出来\N{\fs14}I can't.
+Dialogue: 0,0:26:07.40,0:26:08.90,*Default,NTP,0000,0000,0000,,我是说 没错 你在法庭上赢了我们\N{\fs14}I mean, hell, you beat us in court.
+Dialogue: 0,0:26:09.00,0:26:10.20,*Default,NTP,0000,0000,0000,,我们不会公报私仇\N{\fs14}We don't take it personal.
+Dialogue: 0,0:26:10.40,0:26:12.40,*Default,NTP,0000,0000,0000,,- 妈的 不会 - 反正我们薪水照拿\N{\fs14}- Fuck, no. - We get paid either way.
+Dialogue: 0,0:26:12.70,0:26:14.70,*Default,NTP,0000,0000,0000,,又不是你真的干了罪恶滔天的事\N{\fs14}And it's not like you did anything real bad
+Dialogue: 0,0:26:14.90,0:26:17.40,*Default,NTP,0000,0000,0000,,不过是对着Pooh Blanchard开了两枪\N{\fs14}Throwing a couple of hot ones at Pooh Blanchard.
+Dialogue: 0,0:26:17.50,0:26:19.30,*Default,NTP,0000,0000,0000,,没人会怀念那个混蛋 对吧\N{\fs14}No one's gonna miss that motherfucker.
+Dialogue: 0,0:26:19.50,0:26:21.60,*Default,NTP,0000,0000,0000,,但是你知道这次被杀的人吗?\N{\fs14}But you know the man who got killed this time?
+Dialogue: 0,0:26:22.10,0:26:24.10,*Default,NTP,0000,0000,0000,,你知道这个可怜蛋是谁吗?\N{\fs14}You know who that poor son of a bitch was?
+Dialogue: 0,0:26:24.30,0:26:25.40,*Default,NTP,0000,0000,0000,,一个老百姓\N{\fs14}A citizen.
+Dialogue: 0,0:26:25.60,0:26:27.80,*Default,NTP,0000,0000,0000,,每天都辛苦工作\N{\fs14}Worked every goddamn day of his life.
+Dialogue: 0,0:26:28.00,0:26:29.10,*Default,NTP,0000,0000,0000,,你知道吗?\N{\fs14}You know that?
+Dialogue: 0,0:26:29.20,0:26:32.70,*Default,NTP,0000,0000,0000,,他每天都会起来 出去搞维修\N{\fs14}He would get up every day, go out and do maintenance work.
+Dialogue: 0,0:26:32.90,0:26:35.50,*Default,NTP,0000,0000,0000,,到了周末 他会开着的士去机场\N{\fs14}Then on the weekends, he was driving a cab out to the airport.
+Dialogue: 0,0:26:35.60,0:26:36.80,*Default,NTP,0000,0000,0000,,两份工\N{\fs14}Two jobs.
+Dialogue: 0,0:26:37.00,0:26:39.80,*Default,NTP,0000,0000,0000,,他还会花上点业余时间在教堂里当义工\N{\fs14}And he volunteers what little time he has left at his church.
+Dialogue: 0,0:26:39.90,0:26:40.90,*Default,NTP,0000,0000,0000,,虔诚的教徒\N{\fs14}Church-going man.
+Dialogue: 0,0:26:40.90,0:26:42.90,*Default,NTP,0000,0000,0000,,一个圣徒 一个执事\N{\fs14}A bethel man, a deacon.
+Dialogue: 0,0:26:43.30,0:26:46.00,*Default,NTP,0000,0000,0000,,两份工作 三个孩子\N{\fs14}Two jobs and three kids.
+Dialogue: 0,0:26:46.20,0:26:47.20,*Default,NTP,0000,0000,0000,,你知道吗?\N{\fs14}Did you know that?
+Dialogue: 0,0:26:47.40,0:26:49.90,*Default,NTP,0000,0000,0000,,三个孩子 也都还小\N{\fs14}Three kids. Young, too.
+Dialogue: 0,0:26:50.20,0:26:53.20,*Default,NTP,0000,0000,0000,,5岁 8岁 11岁\N{\fs14}Five, eight, eleven.
+Dialogue: 0,0:26:54.00,0:26:56.50,*Default,NTP,0000,0000,0000,,无父无母 哭着睡着\N{\fs14}Crying their little orphaned asses to sleep over the little shit
+Dialogue: 0,0:26:56.60,0:26:58.60,*Default,NTP,0000,0000,0000,,因为几年前他们失去了自己的妈妈\N{\fs14}'cause they lost their mama some years ago
+Dialogue: 0,0:26:58.70,0:27:00.30,*Default,NTP,0000,0000,0000,,现在他们只能靠自己了\N{\fs14}And now they out there on their own.
+Dialogue: 0,0:27:04.40,0:27:05.60,*Default,NTP,0000,0000,0000,,他不信我们\N{\fs14}He doesn't believe us.
+Dialogue: 0,0:27:05.70,0:27:07.10,*Default,NTP,0000,0000,0000,,我知道他不会信\N{\fs14}I know he don't believe it.
+Dialogue: 0,0:27:07.90,0:27:10.80,*Default,NTP,0000,0000,0000,,我们在这呆了两个小时 告诉你真实世界里发生的事\N{\fs14}We've been here two hours, telling you what's true in the world
+Dialogue: 0,0:27:10.80,0:27:12.70,*Default,NTP,0000,0000,0000,,而你坐在那里 像个没事儿人似的\N{\fs14}And you sit like nothing happened.
+Dialogue: 0,0:27:12.90,0:27:13.90,*Default,NTP,0000,0000,0000,,我的律师在哪儿\N{\fs14}Where my lawyer at?
+Dialogue: 0,0:27:14.00,0:27:16.10,*Default,NTP,0000,0000,0000,,我们给过他电话了 到了会通知你\N{\fs14}We called him. When he comes, we'll let you know.
+Dialogue: 0,0:27:16.20,0:27:17.60,*Default,NTP,0000,0000,0000,,我没什么可说的\N{\fs14}I got nothing to say.
+Dialogue: 0,0:27:18.30,0:27:21.00,*Default,NTP,0000,0000,0000,,我是说 我为那男人感到遗憾 但是我没什么可说的\N{\fs14}I mean, I'm sorry for the man, but I ain't got nothing to say.
+Dialogue: 0,0:27:21.00,0:27:22.20,*Default,NTP,0000,0000,0000,,你感到遗憾?\N{\fs14}You sorry?
+Dialogue: 0,0:27:22.70,0:27:24.80,*Default,NTP,0000,0000,0000,,你为他遗憾? 你它妈的杀了他\N{\fs14}You sorry for him? You fucking killed the man.
+Dialogue: 0,0:27:24.90,0:27:26.30,*Default,NTP,0000,0000,0000,,- 没有 - 是的 你有\N{\fs14}- No. - Yes, you did.
+Dialogue: 0,0:27:26.60,0:27:29.50,*Default,NTP,0000,0000,0000,,我是说 我们不认为你开枪杀了他\N{\fs14}We don't think that you shot him or anything
+Dialogue: 0,0:27:29.70,0:27:32.10,*Default,NTP,0000,0000,0000,,要是你没有忙着在大楼的大堂里开枪杀人\N{\fs14}But if you weren't so busy Iighting folks up in high-rise lobby
+Dialogue: 0,0:27:32.10,0:27:34.20,*Default,NTP,0000,0000,0000,,他也不会一出电梯就目击到整件事\N{\fs14}He ain't coming out of the elevator and see it happen.
+Dialogue: 0,0:27:34.20,0:27:36.00,*Default,NTP,0000,0000,0000,,他没看到 也就不会作证\N{\fs14}He don't see anything, he doesn't testify.
+Dialogue: 0,0:27:36.10,0:27:38.90,*Default,NTP,0000,0000,0000,,他不作证 那些孩子就还有个老爹可以依靠\N{\fs14}He doesn't testify, those kids still got a daddy to lean on.
+Dialogue: 0,0:27:39.00,0:27:41.00,*Default,NTP,0000,0000,0000,,- 他干嘛要作证呢? - 我们他妈的怎么知道\N{\fs14}- Why'd he testify? - How would we know?
+Dialogue: 0,0:27:41.10,0:27:42.50,*Default,NTP,0000,0000,0000,,他没必要作证\N{\fs14}He didn't have to testify.
+Dialogue: 0,0:27:42.50,0:27:44.30,*Default,NTP,0000,0000,0000,,是的 没必要 但是他做了\N{\fs14}No, he didn't, but he did.
+Dialogue: 0,0:27:44.50,0:27:46.20,*Default,NTP,0000,0000,0000,,而你仍旧翻案了 不是吗?\N{\fs14}And you still beat the charge, didn't you?
+Dialogue: 0,0:27:46.30,0:27:49.10,*Default,NTP,0000,0000,0000,,但是那还不够 对吧 打赢了谋杀官司还不够\N{\fs14}But that wasn't enough. It's not enough to beat the murder.
+Dialogue: 0,0:27:49.30,0:27:51.50,*Default,NTP,0000,0000,0000,,他们得给所有在Terrace的人放话\N{\fs14}They gotta send a cold message to everyone in the Terrace.
+Dialogue: 0,0:27:51.60,0:27:53.00,*Default,NTP,0000,0000,0000,,操他妈的维修工人\N{\fs14}Fuck the working man.
+Dialogue: 0,0:27:53.40,0:27:55.30,*Default,NTP,0000,0000,0000,,操他妈的小屁孩 算个鸟啊\N{\fs14}Fuck his kids, that shit don't count.
+Dialogue: 0,0:27:58.10,0:28:00.30,*Default,NTP,0000,0000,0000,,瞧 这就是我看不透贩毒的地方\N{\fs14}See, that's what I don't get about the drug thing.
+Dialogue: 0,0:28:00.90,0:28:04.40,*Default,NTP,0000,0000,0000,,你们干嘛不能卖完之后 拍拍屁股走人呢?\N{\fs14}Why can't you sell the shit and walk the fuck away?
+Dialogue: 0,0:28:04.70,0:28:05.90,*Default,NTP,0000,0000,0000,,懂我的意思吗?\N{\fs14}You know what I mean?
+Dialogue: 0,0:28:06.50,0:28:10.10,*Default,NTP,0000,0000,0000,,其他买卖里 成交之后没有再交火的\N{\fs14}Everything else in this country gets sold without people shooting each other behind it.
+Dialogue: 0,0:28:10.50,0:28:12.80,*Default,NTP,0000,0000,0000,,而在Terrace 尸体是一具接着一具\N{\fs14}In the Terrace, it's one body after another.
+Dialogue: 0,0:28:13.90,0:28:15.30,*Default,NTP,0000,0000,0000,,你还记得那个小男孩吗\N{\fs14}You remember that little boy...
+Dialogue: 0,0:28:16.00,0:28:19.90,*Default,NTP,0000,0000,0000,,去年夏天在西Lombard街的理发店里被枪杀\N{\fs14}Got shot in the barbershop on West Lombard last summer?
+Dialogue: 0,0:28:20.90,0:28:23.80,*Default,NTP,0000,0000,0000,,只因为一个混蛋追着别人来到那里\N{\fs14}One asshole chases another into a house nature
+Dialogue: 0,0:28:24.10,0:28:25.40,*Default,NTP,0000,0000,0000,,把一把手枪都打空了\N{\fs14}Empties a 9.
+Dialogue: 0,0:28:25.80,0:28:28.70,*Default,NTP,0000,0000,0000,,只为了争20粒不见的胶囊\N{\fs14}Bullshit argument over 20 missing gelcaps.
+Dialogue: 0,0:28:30.00,0:28:33.60,*Default,NTP,0000,0000,0000,,而那个小孩子 没有得到人生中第一次理发 反而一只眼睛吃到了子弹\N{\fs14}And that little kid, instead of getting his first haircut he gets one in the eye.
+Dialogue: 0,0:28:34.90,0:28:36.10,*Default,NTP,0000,0000,0000,,你还记得吗?\N{\fs14}You remember that?
+Dialogue: 0,0:28:36.70,0:28:37.90,*Default,NTP,0000,0000,0000,,真操蛋\N{\fs14}It's fucked up.
+Dialogue: 0,0:28:38.70,0:28:39.90,*Default,NTP,0000,0000,0000,,是的 的确\N{\fs14}Yes, it is.
+Dialogue: 0,0:28:41.80,0:28:43.20,*Default,NTP,0000,0000,0000,,他们不必那么做\N{\fs14}They didn't have to do that.
+Dialogue: 0,0:28:44.10,0:28:45.60,*Default,NTP,0000,0000,0000,,在理发店里开枪?\N{\fs14}Shoot up a barber shop?
+Dialogue: 0,0:28:46.30,0:28:48.20,*Default,NTP,0000,0000,0000,,不 他们不必那么做\N{\fs14}No, they did not have to do that.
+Dialogue: 0,0:28:51.30,0:28:52.90,*Default,NTP,0000,0000,0000,,那个男的...\N{\fs14}That man was just...
+Dialogue: 0,0:28:55.80,0:28:57.00,*Default,NTP,0000,0000,0000,,是我的事\N{\fs14}My thing.
+Dialogue: 0,0:28:59.20,0:29:00.60,*Default,NTP,0000,0000,0000,,我的事 他们不必...\N{\fs14}My thing, they ain't had....
+Dialogue: 0,0:29:03.50,0:29:04.80,*Default,NTP,0000,0000,0000,,他们不必那么做\N{\fs14}They ain't had to do that.
+Dialogue: 0,0:29:14.70,0:29:16.30,*Default,NTP,0000,0000,0000,,没有妈妈 没有爸爸\N{\fs14}No mama and no daddy.
+Dialogue: 0,0:29:17.60,0:29:19.10,*Default,NTP,0000,0000,0000,,老天爷啊\N{\fs14}Lord Jesus!
+Dialogue: 0,0:29:24.00,0:29:26.10,*Default,NTP,0000,0000,0000,,我告诉你我觉得你该做什么 D'Angelo\N{\fs14}I'll tell you what I think you should do, D'Angelo.
+Dialogue: 0,0:29:28.10,0:29:30.70,*Default,NTP,0000,0000,0000,,不是因为我觉得你想杀了那男人..\N{\fs14}Not because I think you wanted that man to get shot...
+Dialogue: 0,0:29:30.80,0:29:32.60,*Default,NTP,0000,0000,0000,,还是跟枪杀他有任何瓜葛\N{\fs14}Or had anything to do with shooting him.
+Dialogue: 0,0:29:33.40,0:29:36.80,*Default,NTP,0000,0000,0000,,而是我觉得你可以坐在这里...\N{\fs14}But I think you could just sit here...
+Dialogue: 0,0:29:37.00,0:29:39.10,*Default,NTP,0000,0000,0000,,坐上一会儿 理理自己的思路\N{\fs14}For a moment or two, collect your thoughts,
+Dialogue: 0,0:29:39.30,0:29:40.90,*Default,NTP,0000,0000,0000,,好好想清楚\N{\fs14}You know, get your shit together.
+Dialogue: 0,0:29:42.40,0:29:44.20,*Default,NTP,0000,0000,0000,,然后我觉得也许你可以\N{\fs14}And then I think it might be a good thing
+Dialogue: 0,0:29:44.20,0:29:46.50,*Default,NTP,0000,0000,0000,,给那些孩子写几句话也挺不错的\N{\fs14}For you to write a little letter to those children
+Dialogue: 0,0:29:47.90,0:29:50.60,*Default,NTP,0000,0000,0000,,让他们知道你很遗憾...\N{\fs14}And you let them know you're sorry...
+Dialogue: 0,0:29:52.00,0:29:55.10,*Default,NTP,0000,0000,0000,,对于他们失去了所有亲人这件事\N{\fs14}That they're not gonna have anyone left, you know?
+Dialogue: 0,0:29:56.70,0:29:58.50,*Default,NTP,0000,0000,0000,,我是说 随便说什么\N{\fs14}I mean, just say something.
+Dialogue: 0,0:29:58.70,0:30:01.30,*Default,NTP,0000,0000,0000,,告诉他们你个人认为你的舅舅\N{\fs14}Tell them how you personally think your uncle...
+Dialogue: 0,0:30:01.90,0:30:04.50,*Default,NTP,0000,0000,0000,,也许这次错了 因为的确是错了...\N{\fs14}Maybe he got it wrong this time, because it's wrong...
+Dialogue: 0,0:30:05.10,0:30:08.20,*Default,NTP,0000,0000,0000,,事情结束了 他们却失去了他们的老爹\N{\fs14}That they lost their daddy behind what happened, you know?
+Dialogue: 0,0:30:11.20,0:30:13.90,*Default,NTP,0000,0000,0000,,让他们知道你对他们是同情的 也许对他们来说有点意义\N{\fs14}It might mean something to them to know that you're feeling for them.
+Dialogue: 0,0:30:21.90,0:30:23.90,*Default,NTP,0000,0000,0000,,伙计 我没什么好说的\N{\fs14}Man, I ain't got nothing to say.
+Dialogue: 0,0:30:25.70,0:30:27.30,*Default,NTP,0000,0000,0000,,就说你的心里话\N{\fs14}Just say what's in your heart.
+Dialogue: 0,0:30:49.40,0:30:51.90,*Default,NTP,0000,0000,0000,,教堂的执事? 真能扯\N{\fs14}Church deacon? That was thick.
+Dialogue: 0,0:30:52.00,0:30:53.90,*Default,NTP,0000,0000,0000,,我觉得不错 能说什么呢?\N{\fs14}Got good to me, what can I say?
+Dialogue: 0,0:30:54.90,0:30:58.30,*Default,NTP,0000,0000,0000,,把孩子说成孤儿就够可怜的了\N{\fs14}It's sad enough with the kids being orphaned and everything.
+Dialogue: 0,0:30:58.60,0:31:00.50,*Default,NTP,0000,0000,0000,,照片是Bunk桌上的\N{\fs14}Photo was from Bunk's desk.
+Dialogue: 0,0:31:02.70,0:31:03.80,*Default,NTP,0000,0000,0000,,他们是你的孩子?\N{\fs14}They're yours?
+Dialogue: 0,0:31:03.90,0:31:05.40,*Default,NTP,0000,0000,0000,,嗯 恐怕是的\N{\fs14}Yeah, afraid so.
+Dialogue: 0,0:31:06.70,0:31:08.60,*Default,NTP,0000,0000,0000,,真走运他们长得像妈妈\N{\fs14}Good thing they look like their mama.
+Dialogue: 0,0:31:09.40,0:31:11.30,*Default,NTP,0000,0000,0000,,Maurice Levy刚才现身了\N{\fs14}Maurice Levy just posted.
+Dialogue: 0,0:31:11.50,0:31:12.90,*Default,NTP,0000,0000,0000,,就在电梯里\N{\fs14}He's by the elevators.
+Dialogue: 0,0:31:21.30,0:31:23.40,*Default,NTP,0000,0000,0000,,- 辩护律师从不休息 - 鄙视你 McNulty\N{\fs14}- The defense never rests. - Shame on you, McNulty.
+Dialogue: 0,0:31:23.40,0:31:26.40,*Default,NTP,0000,0000,0000,,把我从周五Levy家族的聚会上拖出来\N{\fs14}Dragging me from the Levy family preserve on a Friday night.
+Dialogue: 0,0:31:26.60,0:31:29.10,*Default,NTP,0000,0000,0000,,- 向你道歉 - Yvette烹调了牛胸肉\N{\fs14}- My apologies. - Yvette made brisket.
+Dialogue: 0,0:31:29.30,0:31:31.60,*Default,NTP,0000,0000,0000,,- 好吃吗? - 热气腾腾 1号室还是2号室?\N{\fs14}- Good? - When served hot. One or two?
+Dialogue: 0,0:31:32.30,0:31:33.50,*Default,NTP,0000,0000,0000,,委托人是你的了\N{\fs14}Your client.
+Dialogue: 0,0:31:34.00,0:31:36.20,*Default,NTP,0000,0000,0000,,搞什么飞机! 别写了! 马上!\N{\fs14}What the fuck! Stop writing! Now!
+Dialogue: 0,0:31:36.30,0:31:37.60,*Default,NTP,0000,0000,0000,,- 我只是在... - 闭嘴!\N{\fs14}- I'm just-- - Shut up!
+Dialogue: 0,0:31:38.80,0:31:41.40,*Default,NTP,0000,0000,0000,,他打电话叫了律师 那就意味着审讯结束\N{\fs14}He calls his lawyer, that's supposed to be the end of the interview.
+Dialogue: 0,0:31:42.10,0:31:44.40,*Default,NTP,0000,0000,0000,,你的委托人没有口供 我们也没有收到口供\N{\fs14}Your client gave no statement, we took no statement.
+Dialogue: 0,0:31:44.70,0:31:48.40,*Default,NTP,0000,0000,0000,,他不过是决定 自愿给受害者的家庭写一封信\N{\fs14}He just decided, voluntarily, to write a letter to the victim's family.
+Dialogue: 0,0:31:48.50,0:31:51.00,*Default,NTP,0000,0000,0000,,- 写下... - 闭嘴!\N{\fs14}- To say that-- - Shut up!
+Dialogue: 0,0:31:52.80,0:31:54.10,*Default,NTP,0000,0000,0000,,有什么指控吗?\N{\fs14}Any charge here?
+Dialogue: 0,0:31:54.50,0:31:57.30,*Default,NTP,0000,0000,0000,,- 没有指控 - 好 起来\N{\fs14}- No charge. - Good, get up.
+Dialogue: 0,0:31:57.80,0:31:59.30,*Default,NTP,0000,0000,0000,,走! 闪人!\N{\fs14}Go! Walk!
+Dialogue: 0,0:32:01.80,0:32:05.00,*Default,NTP,0000,0000,0000,,听我说 你什么都不要说 什么都不要做\N{\fs14}Listen to me, you don't say anything, you don't do anything,
+Dialogue: 0,0:32:05.10,0:32:07.50,*Default,NTP,0000,0000,0000,,什么都不要写 你听见了吗?\N{\fs14}You don't write anything. Do you hear me?
+Dialogue: 0,0:32:07.70,0:32:08.80,*Default,NTP,0000,0000,0000,,闭嘴!\N{\fs14}Shut up!
+Dialogue: 0,0:32:09.00,0:32:12.40,*Default,NTP,0000,0000,0000,,我对你们这些人它妈的重复过多少遍了?\N{\fs14}How many times do I have to tell you people the same fucking thing?
+Dialogue: 0,0:32:28.10,0:32:29.30,*Default,NTP,0000,0000,0000,,它妈的是什么玩意儿?\N{\fs14}What the fuck is that?
+Dialogue: 0,0:32:32.50,0:32:34.00,*Default,NTP,0000,0000,0000,,雕饰衣柜\N{\fs14}Armoire.
+Dialogue: 0,0:32:35.10,0:32:36.90,*Default,NTP,0000,0000,0000,,路易十四风格\N{\fs14}Louis Quatorze.
+Dialogue: 0,0:32:37.80,0:32:39.60,*Default,NTP,0000,0000,0000,,我是说 那是什么 玩具吗?\N{\fs14}I mean, what is it, a toy?
+Dialogue: 0,0:32:41.70,0:32:43.00,*Default,NTP,0000,0000,0000,,你们中有些我认识\N{\fs14}Some of you I know.
+Dialogue: 0,0:32:43.20,0:32:44.70,*Default,NTP,0000,0000,0000,,有些我很快会认识\N{\fs14}Some of you I will know.
+Dialogue: 0,0:32:45.40,0:32:48.50,*Default,NTP,0000,0000,0000,,如果你们曾和我共事过 你们就知道我不要什么独行侠\N{\fs14}If you've ever worked with me before, you know I don't want cowboy shit...
+Dialogue: 0,0:32:48.70,0:32:50.30,*Default,NTP,0000,0000,0000,,我不要惊喜\N{\fs14}And I don't want surprises.
+Dialogue: 0,0:32:50.70,0:32:51.90,*Default,NTP,0000,0000,0000,,目标就是...\N{\fs14}The task...
+Dialogue: 0,0:32:55.90,0:32:57.70,*Default,NTP,0000,0000,0000,,Avon Barksdale\N{\fs14}is Avon Barksdale,
+Dialogue: 0,0:32:58.10,0:32:59.90,*Default,NTP,0000,0000,0000,,也只有Avon Barksdale\N{\fs14}And Avon Barksdale only.
+Dialogue: 0,0:33:00.20,0:33:02.20,*Default,NTP,0000,0000,0000,,不要招三惹四 横生枝节\N{\fs14}No sidetrips, no sprawl.
+Dialogue: 0,0:33:03.50,0:33:06.50,*Default,NTP,0000,0000,0000,,主干是我组里的Greggs\N{\fs14}Primary investigators are Greggs from my unit
+Dialogue: 0,0:33:06.80,0:33:07.80,*Default,NTP,0000,0000,0000,,和...\N{\fs14}And--
+Dialogue: 0,0:33:10.80,0:33:14.00,*Default,NTP,0000,0000,0000,,我组里的Greggs和凶案科的McNulty\N{\fs14}Greggs from my unit and McNulty from Homicide.
+Dialogue: 0,0:33:14.20,0:33:15.50,*Default,NTP,0000,0000,0000,,他们负责汇报\N{\fs14}They keep the file.
+Dialogue: 0,0:33:16.00,0:33:18.10,*Default,NTP,0000,0000,0000,,在街上 我们两两搭档\N{\fs14}On the street, we work partners.
+Dialogue: 0,0:33:18.80,0:33:21.70,*Default,NTP,0000,0000,0000,,Greggs和Sydnor一组 Herc和Carver一组\N{\fs14}Greggs and Sydnor. Herc and Carver.
+Dialogue: 0,0:33:22.10,0:33:25.30,*Default,NTP,0000,0000,0000,,McNulty和Santangelo一组 Mahone和Polk一组\N{\fs14}McNulty's with Santangelo, Mahone and Polk.
+Dialogue: 0,0:33:25.50,0:33:27.10,*Default,NTP,0000,0000,0000,,Pryzbylewski和Freamon一组\N{\fs14}Pryzbylewski and Freamon.
+Dialogue: 0,0:33:28.10,0:33:30.80,*Default,NTP,0000,0000,0000,,- 首先 我们有9... - 那个怎么样?\N{\fs14}- To start with, we got nine-- - How's that?
+Dialogue: 0,0:33:31.30,0:33:32.80,*Default,NTP,0000,0000,0000,,行了吗?\N{\fs14}Did that get it?
+Dialogue: 0,0:33:33.00,0:33:34.10,*Default,NTP,0000,0000,0000,,什么?\N{\fs14}What?
+Dialogue: 0,0:33:34.80,0:33:36.20,*Default,NTP,0000,0000,0000,,你能听见我吗?\N{\fs14}Do you hear me?
+Dialogue: 0,0:33:36.70,0:33:37.70,*Default,NTP,0000,0000,0000,,什么?\N{\fs14}What?
+Dialogue: 0,0:33:40.00,0:33:42.60,*Default,NTP,0000,0000,0000,,首先 我们有9或10宗凶杀案\N{\fs14}To start with, we have nine or ten open homicide files..
+Dialogue: 0,0:33:42.60,0:33:44.70,*Default,NTP,0000,0000,0000,,需要回顾找头绪\N{\fs14}To work back through for leads.
+Dialogue: 0,0:33:45.10,0:33:47.90,*Default,NTP,0000,0000,0000,,McNulty和Santangelo 他们已经在查了\N{\fs14}McNulty and Santangelo, they're on that already.
+Dialogue: 0,0:33:48.10,0:33:50.10,*Default,NTP,0000,0000,0000,,Herc...Carver...Sydnor和我\N{\fs14}Herc, Carver, Sydnor, and me,
+Dialogue: 0,0:33:50.30,0:33:52.40,*Default,NTP,0000,0000,0000,,我们会针对街上的毒贩...\N{\fs14}We'll be targeting street dealers...
+Dialogue: 0,0:33:52.50,0:33:54.70,*Default,NTP,0000,0000,0000,,从他们那追查出Barksdale的手下\N{\fs14}And rolling them back up at Barksdale's people.
+Dialogue: 0,0:33:54.90,0:33:57.70,*Default,NTP,0000,0000,0000,,Polk和Mahone可以去查一些特殊的线索\N{\fs14}Polk and Mahone are available to run down specific leads.
+Dialogue: 0,0:33:57.90,0:34:01.80,*Default,NTP,0000,0000,0000,,Freamon和Pryzbylewski先在办公室里做文案\N{\fs14}Freamon, Pryzbylewski, are gonna start in-office on clerical duty.
+Dialogue: 0,0:34:01.90,0:34:03.00,*Default,NTP,0000,0000,0000,,如果你们需要检察官...\N{\fs14}You need a prosecutor--
+Dialogue: 0,0:34:03.00,0:34:05.80,*Default,NTP,0000,0000,0000,,不 把那狗娘养的关掉!\N{\fs14}No, turn the shit off!
+Dialogue: 0,0:34:06.10,0:34:07.30,*Default,NTP,0000,0000,0000,,什么!\N{\fs14}What?
+Dialogue: 0,0:34:08.60,0:34:10.20,*Default,NTP,0000,0000,0000,,你们需要一个检察官\N{\fs14}You need a prosecutor.
+Dialogue: 0,0:34:10.50,0:34:13.20,*Default,NTP,0000,0000,0000,,缉毒科的Rhonda Pearlman已经派过来了\N{\fs14}Rhonda Pearlman from Narcotics is assigned.
+Dialogue: 0,0:34:14.50,0:34:17.60,*Default,NTP,0000,0000,0000,,现在既然我们还没有足够的桌椅 所以我们得合用一下...\N{\fs14}Now, we don't have enough desks yet, so we gotta share--
+Dialogue: 0,0:34:17.60,0:34:19.10,*Default,NTP,0000,0000,0000,,你们都是来自采购科的?\N{\fs14}Y'all from Purchasing?
+Dialogue: 0,0:34:19.40,0:34:20.40,*Default,NTP,0000,0000,0000,,不是\N{\fs14}No.
+Dialogue: 0,0:34:26.50,0:34:27.60,*Default,NTP,0000,0000,0000,,就像我说的\N{\fs14}Like I was saying,
+Dialogue: 0,0:34:27.60,0:34:30.40,*Default,NTP,0000,0000,0000,,上头答应给我们电脑和监视设备\N{\fs14}We've been promised some computers and surveillance equipment.
+Dialogue: 0,0:34:31.00,0:34:32.00,*Default,NTP,0000,0000,0000,,问题?\N{\fs14}Questions?
+Dialogue: 0,0:34:32.10,0:34:34.90,*Default,NTP,0000,0000,0000,,嗯 谁能签加班报销?\N{\fs14}Yeah, who signs the overtime slips?
+Dialogue: 0,0:34:35.30,0:34:37.70,*Default,NTP,0000,0000,0000,,不准加班 除非有上级批准\N{\fs14}No OT, unless prior authorization.
+Dialogue: 0,0:34:37.90,0:34:41.50,*Default,NTP,0000,0000,0000,,大家可是新手上路 查一件没有头绪的案子 副队\N{\fs14}A case goes from red to black by way of green, Lieutenant.
+Dialogue: 0,0:34:42.00,0:34:44.30,*Default,NTP,0000,0000,0000,,你们查到什么线索 需要加班的\N{\fs14}You people bring me something that needs OT
+Dialogue: 0,0:34:44.70,0:34:47.40,*Default,NTP,0000,0000,0000,,会给你们加班费 在这之前\N{\fs14}You'll get OT. until then,
+Dialogue: 0,0:34:48.10,0:34:49.90,*Default,NTP,0000,0000,0000,,就拿你们的薪水过日子吧\N{\fs14}Live on your fucking salaries.
+Dialogue: 0,0:35:02.20,0:35:04.30,*Default,NTP,0000,0000,0000,,"你们父亲的事我很遗憾"\N{\fs14}"I'm very sorry for your father.
+Dialogue: 0,0:35:04.50,0:35:06.60,*Default,NTP,0000,0000,0000,,"如果我能阻止 我会的"\N{\fs14}"If I could've stopped it, I would have."
+Dialogue: 0,0:35:07.70,0:35:09.20,*Default,NTP,0000,0000,0000,,拿这个有什么用?\N{\fs14}What can you do with this?
+Dialogue: 0,0:35:09.70,0:35:11.00,*Default,NTP,0000,0000,0000,,法庭上不能用\N{\fs14}Nothing legally.
+Dialogue: 0,0:35:11.20,0:35:12.80,*Default,NTP,0000,0000,0000,,他没有牵涉进自己\N{\fs14}He doesn't put himself in,
+Dialogue: 0,0:35:13.00,0:35:14.70,*Default,NTP,0000,0000,0000,,或是把任何人牵涉进去\N{\fs14}Or anyone else for that matter.
+Dialogue: 0,0:35:15.00,0:35:16.90,*Default,NTP,0000,0000,0000,,看着这封信...\N{\fs14}You can't read that letter...
+Dialogue: 0,0:35:17.00,0:35:20.20,*Default,NTP,0000,0000,0000,,你只能把那男人的被害 和他是目击证人联系到一起\N{\fs14}And think that man was killed for any other reason than he was a witness.
+Dialogue: 0,0:35:20.50,0:35:23.40,*Default,NTP,0000,0000,0000,,既然和你无关 你道歉什么呢\N{\fs14}Why apologize at all if you got nothing to do with it?
+Dialogue: 0,0:35:27.80,0:35:28.80,*Default,NTP,0000,0000,0000,,瞧\N{\fs14}Look
+Dialogue: 0,0:35:30.10,0:35:32.00,*Default,NTP,0000,0000,0000,,我们失去了一位公诉方证人\N{\fs14}We lost a state's witness.
+Dialogue: 0,0:35:32.20,0:35:35.10,*Default,NTP,0000,0000,0000,,就算是在Baltimore  那也算件不小的事了吧\N{\fs14}Even in Baltimore, that's supposed to mean something, right?
+Dialogue: 0,0:35:35.60,0:35:37.70,*Default,NTP,0000,0000,0000,,就去找副局吧 给他看看\N{\fs14}Just go to the deputy, show him what's what...
+Dialogue: 0,0:35:37.80,0:35:39.50,*Default,NTP,0000,0000,0000,,然后联系些实际的东西\N{\fs14}And let's put something real together.
+Dialogue: 0,0:35:39.80,0:35:41.60,*Default,NTP,0000,0000,0000,,这案子需要能提供情报的\N{\fs14}This case needs informants.
+Dialogue: 0,0:35:41.60,0:35:43.40,*Default,NTP,0000,0000,0000,,需要长期监视\N{\fs14}It needs long-term surveillance.
+Dialogue: 0,0:35:43.40,0:35:45.50,*Default,NTP,0000,0000,0000,,最终会需要T3法案许可的窃听装置\N{\fs14}And eventually, it's gonna need a Title 3 wiretap.
+Dialogue: 0,0:35:45.70,0:35:49.00,*Default,NTP,0000,0000,0000,,最重要的是 需要会用这些东西的警察\N{\fs14}Most of all, it needs police who know how to work those things.
+Dialogue: 0,0:35:51.10,0:35:54.50,*Default,NTP,0000,0000,0000,,你觉得对外招摇我们的证人被枪杀了 对破案有好处?\N{\fs14}You think it's good for business to put it out on the street that our witnesses get killed?
+Dialogue: 0,0:35:54.60,0:35:56.40,*Default,NTP,0000,0000,0000,,你以为外头还不知道?\N{\fs14}You think it's not on the street already?
+Dialogue: 0,0:36:00.20,0:36:02.00,*Default,NTP,0000,0000,0000,,不要招摇 不要搞大\N{\fs14}No grandstanding, no red balls.
+Dialogue: 0,0:36:02.10,0:36:04.80,*Default,NTP,0000,0000,0000,,就像我说的 我们速战速决\N{\fs14}Like I said, we get in and out.
+Dialogue: 0,0:36:22.10,0:36:24.20,*Default,NTP,0000,0000,0000,,- June阿姨 - 嘿\N{\fs14}- Aunt June. - Hey，sweety
+Dialogue: 0,0:36:26.00,0:36:29.00,*Default,NTP,0000,0000,0000,,嗯 希望你已经饿了\N{\fs14}Yeah, I hope you're hungry.
+Dialogue: 0,0:36:29.10,0:36:30.30,*Default,NTP,0000,0000,0000,,饥肠辘辘\N{\fs14}Starving.
+Dialogue: 0,0:36:30.90,0:36:32.00,*Default,NTP,0000,0000,0000,,嘿 Dee!\N{\fs14}Hey, Dee!
+Dialogue: 0,0:36:33.30,0:36:34.60,*Default,NTP,0000,0000,0000,,你好吗 宝贝?\N{\fs14}What's up, baby?
+Dialogue: 0,0:36:34.90,0:36:37.10,*Default,NTP,0000,0000,0000,,- 那是你舅舅? - 是的\N{\fs14}- That your uncle? - Yeah.
+Dialogue: 0,0:36:37.70,0:36:39.10,*Default,NTP,0000,0000,0000,,我以为他长成别的样子\N{\fs14}I thought he'd look different.
+Dialogue: 0,0:36:39.40,0:36:41.10,*Default,NTP,0000,0000,0000,,我的好兄弟 Dee\N{\fs14}My man, Dee.
+Dialogue: 0,0:36:41.30,0:36:43.00,*Default,NTP,0000,0000,0000,,- 你好吗 伙计 - 你好吗\N{\fs14}- What's up, man? - Hey,what's up
+Dialogue: 0,0:36:43.00,0:36:44.30,*Default,NTP,0000,0000,0000,,这就是小家伙?\N{\fs14}This the little man?
+Dialogue: 0,0:36:44.70,0:36:48.50,*Default,NTP,0000,0000,0000,,嘿 看看你外甥的迷你版\N{\fs14}Yo, you see how shorty favor your nephew here?
+Dialogue: 0,0:36:49.20,0:36:50.40,*Default,NTP,0000,0000,0000,,你好吗 小家伙\N{\fs14}What's up, little man?
+Dialogue: 0,0:36:50.50,0:36:52.10,*Default,NTP,0000,0000,0000,,谁能拒绝这个小孩子呢\N{\fs14}You ain't gonna be able to deny that child.
+Dialogue: 0,0:36:52.20,0:36:53.50,*Default,NTP,0000,0000,0000,,你想要我抱抱吗?\N{\fs14}You wanna come to me?
+Dialogue: 0,0:36:54.50,0:36:56.10,*Default,NTP,0000,0000,0000,,我知道你想让我来抱抱\N{\fs14}I know you tryin' to come to me.
+Dialogue: 0,0:36:56.30,0:36:57.30,*Default,NTP,0000,0000,0000,,刚在一直在小睡\N{\fs14}Been napping.
+Dialogue: 0,0:36:57.40,0:36:58.80,*Default,NTP,0000,0000,0000,,- 是吗? - 刚醒\N{\fs14}- Yeah? - Just woke up.
+Dialogue: 0,0:36:58.80,0:37:00.50,*Default,NTP,0000,0000,0000,,你抓着什么 让我看看你抓着什么\N{\fs14}You got a grip, let me see your grip.
+Dialogue: 0,0:37:00.70,0:37:04.10,*Default,NTP,0000,0000,0000,,来吧 转个圈 给我们看看\N{\fs14}C'mon, give us a twirl, let's take a look.
+Dialogue: 0,0:37:06.20,0:37:07.30,*Default,NTP,0000,0000,0000,,你要看什么呀\N{\fs14}What you looking at?
+Dialogue: 0,0:37:07.50,0:37:09.60,*Default,NTP,0000,0000,0000,,- 给她端一盆热菜 - 好的\N{\fs14}- Go fix her a hot plate. - All right.
+Dialogue: 0,0:37:09.80,0:37:12.00,*Default,NTP,0000,0000,0000,,什么都来点 她是这里最苗条的一个\N{\fs14}Put everything on it. She's the skinniest thing in here.
+Dialogue: 0,0:37:12.10,0:37:13.60,*Default,NTP,0000,0000,0000,,来吧 姑娘 我们来招待你\N{\fs14}Come on, girl, we gonna hook you up.
+Dialogue: 0,0:37:13.70,0:37:15.90,*Default,NTP,0000,0000,0000,,别被她耍了 她可能吃了\N{\fs14}Don't let that fool you, she can eat, man.
+Dialogue: 0,0:37:16.20,0:37:18.20,*Default,NTP,0000,0000,0000,,你们怎么样 还好吧?\N{\fs14}How y'all doing? You doing good?
+Dialogue: 0,0:37:18.40,0:37:20.00,*Default,NTP,0000,0000,0000,,嗯 嗯 都挺好的\N{\fs14}Yeah, we all right.
+Dialogue: 0,0:37:20.20,0:37:22.80,*Default,NTP,0000,0000,0000,,她希望我搬进去 我正在考虑\N{\fs14}She want me to move in, I'm thinking about it.
+Dialogue: 0,0:37:23.90,0:37:25.10,*Default,NTP,0000,0000,0000,,我们走走\N{\fs14}Let's walk.
+Dialogue: 0,0:37:27.70,0:37:29.50,*Default,NTP,0000,0000,0000,,来 能帮我照顾一下小家伙吗\N{\fs14}Here you come. You gonna take my man from me?
+Dialogue: 0,0:37:29.60,0:37:30.70,*Default,NTP,0000,0000,0000,,好的\N{\fs14}Yeah.
+Dialogue: 0,0:37:32.10,0:37:33.80,*Default,NTP,0000,0000,0000,,照顾好我的小士兵\N{\fs14}Be careful with my little soldier.
+Dialogue: 0,0:37:34.40,0:37:35.60,*Default,NTP,0000,0000,0000,,那个家伙有名字吗?\N{\fs14}Got a name for that one?
+Dialogue: 0,0:37:35.80,0:37:36.80,*Default,NTP,0000,0000,0000,,没有\N{\fs14}No.
+Dialogue: 0,0:37:37.40,0:37:40.00,*Default,NTP,0000,0000,0000,,但他是他们派在楼梯井的一个\N{\fs14}But he's one of the boys they use in the stairwell.
+Dialogue: 0,0:37:40.60,0:37:41.60,*Default,NTP,0000,0000,0000,,他呢?\N{\fs14}What about him?
+Dialogue: 0,0:37:41.70,0:37:43.00,*Default,NTP,0000,0000,0000,,那是"小东西"\N{\fs14}That's Little Man.
+Dialogue: 0,0:37:43.90,0:37:45.10,*Default,NTP,0000,0000,0000,,他是打手\N{\fs14}He's muscle.
+Dialogue: 0,0:37:45.60,0:37:47.00,*Default,NTP,0000,0000,0000,,你知道他的真名吗?\N{\fs14}You know his real name?
+Dialogue: 0,0:37:50.10,0:37:51.30,*Default,NTP,0000,0000,0000,,线人?\N{\fs14}Cl?
+Dialogue: 0,0:37:51.70,0:37:52.70,*Default,NTP,0000,0000,0000,,是的\N{\fs14}Yeah.
+Dialogue: 0,0:37:52.80,0:37:54.00,*Default,NTP,0000,0000,0000,,你们需要一点私人空间吗?\N{\fs14}You need some privacy?
+Dialogue: 0,0:37:54.20,0:37:55.60,*Default,NTP,0000,0000,0000,,不 没事\N{\fs14}No, it's all right.
+Dialogue: 0,0:37:56.90,0:37:58.00,*Default,NTP,0000,0000,0000,,他不介意\N{\fs14}He's cool.
+Dialogue: 0,0:38:00.30,0:38:01.70,*Default,NTP,0000,0000,0000,,帽子是怎么回事\N{\fs14}What's with the hat?
+Dialogue: 0,0:38:02.70,0:38:04.20,*Default,NTP,0000,0000,0000,,和他说说 Bubbles\N{\fs14}Go ahead, tell him, Bubbles.
+Dialogue: 0,0:38:05.90,0:38:08.10,*Default,NTP,0000,0000,0000,,我去那儿用我卖的帽子打掩护\N{\fs14}I go down the way with some hats that I'm selling.
+Dialogue: 0,0:38:09.00,0:38:12.70,*Default,NTP,0000,0000,0000,,如果有谁是需要你们认识的 我就把红帽子戴在他们头上\N{\fs14}If someone is someone you need to know I put the red hat on them
+Dialogue: 0,0:38:12.90,0:38:14.50,*Default,NTP,0000,0000,0000,,Kima就把照片拍下来\N{\fs14}And Kima here take the pictures.
+Dialogue: 0,0:38:15.20,0:38:16.90,*Default,NTP,0000,0000,0000,,如果是小喽啰 我就用别的颜色\N{\fs14}If they in the mix, they get another color.
+Dialogue: 0,0:38:16.90,0:38:18.40,*Default,NTP,0000,0000,0000,,如果无关紧要 就不给\N{\fs14}If they ain't shit, they don't get shit.
+Dialogue: 0,0:38:18.50,0:38:20.50,*Default,NTP,0000,0000,0000,,所有戴帽子的家伙都是Barksdale的手下?\N{\fs14}Everyone in the hat's part of Barksdale's crew?
+Dialogue: 0,0:38:21.20,0:38:22.60,*Default,NTP,0000,0000,0000,,在Terrace\N{\fs14}At the Terrace.
+Dialogue: 0,0:38:23.20,0:38:25.40,*Default,NTP,0000,0000,0000,,我们还没有进入平房区\N{\fs14}We haven't hit the low-rises yet.
+Dialogue: 0,0:38:26.50,0:38:27.80,*Default,NTP,0000,0000,0000,,漂亮\N{\fs14}That's sharp.
+Dialogue: 0,0:38:28.30,0:38:29.40,*Default,NTP,0000,0000,0000,,我喜欢\N{\fs14}I like that.
+Dialogue: 0,0:38:29.60,0:38:31.40,*Default,NTP,0000,0000,0000,,Bubbles可以过目不忘\N{\fs14}Bubbles does not forget a face.
+Dialogue: 0,0:38:31.60,0:38:34.90,*Default,NTP,0000,0000,0000,,虽然记不住名字 但是 你瞧  这些脸都在我脑子里\N{\fs14}Ain't so good with names, but, you know, faces I keep in my head.
+Dialogue: 0,0:38:35.10,0:38:38.50,*Default,NTP,0000,0000,0000,,我曾常常带他去通缉科 让他看通缉名册\N{\fs14}I used to take him down to Escape Unit, let him look through the warrant books.
+Dialogue: 0,0:38:38.70,0:38:40.30,*Default,NTP,0000,0000,0000,,他会在晚上打电话给我\N{\fs14}He'd call me up that night,
+Dialogue: 0,0:38:40.40,0:38:43.00,*Default,NTP,0000,0000,0000,,告诉我去这个角落 那个街头\N{\fs14}Telling me to go to this corner, that corner.
+Dialogue: 0,0:38:44.40,0:38:46.30,*Default,NTP,0000,0000,0000,,嗯 每个人头给25元\N{\fs14}Yeah, paid $25 a pop.
+Dialogue: 0,0:38:46.60,0:38:48.40,*Default,NTP,0000,0000,0000,,- 好赚头 - 是啊\N{\fs14}- That's good money. - Yeah.
+Dialogue: 0,0:38:49.20,0:38:51.10,*Default,NTP,0000,0000,0000,,那这个帽子戏法能拿多少?\N{\fs14}How much does the hat routine pay?
+Dialogue: 0,0:38:52.10,0:38:53.10,*Default,NTP,0000,0000,0000,,不用\N{\fs14}Nothing.
+Dialogue: 0,0:38:53.80,0:38:55.30,*Default,NTP,0000,0000,0000,,我们义务的\N{\fs14}We free on this.
+Dialogue: 0,0:38:57.70,0:38:59.50,*Default,NTP,0000,0000,0000,,狗娘养的把我的兄弟打残了\N{\fs14}Motherfuckers beat my boy down.
+Dialogue: 0,0:39:00.10,0:39:01.10,*Default,NTP,0000,0000,0000,,谁?\N{\fs14}Who?
+Dialogue: 0,0:39:01.50,0:39:03.20,*Default,NTP,0000,0000,0000,,在平房的小杂种们\N{\fs14}Little hoppers in the low-rises.
+Dialogue: 0,0:39:03.40,0:39:04.60,*Default,NTP,0000,0000,0000,,你的兄弟是谁?\N{\fs14}Who's your boy?
+Dialogue: 0,0:39:05.00,0:39:06.20,*Default,NTP,0000,0000,0000,,我的朋友\N{\fs14}I got a friend.
+Dialogue: 0,0:39:07.70,0:39:08.90,*Default,NTP,0000,0000,0000,,比我年轻的白人小伙\N{\fs14}Younger white boy.
+Dialogue: 0,0:39:08.90,0:39:11.00,*Default,NTP,0000,0000,0000,,之前常常在街角混 非常菜\N{\fs14}Used to come down to the corners, real green.
+Dialogue: 0,0:39:11.90,0:39:13.40,*Default,NTP,0000,0000,0000,,我正在指点他\N{\fs14}I was schooling him, you know?
+Dialogue: 0,0:39:13.80,0:39:14.90,*Default,NTP,0000,0000,0000,,出了什么事?\N{\fs14}What happened?
+Dialogue: 0,0:39:16.80,0:39:18.00,*Default,NTP,0000,0000,0000,,他们海扁了他\N{\fs14}They stomped him.
+Dialogue: 0,0:39:18.70,0:39:19.90,*Default,NTP,0000,0000,0000,,你瞧见了?\N{\fs14}You see it?
+Dialogue: 0,0:39:22.60,0:39:25.00,*Default,NTP,0000,0000,0000,,为了几个子就那么糟蹋一个人\N{\fs14}Fuck a man like that up for a couple dollars, you know?
+Dialogue: 0,0:39:26.10,0:39:28.90,*Default,NTP,0000,0000,0000,,他还在大学医院里 鼻子里插着气管\N{\fs14}He still at University, tubes all up in his nose.
+Dialogue: 0,0:39:29.00,0:39:30.80,*Default,NTP,0000,0000,0000,,半句话都憋不出来\N{\fs14}Can't say but a fucking word or two.
+Dialogue: 0,0:39:33.30,0:39:35.10,*Default,NTP,0000,0000,0000,,但是你瞧 世道就是这样 不是吗?\N{\fs14}But you know, that's how it goes, right?
+Dialogue: 0,0:39:36.90,0:39:38.30,*Default,NTP,0000,0000,0000,,你感觉如何 Bubbles?\N{\fs14}How you feeling, Bubbles?
+Dialogue: 0,0:39:39.60,0:39:40.90,*Default,NTP,0000,0000,0000,,精力充沛\N{\fs14}Restless.
+Dialogue: 0,0:39:43.00,0:39:44.30,*Default,NTP,0000,0000,0000,,嗯 看得出来\N{\fs14}Yeah, I could tell.
+Dialogue: 0,0:39:45.00,0:39:48.10,*Default,NTP,0000,0000,0000,,什么话? 就算你花10块钱招个鸭子 他能陪你到天明吗?\N{\fs14}What the fuck? Can you hook a nigger up with $10 then till tomorrow?
+Dialogue: 0,0:39:48.60,0:39:51.00,*Default,NTP,0000,0000,0000,,我是说 你只要来接我就好 Kima\N{\fs14}I mean, you know, just to carry me, Kima.
+Dialogue: 0,0:39:57.80,0:39:58.90,*Default,NTP,0000,0000,0000,,Bubbles\N{\fs14}Bubbles.
+Dialogue: 0,0:40:01.30,0:40:02.50,*Default,NTP,0000,0000,0000,,谢谢\N{\fs14}Obliged.
+Dialogue: 0,0:40:04.50,0:40:06.80,*Default,NTP,0000,0000,0000,,接下来几天别靠近高层区\N{\fs14}Stay out of the projects the next couple of days...
+Dialogue: 0,0:40:07.00,0:40:08.10,*Default,NTP,0000,0000,0000,,好好保重\N{\fs14}Just to be safe.
+Dialogue: 0,0:40:08.30,0:40:10.10,*Default,NTP,0000,0000,0000,,姑娘总喜欢对我操心\N{\fs14}Girl's always fretting over me.
+Dialogue: 0,0:40:12.00,0:40:14.10,*Default,NTP,0000,0000,0000,,- 换身衣服 Bubs - 好 好\N{\fs14}- Change it up, Bubs. - Yeah, yeah.
+Dialogue: 0,0:40:14.30,0:40:15.60,*Default,NTP,0000,0000,0000,,去东区吧\N{\fs14}Go Eastside.
+Dialogue: 0,0:40:15.90,0:40:17.20,*Default,NTP,0000,0000,0000,,好 好\N{\fs14}Yeah, yeah.
+Dialogue: 0,0:40:19.50,0:40:20.90,*Default,NTP,0000,0000,0000,,20元?\N{\fs14}$20?
+Dialogue: 0,0:40:21.20,0:40:23.30,*Default,NTP,0000,0000,0000,,你会宠坏了他\N{\fs14}You gonna spoil him with that shit.
+Dialogue: 0,0:40:23.70,0:40:25.10,*Default,NTP,0000,0000,0000,,我欣赏这工作\N{\fs14}I respect the work.
+Dialogue: 0,0:40:27.50,0:40:31.70,*Default,NTP,0000,0000,0000,,他们提到了你的名字 还有Stringer...Wee-Bey\N{\fs14}They used your name, Stringer, Wee-Bey...
+Dialogue: 0,0:40:32.20,0:40:34.10,*Default,NTP,0000,0000,0000,,Savino... Peanut\N{\fs14}Savino, Peanut....
+Dialogue: 0,0:40:35.10,0:40:37.90,*Default,NTP,0000,0000,0000,,他们知道很多名字 他们知道得不少\N{\fs14}They knew a lot of names. They knew a lot.
+Dialogue: 0,0:40:38.00,0:40:39.50,*Default,NTP,0000,0000,0000,,但是你什么都没说?\N{\fs14}But you didn't say nothing?
+Dialogue: 0,0:40:41.10,0:40:43.10,*Default,NTP,0000,0000,0000,,该死的 伙计 我什么都不知道\N{\fs14}Shit, man, I don't know nothing.
+Dialogue: 0,0:40:43.60,0:40:45.20,*Default,NTP,0000,0000,0000,,那你写什么?\N{\fs14}What was you writing then?
+Dialogue: 0,0:40:46.80,0:40:49.70,*Default,NTP,0000,0000,0000,,嘿 他们说起那个被杀死的家伙 和他的孩子们\N{\fs14}Yo, they was talking about the man who got killed and his kids,
+Dialogue: 0,0:40:49.70,0:40:52.10,*Default,NTP,0000,0000,0000,,- 他们让我写的 - 他们和你有什么关系 Dee?\N{\fs14}- they asked me to write. - What you got to do with them, Dee?
+Dialogue: 0,0:40:52.30,0:40:54.10,*Default,NTP,0000,0000,0000,,是的 我也是这么说的\N{\fs14}Yeah, that's what I said.
+Dialogue: 0,0:40:54.30,0:40:57.20,*Default,NTP,0000,0000,0000,,他们开始嚷嚷那些孩子有多么惨\N{\fs14}Then they cried about how the kids ain't doing so good.
+Dialogue: 0,0:40:57.40,0:40:59.80,*Default,NTP,0000,0000,0000,,我想 就算我说我很遗憾那家伙被杀了 也没什么大不了的\N{\fs14}I'm like, it ain't gonna hurt for me to say I'm sorry the man got killed.
+Dialogue: 0,0:40:59.90,0:41:01.90,*Default,NTP,0000,0000,0000,,你它妈干嘛说你很遗憾\N{\fs14}Why the fuck you gotta say you're sorry?
+Dialogue: 0,0:41:02.90,0:41:05.20,*Default,NTP,0000,0000,0000,,混蛋们是想给你下套子\N{\fs14}Motherfuckers tried to put your ass in the stir.
+Dialogue: 0,0:41:05.40,0:41:07.50,*Default,NTP,0000,0000,0000,,是的 但是结果不是的\N{\fs14}Yeah, but it didn't turn out that way.
+Dialogue: 0,0:41:07.70,0:41:10.70,*Default,NTP,0000,0000,0000,,你瞧 我说的是 这是件丢脸的事...\N{\fs14}You know, that's what I'm saying, it's a shame that y'all....
+Dialogue: 0,0:41:13.20,0:41:14.50,*Default,NTP,0000,0000,0000,,我是说\N{\fs14}I'm saying,
+Dialogue: 0,0:41:14.80,0:41:17.70,*Default,NTP,0000,0000,0000,,那人身上发生的事很令人惋惜 对吧\N{\fs14}It's a shame what happened to that man, all right?
+Dialogue: 0,0:41:17.80,0:41:19.90,*Default,NTP,0000,0000,0000,,因为他不过是从电梯里出来\N{\fs14}'Cause he didn't do anything but come off the elevator
+Dialogue: 0,0:41:19.90,0:41:21.90,*Default,NTP,0000,0000,0000,,撞上了我在做的事情\N{\fs14}When I was doing that thing that I was doing.
+Dialogue: 0,0:41:24.10,0:41:26.50,*Default,NTP,0000,0000,0000,,你在想什么 小子?\N{\fs14}What you think, cuz?
+Dialogue: 0,0:41:27.60,0:41:28.70,*Default,NTP,0000,0000,0000,,关于什么?\N{\fs14}About what?
+Dialogue: 0,0:41:28.90,0:41:31.00,*Default,NTP,0000,0000,0000,,我是说 那男人的事你是怎么想的?\N{\fs14}I'm saying, what you think about what happened to the man?
+Dialogue: 0,0:41:31.40,0:41:33.00,*Default,NTP,0000,0000,0000,,你觉得是我们杀了那狗娘养的?\N{\fs14}You think we killed the motherfucker?
+Dialogue: 0,0:41:35.90,0:41:37.30,*Default,NTP,0000,0000,0000,,想什么就说什么\N{\fs14}Speak your mind.
+Dialogue: 0,0:41:40.60,0:41:42.00,*Default,NTP,0000,0000,0000,,伙计 我不知道\N{\fs14}Man, I don't know.
+Dialogue: 0,0:41:42.30,0:41:43.30,*Default,NTP,0000,0000,0000,,没错\N{\fs14}Exactly.
+Dialogue: 0,0:41:43.50,0:41:45.30,*Default,NTP,0000,0000,0000,,你不知道 你也不需要知道\N{\fs14}You don't know, and you don't need to know.
+Dialogue: 0,0:41:45.40,0:41:48.80,*Default,NTP,0000,0000,0000,,如果我们做了 我们有理由 如果我们没有 我们也有理由\N{\fs14}And if we did, we had a reason. And if we didn't, we had a reason.
+Dialogue: 0,0:41:48.80,0:41:51.30,*Default,NTP,0000,0000,0000,,不管怎样 这都和你没关系\N{\fs14}But either way, you ain't got shit to do with it.
+Dialogue: 0,0:41:52.10,0:41:53.90,*Default,NTP,0000,0000,0000,,那不算在你头上 小老弟\N{\fs14}It ain't on you, cuz.
+Dialogue: 0,0:41:54.50,0:41:56.20,*Default,NTP,0000,0000,0000,,你明白吗 这不算在你头上\N{\fs14}You feel me? It ain't on you.
+Dialogue: 0,0:41:57.60,0:41:59.90,*Default,NTP,0000,0000,0000,,现在 要是你再被抓进去了\N{\fs14}Now, if you get jacked again
+Dialogue: 0,0:42:00.00,0:42:03.00,*Default,NTP,0000,0000,0000,,我不想在听到你给谁写了什么狗屁玩意儿\N{\fs14}I don't want to hear shit about you writing nothing to no one.
+Dialogue: 0,0:42:03.30,0:42:04.40,*Default,NTP,0000,0000,0000,,懂了吗?\N{\fs14}Got it?
+Dialogue: 0,0:42:04.80,0:42:05.80,*Default,NTP,0000,0000,0000,,嗯\N{\fs14}Yeah.
+Dialogue: 0,0:42:07.60,0:42:09.30,*Default,NTP,0000,0000,0000,,来吧 我们去乐一乐\N{\fs14}Come on, let's have some good times
+Dialogue: 0,0:42:09.30,0:42:11.80,*Default,NTP,0000,0000,0000,,去啃些排骨 在他们吃光之前\N{\fs14}And get some ribs before they done ate all the ribs up.
+Dialogue: 0,0:42:14.90,0:42:17.50,*Default,NTP,0000,0000,0000,,- 这案子没戏 Carv - 我知道\N{\fs14}- This case isn't shit, Carv. - I know it.
+Dialogue: 0,0:42:17.80,0:42:19.80,*Default,NTP,0000,0000,0000,,我们围着这个狗娘养的转悠\N{\fs14}We're dancing around with this motherfucker,
+Dialogue: 0,0:42:20.00,0:42:21.30,*Default,NTP,0000,0000,0000,,打狗屁报告...\N{\fs14}Typing shit out...
+Dialogue: 0,0:42:21.50,0:42:23.70,*Default,NTP,0000,0000,0000,,给些戴帽子的杂种拍照\N{\fs14}Taking pictures of assholes in hats.
+Dialogue: 0,0:42:23.90,0:42:26.00,*Default,NTP,0000,0000,0000,,- 搞什么狗屁啊 - 狗屁\N{\fs14}- What the fuck is that? - It's bullshit.
+Dialogue: 0,0:42:26.20,0:42:28.90,*Default,NTP,0000,0000,0000,,我说我们现在马上过去 它妈的现在就去\N{\fs14}I say we go down there right now. Right fucking now.
+Dialogue: 0,0:42:29.10,0:42:31.30,*Default,NTP,0000,0000,0000,,我们走进那些楼里 让他们见识见识\N{\fs14}We go into those towers, and we let them know.
+Dialogue: 0,0:42:33.30,0:42:34.50,*Default,NTP,0000,0000,0000,,我是说真的\N{\fs14}I'm serious.
+Dialogue: 0,0:42:34.70,0:42:37.00,*Default,NTP,0000,0000,0000,,你得让那些狗杂种知道你是什么来头\N{\fs14}You got to let these motherfuckers know who you are.
+Dialogue: 0,0:42:39.10,0:42:40.30,*Default,NTP,0000,0000,0000,,你来吗?\N{\fs14}You coming?
+Dialogue: 0,0:42:42.00,0:42:43.30,*Default,NTP,0000,0000,0000,,我跟你去\N{\fs14}I'm with you.
+Dialogue: 0,0:42:43.60,0:42:44.60,*Default,NTP,0000,0000,0000,,Carv?\N{\fs14}Carv?
+Dialogue: 0,0:42:47.40,0:42:48.60,*Default,NTP,0000,0000,0000,,管它呢\N{\fs14}What the hell?
+Dialogue: 0,0:42:49.20,0:42:50.40,*Default,NTP,0000,0000,0000,,那走吧\N{\fs14}Let's do it.
+Dialogue: 0,0:42:56.20,0:42:57.30,*Default,NTP,0000,0000,0000,,来啊\N{\fs14}Come on.
+Dialogue: 0,0:43:10.20,0:43:11.50,*Default,NTP,0000,0000,0000,,收摊\N{\fs14}Shut it down.
+Dialogue: 0,0:43:14.40,0:43:16.40,*Default,NTP,0000,0000,0000,,50 50 快撤!\N{\fs14}Five-O, five-O, break out.
+Dialogue: 0,0:43:35.70,0:43:37.80,*Default,NTP,0000,0000,0000,,嘿 过来 伙计 你这是要去哪儿啊\N{\fs14}Yo, come here, man. Come here, where you going?
+Dialogue: 0,0:43:38.00,0:43:39.90,*Default,NTP,0000,0000,0000,,别搞得你不认识我似的 把手举起来\N{\fs14}Don't act like you don't know me. Get your hands up.
+Dialogue: 0,0:43:40.00,0:43:41.90,*Default,NTP,0000,0000,0000,,- 放下它 - 扔下它们\N{\fs14}- Put that down. - Drop that
+Dialogue: 0,0:43:42.10,0:43:44.90,*Default,NTP,0000,0000,0000,,- 扔了那玩意儿! 它妈的趴到地上! - 把手都举起来\N{\fs14}- Drop that shit! Kiss the fucking ground! - Put your hands up.
+Dialogue: 0,0:43:46.70,0:43:48.90,*Default,NTP,0000,0000,0000,,别这么看着我  搞得我像在说什么鸟语似的 混蛋\N{\fs14}Don't look at me like I ain't talking English mother fucker
+Dialogue: 0,0:43:49.30,0:43:50.50,*Default,NTP,0000,0000,0000,,你身上有针筒吗\N{\fs14}You got a needle on you?
+Dialogue: 0,0:43:50.70,0:43:52.40,*Default,NTP,0000,0000,0000,,有什么东西能扎我吗?\N{\fs14}Got anything in here that's gonna stick me?
+Dialogue: 0,0:43:52.90,0:43:53.90,*Default,NTP,0000,0000,0000,,没有?\N{\fs14}No?
+Dialogue: 0,0:43:54.90,0:43:56.00,*Default,NTP,0000,0000,0000,,那是什么?\N{\fs14}What's that?
+Dialogue: 0,0:43:56.50,0:43:57.80,*Default,NTP,0000,0000,0000,,你口袋里有什么?\N{\fs14}What you got in your pockets?
+Dialogue: 0,0:43:58.10,0:44:00.20,*Default,NTP,0000,0000,0000,,你瞧 把裤子脱下来\N{\fs14}You know what? Put your pants down, man.
+Dialogue: 0,0:44:00.30,0:44:02.00,*Default,NTP,0000,0000,0000,,脱掉你的裤子 趴倒地上\N{\fs14}Put your pants down and get down on the ground.
+Dialogue: 0,0:44:02.20,0:44:04.30,*Default,NTP,0000,0000,0000,,它妈的趴到地上!\N{\fs14}Get down on the fucking ground!
+Dialogue: 0,0:44:06.90,0:44:08.70,*Default,NTP,0000,0000,0000,,好了 两腿分开\N{\fs14}All right, spread your shit out.
+Dialogue: 0,0:44:09.80,0:44:11.80,*Default,NTP,0000,0000,0000,,- 鞋子不错 - 想点愉快的\N{\fs14}- Nice shoes. - Think a happy thought.
+Dialogue: 0,0:44:15.30,0:44:18.00,*Default,NTP,0000,0000,0000,,你们干嘛不去别的地方撒野?\N{\fs14}Why don't you go somewhere else with that bullshit?
+Dialogue: 0,0:44:20.90,0:44:22.20,*Default,NTP,0000,0000,0000,,不务正业的杂种\N{\fs14}No-good motherfuckers.
+Dialogue: 0,0:44:22.20,0:44:24.50,*Default,NTP,0000,0000,0000,,趴着 伙计 趴好了 趴好了\N{\fs14}Stay down, man, stay down. stay down.
+Dialogue: 0,0:44:24.50,0:44:27.70,*Default,NTP,0000,0000,0000,,你们都可以去跟Barksdale那伙人说 这些楼是我们的\N{\fs14}Y'all can let Barksdale and them know who owns these towers.
+Dialogue: 0,0:44:27.80,0:44:28.90,*Default,NTP,0000,0000,0000,,因为我们回来了\N{\fs14}'Cause we're coming back.
+Dialogue: 0,0:44:29.00,0:44:31.30,*Default,NTP,0000,0000,0000,,- 我已经忍无可忍了 - 亲我屁股啊!\N{\fs14}- I'm sick of this shit. - Kiss my ass!
+Dialogue: 0,0:44:31.30,0:44:33.70,*Default,NTP,0000,0000,0000,,我们先闪 一小时后回来 把每个人都抓个现行\N{\fs14}We roll out, come back in an hour, catch everybody dirty.
+Dialogue: 0,0:44:33.70,0:44:36.20,*Default,NTP,0000,0000,0000,,- 让你见识一下怎么回事 - 都是扯淡 伙计\N{\fs14}- You'll see how that goes. - That's bullshit, man.
+Dialogue: 0,0:44:36.20,0:44:38.70,*Default,NTP,0000,0000,0000,,- 嘿 趴好了 伙计 - 搞什么啊\N{\fs14}- Yo, stay down, man. - That's fucked up.
+Dialogue: 0,0:44:39.50,0:44:41.00,*Default,NTP,0000,0000,0000,,什么都没做啊\N{\fs14}Man ain't did nothing.
+Dialogue: 0,0:44:42.00,0:44:43.20,*Default,NTP,0000,0000,0000,,想要什么吗?\N{\fs14}Want something?
+Dialogue: 0,0:44:48.50,0:44:49.80,*Default,NTP,0000,0000,0000,,滚 傻蛋\N{\fs14}Move, shitbird.
+Dialogue: 0,0:44:49.90,0:44:51.30,*Default,NTP,0000,0000,0000,,我什么都没做\N{\fs14}I ain't doing nothing.
+Dialogue: 0,0:44:53.90,0:44:56.50,*Default,NTP,0000,0000,0000,,是吗? 我没什么可给你的\N{\fs14}Really? I got nothing for you.
+Dialogue: 0,0:44:58.80,0:45:00.70,*Default,NTP,0000,0000,0000,,我的眼睛 我的眼睛\N{\fs14}My eye, my eye.
+Dialogue: 0,0:45:00.90,0:45:03.00,*Default,NTP,0000,0000,0000,,看你还能给谁抛媚眼\N{\fs14}Who you gonna eyefuck now?
+Dialogue: 0,0:45:04.80,0:45:07.60,*Default,NTP,0000,0000,0000,,你是来真的吗? 你敢把血弄到我车上?\N{\fs14}Are you serious? You bleed on my car?
+Dialogue: 0,0:45:07.80,0:45:10.50,*Default,NTP,0000,0000,0000,,别把血弄到我车上  它妈的给我从车上下来\N{\fs14}Don't bleed on my car. Get your shit off my car.
+Dialogue: 0,0:45:17.30,0:45:18.70,*Default,NTP,0000,0000,0000,,你它妈的什么毛病?\N{\fs14}What the fuck's the matter with you?
+Dialogue: 0,0:45:40.10,0:45:41.40,*Default,NTP,0000,0000,0000,,看得见吗?\N{\fs14}Got a visual?
+Dialogue: 0,0:45:43.10,0:45:44.10,*Default,NTP,0000,0000,0000,,操\N{\fs14}Fuck.
+Dialogue: 0,0:45:44.50,0:45:45.80,*Default,NTP,0000,0000,0000,,去呼叫电台\N{\fs14}Get the radio.
+Dialogue: 0,0:45:47.50,0:45:49.00,*Default,NTP,0000,0000,0000,,11:35\N{\fs14}11:35,
+Dialogue: 0,0:45:49.40,0:45:50.70,*Default,NTP,0000,0000,0000,,信号13!{\fs14}(请求支援){\r}\N{\fs14}Signal 13.
+Dialogue: 0,0:45:50.90,0:45:53.20,*Default,NTP,0000,0000,0000,,Franklin771号 外院\N{\fs14}771 Franklin,in the Court.
+Dialogue: 0,0:45:54.10,0:45:54.90,*Default,NTP,0000,0000,0000,,狗娘养的!\N{\fs14}Son of a bitch!
+Dialogue: 0,0:45:54.90,0:45:57.60,*Default,NTP,0000,0000,0000,,发生交火 发生交火 警员需要支援\N{\fs14}Shots fired, shots fired. Officers need assistance.
+Dialogue: 0,0:45:59.70,0:46:01.40,*Default,NTP,0000,0000,0000,,我受到攻击 信号13!\N{\fs14}I'm hit! Signal 13.
+Dialogue: 0,0:46:01.50,0:46:03.70,*Default,NTP,0000,0000,0000,,警员负伤 警员负伤!\N{\fs14}Officer down, Officer down!
+Dialogue: 0,0:46:03.80,0:46:05.00,*Default,NTP,0000,0000,0000,,警员负伤\N{\fs14}Officer down
+Dialogue: 0,0:46:11.10,0:46:12.10,*Default,NTP,0000,0000,0000,,该死的!\N{\fs14}Shit!
+Dialogue: 0,0:46:33.00,0:46:34.00,*Default,NTP,0000,0000,0000,,喂\N{\fs14}Hello?
+Dialogue: 0,0:46:34.30,0:46:36.50,*Default,NTP,0000,0000,0000,,- 看过报纸了吗? - 什么?\N{\fs14}- You seen the paper? - What?
+Dialogue: 0,0:46:36.90,0:46:38.70,*Default,NTP,0000,0000,0000,,新闻报纸 去拿\N{\fs14}The newspaper, get it.
+Dialogue: 0,0:46:56.30,0:46:57.50,*Default,NTP,0000,0000,0000,,嘿 孩子们\N{\fs14}Hey, kids.
+Dialogue: 0,0:47:19.50,0:47:20.90,*Default,NTP,0000,0000,0000,,啊 不\N{\fs14}Oh, no.
+Dialogue: 0,0:47:21.50,0:47:22.90,*Default,NTP,0000,0000,0000,,谋杀案涉嫌毒品犯罪\N证人遇刺身亡
+Dialogue: 0,0:47:23.00,0:47:24.80,*Default,NTP,0000,0000,0000,,你开心了 婊子?\N{\fs14}You happy now, bitch?
+Dialogue: 0,0:47:27.00,0:47:28.30,*Default,NTP,0000,0000,0000,,McNulty!\N{\fs14}McNulty!
+Dialogue: 0,0:47:29.50,0:47:31.00,*Default,NTP,0000,0000,0000,,妈的他在哪儿?\N{\fs14}Where in fuck is he?
+Dialogue: 0,0:47:31.20,0:47:34.90,*Default,NTP,0000,0000,0000,,厄 他去专案组了 警长 去缉毒科了...\N{\fs14}He's detailed, Major, to Narcotics--
+Dialogue: 0,0:47:34.90,0:47:38.40,*Default,NTP,0000,0000,0000,,我它妈的知道他去专案组了 它妈的我已经知道了!\N{\fs14}I fucking know where he's detailed. I fucking already know that!
+Dialogue: 0,0:47:38.40,0:47:39.40,*Default,NTP,0000,0000,0000,,是的 长官\N{\fs14}Yes, sir.
+Dialogue: 0,0:47:39.50,0:47:40.80,*Default,NTP,0000,0000,0000,,他现在在哪儿?\N{\fs14}Where is he right now?
+Dialogue: 0,0:47:40.90,0:47:42.40,*Default,NTP,0000,0000,0000,,我可以呼他 长官\N{\fs14}I can page him, sir.
+Dialogue: 0,0:47:46.90,0:47:48.90,*Default,NTP,0000,0000,0000,,把这张该死的桌子从我组里搬走\N{\fs14}Move that fucking desk out of my unit.
+Dialogue: 0,0:47:49.10,0:47:51.80,*Default,NTP,0000,0000,0000,,我不要这狗娘养的桌子在我组里\N{\fs14}I do not want that fucking man's desk in my unit.
+Dialogue: 0,0:47:52.00,0:47:54.60,*Default,NTP,0000,0000,0000,,那是Crutchfield的桌子\N{\fs14}That's Crutchfield's desk.
+Dialogue: 0,0:47:56.50,0:47:57.70,*Default,NTP,0000,0000,0000,,Crutchfield的?\N{\fs14}Crutchfield's?
+Dialogue: 0,0:47:58.60,0:48:00.20,*Default,NTP,0000,0000,0000,,McNulty坐在这里\N{\fs14}McNulty sits here.
+Dialogue: 0,0:48:07.30,0:48:08.90,*Default,NTP,0000,0000,0000,,它妈的什么事啊?\N{\fs14}What the fuck was that about?
+Dialogue: 0,0:48:09.20,0:48:10.60,*Default,NTP,0000,0000,0000,,你看今天的报纸了没?\N{\fs14}Did you see today's paper?
+Dialogue: 0,0:48:10.80,0:48:11.90,*Default,NTP,0000,0000,0000,,只看了体育版\N{\fs14}Just sports.
+Dialogue: 0,0:48:12.00,0:48:13.90,*Default,NTP,0000,0000,0000,,你得去看看头版\N{\fs14}You gotta check out the front page.
+Dialogue: 0,0:48:19.90,0:48:21.10,*Default,NTP,0000,0000,0000,,你觉得他们会怎么收拾他?\N{\fs14}What do you think they'll do to him?
+Dialogue: 0,0:48:21.20,0:48:22.90,*Default,NTP,0000,0000,0000,,让我来告诉你些事\N{\fs14}Let me tell you something.
+Dialogue: 0,0:48:23.30,0:48:26.80,*Default,NTP,0000,0000,0000,,就算他被捉奸 和副局的老婆搞在一起\N{\fs14}If he gets caught with his dick up the ass of the deputy's wife...
+Dialogue: 0,0:48:27.00,0:48:30.70,*Default,NTP,0000,0000,0000,,也没比被发现他是这件事的 始作俑者的结果厉害\N{\fs14}He's still gonna have more of a career than if they find out he's behind that story.
+Dialogue: 0,0:48:53.30,0:48:54.40,*Default,NTP,0000,0000,0000,,副队\N{\fs14}Lieutenant.
+Dialogue: 0,0:48:55.80,0:48:58.60,*Default,NTP,0000,0000,0000,,我看到了新闻报道  我想告诉你 我跟这事没关系\N{\fs14}I saw the story in the paper. I want you to know I had nothing to do.
+Dialogue: 0,0:49:20.90,0:49:22.50,*Default,NTP,0000,0000,0000,,他们突袭我们 老板\N{\fs14}They jumped us, Boss.
+Dialogue: 0,0:49:22.90,0:49:23.90,*Default,NTP,0000,0000,0000,,谁?\N{\fs14}Who?
+Dialogue: 0,0:49:24.60,0:49:26.00,*Default,NTP,0000,0000,0000,,那些楼里的黑佬\N{\fs14}Fucking project niggers.
+Dialogue: 0,0:49:26.10,0:49:28.40,*Default,NTP,0000,0000,0000,,你们在凌晨两点到这里来干什么?\N{\fs14}What are you doing here at 2:00 in the morning?
+Dialogue: 0,0:49:30.60,0:49:32.50,*Default,NTP,0000,0000,0000,,实地调查 长官 份内事\N{\fs14}Field interviews, sir, police work.
+Dialogue: 0,0:49:32.70,0:49:33.90,*Default,NTP,0000,0000,0000,,份内事?\N{\fs14}Police work?
+Dialogue: 0,0:49:34.20,0:49:35.20,*Default,NTP,0000,0000,0000,,是的\N{\fs14}Yeah.
+Dialogue: 0,0:49:37.50,0:49:41.40,*Default,NTP,0000,0000,0000,,我这有个14岁的小孩卧院  伤势严重 但还算稳定\N{\fs14}I got a 14-year-old in critical but stable condition at University...
+Dialogue: 0,0:49:41.70,0:49:43.70,*Default,NTP,0000,0000,0000,,两个目击者说你们其中之一\N{\fs14}And two witnesses who say one of you princes
+Dialogue: 0,0:49:43.70,0:49:45.60,*Default,NTP,0000,0000,0000,,狠狠地用枪把砸了他\N{\fs14}Cold-cocked him with the butt-end of a pistol.
+Dialogue: 0,0:49:45.70,0:49:46.50,*Default,NTP,0000,0000,0000,,没有 长官\N{\fs14}No, sir.
+Dialogue: 0,0:49:46.50,0:49:49.80,*Default,NTP,0000,0000,0000,,他母亲告到了内务部  递交了一份正式的野蛮执法的指控\N{\fs14}I got his mother over at lID. filing a formal brutality charge...
+Dialogue: 0,0:49:49.90,0:49:52.70,*Default,NTP,0000,0000,0000,,对Herc来说 已经是两年来第四次了\N{\fs14}Which for Herc will make an even four in the last two years.
+Dialogue: 0,0:49:52.80,0:49:54.80,*Default,NTP,0000,0000,0000,,- 没有一个成立的 - 但都是真的\N{\fs14}- None sustained. - But all of them true.
+Dialogue: 0,0:49:54.90,0:49:55.60,*Default,NTP,0000,0000,0000,,我们以为...\N{\fs14}We thought that--
+Dialogue: 0,0:49:55.60,0:49:58.50,*Default,NTP,0000,0000,0000,,你们昨晚让我损失了一辆皇冠{\fs14}(警车){\r}\N{\fs14}I got one less Crown Vic than I had last night.
+Dialogue: 0,0:49:58.70,0:50:01.00,*Default,NTP,0000,0000,0000,,两件防弹背心在车里被焚烧\N{\fs14}I'm out two Kevlar vests that burned in the car...
+Dialogue: 0,0:50:01.20,0:50:03.60,*Default,NTP,0000,0000,0000,,两个手持对讲机 一把短枪\N{\fs14}Two hand-held radios, a shotgun...
+Dialogue: 0,0:50:03.70,0:50:06.90,*Default,NTP,0000,0000,0000,,然后在未来的一到两个星期里 我还要失去养伤的这个笨蛋\N{\fs14}And I'm about to lose this idiot here for a week or two of medical.
+Dialogue: 0,0:50:07.30,0:50:08.50,*Default,NTP,0000,0000,0000,,换来什么呢?\N{\fs14}And for what?
+Dialogue: 0,0:50:09.10,0:50:09.80,*Default,NTP,0000,0000,0000,,副队 我们以为...\N{\fs14}Lieutenant, we thought
+Dialogue: 0,0:50:09.80,0:50:11.90,*Default,NTP,0000,0000,0000,,你们从这次凌晨亮点来Terrace\N{\fs14}What did you all learn when you went to the Terrace
+Dialogue: 0,0:50:11.90,0:50:14.50,*Default,NTP,0000,0000,0000,,做实地调查 到底了解到了什么?\N{\fs14}At 2:00 in the morning to conduct field interviews?
+Dialogue: 0,0:50:14.70,0:50:18.40,*Default,NTP,0000,0000,0000,,付出了这个代价之后 我们到底得到了什么有用的情报\N{\fs14}What valuable information did we acquire from this situation?
+Dialogue: 0,0:50:21.50,0:50:24.70,*Default,NTP,0000,0000,0000,,内务部在下午之前 会对你们三个一一调查...\N{\fs14}IID is gonna be on all three of you by afternoon...
+Dialogue: 0,0:50:25.20,0:50:27.40,*Default,NTP,0000,0000,0000,,如果在那之前  你们不能编一个像样的说法出来\N{\fs14}And if you don't get a story straight by then..
+Dialogue: 0,0:50:27.80,0:50:31.10,*Default,NTP,0000,0000,0000,,你们会得到一份厚厚的报告  离上法庭也就不远了\N{\fs14}You're gonna have a file thick enough to see the light of a trial board.
+Dialogue: 0,0:50:33.30,0:50:34.70,*Default,NTP,0000,0000,0000,,现在告诉我\N{\fs14}Now tell me,
+Dialogue: 0,0:50:35.50,0:50:37.40,*Default,NTP,0000,0000,0000,,谁对那小子下手的?\N{\fs14}Who cold-cocked the kid?
+Dialogue: 0,0:50:46.00,0:50:47.10,*Default,NTP,0000,0000,0000,,我\N{\fs14}Me.
+Dialogue: 0,0:50:50.60,0:50:51.70,*Default,NTP,0000,0000,0000,,为什么?\N{\fs14}Why?
+Dialogue: 0,0:50:53.80,0:50:55.20,*Default,NTP,0000,0000,0000,,他惹毛了我\N{\fs14}He pissed me off.
+Dialogue: 0,0:50:58.90,0:51:02.10,*Default,NTP,0000,0000,0000,,不 Pryzbylewski警员 他没有惹毛你\N{\fs14}No, Officer Pryzbylewski, he did not piss you off.
+Dialogue: 0,0:51:03.30,0:51:07.00,*Default,NTP,0000,0000,0000,,他让你担心你和你同伴的安危\N{\fs14}He made you fear for your safety and that of your fellow officers.
+Dialogue: 0,0:51:08.50,0:51:10.20,*Default,NTP,0000,0000,0000,,我现在猜测 也许...\N{\fs14}I'm guessing now, but maybe...
+Dialogue: 0,0:51:10.70,0:51:13.90,*Default,NTP,0000,0000,0000,,你看到他捡起瓶子 要威胁Hauk和Carver警员\N{\fs14}He was seen to pick up a bottle and menace officers Hauk and Carver...
+Dialogue: 0,0:51:13.90,0:51:17.30,*Default,NTP,0000,0000,0000,,而他们已经被楼上飞落的杂物击伤\N{\fs14}Both of whom had already sustained injury from flying projectiles.
+Dialogue: 0,0:51:17.50,0:51:20.10,*Default,NTP,0000,0000,0000,,在那种情况下 你没有使用致命武器\N{\fs14}Rather than use deadly force in such a situation...
+Dialogue: 0,0:51:20.20,0:51:22.20,*Default,NTP,0000,0000,0000,,而是决定靠近那个年轻人\N{\fs14}Maybe you elected to approach the youth,
+Dialogue: 0,0:51:22.30,0:51:24.30,*Default,NTP,0000,0000,0000,,命令他放下瓶子\N{\fs14}Ordering him to drop the bottle.
+Dialogue: 0,0:51:24.90,0:51:27.40,*Default,NTP,0000,0000,0000,,也许他举起了瓶子继续示威\N{\fs14}Maybe when he raised the bottle in a threatening manner...
+Dialogue: 0,0:51:27.50,0:51:29.00,*Default,NTP,0000,0000,0000,,你用了手电筒\N{\fs14}You used a Kel-Light,
+Dialogue: 0,0:51:29.20,0:51:31.00,*Default,NTP,0000,0000,0000,,而不是你警枪的枪把\N{\fs14}Not the handle of your service weapon...
+Dialogue: 0,0:51:31.00,0:51:33.40,*Default,NTP,0000,0000,0000,,去阻止了嫌疑人\N{\fs14}To incapacitate the suspect.
+Dialogue: 0,0:51:35.60,0:51:37.10,*Default,NTP,0000,0000,0000,,好好练练\N{\fs14}Go practice.
+Dialogue: 0,0:51:37.70,0:51:40.30,*Default,NTP,0000,0000,0000,,要是你对调查人员乱说一气\N{\fs14}You fuck the bullshit up when you talk to lnternal...
+Dialogue: 0,0:51:40.60,0:51:43.10,*Default,NTP,0000,0000,0000,,我可救不了你 你得靠你自己了\N{\fs14}I can't fix it, you're on your own.
+Dialogue: 0,0:51:51.70,0:51:53.40,*Default,NTP,0000,0000,0000,,把传讯推迟到三点\N{\fs14}Push the arraignments back to 3:00.
+Dialogue: 0,0:51:53.60,0:51:54.90,*Default,NTP,0000,0000,0000,,那Gillette案呢?\N{\fs14}And the Gillette case?
+Dialogue: 0,0:51:55.00,0:51:57.50,*Default,NTP,0000,0000,0000,,Gillette案打回去重定时间\N{\fs14}The Gillette trial goes back on the move docket.
+Dialogue: 0,0:51:58.20,0:52:00.90,*Default,NTP,0000,0000,0000,,快 跟我一起走 我迟到了\N{\fs14}Come on, walk with me. I'm running late.
+Dialogue: 0,0:52:03.30,0:52:04.30,*Default,NTP,0000,0000,0000,,不是我\N{\fs14}It wasn't me.
+Dialogue: 0,0:52:04.30,0:52:05.40,*Default,NTP,0000,0000,0000,,新闻里引用了你的话\N{\fs14}The story quoted you.
+Dialogue: 0,0:52:05.50,0:52:08.40,*Default,NTP,0000,0000,0000,,狗娘养的记者 他打电话采访我的时候 已经核实了这件事\N{\fs14}Reporter has the story confirmed when he calls me about the quote.
+Dialogue: 0,0:52:08.40,0:52:09.60,*Default,NTP,0000,0000,0000,,我还能说什么?\N{\fs14}What am I gonna say?
+Dialogue: 0,0:52:09.70,0:52:13.20,*Default,NTP,0000,0000,0000,,不 他不是证人? 不 他上星期没有到我的法庭上作证?\N{\fs14}No, he wasn't a witness? No, he didn't testify in my court last week?
+Dialogue: 0,0:52:13.90,0:52:14.90,*Default,NTP,0000,0000,0000,,什么?\N{\fs14}What?
+Dialogue: 0,0:52:15.30,0:52:17.20,*Default,NTP,0000,0000,0000,,你觉得这事还没有议论纷纷?\N{\fs14}You don't think it's around about the witness?
+Dialogue: 0,0:52:17.50,0:52:20.40,*Default,NTP,0000,0000,0000,,律师 职员 陪审团 大家都在议论\N{\fs14}Lawyers, clerks, jurors, everybody talks.
+Dialogue: 0,0:52:20.60,0:52:22.10,*Default,NTP,0000,0000,0000,,我是众矢之的 法官大人\N{\fs14}I'm in the shit here, Your Honor.
+Dialogue: 0,0:52:22.30,0:52:23.60,*Default,NTP,0000,0000,0000,,我能对你说什么呢\N{\fs14}What can I tell you?
+Dialogue: 0,0:52:24.10,0:52:27.20,*Default,NTP,0000,0000,0000,,我打电话找了副局长 不是报纸 我得走了\N{\fs14}I called the deputy, not the newspapers. I gotta run.
+Dialogue: 0,0:52:32.00,0:52:33.50,*Default,NTP,0000,0000,0000,,你该对他们停职\N{\fs14}You should have hung them.
+Dialogue: 0,0:52:34.30,0:52:35.90,*Default,NTP,0000,0000,0000,,如果我让他们停职 我就停了自己的职\N{\fs14}If I hang them, I hang myself.
+Dialogue: 0,0:52:36.30,0:52:38.00,*Default,NTP,0000,0000,0000,,我是负责的人 记得吗?\N{\fs14}I'm the man in charge, remember?
+Dialogue: 0,0:52:38.30,0:52:40.70,*Default,NTP,0000,0000,0000,,何况 你不会把自己的人交给内务部\N{\fs14}Besides, you don't give your people up to IID.
+Dialogue: 0,0:52:41.60,0:52:42.80,*Default,NTP,0000,0000,0000,,你不能那么做\N{\fs14}You don't do that.
+Dialogue: 0,0:52:43.40,0:52:46.00,*Default,NTP,0000,0000,0000,,就算他们害得一个14岁小孩 进了重症监护室?\N{\fs14}Even if they put a 14-year-old kid into Critical Care?
+Dialogue: 0,0:52:51.00,0:52:52.30,*Default,NTP,0000,0000,0000,,这案子 它...\N{\fs14}This case, it's just....
+Dialogue: 0,0:52:53.40,0:52:54.70,*Default,NTP,0000,0000,0000,,那就脱身好了\N{\fs14}Get out of it.
+Dialogue: 0,0:52:56.10,0:52:58.10,*Default,NTP,0000,0000,0000,,- 我要怎么脱身呢? - 我不知道\N{\fs14}- How do I do that? - I don't know.
+Dialogue: 0,0:52:58.60,0:53:00.50,*Default,NTP,0000,0000,0000,,不过只要你不玩 也就不会输\N{\fs14}But you can't lose if you don't play.
+Dialogue: 0,0:53:02.20,0:53:04.40,*Default,NTP,0000,0000,0000,,我一直听到的是 如果你不玩 也就赢不了\N{\fs14}I always heard it that you can't win if you don't play.
+Dialogue: 0,0:53:06.20,0:53:08.40,*Default,NTP,0000,0000,0000,,局里把一件他们不想办的案子压在你身上\N{\fs14}The department puts you on a case it doesn't want.
+Dialogue: 0,0:53:08.60,0:53:11.40,*Default,NTP,0000,0000,0000,,给你派的人都是没用的 不值得信任的\N{\fs14}You're given people that are useless or untrustworthy.
+Dialogue: 0,0:53:11.90,0:53:12.90,*Default,NTP,0000,0000,0000,,没错\N{\fs14}Correct.
+Dialogue: 0,0:53:13.60,0:53:15.70,*Default,NTP,0000,0000,0000,,要是你查得紧 要是惹到了谁\N{\fs14}If you push too hard, and any shit hits the fan...
+Dialogue: 0,0:53:15.90,0:53:17.30,*Default,NTP,0000,0000,0000,,到头来都是怪到你头上\N{\fs14}You'll be blamed for it.
+Dialogue: 0,0:53:18.10,0:53:19.10,*Default,NTP,0000,0000,0000,,没错\N{\fs14}Correct.
+Dialogue: 0,0:53:19.50,0:53:22.50,*Default,NTP,0000,0000,0000,,要是你查得松 抓不到人  你还是会背黑锅\N{\fs14}If you don't push hard enough, and there's no arrest, you'll be blamed for that, too.
+Dialogue: 0,0:53:24.00,0:53:25.00,*Default,NTP,0000,0000,0000,,没错\N{\fs14}Correct.
+Dialogue: 0,0:53:25.40,0:53:27.10,*Default,NTP,0000,0000,0000,,游戏被操纵了\N{\fs14}The game is rigged.
+Dialogue: 0,0:53:27.70,0:53:30.30,*Default,NTP,0000,0000,0000,,但是要是你不玩 你就不会输了\N{\fs14}But you cannot lose if you do not play.
+Dialogue: 0,0:55:22.30,0:55:23.30,*Default,NTP,0000,0000,0000,,嘿!\N{\fs14}Hey!
+Dialogue: 0,0:55:24.70,0:55:26.40,*Default,NTP,0000,0000,0000,,嘿 你这混蛋!\N{\fs14}Hey, you fuckheads!
+Dialogue: 0,0:55:30.30,0:55:31.80,*Default,NTP,0000,0000,0000,,嘿 我是警察!\N{\fs14}Hey, police!
+Dialogue: 0,0:56:01.50,0:56:04.00,*Default,NTP,0000,0000,0000,,- 喂 是的 - Daniels上尉?\N{\fs14}- Hello. yeah. - Lieutenant Daniels?
+Dialogue: 0,0:56:15.10,0:56:16.40,*Default,NTP,0000,0000,0000,,是谁?\N{\fs14}Who was that?
+Dialogue: 0,0:56:16.60,0:56:19.20,*Default,NTP,0000,0000,0000,,是大学医院的值班警察\N{\fs14}It was the duty officer down at University hospital.
+Dialogue: 0,0:56:20.30,0:56:21.50,*Default,NTP,0000,0000,0000,,出什么事了?\N{\fs14}What happened?
+Dialogue: 0,0:56:22.90,0:56:24.40,*Default,NTP,0000,0000,0000,,他的一只眼睛瞎了\N{\fs14}He's blind in one eye.
+Dialogue: 0,0:56:24.80,0:56:25.80,*Default,NTP,0000,0000,0000,,谁?\N{\fs14}Who?
+Dialogue: 0,0:56:27.10,0:56:28.10,*Default,NTP,0000,0000,0000,,那孩子\N{\fs14}The kid.
+Dialogue: 0,0:56:29.10,0:56:30.60,*Default,NTP,0000,0000,0000,,那个14岁的孩子\N{\fs14}The 14-year-old.

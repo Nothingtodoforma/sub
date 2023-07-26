@@ -1,0 +1,1181 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: YYeTs
+Original Script: YYeTs
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,21,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:17.75,0:00:19.87,*Default,NTP,0000,0000,0000,,我还以为他要出去吃早餐呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Ithought he was supposed to have a breakfast date, right?
+Dialogue: 0,0:00:19.92,0:00:21.71,*Default,NTP,0000,0000,0000,,我是说 他们昨晚是这么和我说的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I mean, they told me that last night.
+Dialogue: 0,0:00:21.75,0:00:23.88,*Default,NTP,0000,0000,0000,,早餐? 排在档期上吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Breakfast? Is that on the sched?
+Dialogue: 0,0:00:23.92,0:00:25.22,*Default,NTP,0000,0000,0000,,没 但是警督是这么告诉我的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It isn't, but the lieutenant told me
+Dialogue: 0,0:00:25.25,0:00:28.39,*Default,NTP,0000,0000,0000,,说他要去港口那里同什么人吃早饭\N{\fnMicrosoft YaHei\fs14\2c&H111211&}that he'd be doing breakfast with someone down at the harbor.
+Dialogue: 0,0:00:28.42,0:00:29.55,*Default,NTP,0000,0000,0000,,我是说 如果他不去\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I mean, if he ain't,
+Dialogue: 0,0:00:29.59,0:00:32.15,*Default,NTP,0000,0000,0000,,我就可以去Fallsway加油了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I could go get this gassed up at the Fallsway.
+Dialogue: 0,0:00:32.39,0:00:34.66,*Default,NTP,0000,0000,0000,,我真不想听这些 兄弟\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I hate this detail, man.
+Dialogue: 0,0:00:34.70,0:00:37.86,*Default,NTP,0000,0000,0000,,这是下班时间嘛 有津贴的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It's off duty. Lotsa perks.
+Dialogue: 0,0:00:37.90,0:00:42.39,*Default,NTP,0000,0000,0000,,站在这里干等的感觉 你知道么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}All this stand around and wait, you know?
+Dialogue: 0,0:00:42.44,0:00:44.41,*Default,NTP,0000,0000,0000,,Hoskins说我这么干一年\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hoskins says I do the one year,
+Dialogue: 0,0:00:44.44,0:00:46.24,*Default,NTP,0000,0000,0000,,明年升警司的名单里就有我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and I'll make sergeant on the next list.
+Dialogue: 0,0:00:46.27,0:00:48.40,*Default,NTP,0000,0000,0000,,对 他们告诉我 这是职场智慧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah. They told me, careerwise,
+Dialogue: 0,0:00:48.44,0:00:49.91,*Default,NTP,0000,0000,0000,,有什么比给市长开车更好的差事呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you can't do better than drive the mayor.
+Dialogue: 0,0:00:49.95,0:00:51.74,*Default,NTP,0000,0000,0000,,唉 如果按照正常那么升职\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Shit, if you could make rank the right way,
+Dialogue: 0,0:00:51.78,0:00:54.04,*Default,NTP,0000,0000,0000,,我还在西巴尔的摩毒检局呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'll still be working Western drugs.
+Dialogue: 0,0:01:05.23,0:01:06.35,*Default,NTP,0000,0000,0000,,好吧 我不管了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}All right, fuck this,
+Dialogue: 0,0:01:06.39,0:01:07.99,*Default,NTP,0000,0000,0000,,我进去找警督\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm gonna go look for the lieutenant.
+Dialogue: 0,0:01:08.03,0:01:09.02,*Default,NTP,0000,0000,0000,,要是有人查岗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Anyone comes looking,
+Dialogue: 0,0:01:09.06,0:01:11.73,*Default,NTP,0000,0000,0000,,就说我在二楼\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm back up on the second floor.
+Dialogue: 0,0:01:18.57,0:01:19.70,*Default,NTP,0000,0000,0000,,先生\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Sir?
+Dialogue: 0,0:01:19.74,0:01:20.87,*Default,NTP,0000,0000,0000,,有人告诉我说市长\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I understood that the mayor
+Dialogue: 0,0:01:20.91,0:01:23.54,*Default,NTP,0000,0000,0000,,要去港口那儿吃早餐?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}might be going to, uh, breakfast at the harbor?
+Dialogue: 0,0:01:23.58,0:01:25.05,*Default,NTP,0000,0000,0000,,和Kweisi一起\N{\fnMicrosoft YaHei\fs14\2c&H111211&}With Kweisi.
+Dialogue: 0,0:01:25.08,0:01:27.38,*Default,NTP,0000,0000,0000,,但我想这事是吹了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But, um, that's up in the air, I thought.
+Dialogue: 0,0:01:27.42,0:01:30.75,*Default,NTP,0000,0000,0000,,那您知不知道Hoskins警长在哪儿吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Would you happen to know where Lieutenant Hoskins is?
+Dialogue: 0,0:01:54.01,0:01:55.60,*Default,NTP,0000,0000,0000,,老大?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Sir?
+Dialogue: 0,0:02:03.55,0:02:05.04,*Default,NTP,0000,0000,0000,,警督\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Lieutenant:
+Dialogue: 0,0:02:34.70,0:02:40.00,*Default,NTP,0000,0000,0000,,火线重案组 第四季 第2集\N{\fnMicrosoft YaHei\fs14\2c&H111211&}The.Wire.S04E02
+Dialogue: 0,0:02:43.20,0:02:46.40,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* When you walk through the garden *
+Dialogue: 0,0:02:46.80,0:02:48.40,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Watch your back *
+Dialogue: 0,0:02:48.60,0:02:51.30,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Well I beg your pardon *
+Dialogue: 0,0:02:51.50,0:02:54.00,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* walk the straight and narrow track *
+Dialogue: 0,0:02:54.20,0:02:57.10,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* If you walk with Jesus *
+Dialogue: 0,0:02:57.40,0:02:59.70,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Save your soul *
+Dialogue: 0,0:03:00.10,0:03:02.30,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Gotta keep the devil *
+Dialogue: 0,0:03:02.80,0:03:04.50,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Down in the hole *
+Dialogue: 0,0:03:04.60,0:03:07.30,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* He's got the fire and the fury *
+Dialogue: 0,0:03:07.80,0:03:09.70,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* At his command *
+Dialogue: 0,0:03:10.20,0:03:12.60,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Well you don't have to worry *
+Dialogue: 0,0:03:12.90,0:03:15.00,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Hold on to Jesus hand *
+Dialogue: 0,0:03:15.10,0:03:17.90,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* We'll all be safe from Satan *
+Dialogue: 0,0:03:18.20,0:03:20.60,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* When the thunder rolls *
+Dialogue: 0,0:03:20.80,0:03:23.80,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* But you gotta keep the devil *
+Dialogue: 0,0:03:24.10,0:03:26.40,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Down in the hole *
+Dialogue: 0,0:03:36.80,0:03:39.20,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* We'll all be safe from Satan *
+Dialogue: 0,0:03:42.80,0:03:45.10,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Gotta keep the devil *
+Dialogue: 0,0:03:45.50,0:03:47.70,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Down in the hole *
+Dialogue: 0,0:03:49.50,0:03:51.70,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Keep the devil *
+Dialogue: 0,0:03:52.20,0:03:54.40,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Down in the hole *
+Dialogue: 0,0:03:54.80,0:03:57.20,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Keep them in the hole *
+Dialogue: 0,0:03:57.40,0:03:59.80,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Down in the hole *
+Dialogue: 0,0:04:00.00,0:04:02.50,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Keep them in the hole *
+Dialogue: 0,0:04:02.80,0:04:05.10,*Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\2c&H111211&}* Down in the hole *
+Dialogue: 0,0:04:09.40,0:04:12.20,*Default,NTP,0000,0000,0000,,我却依然以白人的身份 苏醒于一个黑人城市中 —— Carcetti
+Dialogue: 0,0:04:19.22,0:04:21.85,*Default,NTP,0000,0000,0000,,你看上去不开心啊 警探\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You don't look happy, Detective.
+Dialogue: 0,0:04:21.89,0:04:25.52,*Default,NTP,0000,0000,0000,,我们这是要惩凶除恶了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}We're about to raise some hell.
+Dialogue: 0,0:04:25.56,0:04:28.53,*Default,NTP,0000,0000,0000,,也许是动静太大了点了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Maybe too much hell.
+Dialogue: 0,0:04:28.56,0:04:31.90,*Default,NTP,0000,0000,0000,,一位参议员 两位众议员\N{\fnMicrosoft YaHei\fs14\2c&H111211&}A state senator, two councilmen,
+Dialogue: 0,0:04:31.93,0:04:33.80,*Default,NTP,0000,0000,0000,,城市发展院\N{\fnMicrosoft YaHei\fs14\2c&H111211&}the City Development Agency,
+Dialogue: 0,0:04:33.84,0:04:35.33,*Default,NTP,0000,0000,0000,,所有的开发商\N{\fnMicrosoft YaHei\fs14\2c&H111211&}all those developers...
+Dialogue: 0,0:04:35.37,0:04:36.53,*Default,NTP,0000,0000,0000,,城中王侯们\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Princes of the city.
+Dialogue: 0,0:04:36.57,0:04:38.54,*Default,NTP,0000,0000,0000,,Lester 告诉我你完全没有想过\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Lester, tell me the thought hasn't
+Dialogue: 0,0:04:38.57,0:04:40.04,*Default,NTP,0000,0000,0000,,会有什么脏水\N{\fnMicrosoft YaHei\fs14\2c&H111211&}crossed your mind that some kinda shit
+Dialogue: 0,0:04:40.08,0:04:41.98,*Default,NTP,0000,0000,0000,,朝我们这儿泼 老兄\N{\fnMicrosoft YaHei\fs14\2c&H111211&}could blow back on us, man.
+Dialogue: 0,0:04:42.01,0:04:43.71,*Default,NTP,0000,0000,0000,,你知道罗斯福是怎么说\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Do you know what Theodore Roosevelt said
+Dialogue: 0,0:04:43.75,0:04:46.37,*Default,NTP,0000,0000,0000,,捕猎灰熊的感觉的吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}about hunting grizzly bears?
+Dialogue: 0,0:04:46.41,0:04:49.44,*Default,NTP,0000,0000,0000,,精彩的是战胜自身的恐惧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}The thrill is in overcoming your own fear.
+Dialogue: 0,0:04:49.48,0:04:51.68,*Default,NTP,0000,0000,0000,,那对熊有什么好精彩的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What was the thrill for the bear?
+Dialogue: 0,0:04:54.92,0:04:56.55,*Default,NTP,0000,0000,0000,,我应该在负责人办公室里\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I should've run every one of these subpoenas
+Dialogue: 0,0:04:56.59,0:04:57.58,*Default,NTP,0000,0000,0000,,就把传票一张张看一遍\N{\fnMicrosoft YaHei\fs14\2c&H111211&}by my front office.
+Dialogue: 0,0:04:57.63,0:04:59.06,*Default,NTP,0000,0000,0000,,程序不是这么走的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}That's not procedure.
+Dialogue: 0,0:04:59.09,0:05:01.96,*Default,NTP,0000,0000,0000,,去他妈的程序 Lester\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Fuck procedure, Lester.
+Dialogue: 0,0:05:02.00,0:05:03.49,*Default,NTP,0000,0000,0000,,我老板有了市长的支持\N{\fnMicrosoft YaHei\fs14\2c&H111211&}My boss is running two points behind
+Dialogue: 0,0:05:03.53,0:05:05.80,*Default,NTP,0000,0000,0000,,还在选举中落后两个点\N{\fnMicrosoft YaHei\fs14\2c&H111211&}in the polls with the mayor's support.
+Dialogue: 0,0:05:05.83,0:05:06.82,*Default,NTP,0000,0000,0000,,你觉得万一他惹恼了Royce\N{\fnMicrosoft YaHei\fs14\2c&H111211&}How do you think he's gonna do
+Dialogue: 0,0:05:06.87,0:05:07.99,*Default,NTP,0000,0000,0000,,并且在选举中支持率下降\N{\fnMicrosoft YaHei\fs14\2c&H111211&}if he pisses off Royce
+Dialogue: 0,0:05:08.04,0:05:09.50,*Default,NTP,0000,0000,0000,,他会怎么做呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and starts dropping off incumbent tickets?
+Dialogue: 0,0:05:09.54,0:05:12.10,*Default,NTP,0000,0000,0000,,关你什么事\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Why do you care?
+Dialogue: 0,0:05:12.14,0:05:15.17,*Default,NTP,0000,0000,0000,,要是Demper觉得我背地里阴了他 然后他又赢下了选举\N{\fnMicrosoft YaHei\fs14\2c&H111211&}If Demper thinks I fucked him and he wins,
+Dialogue: 0,0:05:15.21,0:05:18.51,*Default,NTP,0000,0000,0000,,我会去中央登记处负责登记保释\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I will be at Central Booking covering bail reviews.
+Dialogue: 0,0:05:18.55,0:05:19.84,*Default,NTP,0000,0000,0000,,要是他输给了Bond\N{\fnMicrosoft YaHei\fs14\2c&H111211&}If he loses to Bond,
+Dialogue: 0,0:05:19.88,0:05:21.51,*Default,NTP,0000,0000,0000,,新的管理班子入主 他们说不定觉得\N{\fnMicrosoft YaHei\fs14\2c&H111211&}a new front office comes in and maybe they bounce
+Dialogue: 0,0:05:21.55,0:05:23.21,*Default,NTP,0000,0000,0000,,得把白人姑娘踢回诉讼组\N{\fnMicrosoft YaHei\fs14\2c&H111211&}the white girl back to a trial team
+Dialogue: 0,0:05:23.25,0:05:25.34,*Default,NTP,0000,0000,0000,,然后把毒品组交给自己人打理\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and give the Narcotics Division to one of their own.
+Dialogue: 0,0:05:25.39,0:05:27.85,*Default,NTP,0000,0000,0000,,这儿是巴尔的摩啊 Lester\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It's Baltimore, Lester.
+Dialogue: 0,0:05:27.89,0:05:30.02,*Default,NTP,0000,0000,0000,,少了几张传票\N{\fnMicrosoft YaHei\fs14\2c&H111211&}We're missing a couple of subpoenas.
+Dialogue: 0,0:05:30.06,0:05:31.55,*Default,NTP,0000,0000,0000,,有吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}We are?
+Dialogue: 0,0:05:32.73,0:05:36.53,*Default,NTP,0000,0000,0000,,Clay Davis和Andy Krawczyk的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Clay Davis and Andy Krawczyk.
+Dialogue: 0,0:05:36.56,0:05:38.53,*Default,NTP,0000,0000,0000,,留着10月传唤\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm holding those till October.
+Dialogue: 0,0:05:38.57,0:05:40.03,*Default,NTP,0000,0000,0000,,搞什么呢你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Oh, the hell you are.
+Dialogue: 0,0:05:40.07,0:05:41.16,*Default,NTP,0000,0000,0000,,Lester...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Lester...
+Dialogue: 0,0:05:41.20,0:05:43.53,*Default,NTP,0000,0000,0000,,我们在大选前三周\N{\fnMicrosoft YaHei\fs14\2c&H111211&}we drop subpoenas on either of those guys
+Dialogue: 0,0:05:43.57,0:05:45.37,*Default,NTP,0000,0000,0000,,传唤这其中的任何一个\N{\fnMicrosoft YaHei\fs14\2c&H111211&}three weeks before the primary,
+Dialogue: 0,0:05:45.41,0:05:47.03,*Default,NTP,0000,0000,0000,,我们就等着失业吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and all hell breaks loose.
+Dialogue: 0,0:05:47.08,0:05:48.80,*Default,NTP,0000,0000,0000,,我就是这意思\N{\fnMicrosoft YaHei\fs14\2c&H111211&}That's what I'm sayin'!
+Dialogue: 0,0:05:48.84,0:05:51.71,*Default,NTP,0000,0000,0000,,Clay Davis是Royce的竞选委员会副主席\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Clay Davis is Royce's deputy campaign chairman,
+Dialogue: 0,0:05:51.75,0:05:54.54,*Default,NTP,0000,0000,0000,,而且是市立法委的二号人物\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and the number-two man at the City Legislative Caucus.
+Dialogue: 0,0:05:54.58,0:05:56.81,*Default,NTP,0000,0000,0000,,而Krawczyk又是头号的基金募集人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And Krawczyk is his number-one fundraiser!
+Dialogue: 0,0:05:56.85,0:05:58.98,*Default,NTP,0000,0000,0000,,甭给我介绍建立和名号了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You're giving me resumes and job titles.
+Dialogue: 0,0:05:59.02,0:06:00.89,*Default,NTP,0000,0000,0000,,我只追着赃款\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm just following the money.
+Dialogue: 0,0:06:00.92,0:06:04.15,*Default,NTP,0000,0000,0000,,会追查的 等选举结束\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And we will follow it... after the polls close.
+Dialogue: 0,0:06:04.19,0:06:06.32,*Default,NTP,0000,0000,0000,,我们可以到时候再传唤\N{\fnMicrosoft YaHei\fs14\2c&H111211&}We can drop a second batch of subpoenas.
+Dialogue: 0,0:06:06.36,0:06:09.30,*Default,NTP,0000,0000,0000,,没必要现在冒险...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}There is no reason to do this now and risk--
+Dialogue: 0,0:06:09.33,0:06:11.82,*Default,NTP,0000,0000,0000,,一年前 如果我们追查这些记录\N{\fnMicrosoft YaHei\fs14\2c&H111211&}A year ago, if we had gone after these records,
+Dialogue: 0,0:06:11.87,0:06:14.16,*Default,NTP,0000,0000,0000,,市政厅会狠狠地把我们小组\N{\fnMicrosoft YaHei\fs14\2c&H111211&}City Hall would've stomped on this unit
+Dialogue: 0,0:06:14.20,0:06:15.83,*Default,NTP,0000,0000,0000,,还有这些传票都打压下去\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and the subpoenas.
+Dialogue: 0,0:06:15.87,0:06:19.33,*Default,NTP,0000,0000,0000,,过一个月 等Royce连任了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And a month from now, after Royce is reelected,
+Dialogue: 0,0:06:19.37,0:06:21.81,*Default,NTP,0000,0000,0000,,他们还会这么对待我们\N{\fnMicrosoft YaHei\fs14\2c&H111211&}they'll do us the same way.
+Dialogue: 0,0:06:21.84,0:06:26.08,*Default,NTP,0000,0000,0000,,但现在 马上要大选了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But right now, with the primary coming,
+Dialogue: 0,0:06:26.11,0:06:27.84,*Default,NTP,0000,0000,0000,,他们担心的是自己的光鲜外表\N{\fnMicrosoft YaHei\fs14\2c&H111211&}they gotta worry about how they look,
+Dialogue: 0,0:06:27.88,0:06:29.68,*Default,NTP,0000,0000,0000,,表现够不够好\N{\fnMicrosoft YaHei\fs14\2c&H111211&}how they behave.
+Dialogue: 0,0:06:30.89,0:06:34.55,*Default,NTP,0000,0000,0000,,现在 他们得担心会不会有丑闻\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Right now, they gotta worry about scandal.
+Dialogue: 0,0:06:37.73,0:06:39.69,*Default,NTP,0000,0000,0000,,你告诉我你一年前就想办这案子了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You told me you wanted to do this a year ago,
+Dialogue: 0,0:06:39.73,0:06:42.39,*Default,NTP,0000,0000,0000,,但新案子太多忙不过来\N{\fnMicrosoft YaHei\fs14\2c&H111211&}but fresh cases got in the way.
+Dialogue: 0,0:06:45.57,0:06:47.97,*Default,NTP,0000,0000,0000,,你当初是这么说来着\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You told me that.
+Dialogue: 0,0:06:49.34,0:06:52.20,*Default,NTP,0000,0000,0000,,哦\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Oh.
+Dialogue: 0,0:06:52.24,0:06:54.71,*Default,NTP,0000,0000,0000,,真聪明 Lester\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Very clever, Lester.
+Dialogue: 0,0:06:54.74,0:06:57.27,*Default,NTP,0000,0000,0000,,你全都算计好了 是不\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You got it all figured, huh?
+Dialogue: 0,0:06:57.31,0:07:00.21,*Default,NTP,0000,0000,0000,,我吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Me...
+Dialogue: 0,0:07:00.25,0:07:03.01,*Default,NTP,0000,0000,0000,,我不过是个警察\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm just the police.
+Dialogue: 0,0:07:05.52,0:07:08.32,*Default,NTP,0000,0000,0000,,教师协会最后还是支持了Royce\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I saw the teachers' union finally endorsed Royce.
+Dialogue: 0,0:07:08.36,0:07:10.55,*Default,NTP,0000,0000,0000,,你知道他们早晚会这么做的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You knew they were gonna.
+Dialogue: 0,0:07:16.36,0:07:18.33,*Default,NTP,0000,0000,0000,,你第一次露面是什么时候\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What time's your first appearance?
+Dialogue: 0,0:07:18.37,0:07:19.49,*Default,NTP,0000,0000,0000,,今天吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Today?
+Dialogue: 0,0:07:19.53,0:07:22.33,*Default,NTP,0000,0000,0000,,我会跟你们在SoWeBo论坛碰头\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I meet up with you guys at the SoWeBo forum.
+Dialogue: 0,0:07:22.37,0:07:24.67,*Default,NTP,0000,0000,0000,,然后今晚带着孩子站在Tommy身边\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And tonight, it's me and the kids next to Tommy
+Dialogue: 0,0:07:24.71,0:07:27.37,*Default,NTP,0000,0000,0000,,参加Roland公园基金募集会\N{\fnMicrosoft YaHei\fs14\2c&H111211&}at the Roland Park fundraiser.
+Dialogue: 0,0:07:33.88,0:07:36.51,*Default,NTP,0000,0000,0000,,我去催催他吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Better speed things along.
+Dialogue: 0,0:07:36.55,0:07:39.38,*Default,NTP,0000,0000,0000,,踹他一脚挺管用的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}A kick in the ass sometimes helps.
+Dialogue: 0,0:07:40.72,0:07:45.35,*Default,NTP,0000,0000,0000,,- 不 爸爸 D-5\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- B-5? - B-5? - No, Daddy, D-5.
+Dialogue: 0,0:07:45.39,0:07:47.19,*Default,NTP,0000,0000,0000,,你确定你刚说的不是B-5吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You sure you didn't say B-5?
+Dialogue: 0,0:07:47.23,0:07:50.03,*Default,NTP,0000,0000,0000,,D-5 我打中什么了?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}D-5. What did I hit?
+Dialogue: 0,0:07:50.06,0:07:51.55,*Default,NTP,0000,0000,0000,,潜水艇\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Submarine.
+Dialogue: 0,0:07:53.40,0:07:56.03,*Default,NTP,0000,0000,0000,,嗯...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Umm...
+Dialogue: 0,0:07:56.07,0:07:58.04,*Default,NTP,0000,0000,0000,,E-6\N{\fnMicrosoft YaHei\fs14\2c&H111211&}E-6.
+Dialogue: 0,0:07:58.07,0:07:59.40,*Default,NTP,0000,0000,0000,,没打中\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Miss.
+Dialogue: 0,0:08:02.68,0:08:03.97,*Default,NTP,0000,0000,0000,,再给我10分钟\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Just gimme 10 minutes.
+Dialogue: 0,0:08:04.01,0:08:05.31,*Default,NTP,0000,0000,0000,,你今天没看日程安排吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You seen your schedule today?
+Dialogue: 0,0:08:05.35,0:08:06.64,*Default,NTP,0000,0000,0000,,10分钟也不行\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You ain't got 10 minutes.
+Dialogue: 0,0:08:06.68,0:08:08.81,*Default,NTP,0000,0000,0000,,Norman 我差点就能\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Norman, I got this pretty girl's
+Dialogue: 0,0:08:08.85,0:08:10.65,*Default,NTP,0000,0000,0000,,把这小萌妹的航空母舰给搞定了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}aircraft carrier boxed in.
+Dialogue: 0,0:08:10.69,0:08:14.64,*Default,NTP,0000,0000,0000,,- 哦! 打中了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- D-4 - D-4. - Ow! Hit.
+Dialogue: 0,0:08:14.69,0:08:16.32,*Default,NTP,0000,0000,0000,,Tommy 别闹了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Tommy, for Christ's sakes.
+Dialogue: 0,0:08:16.36,0:08:18.59,*Default,NTP,0000,0000,0000,,我还有机会赢吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Is there any way that I can win?
+Dialogue: 0,0:08:18.63,0:08:20.99,*Default,NTP,0000,0000,0000,,以他们现在的支持率 我还有可能吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}With the numbers what they are, is there any way at all?
+Dialogue: 0,0:08:21.03,0:08:23.50,*Default,NTP,0000,0000,0000,,没错 如果只是要坚持到底的话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Right, so if it's just a matter of playing out the string,
+Dialogue: 0,0:08:23.53,0:08:24.66,*Default,NTP,0000,0000,0000,,我也会坚持的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}then that's what I'm gonna do.
+Dialogue: 0,0:08:24.70,0:08:26.17,*Default,NTP,0000,0000,0000,,但那场比赛基本算是结束了 Norman\N{\fnMicrosoft YaHei\fs14\2c&H111211&}That game's pretty much over, Norman.
+Dialogue: 0,0:08:26.20,0:08:29.19,*Default,NTP,0000,0000,0000,,而这场比赛 这儿的比赛\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But this game-- this game right here--
+Dialogue: 0,0:08:29.24,0:08:31.87,*Default,NTP,0000,0000,0000,,还没有决出胜负\N{\fnMicrosoft YaHei\fs14\2c&H111211&}this one could still go either way.
+Dialogue: 0,0:08:33.71,0:08:34.83,*Default,NTP,0000,0000,0000,,H-11 亲爱的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}H-11, sweetheart.
+Dialogue: 0,0:08:34.88,0:08:36.47,*Default,NTP,0000,0000,0000,,没打中 D-3\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Miss. D-3.
+Dialogue: 0,0:09:26.69,0:09:29.49,*Default,NTP,0000,0000,0000,,我想你们都拿到需要的东西了吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}So I guess y'all getting what y'all need?
+Dialogue: 0,0:09:29.53,0:09:32.16,*Default,NTP,0000,0000,0000,,- Brianna同你们亲密吗 - 她说到做到\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Brianna keepin' y'all close? - She come up with it.
+Dialogue: 0,0:09:32.20,0:09:34.67,*Default,NTP,0000,0000,0000,,每个月都如约送钱来\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Money comin' through every month like she say.
+Dialogue: 0,0:09:34.70,0:09:37.23,*Default,NTP,0000,0000,0000,,好吧 因为我在这儿还坚持得下去\N{\fnMicrosoft YaHei\fs14\2c&H111211&}A'ight, 'cause I'm standin' tall up in here.
+Dialogue: 0,0:09:37.27,0:09:39.03,*Default,NTP,0000,0000,0000,,他们不需要担心我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}They don't need to worry about me
+Dialogue: 0,0:09:39.07,0:09:40.67,*Default,NTP,0000,0000,0000,,我也不需要担心他们\N{\fnMicrosoft YaHei\fs14\2c&H111211&}an' I ain't need to worry about them.
+Dialogue: 0,0:09:40.71,0:09:43.54,*Default,NTP,0000,0000,0000,,- 你是个士兵 Bey - 你知道的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- You a soldier, Bey. - You know it.
+Dialogue: 0,0:09:45.21,0:09:47.94,*Default,NTP,0000,0000,0000,,我的鱼还好么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Everything all right with my fishes?
+Dialogue: 0,0:09:47.98,0:09:49.64,*Default,NTP,0000,0000,0000,,你告诉我它们都还好吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You'd tell me if it wasn't, right?
+Dialogue: 0,0:09:49.68,0:09:52.68,*Default,NTP,0000,0000,0000,,鱼都好 我是说 它们是鱼\N{\fnMicrosoft YaHei\fs14\2c&H111211&}The fish be fine. I mean, they fish, right?
+Dialogue: 0,0:09:52.72,0:09:54.52,*Default,NTP,0000,0000,0000,,我咋知道它们乐不乐\N{\fnMicrosoft YaHei\fs14\2c&H111211&}How I know how they feelin' about shit?
+Dialogue: 0,0:09:54.56,0:09:56.52,*Default,NTP,0000,0000,0000,,- 鱼都好 Bey\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- De'londa... - De'londa... - They fine, Bey.
+Dialogue: 0,0:09:56.56,0:09:58.18,*Default,NTP,0000,0000,0000,,你问Namond\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Ask Namond.
+Dialogue: 0,0:09:58.23,0:10:00.02,*Default,NTP,0000,0000,0000,,一直按你说的清洗鱼缸\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Cleaned the tank an' all, like you say.
+Dialogue: 0,0:10:00.06,0:10:03.03,*Default,NTP,0000,0000,0000,,- 还有过滤器 - 好吧 好吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Cleaned the filter, too. - A'ight, a'ight.
+Dialogue: 0,0:10:03.06,0:10:04.16,*Default,NTP,0000,0000,0000,,就是问问呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Check you out, though.
+Dialogue: 0,0:10:04.20,0:10:06.53,*Default,NTP,0000,0000,0000,,上面起了一点毛了哈\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Getting some fuzz up there, huh?
+Dialogue: 0,0:10:06.57,0:10:08.59,*Default,NTP,0000,0000,0000,,- 嗯嗯 - 对\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Mm-hmm. - Yeah, whatever.
+Dialogue: 0,0:10:08.64,0:10:10.23,*Default,NTP,0000,0000,0000,,我自己还是个楞头青的时候 儿子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I know when I was a little kid, boy,
+Dialogue: 0,0:10:10.27,0:10:12.10,*Default,NTP,0000,0000,0000,,等不及想要刮胡子啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I couldn't wait till I started shaving.
+Dialogue: 0,0:10:12.14,0:10:13.77,*Default,NTP,0000,0000,0000,,街角有个老混混说\N{\fnMicrosoft YaHei\fs14\2c&H111211&}One of the old heads on the corner say,
+Dialogue: 0,0:10:13.81,0:10:16.54,*Default,NTP,0000,0000,0000,,"嘿 小子 想要留胡子么"\N{\fnMicrosoft YaHei\fs14\2c&H111211&}"Hey, little man, you wanna grow a 'stache?
+Dialogue: 0,0:10:16.58,0:10:18.20,*Default,NTP,0000,0000,0000,,下次你生气的时候\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Next time you take a piss,
+Dialogue: 0,0:10:18.25,0:10:19.37,*Default,NTP,0000,0000,0000,,记得要这样\N{\fnMicrosoft YaHei\fs14\2c&H111211&}take some of that piss,
+Dialogue: 0,0:10:19.41,0:10:20.71,*Default,NTP,0000,0000,0000,,拿手指摸一摸\N{\fnMicrosoft YaHei\fs14\2c&H111211&}get it on your fingertips,
+Dialogue: 0,0:10:20.75,0:10:21.91,*Default,NTP,0000,0000,0000,,好像这个样子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}do like this, here."
+Dialogue: 0,0:10:21.95,0:10:23.38,*Default,NTP,0000,0000,0000,,哇 你真这么干了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Eww! You do it:
+Dialogue: 0,0:10:23.42,0:10:25.55,*Default,NTP,0000,0000,0000,,没错我真这么干了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You damn right I did it.
+Dialogue: 0,0:10:25.59,0:10:26.88,*Default,NTP,0000,0000,0000,,操\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Shit.
+Dialogue: 0,0:10:26.92,0:10:28.75,*Default,NTP,0000,0000,0000,,你怎么样 儿子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What's going on with you, though, son?
+Dialogue: 0,0:10:28.79,0:10:32.28,*Default,NTP,0000,0000,0000,,没啥 快开学了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Ain't nothing. School about to start.
+Dialogue: 0,0:10:32.33,0:10:34.12,*Default,NTP,0000,0000,0000,,那Bodie和他的跟班呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}So what about Bodie and his boys?
+Dialogue: 0,0:10:34.16,0:10:35.96,*Default,NTP,0000,0000,0000,,他们对你还好吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}They treatin' you right?
+Dialogue: 0,0:10:36.00,0:10:37.56,*Default,NTP,0000,0000,0000,,对 还行\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, he cool.
+Dialogue: 0,0:10:37.60,0:10:40.09,*Default,NTP,0000,0000,0000,,儿子 别对你父亲撒谎\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Boy, don't lie to your father.
+Dialogue: 0,0:10:40.13,0:10:43.30,*Default,NTP,0000,0000,0000,,他大半时间都没有去上班\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He don't even show up for work half the damn time.
+Dialogue: 0,0:10:43.34,0:10:46.20,*Default,NTP,0000,0000,0000,,- Bodie告诉我的 - 我少去了几天 仅此而已 老爸\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Bodie told me. - I missed a few days. That's all, Dad.
+Dialogue: 0,0:10:46.24,0:10:47.23,*Default,NTP,0000,0000,0000,,还有你赚的钱\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And what money you do make,
+Dialogue: 0,0:10:47.28,0:10:48.83,*Default,NTP,0000,0000,0000,,全都浪费了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you waste on nonsense.
+Dialogue: 0,0:10:48.88,0:10:50.90,*Default,NTP,0000,0000,0000,,你要是觉得我会掏钱\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And if you think I'm gonna give you a dime
+Dialogue: 0,0:10:50.95,0:10:54.11,*Default,NTP,0000,0000,0000,,给你买开学新衣服 你就别做梦了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}for your school clothes, you better think again.
+Dialogue: 0,0:10:54.15,0:10:55.81,*Default,NTP,0000,0000,0000,,Bodie让你做什么了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What Bodie got you doin'?
+Dialogue: 0,0:10:55.85,0:10:57.11,*Default,NTP,0000,0000,0000,,大多数时间是让我送货\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm a runner, most days.
+Dialogue: 0,0:10:57.15,0:10:58.91,*Default,NTP,0000,0000,0000,,起步都是这样的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Everybody got to start somewhere.
+Dialogue: 0,0:10:58.95,0:11:01.05,*Default,NTP,0000,0000,0000,,你好好听你父亲的话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You better listen to your father.
+Dialogue: 0,0:11:01.09,0:11:03.89,*Default,NTP,0000,0000,0000,,他没说你这头发吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He ain't tell you 'bout that hair, though, huh?
+Dialogue: 0,0:11:03.93,0:11:06.12,*Default,NTP,0000,0000,0000,,有 他说我得去剪了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, he said I gotta get it cut.
+Dialogue: 0,0:11:06.16,0:11:07.35,*Default,NTP,0000,0000,0000,,我喜欢这样\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I like it this way.
+Dialogue: 0,0:11:07.40,0:11:08.59,*Default,NTP,0000,0000,0000,,哪怕是一个白人警察\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Even the white police lookin' out from
+Dialogue: 0,0:11:08.63,0:11:10.32,*Default,NTP,0000,0000,0000,,从三个街区外看过来\N{\fnMicrosoft YaHei\fs14\2c&H111211&}three blocks away gonna be able to spot you
+Dialogue: 0,0:11:10.36,0:11:12.30,*Default,NTP,0000,0000,0000,,都能把你同其他黑人分辨出来\N{\fnMicrosoft YaHei\fs14\2c&H111211&}from every other nigga out there.
+Dialogue: 0,0:11:12.33,0:11:14.30,*Default,NTP,0000,0000,0000,,他们会说"瞧瞧那边那个小子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}They gonna hop out and say, "Look at the boy over there
+Dialogue: 0,0:11:14.34,0:11:17.10,*Default,NTP,0000,0000,0000,,扎傻逼马尾辫的那个 抓住他"\N{\fnMicrosoft YaHei\fs14\2c&H111211&}with the pretty-ass ponytail. Get him."
+Dialogue: 0,0:11:17.14,0:11:19.11,*Default,NTP,0000,0000,0000,,你觉得我是在胡扯\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You think I'm bullshitting.
+Dialogue: 0,0:11:19.14,0:11:22.20,*Default,NTP,0000,0000,0000,,你在外面要么懂事 要么就混不下去\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Either you real out there, or you ain't, Nay.
+Dialogue: 0,0:11:22.24,0:11:24.40,*Default,NTP,0000,0000,0000,,你懂我的意思么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You see what I'm sayin'?
+Dialogue: 0,0:11:30.92,0:11:32.39,*Default,NTP,0000,0000,0000,,给我点!\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Let me get some!
+Dialogue: 0,0:11:32.42,0:11:33.85,*Default,NTP,0000,0000,0000,,嘿 你!过来!\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hey, yo! Over here!
+Dialogue: 0,0:11:33.89,0:11:35.72,*Default,NTP,0000,0000,0000,,- 哇! 100刀 - 谢谢 先生!\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Whoa! $100! - Thanks, mister!
+Dialogue: 0,0:11:37.09,0:11:39.42,*Default,NTP,0000,0000,0000,,- 谢谢 Marlo先生! - 谢谢!\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Thank you, Mr. Marlo! - Thank you!
+Dialogue: 0,0:11:45.93,0:11:48.09,*Default,NTP,0000,0000,0000,,那是我的钱 喂\N{\fnMicrosoft YaHei\fs14\2c&H111211&}That's my money, yo!
+Dialogue: 0,0:11:53.94,0:11:56.93,*Default,NTP,0000,0000,0000,,你一定声名远扬了 老兄\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Your name gonna ring out, man.
+Dialogue: 0,0:11:59.55,0:12:01.54,*Default,NTP,0000,0000,0000,,Manuel...{\fs14} （西班牙语){\r}\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Manuel...
+Dialogue: 0,0:12:11.89,0:12:13.52,*Default,NTP,0000,0000,0000,,小子 你说这话比我强\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Boy, you talk that shit better'n me
+Dialogue: 0,0:12:13.56,0:12:15.93,*Default,NTP,0000,0000,0000,,我已经同那些墨西哥人 打了好几年交道\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and I been dealin' with these Mexicans for years now.
+Dialogue: 0,0:12:15.96,0:12:17.19,*Default,NTP,0000,0000,0000,,对 我觉得他们不会\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, I don't think they would call
+Dialogue: 0,0:12:17.23,0:12:19.03,*Default,NTP,0000,0000,0000,,把我说的话叫做西班牙语 兄弟\N{\fnMicrosoft YaHei\fs14\2c&H111211&}what I'm speakin' Spanish, man.
+Dialogue: 0,0:12:19.07,0:12:21.03,*Default,NTP,0000,0000,0000,,就是随口吐几句脏\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Just a dirty word or two here or there.
+Dialogue: 0,0:12:21.07,0:12:23.20,*Default,NTP,0000,0000,0000,,对 但你一旦同这些猫儿搭上话了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, well. Once you can talk to these cats,
+Dialogue: 0,0:12:23.24,0:12:25.71,*Default,NTP,0000,0000,0000,,你就只需要再来一辆卡车就行了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}the only thing you need then is a truck, man.
+Dialogue: 0,0:12:25.74,0:12:26.97,*Default,NTP,0000,0000,0000,,可以自己搞一队人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Could be runnin' your own crew,
+Dialogue: 0,0:12:27.01,0:12:28.98,*Default,NTP,0000,0000,0000,,接一点新的客户\N{\fnMicrosoft YaHei\fs14\2c&H111211&}pickin' up fresh clients.
+Dialogue: 0,0:12:29.01,0:12:30.53,*Default,NTP,0000,0000,0000,,我是说 如果我们合作\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I mean, if we put in together
+Dialogue: 0,0:12:30.58,0:12:32.10,*Default,NTP,0000,0000,0000,,我们可以扩张两倍的地盘\N{\fnMicrosoft YaHei\fs14\2c&H111211&}we could be coverin' twice the ground,
+Dialogue: 0,0:12:32.15,0:12:33.81,*Default,NTP,0000,0000,0000,,赚两倍的钱\N{\fnMicrosoft YaHei\fs14\2c&H111211&}makin' twice as much.
+Dialogue: 0,0:12:33.85,0:12:37.38,*Default,NTP,0000,0000,0000,,不了 兄弟 我还有其他的事要做\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Nah, man, I got other obligations.
+Dialogue: 0,0:12:37.42,0:12:38.65,*Default,NTP,0000,0000,0000,,哦 好吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Oh, right.
+Dialogue: 0,0:12:38.69,0:12:41.35,*Default,NTP,0000,0000,0000,,你可是要做新Angelo Dundee的 {\fs14}（传奇拳击教练){\r}\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You set to be the new Angelo Dundee.
+Dialogue: 0,0:12:41.39,0:12:42.95,*Default,NTP,0000,0000,0000,,我差点忘了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I near forgot.
+Dialogue: 0,0:12:50.93,0:12:52.23,*Default,NTP,0000,0000,0000,,我还以为你去了Mondawmin\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I thought you already went up
+Dialogue: 0,0:12:52.27,0:12:54.39,*Default,NTP,0000,0000,0000,,去买开学的东西了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to Mondawmin to get your school shit, man.
+Dialogue: 0,0:12:54.44,0:12:56.06,*Default,NTP,0000,0000,0000,,对 但也不全是\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, but not all of it.
+Dialogue: 0,0:12:56.10,0:12:57.23,*Default,NTP,0000,0000,0000,,还有我兄弟\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And my boy,
+Dialogue: 0,0:12:57.27,0:12:58.40,*Default,NTP,0000,0000,0000,,得自己付学费\N{\fnMicrosoft YaHei\fs14\2c&H111211&}he need to pay for his own shit
+Dialogue: 0,0:12:58.44,0:12:59.70,*Default,NTP,0000,0000,0000,,还有他弟弟的也是\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and his little brother, too.
+Dialogue: 0,0:12:59.74,0:13:00.73,*Default,NTP,0000,0000,0000,,这儿他妈的看上去\N{\fnMicrosoft YaHei\fs14\2c&H111211&}The fuck this look like,
+Dialogue: 0,0:13:00.78,0:13:02.68,*Default,NTP,0000,0000,0000,,难道向社区服务站吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}a Social Services office?
+Dialogue: 0,0:13:02.71,0:13:04.30,*Default,NTP,0000,0000,0000,,你要钱 就去找Rosemont\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You want a check, go the fuck up Rosemont.
+Dialogue: 0,0:13:04.35,0:13:05.78,*Default,NTP,0000,0000,0000,,别这样 兄弟 我会努力工作的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Come on, man, I'll work for it.
+Dialogue: 0,0:13:07.21,0:13:09.84,*Default,NTP,0000,0000,0000,,不行 我带着你只是因为你爸\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Nay, I took you on outta respect for your father,
+Dialogue: 0,0:13:09.88,0:13:11.51,*Default,NTP,0000,0000,0000,,懂么 但我不能\N{\fnMicrosoft YaHei\fs14\2c&H111211&}a'ight, but I can't go hirin'
+Dialogue: 0,0:13:11.55,0:13:13.65,*Default,NTP,0000,0000,0000,,把这个社区的人都雇下来\N{\fnMicrosoft YaHei\fs14\2c&H111211&}the whole damn neighborhood.
+Dialogue: 0,0:13:13.69,0:13:14.68,*Default,NTP,0000,0000,0000,,你就替我工作吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You can have my job until
+Dialogue: 0,0:13:14.72,0:13:16.52,*Default,NTP,0000,0000,0000,,直到赚够你和Bug的学费为止\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you get enough for you an' Bug.
+Dialogue: 0,0:13:16.56,0:13:19.92,*Default,NTP,0000,0000,0000,,- 谢了 - 好吧 你们没意见 我就无所谓\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Thanks, man. - Yeah, work for y'all, work for me, yo.
+Dialogue: 0,0:13:19.96,0:13:22.19,*Default,NTP,0000,0000,0000,,警察来了 滚远点\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Po-po. Step the fuck off.
+Dialogue: 0,0:13:31.91,0:13:33.60,*Default,NTP,0000,0000,0000,,来找你小弟Lex的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Looking for your man Lex.
+Dialogue: 0,0:13:33.64,0:13:35.80,*Default,NTP,0000,0000,0000,,我瞧见他的扫把 但没瞧见他\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I see his broom, but I don't see him.
+Dialogue: 0,0:13:35.84,0:13:37.44,*Default,NTP,0000,0000,0000,,你的二把手去哪儿了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Where's your number two been at?
+Dialogue: 0,0:13:37.48,0:13:40.28,*Default,NTP,0000,0000,0000,,- 我也没见过他 - 啥时候的事?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- I ain't seen him. - Since when?
+Dialogue: 0,0:13:40.31,0:13:42.75,*Default,NTP,0000,0000,0000,,我还以为我们说好了呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I thought we were on better terms.
+Dialogue: 0,0:13:42.78,0:13:43.88,*Default,NTP,0000,0000,0000,,还是你希望我每隔15分钟\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Or do you want me rolling past
+Dialogue: 0,0:13:43.92,0:13:46.05,*Default,NTP,0000,0000,0000,,就来找一次Lex?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Iookin' for Lex every 15 minutes?
+Dialogue: 0,0:13:46.09,0:13:47.95,*Default,NTP,0000,0000,0000,,他要是来 我会打电话给你的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He come past, I'll call you.
+Dialogue: 0,0:13:49.06,0:13:50.15,*Default,NTP,0000,0000,0000,,真的!\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I will!
+Dialogue: 0,0:14:05.04,0:14:07.37,*Default,NTP,0000,0000,0000,,如果他来的话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}If he come past.
+Dialogue: 0,0:14:08.54,0:14:10.51,*Default,NTP,0000,0000,0000,,哦 不 我不知道\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Oh no, I don't know.
+Dialogue: 0,0:14:10.54,0:14:12.34,*Default,NTP,0000,0000,0000,,他们使出浑身解数呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}They're spinning their wheels.
+Dialogue: 0,0:14:12.38,0:14:14.04,*Default,NTP,0000,0000,0000,,你知道的 可怜的Tony Gray\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You know, poor Tony Gray,
+Dialogue: 0,0:14:14.08,0:14:16.85,*Default,NTP,0000,0000,0000,,拿到了20%的黑人选票\N{\fnMicrosoft YaHei\fs14\2c&H111211&}pulling 20% of the black vote.
+Dialogue: 0,0:14:16.88,0:14:19.35,*Default,NTP,0000,0000,0000,,真尴尬\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It's embarrassing.
+Dialogue: 0,0:14:19.39,0:14:20.51,*Default,NTP,0000,0000,0000,,谁他妈知道\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Well, who knows what the fuck
+Dialogue: 0,0:14:20.55,0:14:21.85,*Default,NTP,0000,0000,0000,,Carcetti想要证明什么呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Carcetti's trying to prove?
+Dialogue: 0,0:14:21.89,0:14:23.62,*Default,NTP,0000,0000,0000,,但我得告诉你 等这事儿结束了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But I tell you, at the end of this thing,
+Dialogue: 0,0:14:23.66,0:14:26.35,*Default,NTP,0000,0000,0000,,他保准后悔没站在我这边\N{\fnMicrosoft YaHei\fs14\2c&H111211&}he's gonna regret getting on the wrong side of me.
+Dialogue: 0,0:14:26.39,0:14:27.69,*Default,NTP,0000,0000,0000,,嗯嗯\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Mm-hmm.
+Dialogue: 0,0:14:27.73,0:14:31.36,*Default,NTP,0000,0000,0000,,好了 我这儿有你需要的东西 孩子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}A'ight, now. I got what you need, boy,
+Dialogue: 0,0:14:31.40,0:14:33.87,*Default,NTP,0000,0000,0000,,干净的T恤 什么码的都有\N{\fnMicrosoft YaHei\fs14\2c&H111211&}clean tees, any sizes, huh?
+Dialogue: 0,0:14:33.90,0:14:35.66,*Default,NTP,0000,0000,0000,,要买袜子 内裤\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Lookin' for socks, briefs,
+Dialogue: 0,0:14:35.70,0:14:38.47,*Default,NTP,0000,0000,0000,,还是骰子 打火机 纸牌\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you lookin' for dice, Zippos, cards--
+Dialogue: 0,0:14:38.51,0:14:40.53,*Default,NTP,0000,0000,0000,,请到移动市场来买吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}come on over to the Rollin' Emporium.
+Dialogue: 0,0:14:40.57,0:14:41.87,*Default,NTP,0000,0000,0000,,你不来找Rite-Aid\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You ain't gotta walk to Rite-Aid.
+Dialogue: 0,0:14:41.91,0:14:43.71,*Default,NTP,0000,0000,0000,,Rite-Aid也会来找你们\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Shit, Rite-Aid comin' to y'all.
+Dialogue: 0,0:14:43.74,0:14:45.08,*Default,NTP,0000,0000,0000,,需要什么 亲爱的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What can I get you, baby?
+Dialogue: 0,0:14:45.11,0:14:46.88,*Default,NTP,0000,0000,0000,,干净的骰子 再来一包Trojans\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Fresh dice an' a pack of Trojans.
+Dialogue: 0,0:14:46.91,0:14:49.21,*Default,NTP,0000,0000,0000,,- 好的 - 有Philly Blunts吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- All righty. - You got Philly Blunts, too?
+Dialogue: 0,0:14:49.25,0:14:50.38,*Default,NTP,0000,0000,0000,,我这儿什么都有\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Bubbles got it all, dawg.
+Dialogue: 0,0:14:50.42,0:14:52.35,*Default,NTP,0000,0000,0000,,我们是一站式购物\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm the one-stop shop.
+Dialogue: 0,0:14:52.39,0:14:54.88,*Default,NTP,0000,0000,0000,,- 多少钱 - 6块多\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- How much is that? - Six an' a bit.
+Dialogue: 0,0:14:54.92,0:14:56.89,*Default,NTP,0000,0000,0000,,谢谢 非常感谢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Thank you. Thank you kindly.
+Dialogue: 0,0:14:56.92,0:14:58.65,*Default,NTP,0000,0000,0000,,对 先生 我知道你在看什么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yes, sir, I see what you're lookin' at.
+Dialogue: 0,0:14:58.69,0:15:00.29,*Default,NTP,0000,0000,0000,,两块钱一副牌 明码标价\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Two a deck, name brand.
+Dialogue: 0,0:15:00.33,0:15:01.32,*Default,NTP,0000,0000,0000,,谢绝还价\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You can't beat that price.
+Dialogue: 0,0:15:01.36,0:15:03.59,*Default,NTP,0000,0000,0000,,给我两副牌\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, let me get two decks, man,
+Dialogue: 0,0:15:03.63,0:15:05.86,*Default,NTP,0000,0000,0000,,还要件白T恤 XX号的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and a white tee, double-X.
+Dialogue: 0,0:15:05.90,0:15:07.42,*Default,NTP,0000,0000,0000,,再给我点喷漆\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And give me the rest of them paint cans, too, man.
+Dialogue: 0,0:15:07.47,0:15:10.49,*Default,NTP,0000,0000,0000,,好的 好的 给 多少?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}All right, all right, there you go. That's it?
+Dialogue: 0,0:15:10.54,0:15:12.67,*Default,NTP,0000,0000,0000,,对 多少?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, what's that?
+Dialogue: 0,0:15:12.71,0:15:15.04,*Default,NTP,0000,0000,0000,,他应该付多少钱 Sherrod?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}How much the man owe, Sherrod?
+Dialogue: 0,0:15:22.22,0:15:23.84,*Default,NTP,0000,0000,0000,,- 13块 - 哇 哇 哇\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- 13. - Whoa whoa whoa.
+Dialogue: 0,0:15:23.88,0:15:25.51,*Default,NTP,0000,0000,0000,,他是把喷漆全要了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He asked for all the cans.
+Dialogue: 0,0:15:25.55,0:15:27.68,*Default,NTP,0000,0000,0000,,三罐是12块 还有其他的东西\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Three cans is $12, plus the other stuff.
+Dialogue: 0,0:15:29.22,0:15:30.52,*Default,NTP,0000,0000,0000,,是19块 19块 先生\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It's $19. $19, sir.
+Dialogue: 0,0:15:30.56,0:15:31.68,*Default,NTP,0000,0000,0000,,拜托 这还是跳楼价啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Come on, you still gettin' off with a deal,
+Dialogue: 0,0:15:31.73,0:15:33.35,*Default,NTP,0000,0000,0000,,你不必跑老远去买\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Now, you didn't have to move your feet.
+Dialogue: 0,0:15:33.39,0:15:34.52,*Default,NTP,0000,0000,0000,,是我们来找你的 对么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}We came to you, right?
+Dialogue: 0,0:15:34.56,0:15:37.73,*Default,NTP,0000,0000,0000,,我的错 19块 按他说的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}My bad. $19, like he said.
+Dialogue: 0,0:15:38.90,0:15:40.03,*Default,NTP,0000,0000,0000,,非常感谢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Thank you very much.
+Dialogue: 0,0:15:40.07,0:15:42.43,*Default,NTP,0000,0000,0000,,他是个实习生 我在带他\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He's an intern, I'm working with him.
+Dialogue: 0,0:15:42.47,0:15:45.87,*Default,NTP,0000,0000,0000,,但是 夫人 我问的是\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But, ma'am, what I'm asking is
+Dialogue: 0,0:15:45.91,0:15:49.21,*Default,NTP,0000,0000,0000,,你最后一次看到Lex是什么时候\N{\fnMicrosoft YaHei\fs14\2c&H111211&}when was the last time you saw Lex?
+Dialogue: 0,0:15:49.24,0:15:52.21,*Default,NTP,0000,0000,0000,,哦 抱歉 Curtis?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Oh, excuse me-- Curtis?
+Dialogue: 0,0:15:52.25,0:15:53.68,*Default,NTP,0000,0000,0000,,嗯\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hmm.
+Dialogue: 0,0:15:55.25,0:15:58.05,*Default,NTP,0000,0000,0000,,- 两天前吗 - 我不知道他去哪儿了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Two days ago? - I don't know where he at.
+Dialogue: 0,0:15:58.09,0:15:59.64,*Default,NTP,0000,0000,0000,,三天前\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Three days?
+Dialogue: 0,0:16:01.09,0:16:02.65,*Default,NTP,0000,0000,0000,,介意我看一看么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You mind if I look around?
+Dialogue: 0,0:16:02.69,0:16:04.66,*Default,NTP,0000,0000,0000,,我更希望你离开我家\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'd rather you leave my house be.
+Dialogue: 0,0:16:04.69,0:16:07.53,*Default,NTP,0000,0000,0000,,Anderson夫人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Well, Ms. Anderson...
+Dialogue: 0,0:16:11.37,0:16:12.76,*Default,NTP,0000,0000,0000,,你的儿子惹麻烦了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}your son is in trouble,
+Dialogue: 0,0:16:12.80,0:16:15.17,*Default,NTP,0000,0000,0000,,我知道你很不自在\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and I can tell you're upset.
+Dialogue: 0,0:16:15.20,0:16:16.83,*Default,NTP,0000,0000,0000,,但你能为他做的最好的事情\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But the best thing that you can do for him--
+Dialogue: 0,0:16:16.87,0:16:18.67,*Default,NTP,0000,0000,0000,,他能为自己做的最好的事情\N{\fnMicrosoft YaHei\fs14\2c&H111211&}the best thing that he can do for himself--
+Dialogue: 0,0:16:18.71,0:16:21.50,*Default,NTP,0000,0000,0000,,就是跟我谈谈\N{\fnMicrosoft YaHei\fs14\2c&H111211&}is talk to me.
+Dialogue: 0,0:16:21.54,0:16:23.84,*Default,NTP,0000,0000,0000,,我实话告诉你吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm gonna tell you the truth:
+Dialogue: 0,0:16:23.88,0:16:25.68,*Default,NTP,0000,0000,0000,,我们知道他在贩毒\N{\fnMicrosoft YaHei\fs14\2c&H111211&}We know he's selling drugs.
+Dialogue: 0,0:16:25.71,0:16:27.11,*Default,NTP,0000,0000,0000,,而我也要告诉你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And I'm gonna tell you...
+Dialogue: 0,0:16:27.15,0:16:28.67,*Default,NTP,0000,0000,0000,,我什么都不知道\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I don't know nothin' about that.
+Dialogue: 0,0:16:28.72,0:16:31.34,*Default,NTP,0000,0000,0000,,但我要说的是 我才不管\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But I'm telling you that I don't care
+Dialogue: 0,0:16:31.39,0:16:33.35,*Default,NTP,0000,0000,0000,,他是不是贩毒\N{\fnMicrosoft YaHei\fs14\2c&H111211&}he's selling drugs.
+Dialogue: 0,0:16:33.39,0:16:36.22,*Default,NTP,0000,0000,0000,,跟我一点关系都没\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm not even gonna bother with that.
+Dialogue: 0,0:16:40.19,0:16:43.10,*Default,NTP,0000,0000,0000,,我来这儿 是因为一起谋杀\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm here because of a homicide,
+Dialogue: 0,0:16:43.13,0:16:44.96,*Default,NTP,0000,0000,0000,,现在的情况是\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and the way it looks right now
+Dialogue: 0,0:16:45.00,0:16:46.69,*Default,NTP,0000,0000,0000,,那场谋杀之后\N{\fnMicrosoft YaHei\fs14\2c&H111211&}your boy is running from the police
+Dialogue: 0,0:16:46.73,0:16:48.96,*Default,NTP,0000,0000,0000,,你儿子正在躲避警察\N{\fnMicrosoft YaHei\fs14\2c&H111211&}behind that killing.
+Dialogue: 0,0:16:49.00,0:16:50.66,*Default,NTP,0000,0000,0000,,我不知道他在哪儿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I don't know where he at...
+Dialogue: 0,0:16:50.70,0:16:52.70,*Default,NTP,0000,0000,0000,,夫人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Ma'am...
+Dialogue: 0,0:17:06.89,0:17:10.32,*Default,NTP,0000,0000,0000,,议员 我的人手四年来拿的工资\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Councilman, my people got only
+Dialogue: 0,0:17:10.36,0:17:13.69,*Default,NTP,0000,0000,0000,,不过糊口而已\N{\fnMicrosoft YaHei\fs14\2c&H111211&}cost-of-living bumps for four years.
+Dialogue: 0,0:17:14.70,0:17:16.99,*Default,NTP,0000,0000,0000,,士气更是低落\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Morale is at rock bottom.
+Dialogue: 0,0:17:17.03,0:17:19.33,*Default,NTP,0000,0000,0000,,要是情况都一样 我们会选你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}All things being equal, you'd be our guy.
+Dialogue: 0,0:17:19.37,0:17:20.83,*Default,NTP,0000,0000,0000,,我们喜欢你所说的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}We like what we hear.
+Dialogue: 0,0:17:20.87,0:17:23.67,*Default,NTP,0000,0000,0000,,但现在的支持率显示Royce会赢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}The polls say it's going to be Royce.
+Dialogue: 0,0:17:23.70,0:17:25.50,*Default,NTP,0000,0000,0000,,要是我们支持你 最后可能没好结果\N{\fnMicrosoft YaHei\fs14\2c&H111211&}We endorse you now, we're out in the cold.
+Dialogue: 0,0:17:25.54,0:17:28.17,*Default,NTP,0000,0000,0000,,Bobby 也许这是一个打下\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Bobby... this might be the chance to get in on
+Dialogue: 0,0:17:28.21,0:17:30.18,*Default,NTP,0000,0000,0000,,更好未来的根基的大好机会\N{\fnMicrosoft YaHei\fs14\2c&H111211&}the ground floor of something better.
+Dialogue: 0,0:17:30.21,0:17:32.68,*Default,NTP,0000,0000,0000,,也许是没错 警司长 但现在\N{\fnMicrosoft YaHei\fs14\2c&H111211&}That may be true, Major. But for now,
+Dialogue: 0,0:17:32.71,0:17:35.34,*Default,NTP,0000,0000,0000,,我们只能见机行事\N{\fnMicrosoft YaHei\fs14\2c&H111211&}we're gonna play the cards that we were dealt.
+Dialogue: 0,0:17:35.38,0:17:37.68,*Default,NTP,0000,0000,0000,,- 议员 如果你是我 - 我保证\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Councilman, if you were me, I'm sure--
+Dialogue: 0,0:17:37.72,0:17:39.35,*Default,NTP,0000,0000,0000,,我会明哲保身 同教师\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'd cover my ass and endorse Royce,
+Dialogue: 0,0:17:39.39,0:17:41.68,*Default,NTP,0000,0000,0000,,及消防队员一起支持Royce\N{\fnMicrosoft YaHei\fs14\2c&H111211&}along with the teachers and the firefighters.
+Dialogue: 0,0:17:41.72,0:17:42.85,*Default,NTP,0000,0000,0000,,但我也告诉我的成员们\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But I'd also tell my membership
+Dialogue: 0,0:17:42.89,0:17:44.36,*Default,NTP,0000,0000,0000,,不要因此受到影响 因为\N{\fnMicrosoft YaHei\fs14\2c&H111211&}not to get carried away. I mean,
+Dialogue: 0,0:17:44.39,0:17:46.02,*Default,NTP,0000,0000,0000,,警察公会是否支持Royce\N{\fnMicrosoft YaHei\fs14\2c&H111211&}it's one thing for the police union
+Dialogue: 0,0:17:46.06,0:17:47.69,*Default,NTP,0000,0000,0000,,是一码事\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to call out for Royce,
+Dialogue: 0,0:17:47.73,0:17:49.53,*Default,NTP,0000,0000,0000,,而全体下了班的警察\N{\fnMicrosoft YaHei\fs14\2c&H111211&}it's another thing entirely for off-duty cops
+Dialogue: 0,0:17:49.56,0:17:52.36,*Default,NTP,0000,0000,0000,,去给市长接电话拉票\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to be manning the mayor's phone banks
+Dialogue: 0,0:17:52.40,0:17:53.87,*Default,NTP,0000,0000,0000,,又是另一码事了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and polling stations.
+Dialogue: 0,0:17:53.90,0:17:55.66,*Default,NTP,0000,0000,0000,,我觉得我手下的警员\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I don't think any of my officers
+Dialogue: 0,0:17:55.70,0:17:58.04,*Default,NTP,0000,0000,0000,,对任何一位候选人都不会 表现得过于支持\N{\fnMicrosoft YaHei\fs14\2c&H111211&}will be too aggressive for anybody.
+Dialogue: 0,0:17:58.07,0:18:00.40,*Default,NTP,0000,0000,0000,,这点我可以保证\N{\fnMicrosoft YaHei\fs14\2c&H111211&}That much I can give you.
+Dialogue: 0,0:18:03.94,0:18:05.64,*Default,NTP,0000,0000,0000,,你尽力了 Tommy\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Best you could do, Tommy.
+Dialogue: 0,0:18:05.68,0:18:08.34,*Default,NTP,0000,0000,0000,,Royce把这群傻瓜都吓坏了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Royce has got all those fucks runnin' scared.
+Dialogue: 0,0:18:09.85,0:18:12.15,*Default,NTP,0000,0000,0000,,对\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah...
+Dialogue: 0,0:18:12.19,0:18:14.05,*Default,NTP,0000,0000,0000,,我尽力了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}best I could do.
+Dialogue: 0,0:18:14.09,0:18:15.32,*Default,NTP,0000,0000,0000,,今晚表现不错 Tommy\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Call it a night, Tommy.
+Dialogue: 0,0:18:15.36,0:18:17.48,*Default,NTP,0000,0000,0000,,你明天还要准备辩论\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You got a debate to prepare for tomorrow.
+Dialogue: 0,0:18:17.52,0:18:20.49,*Default,NTP,0000,0000,0000,,对 辩论\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah. Debate.
+Dialogue: 0,0:18:20.53,0:18:22.32,*Default,NTP,0000,0000,0000,,这个节骨眼上没什么比这更重要了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Nothing matters more at this point.
+Dialogue: 0,0:18:22.36,0:18:23.99,*Default,NTP,0000,0000,0000,,你就大胆实话实说吧 Norman\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Let the truth set you free, Norman.
+Dialogue: 0,0:18:24.03,0:18:26.36,*Default,NTP,0000,0000,0000,,啥事都不重要了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Nothing matters at all.
+Dialogue: 0,0:18:31.51,0:18:32.80,*Default,NTP,0000,0000,0000,,谢了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Thanks.
+Dialogue: 0,0:18:44.22,0:18:47.19,*Default,NTP,0000,0000,0000,,来啊 小子 来\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Come on, boy, come on now.
+Dialogue: 0,0:18:47.22,0:18:49.02,*Default,NTP,0000,0000,0000,,兄弟 你最好别累坏了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Man, you better not be getting tired,
+Dialogue: 0,0:18:49.06,0:18:51.18,*Default,NTP,0000,0000,0000,,因为你周六晚上\N{\fnMicrosoft YaHei\fs14\2c&H111211&}'cause you gonna get put to the test
+Dialogue: 0,0:18:51.23,0:18:53.42,*Default,NTP,0000,0000,0000,,- 还要考试 - 我准备好了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- on Saturday night. - I'm ready.
+Dialogue: 0,0:18:53.46,0:18:56.86,*Default,NTP,0000,0000,0000,,- 嘿 Johnson小姐 - 嘿 Justin 你好 Dennis\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Hey, Miss Johnson. - Hey, Justin. Hello, Dennis.
+Dialogue: 0,0:18:56.90,0:18:58.02,*Default,NTP,0000,0000,0000,,你是Spider的妈妈 对吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You're Spider's mother, right?
+Dialogue: 0,0:18:58.07,0:18:59.90,*Default,NTP,0000,0000,0000,,对 Sharon  Sharon Johnson\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Right, Sharon. Sharon Johnson.
+Dialogue: 0,0:18:59.93,0:19:01.46,*Default,NTP,0000,0000,0000,,你儿子走了一会儿了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Your boy left here a while ago.
+Dialogue: 0,0:19:01.50,0:19:02.49,*Default,NTP,0000,0000,0000,,我不是来找他的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I ain't looking for him.
+Dialogue: 0,0:19:02.54,0:19:04.13,*Default,NTP,0000,0000,0000,,他在他奶奶家\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He at his grandmother's.
+Dialogue: 0,0:19:04.17,0:19:06.90,*Default,NTP,0000,0000,0000,,我想来问你件事情\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I wanted to ask you something.
+Dialogue: 0,0:19:06.94,0:19:10.27,*Default,NTP,0000,0000,0000,,你知道 我儿子崇拜死你了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You know, my son is crazy about you.
+Dialogue: 0,0:19:10.31,0:19:12.97,*Default,NTP,0000,0000,0000,,他张口闭口都是拳击 要去健身馆\N{\fnMicrosoft YaHei\fs14\2c&H111211&}All he talks about is boxing, bein' at the gym,
+Dialogue: 0,0:19:13.01,0:19:14.61,*Default,NTP,0000,0000,0000,,还有教练都教了他什么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and what his coach been teachin' him.
+Dialogue: 0,0:19:14.65,0:19:16.05,*Default,NTP,0000,0000,0000,,Spider是个好孩子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Well, Spider's a good kid.
+Dialogue: 0,0:19:16.08,0:19:17.74,*Default,NTP,0000,0000,0000,,他十分有体育天赋\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He really studies the sport.
+Dialogue: 0,0:19:17.79,0:19:20.98,*Default,NTP,0000,0000,0000,,Dennis 我很感激你你对Spider的教育\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Dennis, I am so grateful for your interest in Spider,
+Dialogue: 0,0:19:21.02,0:19:22.32,*Default,NTP,0000,0000,0000,,我想给你做顿晚饭\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I want to cook you dinner.
+Dialogue: 0,0:19:22.36,0:19:23.48,*Default,NTP,0000,0000,0000,,今晚如何\N{\fnMicrosoft YaHei\fs14\2c&H111211&}How 'bout tonight?
+Dialogue: 0,0:19:23.52,0:19:26.82,*Default,NTP,0000,0000,0000,,啊 谢谢你 Sharon\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Well, ah, that is really nice, Sharon.
+Dialogue: 0,0:19:26.86,0:19:30.19,*Default,NTP,0000,0000,0000,,但是周末有四个男孩要去比赛\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But the thing is, I got four of my boys fighting this weekend,
+Dialogue: 0,0:19:30.23,0:19:31.82,*Default,NTP,0000,0000,0000,,我得好好训练他们\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and I got to train 'em really hard
+Dialogue: 0,0:19:31.87,0:19:33.20,*Default,NTP,0000,0000,0000,,这几天晚上都是\N{\fnMicrosoft YaHei\fs14\2c&H111211&}these next few evenings.
+Dialogue: 0,0:19:33.23,0:19:35.00,*Default,NTP,0000,0000,0000,,你每天晚上都在这里\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You in here every night of the week.
+Dialogue: 0,0:19:35.04,0:19:37.16,*Default,NTP,0000,0000,0000,,你也不去寻寻乐子么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What you do for fun?
+Dialogue: 0,0:19:37.20,0:19:39.37,*Default,NTP,0000,0000,0000,,比如 你总得吃饭 对吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Look here, you got to eat, right?
+Dialogue: 0,0:19:39.41,0:19:41.67,*Default,NTP,0000,0000,0000,,你看着我就知道\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And you can look at me and know
+Dialogue: 0,0:19:41.71,0:19:43.34,*Default,NTP,0000,0000,0000,,我下厨是很在行的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I throw down in the kitchen--
+Dialogue: 0,0:19:43.38,0:19:45.37,*Default,NTP,0000,0000,0000,,其他地方也是\N{\fnMicrosoft YaHei\fs14\2c&H111211&}among other places.
+Dialogue: 0,0:19:46.71,0:19:48.18,*Default,NTP,0000,0000,0000,,对 这样吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, I tell you what:
+Dialogue: 0,0:19:48.22,0:19:50.31,*Default,NTP,0000,0000,0000,,你给我做一盘菜 带过来\N{\fnMicrosoft YaHei\fs14\2c&H111211&}If you fix me up a plate and bring it over here,
+Dialogue: 0,0:19:50.35,0:19:51.34,*Default,NTP,0000,0000,0000,,那就再好不过了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I would love that.
+Dialogue: 0,0:19:51.39,0:19:53.05,*Default,NTP,0000,0000,0000,,行\N{\fnMicrosoft YaHei\fs14\2c&H111211&}That I can do.
+Dialogue: 0,0:19:56.26,0:20:02.49,*Default,NTP,0000,0000,0000,,- 他说什么 - "我吗 我不过是个警察"\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- He said what? - "Me? I'm just the police."
+Dialogue: 0,0:20:02.53,0:20:06.33,*Default,NTP,0000,0000,0000,,口气再轻松不过了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Like butter wouldn't melt in his mouth.
+Dialogue: 0,0:20:06.37,0:20:08.20,*Default,NTP,0000,0000,0000,,我最气不过的是\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And the thing that I resent most
+Dialogue: 0,0:20:08.24,0:20:10.03,*Default,NTP,0000,0000,0000,,他不光是在玩弄系统\N{\fnMicrosoft YaHei\fs14\2c&H111211&}is that he's not just playing the system,
+Dialogue: 0,0:20:10.07,0:20:11.83,*Default,NTP,0000,0000,0000,,他是在玩弄我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}he's playing me.
+Dialogue: 0,0:20:11.87,0:20:14.57,*Default,NTP,0000,0000,0000,,好像我也是问题的一部分一样\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Like I'm part of the problem.
+Dialogue: 0,0:20:14.61,0:20:15.94,*Default,NTP,0000,0000,0000,,你是想把Davis和Krawczyk的文件\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You were gonna hold back the paper
+Dialogue: 0,0:20:15.98,0:20:18.71,*Default,NTP,0000,0000,0000,,都压住 对吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}for Davis and Krawczyk, right?
+Dialogue: 0,0:20:18.75,0:20:21.54,*Default,NTP,0000,0000,0000,,压到大选结束\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Only until the primary was over.
+Dialogue: 0,0:20:21.58,0:20:24.24,*Default,NTP,0000,0000,0000,,但是你现在却有罪恶感\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And now you feel guilty about it.
+Dialogue: 0,0:20:27.59,0:20:29.56,*Default,NTP,0000,0000,0000,,他那么说的时候\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Did he do that thing where he, uh,
+Dialogue: 0,0:20:29.59,0:20:32.06,*Default,NTP,0000,0000,0000,,他有没有从眼镜的上面瞥你?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}stares at you over the top of his reading glasses?
+Dialogue: 0,0:20:33.26,0:20:36.06,*Default,NTP,0000,0000,0000,,要知道 那个表情表示\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You know, that look that says,
+Dialogue: 0,0:20:36.10,0:20:38.39,*Default,NTP,0000,0000,0000,,"我把你当女儿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}"I'm the father you never had,
+Dialogue: 0,0:20:38.43,0:20:41.42,*Default,NTP,0000,0000,0000,,我不想再对你失望"\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and I don't want to be disappointed in you ever again."
+Dialogue: 0,0:20:43.27,0:20:46.40,*Default,NTP,0000,0000,0000,,一点都不好笑 Cedric!\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It's not funny, Cedric!
+Dialogue: 0,0:20:46.44,0:20:49.41,*Default,NTP,0000,0000,0000,,那些传票今天就发出去了!\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Those subpoenas went out today!
+Dialogue: 0,0:20:49.44,0:20:52.07,*Default,NTP,0000,0000,0000,,管理班子那儿要炸开了!\N{\fnMicrosoft YaHei\fs14\2c&H111211&}The front office is gonna go batshit!
+Dialogue: 0,0:20:52.11,0:20:54.44,*Default,NTP,0000,0000,0000,,但你还是这么做了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But you did it anyway.
+Dialogue: 0,0:20:56.62,0:20:59.42,*Default,NTP,0000,0000,0000,,抱歉 但是 靠 我很高兴\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm sorry, but shit, I'm just glad to see
+Dialogue: 0,0:20:59.45,0:21:02.79,*Default,NTP,0000,0000,0000,,见到Lester是对付别人 而不是我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Lester doing it to somebody other than me.
+Dialogue: 0,0:21:17.74,0:21:20.04,*Default,NTP,0000,0000,0000,,嘿 你这是拖累我们 Sherrod\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hey, you holdin' us back, Sherrod.
+Dialogue: 0,0:21:20.07,0:21:22.74,*Default,NTP,0000,0000,0000,,我算错了 你大惊小怪什么呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I made a mistake, man. Why you trippin'?
+Dialogue: 0,0:21:24.58,0:21:26.64,*Default,NTP,0000,0000,0000,,如果我能放你去收钱\N{\fnMicrosoft YaHei\fs14\2c&H111211&}If I can cut you loose to handle the money,
+Dialogue: 0,0:21:26.68,0:21:27.87,*Default,NTP,0000,0000,0000,,我们的销售面就可以是现在的两倍\N{\fnMicrosoft YaHei\fs14\2c&H111211&}we can cover twice the ground,
+Dialogue: 0,0:21:27.92,0:21:30.01,*Default,NTP,0000,0000,0000,,卖掉两倍的商品\N{\fnMicrosoft YaHei\fs14\2c&H111211&}selling twice the merchandise.
+Dialogue: 0,0:21:30.05,0:21:31.52,*Default,NTP,0000,0000,0000,,更多的...怎么说来着\N{\fnMicrosoft YaHei\fs14\2c&H111211&}More-- more-- what you call it,
+Dialogue: 0,0:21:31.55,0:21:33.92,*Default,NTP,0000,0000,0000,,市场份额\N{\fnMicrosoft YaHei\fs14\2c&H111211&}uh, market share.
+Dialogue: 0,0:21:33.95,0:21:36.35,*Default,NTP,0000,0000,0000,,但现在我却得看牢你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Instead I gotta keep your ass close.
+Dialogue: 0,0:21:36.39,0:21:38.62,*Default,NTP,0000,0000,0000,,你本该自己推着车去卖了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You shoulda been promoted to your own cart by now.
+Dialogue: 0,0:21:38.66,0:21:41.06,*Default,NTP,0000,0000,0000,,但你现在却四处碰壁\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You keep on hittin' your dome on the glass ceiling.
+Dialogue: 0,0:21:41.10,0:21:43.83,*Default,NTP,0000,0000,0000,,- 碰什么? - 你得加强数学锻炼\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Glass what? - You gotta step up the math skills
+Dialogue: 0,0:21:43.86,0:21:46.23,*Default,NTP,0000,0000,0000,,如果你还想在这行发展下去\N{\fnMicrosoft YaHei\fs14\2c&H111211&}if you wanna advance in this here enterprise.
+Dialogue: 0,0:21:46.27,0:21:47.73,*Default,NTP,0000,0000,0000,,你记得去年春天\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You remember last spring when
+Dialogue: 0,0:21:47.77,0:21:49.24,*Default,NTP,0000,0000,0000,,你想带我去Harlem Park吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you tried to take me up to Harlem Park?
+Dialogue: 0,0:21:49.27,0:21:50.57,*Default,NTP,0000,0000,0000,,他们都找不到我的档案 Bubs\N{\fnMicrosoft YaHei\fs14\2c&H111211&}They couldn't even find my records, Bubs.
+Dialogue: 0,0:21:50.60,0:21:52.23,*Default,NTP,0000,0000,0000,,他们一点都不想管我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}They didn't want shit to do with me.
+Dialogue: 0,0:21:52.27,0:21:53.90,*Default,NTP,0000,0000,0000,,但他们给你安排了班级 对不对\N{\fnMicrosoft YaHei\fs14\2c&H111211&}They put you in a classroom, right?
+Dialogue: 0,0:21:53.94,0:21:55.74,*Default,NTP,0000,0000,0000,,老师都没有看过我一眼\N{\fnMicrosoft YaHei\fs14\2c&H111211&}The teacher didn't look at me once.
+Dialogue: 0,0:21:55.78,0:21:56.90,*Default,NTP,0000,0000,0000,,所以你退学了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}So you rolled out.
+Dialogue: 0,0:21:56.94,0:21:58.57,*Default,NTP,0000,0000,0000,,而谁又因此受伤了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}An' who got hurt behind that, huh?
+Dialogue: 0,0:21:58.61,0:22:00.58,*Default,NTP,0000,0000,0000,,是老师还是你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}The teacher or you?
+Dialogue: 0,0:22:00.61,0:22:04.28,*Default,NTP,0000,0000,0000,,4乘以5加上6乘以7是多少\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What's four times five plus six times seven?
+Dialogue: 0,0:22:05.72,0:22:07.88,*Default,NTP,0000,0000,0000,,你瞧 你瞧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}See? See?
+Dialogue: 0,0:22:15.90,0:22:19.09,*Default,NTP,0000,0000,0000,,管他的 我等不及要开学了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Fuck that shit, son. I can't wait until school starts.
+Dialogue: 0,0:22:19.13,0:22:20.96,*Default,NTP,0000,0000,0000,,- 你开玩笑吧 - 不 说真的 小子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- You joking, right? - Nah, seriously, son.
+Dialogue: 0,0:22:21.00,0:22:22.70,*Default,NTP,0000,0000,0000,,我等不及要看那些妞儿们\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I can't wait to see all them girls,
+Dialogue: 0,0:22:22.74,0:22:24.53,*Default,NTP,0000,0000,0000,,看看有没有人暑假变胖了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}see which ones got phat over the summer,
+Dialogue: 0,0:22:24.57,0:22:26.54,*Default,NTP,0000,0000,0000,,- 你知道吗 - 猜我上个礼拜看到谁了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- you know? - Guess who I saw last week?
+Dialogue: 0,0:22:26.57,0:22:28.54,*Default,NTP,0000,0000,0000,,- 谁?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Kwaneese Davis - Who? - Kwaneese Davis.
+Dialogue: 0,0:22:28.58,0:22:30.70,*Default,NTP,0000,0000,0000,,哦 你是说 翘臀Kwaneese?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Oh, shit, you mean Cute-Ass Kwaneese?
+Dialogue: 0,0:22:30.74,0:22:33.04,*Default,NTP,0000,0000,0000,,- 没错 - 她胖了吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Uh-huh. - She phat?
+Dialogue: 0,0:22:33.08,0:22:35.45,*Default,NTP,0000,0000,0000,,咪咪也大了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Got titties, too.
+Dialogue: 0,0:22:35.48,0:22:37.54,*Default,NTP,0000,0000,0000,,我绝对要搞到这个妞 你们看着吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm definitely tappin' that pussy, now, y'all watch.
+Dialogue: 0,0:22:37.58,0:22:39.14,*Default,NTP,0000,0000,0000,,我今年会围着Kwaneese转\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm be all up in Kwaneese this year
+Dialogue: 0,0:22:39.19,0:22:40.85,*Default,NTP,0000,0000,0000,,就像这样搞...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Iike this, bangin' that...
+Dialogue: 0,0:22:40.89,0:22:42.88,*Default,NTP,0000,0000,0000,,就好象你去年那样 对不对\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Just like you tried to do last year, right?
+Dialogue: 0,0:22:42.92,0:22:45.39,*Default,NTP,0000,0000,0000,,去你的 黑佬 我才用了五分力\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Fuck you, nigga, I only halfway tried.
+Dialogue: 0,0:22:45.43,0:22:47.72,*Default,NTP,0000,0000,0000,,那Michael今年你准备追谁\N{\fnMicrosoft YaHei\fs14\2c&H111211&}So, Michael, who you gettin' with this year?
+Dialogue: 0,0:22:47.76,0:22:49.63,*Default,NTP,0000,0000,0000,,憋屁股 叫什么来着 她叫什么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Stankin' ass, uh-- what's her name? What's her name?
+Dialogue: 0,0:22:49.66,0:22:50.86,*Default,NTP,0000,0000,0000,,- 她叫什么 - 哦 Tina\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- What's her name? - Oh, Tina.
+Dialogue: 0,0:22:50.90,0:22:52.20,*Default,NTP,0000,0000,0000,,Tina  Tina Jenkins Tina-- Tina Jenkins.\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Tina  Tina Jenkins Tina-- Tina Jenkins.
+Dialogue: 0,0:22:52.23,0:22:53.89,*Default,NTP,0000,0000,0000,,别说Tina的坏话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Don't talk bad about Tina, man.
+Dialogue: 0,0:22:53.93,0:22:55.23,*Default,NTP,0000,0000,0000,,那不是坏话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm not sayin' that it bad.
+Dialogue: 0,0:22:55.27,0:22:57.07,*Default,NTP,0000,0000,0000,,我只是说她在男生更衣室里\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm sayin' she be sucking dudes' dicks
+Dialogue: 0,0:22:57.10,0:22:58.40,*Default,NTP,0000,0000,0000,,给大伙儿吹箫罢了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}in the boys' bathroom and shit,
+Dialogue: 0,0:22:58.44,0:23:00.30,*Default,NTP,0000,0000,0000,,- 仅此而已 - 我明白了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- that's all. - I heard you, man.
+Dialogue: 0,0:23:00.34,0:23:03.71,*Default,NTP,0000,0000,0000,,她吹的比你还好 Namond\N{\fnMicrosoft YaHei\fs14\2c&H111211&}She suck dick even better than you do, Namond.
+Dialogue: 0,0:23:03.74,0:23:06.18,*Default,NTP,0000,0000,0000,,- 哦 - 哇\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Oh! - Wow.
+Dialogue: 0,0:23:06.21,0:23:07.68,*Default,NTP,0000,0000,0000,,怎么 怎么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What up? What up, see?
+Dialogue: 0,0:23:07.71,0:23:09.15,*Default,NTP,0000,0000,0000,,打得好\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Good jabbin', man.
+Dialogue: 0,0:23:11.05,0:23:13.68,*Default,NTP,0000,0000,0000,,停手 停手 别扯坏了这衣服\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Chill chill chill! Don't rip this shit.
+Dialogue: 0,0:23:13.72,0:23:15.52,*Default,NTP,0000,0000,0000,,才刚买的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I just bought this throwback.
+Dialogue: 0,0:23:15.56,0:23:17.52,*Default,NTP,0000,0000,0000,,喂 Michael 要是换一件衣服\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, Michael, son, if I ain't had this shit on,
+Dialogue: 0,0:23:17.56,0:23:20.53,*Default,NTP,0000,0000,0000,,我早把你揍扁了 我认真的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'd have fucked you up. Word up.
+Dialogue: 0,0:23:20.56,0:23:22.69,*Default,NTP,0000,0000,0000,,你们这些小黑佬没事干吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You little niggas ain't up to no good, is you?
+Dialogue: 0,0:23:22.73,0:23:24.36,*Default,NTP,0000,0000,0000,,喂 怎么了 Monk\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, what up, Monk?
+Dialogue: 0,0:23:24.40,0:23:27.03,*Default,NTP,0000,0000,0000,,马上要开学了 对吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Look here, first day of school coming up, right?
+Dialogue: 0,0:23:27.07,0:23:31.70,*Default,NTP,0000,0000,0000,,- 对 下周 - 你们新衣服什么的都买了吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Yeah, next week. - Y'all need school clothes and shit?
+Dialogue: 0,0:23:31.74,0:23:32.76,*Default,NTP,0000,0000,0000,,给\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Here...
+Dialogue: 0,0:23:34.07,0:23:35.37,*Default,NTP,0000,0000,0000,,哇 为什么给我啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, what's this for?
+Dialogue: 0,0:23:35.41,0:23:37.54,*Default,NTP,0000,0000,0000,,怎么 没听见吗 买新衣服\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What, you ain't hear me? For new clothes,
+Dialogue: 0,0:23:37.58,0:23:40.05,*Default,NTP,0000,0000,0000,,还有其他你们需要的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}whatever else you need to get.
+Dialogue: 0,0:23:40.08,0:23:42.71,*Default,NTP,0000,0000,0000,,- 谢了 老兄 - 操 200?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Thanks, man! - Damn, 200?
+Dialogue: 0,0:23:42.75,0:23:45.88,*Default,NTP,0000,0000,0000,,- 哇 谢了 Monk - 你们要谢谢我的兄弟Marlo\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Yo, thanks, Monk. - Oh, you need to thank my man Marlo.
+Dialogue: 0,0:23:45.92,0:23:47.39,*Default,NTP,0000,0000,0000,,他不想你们这群小混蛋\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He ain't wanna see you little motherfuckers
+Dialogue: 0,0:23:47.42,0:23:49.55,*Default,NTP,0000,0000,0000,,开学第一天就邋邋遢遢的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}going raggedy on the first day.
+Dialogue: 0,0:23:49.59,0:23:52.22,*Default,NTP,0000,0000,0000,,哇 那就是Marlo?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Whoa. That Marlo?
+Dialogue: 0,0:23:52.26,0:23:55.09,*Default,NTP,0000,0000,0000,,- 不用了 谢谢 - 你什么都不用做\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Naw, man, no thanks. - You ain't gotta do nothing for it.
+Dialogue: 0,0:23:55.13,0:23:57.12,*Default,NTP,0000,0000,0000,,不 谢了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}No thank you, man.
+Dialogue: 0,0:23:59.77,0:24:01.32,*Default,NTP,0000,0000,0000,,嘿 Monk先生\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hey, yo, Mr. Monk?
+Dialogue: 0,0:24:01.37,0:24:03.13,*Default,NTP,0000,0000,0000,,如果他不要给我就好了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'll take his if he don't want it.
+Dialogue: 0,0:24:03.17,0:24:05.83,*Default,NTP,0000,0000,0000,,- 我给他留着 - 喂 别贪心\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- I'll hold his for you-- - Yo, don't press, man.
+Dialogue: 0,0:24:05.87,0:24:07.53,*Default,NTP,0000,0000,0000,,别贪心\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Don't press.
+Dialogue: 0,0:24:10.41,0:24:13.35,*Default,NTP,0000,0000,0000,,你哪根筋搭错了 小子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Fuck is wrong with you, boy?
+Dialogue: 0,0:24:13.38,0:24:15.44,*Default,NTP,0000,0000,0000,,看不上我的钱么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You too good for my money?
+Dialogue: 0,0:24:16.45,0:24:17.68,*Default,NTP,0000,0000,0000,,还是你这个操蛋的小愤青\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Or is you such a bitch-ass punk
+Dialogue: 0,0:24:17.72,0:24:19.95,*Default,NTP,0000,0000,0000,,担心我的钱不干净?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you worried about where my money come from?
+Dialogue: 0,0:24:27.83,0:24:29.52,*Default,NTP,0000,0000,0000,,好吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah.
+Dialogue: 0,0:24:34.40,0:24:36.20,*Default,NTP,0000,0000,0000,,没事了 小子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Ain't no thing, shorty.
+Dialogue: 0,0:24:36.24,0:24:37.73,*Default,NTP,0000,0000,0000,,没事\N{\fnMicrosoft YaHei\fs14\2c&H111211&}We cool.
+Dialogue: 0,0:24:50.55,0:24:52.21,*Default,NTP,0000,0000,0000,,你谁都不能告诉\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You can't tell nobody.
+Dialogue: 0,0:24:52.25,0:24:55.22,*Default,NTP,0000,0000,0000,,发誓你不会传出去\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Swear to me you won't spread this around.
+Dialogue: 0,0:24:55.26,0:24:56.72,*Default,NTP,0000,0000,0000,,他看到你了吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And he saw you?
+Dialogue: 0,0:24:56.76,0:24:59.06,*Default,NTP,0000,0000,0000,,对 他看到我了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, he saw me.
+Dialogue: 0,0:24:59.09,0:25:02.69,*Default,NTP,0000,0000,0000,,Carv 我这次只怕是自身难保了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Carv, I'm fucked in the ass with a pineapple on this.
+Dialogue: 0,0:25:05.87,0:25:08.16,*Default,NTP,0000,0000,0000,,- 你对他说什么了 - 我说 "市长先生\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- What the helI'd you say to him? - I said, "Mr. Mayor,
+Dialogue: 0,0:25:08.20,0:25:09.50,*Default,NTP,0000,0000,0000,,您的鸡巴真是又粗又长啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}that's a good, strong dick you got there,
+Dialogue: 0,0:25:09.54,0:25:10.66,*Default,NTP,0000,0000,0000,,依小人之见您也知道该怎么用好它"\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and I see you know how to use it."
+Dialogue: 0,0:25:10.70,0:25:12.00,*Default,NTP,0000,0000,0000,,我啥都没说!\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I didn't say shit!
+Dialogue: 0,0:25:12.04,0:25:14.01,*Default,NTP,0000,0000,0000,,我也没等到他说话 就出来了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And I didn't wait for him to say anything, either.
+Dialogue: 0,0:25:14.04,0:25:15.84,*Default,NTP,0000,0000,0000,,操 我这辈子是升不了职了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Shit, I'm never gonna make rank now.
+Dialogue: 0,0:25:15.88,0:25:19.18,*Default,NTP,0000,0000,0000,,他们会把我调去开船或是什么的 好像McNulty那样\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'll end up riding the boat or some shit like McNulty.
+Dialogue: 0,0:25:26.55,0:25:28.18,*Default,NTP,0000,0000,0000,,这可不是我能管的事情啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}This is way beyond my pay grade.
+Dialogue: 0,0:25:28.22,0:25:30.52,*Default,NTP,0000,0000,0000,,我们得找懂政策的人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}We need to get with someone who knows politics.
+Dialogue: 0,0:25:30.56,0:25:32.35,*Default,NTP,0000,0000,0000,,我们认识这样的人么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Who do we know like that?
+Dialogue: 0,0:25:35.20,0:25:36.53,*Default,NTP,0000,0000,0000,,犯罪问题上 他知道你会追问\N{\fnMicrosoft YaHei\fs14\2c&H111211&}On crime, he knows you're coming,
+Dialogue: 0,0:25:36.56,0:25:37.86,*Default,NTP,0000,0000,0000,,所以他会设置一些陷阱\N{\fnMicrosoft YaHei\fs14\2c&H111211&}so he's gonna set some traps
+Dialogue: 0,0:25:37.90,0:25:40.30,*Default,NTP,0000,0000,0000,,然后着重在数据上 显示犯罪率下降了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and lean on stats that say crime is down.
+Dialogue: 0,0:25:40.33,0:25:41.96,*Default,NTP,0000,0000,0000,,同时他会用贬低你的方式\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He'll also try to inoculate himself
+Dialogue: 0,0:25:42.00,0:25:43.53,*Default,NTP,0000,0000,0000,,来抬高自己\N{\fnMicrosoft YaHei\fs14\2c&H111211&}by making it about you.
+Dialogue: 0,0:25:43.57,0:25:44.63,*Default,NTP,0000,0000,0000,,比如要是你提起毒品和暴力犯罪\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Like you're playing the race card
+Dialogue: 0,0:25:44.67,0:25:46.76,*Default,NTP,0000,0000,0000,,你就是搞种族主义\N{\fnMicrosoft YaHei\fs14\2c&H111211&}if you talk about drugs or violent crime.
+Dialogue: 0,0:25:46.81,0:25:48.21,*Default,NTP,0000,0000,0000,,他希望能把你打压下去\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He's hoping you'll back down.
+Dialogue: 0,0:25:48.24,0:25:49.90,*Default,NTP,0000,0000,0000,,但你却要双倍返还\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But you come on twice as hard:
+Dialogue: 0,0:25:49.94,0:25:52.54,*Default,NTP,0000,0000,0000,,"Clarence Royce没有保证 我们城市的安全"\N{\fnMicrosoft YaHei\fs14\2c&H111211&}"Clarence Royce has not made this city safe."
+Dialogue: 0,0:25:56.75,0:25:58.48,*Default,NTP,0000,0000,0000,,嘿 Jen 怎么了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hey, Jen, what's up?
+Dialogue: 0,0:25:58.52,0:26:02.15,*Default,NTP,0000,0000,0000,,- 你有空吗 - 我有空 怎么了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- You got a second? - No, I got time, what is it?
+Dialogue: 0,0:26:02.19,0:26:03.78,*Default,NTP,0000,0000,0000,,- 你忘了付支票 - 哦 不 不是吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- You forgot the check. - Oh no, you're kidding me.
+Dialogue: 0,0:26:03.82,0:26:05.31,*Default,NTP,0000,0000,0000,,你必须马上去付\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You've got to pay it right away.
+Dialogue: 0,0:26:05.36,0:26:07.26,*Default,NTP,0000,0000,0000,,不 不 我这儿就有号码\N{\fnMicrosoft YaHei\fs14\2c&H111211&}No, no, I got the number here, yeah.
+Dialogue: 0,0:26:07.29,0:26:09.16,*Default,NTP,0000,0000,0000,,我马上处理好\N{\fnMicrosoft YaHei\fs14\2c&H111211&}No, I'll straighten it out straightaway.
+Dialogue: 0,0:26:09.20,0:26:10.82,*Default,NTP,0000,0000,0000,,- 好的 - 好\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Okay. - Yeah.
+Dialogue: 0,0:26:10.86,0:26:12.66,*Default,NTP,0000,0000,0000,,糟糕\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Shit.
+Dialogue: 0,0:26:12.70,0:26:14.00,*Default,NTP,0000,0000,0000,,我忘了把支票\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I forgot to mail the check
+Dialogue: 0,0:26:14.03,0:26:17.00,*Default,NTP,0000,0000,0000,,寄给教区去了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to the fuckin' archdiocese.
+Dialogue: 0,0:26:17.04,0:26:18.66,*Default,NTP,0000,0000,0000,,要是我处理不好\N{\fnMicrosoft YaHei\fs14\2c&H111211&}My kid's gonna get tossed outta St. Albans
+Dialogue: 0,0:26:18.71,0:26:20.17,*Default,NTP,0000,0000,0000,,他们就要把我的孩子踢出圣Albans学校\N{\fnMicrosoft YaHei\fs14\2c&H111211&}if I don't get my shit together.
+Dialogue: 0,0:26:20.21,0:26:22.70,*Default,NTP,0000,0000,0000,,Tommy 集中注意力了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Tommy. Focus.
+Dialogue: 0,0:26:24.54,0:26:27.24,*Default,NTP,0000,0000,0000,,他用种族和扯淡的犯罪数据来对付我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He comes at me with race and some bullshit crime stats.
+Dialogue: 0,0:26:27.28,0:26:29.01,*Default,NTP,0000,0000,0000,,我要忽视种族问题\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I ignore the race thing and counter by noting
+Dialogue: 0,0:26:29.05,0:26:30.95,*Default,NTP,0000,0000,0000,,然后提出虽然其他暴力犯罪的发生率 降低到了12%\N{\fnMicrosoft YaHei\fs14\2c&H111211&}that homicides are up 15% even though
+Dialogue: 0,0:26:30.98,0:26:33.48,*Default,NTP,0000,0000,0000,,但谋杀罪却上升到了15%\N{\fnMicrosoft YaHei\fs14\2c&H111211&}other violent crime stats are down 12%.
+Dialogue: 0,0:26:33.52,0:26:35.11,*Default,NTP,0000,0000,0000,,我指出 除非是Royce从中作梗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I point out this does not make sense
+Dialogue: 0,0:26:35.16,0:26:36.71,*Default,NTP,0000,0000,0000,,将其他诸如抢劫 强奸 和伤害罪的数据\N{\fnMicrosoft YaHei\fs14\2c&H111211&}unless Royce is cooking the crime stats,
+Dialogue: 0,0:26:36.76,0:26:39.39,*Default,NTP,0000,0000,0000,,统统抹杀掉 否则说不通\N{\fnMicrosoft YaHei\fs14\2c&H111211&}making robberies, rapes, and assaults disappear.
+Dialogue: 0,0:26:39.43,0:26:42.52,*Default,NTP,0000,0000,0000,,我暗示市长并没有诚实地交代 犯罪率问题\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I suggest the mayor is not telling the truth about crime in the city.
+Dialogue: 0,0:26:42.56,0:26:44.89,*Default,NTP,0000,0000,0000,,我最后总结到\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I conclude by declaring that it is for all of Baltimore--
+Dialogue: 0,0:26:44.93,0:26:45.92,*Default,NTP,0000,0000,0000,,我将公众安全\N{\fnMicrosoft YaHei\fs14\2c&H111211&}every neighborhood--
+Dialogue: 0,0:26:45.97,0:26:47.37,*Default,NTP,0000,0000,0000,,整个巴尔的摩 每个社区的安全\N{\fnMicrosoft YaHei\fs14\2c&H111211&}that I'm making public safety
+Dialogue: 0,0:26:47.40,0:26:49.73,*Default,NTP,0000,0000,0000,,视为我竞选的基石\N{\fnMicrosoft YaHei\fs14\2c&H111211&}the cornerstone of my campaign.
+Dialogue: 0,0:26:51.74,0:26:55.20,*Default,NTP,0000,0000,0000,,明晚 我会好好让他出出丑\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Tomorrow night, I will kick his ass.
+Dialogue: 0,0:26:55.24,0:26:56.71,*Default,NTP,0000,0000,0000,,但第二天清晨\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But the next morning,
+Dialogue: 0,0:26:56.74,0:27:00.08,*Default,NTP,0000,0000,0000,,我却依然以白人的身份 苏醒于一个黑人城市中\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I still wake up white in a city that ain't.
+Dialogue: 0,0:27:04.52,0:27:05.64,*Default,NTP,0000,0000,0000,,Theresa修女吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Sister Theresa?
+Dialogue: 0,0:27:05.69,0:27:08.31,*Default,NTP,0000,0000,0000,,嘿 你好\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hey, how you doing?
+Dialogue: 0,0:27:08.36,0:27:09.98,*Default,NTP,0000,0000,0000,,对 Tommy Carcetti\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, Tommy Carcetti.
+Dialogue: 0,0:27:10.02,0:27:12.65,*Default,NTP,0000,0000,0000,,喂 Randy 你吓死我了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, Randy, man, you crack me up, son.
+Dialogue: 0,0:27:12.69,0:27:14.32,*Default,NTP,0000,0000,0000,,追着他说\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Running behind him talking about,
+Dialogue: 0,0:27:14.36,0:27:16.49,*Default,NTP,0000,0000,0000,,"他不要我要 Monk先生 把他的钱给我"\N{\fnMicrosoft YaHei\fs14\2c&H111211&}"I'll take his, Mr. Monk. Give his to me."
+Dialogue: 0,0:27:16.53,0:27:18.23,*Default,NTP,0000,0000,0000,,听着 兄弟 我需要钱啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Listen, man, I could've used that extra.
+Dialogue: 0,0:27:18.27,0:27:19.49,*Default,NTP,0000,0000,0000,,我已经把Anna小姐给我买衣服的钱\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I already spent all the clothes money
+Dialogue: 0,0:27:19.53,0:27:21.97,*Default,NTP,0000,0000,0000,,花在给学校补货上面了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Miss Anna gave me on stuff to sell at school.
+Dialogue: 0,0:27:22.00,0:27:23.99,*Default,NTP,0000,0000,0000,,而且Marlo想给我们\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, and plus Marlo wanted us to have it.
+Dialogue: 0,0:27:24.04,0:27:25.16,*Default,NTP,0000,0000,0000,,他想要告诉我们\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He want to show us
+Dialogue: 0,0:27:25.21,0:27:27.17,*Default,NTP,0000,0000,0000,,这里谁是老大哥\N{\fnMicrosoft YaHei\fs14\2c&H111211&}who callin' the shots out here.
+Dialogue: 0,0:27:27.21,0:27:29.68,*Default,NTP,0000,0000,0000,,- 喂 Michael 你干嘛不要? - 我不能那样\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Yo, Michael, why you ain't take it? - that ain't me, man.
+Dialogue: 0,0:27:29.71,0:27:32.01,*Default,NTP,0000,0000,0000,,- 什么 - 欠黑佬的人情\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Say what? - That owin' niggas for shit, man.
+Dialogue: 0,0:27:32.05,0:27:34.34,*Default,NTP,0000,0000,0000,,- 我不要 - 随便谁给我钱\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- That ain't me. - I'll take any motherfuckin' money
+Dialogue: 0,0:27:34.38,0:27:37.18,*Default,NTP,0000,0000,0000,,- 我都会要 - 为什么?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- if he givin' it away now. - Why?
+Dialogue: 0,0:27:37.22,0:27:39.34,*Default,NTP,0000,0000,0000,,你们家是我们这群人里最有钱的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Shit, your family got more money than all of us.
+Dialogue: 0,0:27:39.39,0:27:41.01,*Default,NTP,0000,0000,0000,,对 但我妈说了她不会给我钱的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, but my mom said she cuttin' me off,
+Dialogue: 0,0:27:41.05,0:27:43.02,*Default,NTP,0000,0000,0000,,她也不给我买新衣服什么的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}she ain't buyin' me school clothes and shit.
+Dialogue: 0,0:27:43.06,0:27:45.02,*Default,NTP,0000,0000,0000,,我在Bodie那儿的工作也给你了 所以...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You already took my job with Bodie, so...
+Dialogue: 0,0:27:48.90,0:27:51.02,*Default,NTP,0000,0000,0000,,- 先生们 - 哦 我的天\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Gentlemen. - Oh my God.
+Dialogue: 0,0:27:51.06,0:27:52.33,*Default,NTP,0000,0000,0000,,我操\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Oh shit!
+Dialogue: 0,0:27:54.40,0:27:58.53,*Default,NTP,0000,0000,0000,,- Donut 你这个疯子 - 喂 Donut\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Donut, you crazy, man. - Yo, Donut.
+Dialogue: 0,0:27:58.57,0:28:00.54,*Default,NTP,0000,0000,0000,,你能给我们偷一辆露营车么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You think you could steal us one of them camper trucks?
+Dialogue: 0,0:28:00.57,0:28:02.63,*Default,NTP,0000,0000,0000,,要是你偷来一辆露营车 我们就可以\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, you steal us a camper truck, we can all go campin'
+Dialogue: 0,0:28:02.68,0:28:04.80,*Default,NTP,0000,0000,0000,,- 去森林里露营了 - 我害怕森林\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- out in the woods an' all. - I be scared in the woods.
+Dialogue: 0,0:28:04.85,0:28:07.34,*Default,NTP,0000,0000,0000,,我不是说那么远 就是Howard县那儿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I don't mean far like that. I mean like Howard County.
+Dialogue: 0,0:28:07.38,0:28:08.57,*Default,NTP,0000,0000,0000,,不行 不行\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Naw naw naw, man.
+Dialogue: 0,0:28:08.62,0:28:10.34,*Default,NTP,0000,0000,0000,,三K党住在Howard县\N{\fnMicrosoft YaHei\fs14\2c&H111211&}The Ku Klux Klan live in Howard County.
+Dialogue: 0,0:28:10.38,0:28:11.54,*Default,NTP,0000,0000,0000,,我确定\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I know that for a fact.
+Dialogue: 0,0:28:11.59,0:28:13.28,*Default,NTP,0000,0000,0000,,黑佬 我大姨住在Howard县\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Nigga, my aunt live in Howard County.
+Dialogue: 0,0:28:13.32,0:28:15.48,*Default,NTP,0000,0000,0000,,那儿没三K党\N{\fnMicrosoft YaHei\fs14\2c&H111211&}There ain't no Ku Klux Klan there.
+Dialogue: 0,0:28:15.52,0:28:17.18,*Default,NTP,0000,0000,0000,,黑佬 你太单纯了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Nigga, you simple, I swear.
+Dialogue: 0,0:28:17.22,0:28:18.49,*Default,NTP,0000,0000,0000,,嘿 喂 Donut 开车\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hey, yo, Donut, drive me away
+Dialogue: 0,0:28:18.53,0:28:20.32,*Default,NTP,0000,0000,0000,,别理这群无知的贱人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}from these ignorant bitches, man.
+Dialogue: 0,0:28:20.36,0:28:21.66,*Default,NTP,0000,0000,0000,,我跟这群黑佬讲不下去了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You can't tell these niggas nothin'.
+Dialogue: 0,0:28:21.70,0:28:23.19,*Default,NTP,0000,0000,0000,,闪开点 杂碎\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Move, motherfucker.
+Dialogue: 0,0:28:28.87,0:28:31.00,*Default,NTP,0000,0000,0000,,你看得到方向盘后面吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Can you see over the steering wheel?
+Dialogue: 0,0:28:31.04,0:28:33.23,*Default,NTP,0000,0000,0000,,你觉得他会跟我谈吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You think he'll talk to me?
+Dialogue: 0,0:28:33.27,0:28:34.50,*Default,NTP,0000,0000,0000,,实在不行就报我的名字\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Use my name if you have to.
+Dialogue: 0,0:28:34.54,0:28:37.20,*Default,NTP,0000,0000,0000,,我在他部门做了8个月\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I had one of his sectors for eight months.
+Dialogue: 0,0:28:44.22,0:28:46.38,*Default,NTP,0000,0000,0000,,这是怎么搞的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What's wrong with that picture?
+Dialogue: 0,0:28:46.42,0:28:48.85,*Default,NTP,0000,0000,0000,,黑佬 要是停车场里有黑色的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Nigga, if there was a black one in the parking lot,
+Dialogue: 0,0:28:48.89,0:28:50.32,*Default,NTP,0000,0000,0000,,我就会偷黑的了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I would've took one.
+Dialogue: 0,0:28:51.79,0:28:53.88,*Default,NTP,0000,0000,0000,,喂 缉毒组 缉毒组!\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo-- narcos, narcos!
+Dialogue: 0,0:28:57.40,0:28:58.86,*Default,NTP,0000,0000,0000,,760呼叫K-G-A\N{\fnMicrosoft YaHei\fs14\2c&H111211&}760 to K-G-A.
+Dialogue: 0,0:28:58.90,0:29:00.53,*Default,NTP,0000,0000,0000,,需要紧急援助 Calhoun和Mosher路口\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I got a bailout at Calhoun and Mosher,
+Dialogue: 0,0:29:00.57,0:29:02.30,*Default,NTP,0000,0000,0000,,6至8名未成年人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}six to eight juveniles beating feet north
+Dialogue: 0,0:29:02.34,0:29:04.30,*Default,NTP,0000,0000,0000,,正跑向Calhoun北面的小巷里\N{\fnMicrosoft YaHei\fs14\2c&H111211&}in the alleys around Calhoun.
+Dialogue: 0,0:29:04.34,0:29:06.81,*Default,NTP,0000,0000,0000,,10-4 K-G-A呼叫所有小组--\N{\fnMicrosoft YaHei\fs14\2c&H111211&}10-4. K-G-A to all units--
+Dialogue: 0,0:29:06.84,0:29:08.83,*Default,NTP,0000,0000,0000,,我超爱这个 就好象以前一样\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I love this. Just like old times.
+Dialogue: 0,0:29:13.51,0:29:15.48,*Default,NTP,0000,0000,0000,,我没必要追那群小混蛋\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I don't need to chase these fucking knuckleheads.
+Dialogue: 0,0:29:15.52,0:29:17.64,*Default,NTP,0000,0000,0000,,一半的我都认识\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I know half of 'em.
+Dialogue: 0,0:29:17.68,0:29:19.62,*Default,NTP,0000,0000,0000,,操 我知道他们聚在哪儿玩\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Shit, I know where they hang.
+Dialogue: 0,0:29:19.65,0:29:21.81,*Default,NTP,0000,0000,0000,,而且 你穿的有些夸张\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Besides, you're a little overdressed.
+Dialogue: 0,0:29:21.86,0:29:26.02,*Default,NTP,0000,0000,0000,,我们报告了 然后你就去见那个人谈事吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Let's just call this in and go see the man about your thing.
+Dialogue: 0,0:29:48.55,0:29:50.54,*Default,NTP,0000,0000,0000,,喂喂 老兄 我啥都没做\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, yo, man, I ain't do nothin'!
+Dialogue: 0,0:29:50.58,0:29:53.18,*Default,NTP,0000,0000,0000,,- 我什么都没做! - 那你为什么跑\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- I ain't do nothin'! - Then why you runnin'?
+Dialogue: 0,0:29:53.22,0:29:55.69,*Default,NTP,0000,0000,0000,,- 因为你在追啊 - 对 你叫什么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- 'Cause you chasin' me. - Yeah, right. What's your name?
+Dialogue: 0,0:29:55.72,0:29:58.52,*Default,NTP,0000,0000,0000,,- 真的 我什么都没做 - 你他妈叫什么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- For real, man, I ain't do nothin'. - What's your goddamn name?
+Dialogue: 0,0:29:58.56,0:29:59.92,*Default,NTP,0000,0000,0000,,- Randy 什么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Randy - Randy. - Randy what?
+Dialogue: 0,0:29:59.96,0:30:02.36,*Default,NTP,0000,0000,0000,,- 我知道你没撒谎\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Wagstaff - Wagstaff. - I know you ain't lying.
+Dialogue: 0,0:30:02.40,0:30:03.52,*Default,NTP,0000,0000,0000,,没人会编出这种烂名字\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Wouldn't nobody make that shit up.
+Dialogue: 0,0:30:03.56,0:30:04.69,*Default,NTP,0000,0000,0000,,把手扶墙上\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Put your hands against this fucking wall.
+Dialogue: 0,0:30:04.73,0:30:06.03,*Default,NTP,0000,0000,0000,,快 你知不知道\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Come on-- what do you know
+Dialogue: 0,0:30:06.07,0:30:07.76,*Default,NTP,0000,0000,0000,,有跑腿的弃了赃车?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}about hoppers bailing from a stolen car?
+Dialogue: 0,0:30:07.80,0:30:09.56,*Default,NTP,0000,0000,0000,,不知道\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Nothin'.
+Dialogue: 0,0:30:12.07,0:30:13.54,*Default,NTP,0000,0000,0000,,小混蛋 你骗人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Little motherfucker. You slingin'.
+Dialogue: 0,0:30:13.57,0:30:15.54,*Default,NTP,0000,0000,0000,,- 不 长官 我没有 - 你还他妈没有\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- No, sir. I swear to God. - Hell you ain't.
+Dialogue: 0,0:30:15.58,0:30:17.44,*Default,NTP,0000,0000,0000,,不然你怎么揣着200美金到处跑\N{\fnMicrosoft YaHei\fs14\2c&H111211&}How else you walking around with 200 in your pocket?
+Dialogue: 0,0:30:17.48,0:30:19.45,*Default,NTP,0000,0000,0000,,我养母给我的 买上学衣服\N{\fnMicrosoft YaHei\fs14\2c&H111211&}My foster mother gave me that to buy school clothes with.
+Dialogue: 0,0:30:19.48,0:30:22.04,*Default,NTP,0000,0000,0000,,你养母给了你200现金?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Your foster mother gave you 200 cash?
+Dialogue: 0,0:30:22.08,0:30:24.21,*Default,NTP,0000,0000,0000,,对\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah.
+Dialogue: 0,0:30:24.25,0:30:25.72,*Default,NTP,0000,0000,0000,,让她来西部警局\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Tell her to come down to the Western,
+Dialogue: 0,0:30:25.75,0:30:27.48,*Default,NTP,0000,0000,0000,,我到时候还给她\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and I'll give it back to her.
+Dialogue: 0,0:30:27.52,0:30:30.85,*Default,NTP,0000,0000,0000,,快滚 混蛋 别逼我抓你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Beat feet, motherfucker, before I lock your little ass up.
+Dialogue: 0,0:30:34.93,0:30:37.59,*Default,NTP,0000,0000,0000,,看着我干什么 滚\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Don't be fucking lookin' at me, move.
+Dialogue: 0,0:30:41.67,0:30:44.43,*Default,NTP,0000,0000,0000,,这个 可是猛料啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}This right here is fire.
+Dialogue: 0,0:30:45.77,0:30:48.40,*Default,NTP,0000,0000,0000,,也就是说 我准备自己和他们对着干\N{\fnMicrosoft YaHei\fs14\2c&H111211&}That said, I'm ready to serve 'em myself
+Dialogue: 0,0:30:48.44,0:30:50.91,*Default,NTP,0000,0000,0000,,你们的名字不会被记录\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and keep your names off the returns.
+Dialogue: 0,0:30:50.94,0:30:52.74,*Default,NTP,0000,0000,0000,,我已经退休了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I've got my 20.
+Dialogue: 0,0:30:52.78,0:30:55.01,*Default,NTP,0000,0000,0000,,你们俩还得留在这个部门里\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You two got to live in this department.
+Dialogue: 0,0:30:57.45,0:31:00.11,*Default,NTP,0000,0000,0000,,管他呢 他们住哪儿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Fuck 'em where they live.
+Dialogue: 0,0:31:05.56,0:31:07.22,*Default,NTP,0000,0000,0000,,走了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Let's go.
+Dialogue: 0,0:31:12.93,0:31:14.99,*Default,NTP,0000,0000,0000,,钢铁的价格还是那样\N{\fnMicrosoft YaHei\fs14\2c&H111211&}The price of steel being what it is,
+Dialogue: 0,0:31:15.04,0:31:16.02,*Default,NTP,0000,0000,0000,,要是我们没法处理超出的部分\N{\fnMicrosoft YaHei\fs14\2c&H111211&}that's gonna kill us if we can't
+Dialogue: 0,0:31:16.07,0:31:17.87,*Default,NTP,0000,0000,0000,,我们就死定了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}pass along the overage.
+Dialogue: 0,0:31:17.90,0:31:20.53,*Default,NTP,0000,0000,0000,,Krawczyk先生吗 巴尔的摩警察\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Mr. Krawczyk? Baltimore City Police.
+Dialogue: 0,0:31:20.57,0:31:22.91,*Default,NTP,0000,0000,0000,,- 这是什么 - 询问传票\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- What's this? - A subpoena for records.
+Dialogue: 0,0:31:24.41,0:31:26.21,*Default,NTP,0000,0000,0000,,你现在就需要吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You need these right now, because, uh,
+Dialogue: 0,0:31:26.25,0:31:28.21,*Default,NTP,0000,0000,0000,,我今天有点忙\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm kinda up to my ass in stuff today.
+Dialogue: 0,0:31:28.25,0:31:29.81,*Default,NTP,0000,0000,0000,,还是准时着来吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Honor it in a timely fashion.
+Dialogue: 0,0:31:29.85,0:31:31.71,*Default,NTP,0000,0000,0000,,这是法律规定的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I think that's the legal standard.
+Dialogue: 0,0:31:31.75,0:31:35.71,*Default,NTP,0000,0000,0000,,- 没问题 警探...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Shakima Greggs - No problem, Detective-- - Shakima Greggs.
+Dialogue: 0,0:31:35.76,0:31:38.05,*Default,NTP,0000,0000,0000,,你是市区的警察吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You're with the city?
+Dialogue: 0,0:31:38.09,0:31:41.25,*Default,NTP,0000,0000,0000,,- 哪个组的 - 重案组\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Which unit? - Major Crimes.
+Dialogue: 0,0:31:48.27,0:31:49.79,*Default,NTP,0000,0000,0000,,参议员\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Senator.
+Dialogue: 0,0:31:54.44,0:31:56.24,*Default,NTP,0000,0000,0000,,这他妈是什么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What the hell is this?
+Dialogue: 0,0:31:56.28,0:31:57.74,*Default,NTP,0000,0000,0000,,询问传票\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Subpoena for records.
+Dialogue: 0,0:31:57.78,0:32:00.44,*Default,NTP,0000,0000,0000,,斯芬克斯俱乐部的吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Sphinx Club?
+Dialogue: 0,0:32:00.48,0:32:03.51,*Default,NTP,0000,0000,0000,,- 年度最佳 - 这他妈扯什么淡呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Man of the year. - What kinda bullshit is this?
+Dialogue: 0,0:32:03.55,0:32:05.45,*Default,NTP,0000,0000,0000,,你们这群家伙肯定是疯了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You people must be out your damn mind.
+Dialogue: 0,0:32:05.49,0:32:07.18,*Default,NTP,0000,0000,0000,,你参加过斯芬克斯俱乐部吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You were in the Sphinx Club?
+Dialogue: 0,0:32:07.22,0:32:08.78,*Default,NTP,0000,0000,0000,,我叔叔以前是那儿的酒保\N{\fnMicrosoft YaHei\fs14\2c&H111211&}My uncle used to tend bar over there.
+Dialogue: 0,0:32:08.82,0:32:10.69,*Default,NTP,0000,0000,0000,,Marvin Thompson 矮个子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Marvin Thompson? Short guy--
+Dialogue: 0,0:32:10.72,0:32:13.35,*Default,NTP,0000,0000,0000,,你叫什么名字 警员\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What is your name, Officer?
+Dialogue: 0,0:32:13.39,0:32:15.38,*Default,NTP,0000,0000,0000,,Sydnor警探 先生\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Detective Sydnor, sir.
+Dialogue: 0,0:32:18.10,0:32:20.59,*Default,NTP,0000,0000,0000,,"重案组"?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}"Major Crimes"?
+Dialogue: 0,0:32:20.63,0:32:23.60,*Default,NTP,0000,0000,0000,,操了...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Shit...
+Dialogue: 0,0:32:23.64,0:32:25.40,*Default,NTP,0000,0000,0000,,过得愉快 先生\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Enjoy your day, sir.
+Dialogue: 0,0:32:27.07,0:32:29.74,*Default,NTP,0000,0000,0000,,孩子 我们走着瞧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Son, we're gonna see about this.
+Dialogue: 0,0:32:39.39,0:32:41.38,*Default,NTP,0000,0000,0000,,就这样吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}That's it.
+Dialogue: 0,0:32:43.86,0:32:45.42,*Default,NTP,0000,0000,0000,,干了那婊子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yankin' that bitch.
+Dialogue: 0,0:32:47.66,0:32:50.32,*Default,NTP,0000,0000,0000,,小子 用力点不对\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Son, that's too much knuckle.
+Dialogue: 0,0:33:00.11,0:33:01.84,*Default,NTP,0000,0000,0000,,你他妈你一直打电话给我干吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Why the fuck you keep callin' me?
+Dialogue: 0,0:33:01.88,0:33:03.00,*Default,NTP,0000,0000,0000,,但我说什么了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But what I say, though?
+Dialogue: 0,0:33:03.04,0:33:04.67,*Default,NTP,0000,0000,0000,,他收到信息了 傻子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He got the message, fool.
+Dialogue: 0,0:33:04.71,0:33:06.01,*Default,NTP,0000,0000,0000,,喂 Monk 是谁\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, Monk. Who that, man?
+Dialogue: 0,0:33:06.05,0:33:08.67,*Default,NTP,0000,0000,0000,,Andre 老熟人Andre\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Andre. Old Face Andre.
+Dialogue: 0,0:33:08.72,0:33:11.34,*Default,NTP,0000,0000,0000,,来 让我跟他打招呼\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Here, let me holla at that dude.
+Dialogue: 0,0:33:11.38,0:33:12.85,*Default,NTP,0000,0000,0000,,喂 听好了 兄弟\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, check this out, man.
+Dialogue: 0,0:33:12.89,0:33:14.51,*Default,NTP,0000,0000,0000,,我来给你们示范下\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm gonna show you how you do this
+Dialogue: 0,0:33:14.55,0:33:16.18,*Default,NTP,0000,0000,0000,,怎么才好\N{\fnMicrosoft YaHei\fs14\2c&H111211&}right here, man.
+Dialogue: 0,0:33:16.22,0:33:18.19,*Default,NTP,0000,0000,0000,,别他妈催我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Don't rush me on shit.
+Dialogue: 0,0:33:18.22,0:33:20.89,*Default,NTP,0000,0000,0000,,到时候我自然会来找你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'll get at you when I'm at you.
+Dialogue: 0,0:33:25.40,0:33:27.53,*Default,NTP,0000,0000,0000,,喂 记得你在和谁说话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, remember who you're talking to
+Dialogue: 0,0:33:27.57,0:33:29.73,*Default,NTP,0000,0000,0000,,别再乱说话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}before you say another fuckin' word.
+Dialogue: 0,0:33:37.08,0:33:38.54,*Default,NTP,0000,0000,0000,,Andre 兄弟\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Andre, man.
+Dialogue: 0,0:33:38.58,0:33:41.51,*Default,NTP,0000,0000,0000,,这黑佬比我俩孩子他妈还要烦人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Nigga need more maintenance than both my babies' mamas.
+Dialogue: 0,0:33:45.08,0:33:48.21,*Default,NTP,0000,0000,0000,,意外 这是一场意外\N{\fnMicrosoft YaHei\fs14\2c&H111211&}By accident. It was accidental.
+Dialogue: 0,0:33:50.59,0:33:52.85,*Default,NTP,0000,0000,0000,,市长什么都没说吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And the mayor doesn't say anything?
+Dialogue: 0,0:33:52.89,0:33:54.99,*Default,NTP,0000,0000,0000,,我猜他是挺生气的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I think he's pretty mad.
+Dialogue: 0,0:33:55.03,0:33:57.39,*Default,NTP,0000,0000,0000,,我是说 警司长 我跟你来谈\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I mean, Major, I only took this detail
+Dialogue: 0,0:33:57.43,0:33:59.40,*Default,NTP,0000,0000,0000,,只是因为我想要升警司\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to try and make sergeant on this list.
+Dialogue: 0,0:33:59.43,0:34:02.46,*Default,NTP,0000,0000,0000,,孩子 你已经要升警司了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Kid, you made sergeant already.
+Dialogue: 0,0:34:02.50,0:34:04.97,*Default,NTP,0000,0000,0000,,如果Royce连任了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Shit, if Royce gets reelected,
+Dialogue: 0,0:34:05.00,0:34:08.24,*Default,NTP,0000,0000,0000,,两年内你就是警督 四年你就能当警司了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you'll be a lieutenant in two years and a major in four.
+Dialogue: 0,0:34:10.38,0:34:12.84,*Default,NTP,0000,0000,0000,,你回市政厅去\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You go back down to the hall.
+Dialogue: 0,0:34:12.88,0:34:15.01,*Default,NTP,0000,0000,0000,,假装什么都没看到\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You act like it never happened.
+Dialogue: 0,0:34:15.05,0:34:16.68,*Default,NTP,0000,0000,0000,,闭上嘴\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You shut up.
+Dialogue: 0,0:34:16.72,0:34:18.68,*Default,NTP,0000,0000,0000,,不要对任何人说\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Say nothing to no one.
+Dialogue: 0,0:34:18.72,0:34:20.02,*Default,NTP,0000,0000,0000,,但是市长 他会...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But the mayor, he's gonna--
+Dialogue: 0,0:34:20.05,0:34:23.68,*Default,NTP,0000,0000,0000,,他会看着你 看你这么对待这件事\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He's gonna watch and see how you carry it.
+Dialogue: 0,0:34:23.72,0:34:26.35,*Default,NTP,0000,0000,0000,,孩子 你就是块硬石头\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And kid, you're a fucking rock.
+Dialogue: 0,0:34:26.39,0:34:29.19,*Default,NTP,0000,0000,0000,,市长看着你的时候\N{\fnMicrosoft YaHei\fs14\2c&H111211&}When the mayor looks in your face,
+Dialogue: 0,0:34:29.23,0:34:33.00,*Default,NTP,0000,0000,0000,,他知道这件事可以信任你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}he knows he can trust you with this.
+Dialogue: 0,0:34:33.03,0:34:35.97,*Default,NTP,0000,0000,0000,,我打赌 过几个星期\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And I'll bet in a couple of weeks,
+Dialogue: 0,0:34:36.00,0:34:38.37,*Default,NTP,0000,0000,0000,,他会非常亲切地问你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}he comes asking, real friendly-like,
+Dialogue: 0,0:34:38.40,0:34:40.34,*Default,NTP,0000,0000,0000,,你想在这个部门里做什么职位\N{\fnMicrosoft YaHei\fs14\2c&H111211&}what are you looking to do with the department?
+Dialogue: 0,0:34:40.37,0:34:42.34,*Default,NTP,0000,0000,0000,,你对职业有什么规划\N{\fnMicrosoft YaHei\fs14\2c&H111211&}With your career?
+Dialogue: 0,0:34:42.38,0:34:44.74,*Default,NTP,0000,0000,0000,,他会对你感兴趣\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He's interested in you.
+Dialogue: 0,0:34:44.78,0:34:46.94,*Default,NTP,0000,0000,0000,,但他不会提到吹箫\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But he doesn't mention no blowjob,
+Dialogue: 0,0:34:46.98,0:34:48.41,*Default,NTP,0000,0000,0000,,你也不会提\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and neither do you.
+Dialogue: 0,0:34:48.45,0:34:50.28,*Default,NTP,0000,0000,0000,,这件事就静静地搁置在那里\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Uh-uh, it just lays there
+Dialogue: 0,0:34:50.32,0:34:53.18,*Default,NTP,0000,0000,0000,,就好像盘子里的一个坏掉的饺子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Iike a bad pierogi on the plate,
+Dialogue: 0,0:34:53.22,0:34:57.18,*Default,NTP,0000,0000,0000,,大家都假装它不存在\N{\fnMicrosoft YaHei\fs14\2c&H111211&}both of you pretending it ain't there.
+Dialogue: 0,0:34:57.22,0:34:59.09,*Default,NTP,0000,0000,0000,,万一他整我怎么办\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What if he screws me over?
+Dialogue: 0,0:34:59.13,0:35:01.15,*Default,NTP,0000,0000,0000,,把我换到了午夜班\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Bounces me to a midnight shift?
+Dialogue: 0,0:35:01.19,0:35:04.32,*Default,NTP,0000,0000,0000,,他要这么做 你就捅出去\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He does that, you will talk.
+Dialogue: 0,0:35:11.20,0:35:15.16,*Default,NTP,0000,0000,0000,,我现在真想变成你啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What I wouldn't give to be in your shoes right now.
+Dialogue: 0,0:35:15.21,0:35:17.34,*Default,NTP,0000,0000,0000,,孩子 现在升职\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Kid, careers have been launched
+Dialogue: 0,0:35:17.38,0:35:19.68,*Default,NTP,0000,0000,0000,,可比以前慢多了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}on a hell of a lot less.
+Dialogue: 0,0:35:19.71,0:35:23.71,*Default,NTP,0000,0000,0000,,闭嘴装傻就好了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Just shut up and play dumb.
+Dialogue: 0,0:35:25.55,0:35:29.35,*Default,NTP,0000,0000,0000,,我能做到的 没问题\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I can do that. No problem.
+Dialogue: 0,0:35:29.39,0:35:31.02,*Default,NTP,0000,0000,0000,,谢谢 警司长\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Thanks, Major.
+Dialogue: 0,0:35:31.06,0:35:33.69,*Default,NTP,0000,0000,0000,,谢谢你能花时间陪我谈这件事\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Thanks for taking the time to meet me on this.
+Dialogue: 0,0:35:33.73,0:35:36.70,*Default,NTP,0000,0000,0000,,我是说 跟你谈过之后 我如释重负\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I mean, it's a weight off my mind talking to you.
+Dialogue: 0,0:35:36.73,0:35:38.03,*Default,NTP,0000,0000,0000,,真的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It really is.
+Dialogue: 0,0:35:38.06,0:35:40.03,*Default,NTP,0000,0000,0000,,不客气\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Don't mention it.
+Dialogue: 0,0:35:40.07,0:35:42.19,*Default,NTP,0000,0000,0000,,说不定等你升职了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Maybe you get a chance to do me a turn
+Dialogue: 0,0:35:42.24,0:35:45.07,*Default,NTP,0000,0000,0000,,我还等你还我人情呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}one day after you make rank, huh?
+Dialogue: 0,0:35:48.07,0:35:50.07,*Default,NTP,0000,0000,0000,,天哪\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Oh, boy.
+Dialogue: 0,0:35:53.91,0:35:55.90,*Default,NTP,0000,0000,0000,,没事了 Carv\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It's all good, Carv.
+Dialogue: 0,0:36:00.59,0:36:02.21,*Default,NTP,0000,0000,0000,,如果是联邦下来的混球\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Because if some federal motherfucker comes
+Dialogue: 0,0:36:02.26,0:36:03.92,*Default,NTP,0000,0000,0000,,我还能对他们说" 嘿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}through the door, I say, "Hey,
+Dialogue: 0,0:36:03.96,0:36:05.65,*Default,NTP,0000,0000,0000,,一切都好"\N{\fnMicrosoft YaHei\fs14\2c&H111211&}it's all in the game."
+Dialogue: 0,0:36:05.69,0:36:07.35,*Default,NTP,0000,0000,0000,,但一个市级的警察?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But a City Police?
+Dialogue: 0,0:36:07.39,0:36:09.83,*Default,NTP,0000,0000,0000,,巴尔的摩市警察? 滚一边去吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Baltimore City? Hell, no.
+Dialogue: 0,0:36:09.86,0:36:11.49,*Default,NTP,0000,0000,0000,,完全不可能 因为我知道\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Can't be happenin', 'cause I know
+Dialogue: 0,0:36:11.53,0:36:13.76,*Default,NTP,0000,0000,0000,,我给市长还有他的选票\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I have raised too much goddamn money
+Dialogue: 0,0:36:13.80,0:36:15.50,*Default,NTP,0000,0000,0000,,募集了多少资金\N{\fnMicrosoft YaHei\fs14\2c&H111211&}for the mayor and his ticket.
+Dialogue: 0,0:36:15.54,0:36:16.66,*Default,NTP,0000,0000,0000,,滚一边去吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hell, no!
+Dialogue: 0,0:36:16.70,0:36:18.00,*Default,NTP,0000,0000,0000,,这世上还有没有感恩之心啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Ain't no soul in the world
+Dialogue: 0,0:36:18.04,0:36:19.87,*Default,NTP,0000,0000,0000,,那狗日的一点都不知回报\N{\fnMicrosoft YaHei\fs14\2c&H111211&}that fuckin' ungrateful!
+Dialogue: 0,0:36:21.37,0:36:23.90,*Default,NTP,0000,0000,0000,,- 冷静点 Clay - 洗钱吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Calm down, Clay, hmm? - Money laundering?
+Dialogue: 0,0:36:23.94,0:36:25.50,*Default,NTP,0000,0000,0000,,他们想跟我谈谈\N{\fnMicrosoft YaHei\fs14\2c&H111211&}They gonna come talk to me
+Dialogue: 0,0:36:25.55,0:36:26.84,*Default,NTP,0000,0000,0000,,洗钱的事情?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}about money laundering?
+Dialogue: 0,0:36:26.88,0:36:28.35,*Default,NTP,0000,0000,0000,,在西巴尔的摩吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}In West Baltimore:
+Dialogue: 0,0:36:28.38,0:36:30.68,*Default,NTP,0000,0000,0000,,操 你们觉得我都是从哪儿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Shit... Where do y'all think I'm gonna
+Dialogue: 0,0:36:30.72,0:36:33.02,*Default,NTP,0000,0000,0000,,募集到资金给你们拉选票的?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}raise cash for the whole damn ticket?
+Dialogue: 0,0:36:33.05,0:36:35.11,*Default,NTP,0000,0000,0000,,从自助洗衣店里吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}From laundromats and shit?
+Dialogue: 0,0:36:35.15,0:36:38.68,*Default,NTP,0000,0000,0000,,从小屁股的朝鲜人开的杂货铺里吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}From some tiny-ass Korean groceries?
+Dialogue: 0,0:36:38.73,0:36:40.69,*Default,NTP,0000,0000,0000,,你觉得我闲着没事干\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You think I have time to ask a man
+Dialogue: 0,0:36:40.73,0:36:42.70,*Default,NTP,0000,0000,0000,,问人家干嘛给我钱吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}why he givin' me money?
+Dialogue: 0,0:36:42.73,0:36:44.53,*Default,NTP,0000,0000,0000,,或者是他这钱从哪儿来?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Or where he gets his money from?
+Dialogue: 0,0:36:44.56,0:36:47.16,*Default,NTP,0000,0000,0000,,给我的钱 我当然就收了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'll take any motherfucker's money if he givin' it away.
+Dialogue: 0,0:36:47.20,0:36:49.63,*Default,NTP,0000,0000,0000,,- 我不想知道 - 我知道你不想知道\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- I don't wanna know. - I know you don't wanna know.
+Dialogue: 0,0:36:49.67,0:36:51.07,*Default,NTP,0000,0000,0000,,但我做牛做马\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But I'm scratchin' an' clawin'
+Dialogue: 0,0:36:51.10,0:36:53.00,*Default,NTP,0000,0000,0000,,都是为了你 Clarence\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to get it done for you, Clarence.
+Dialogue: 0,0:36:53.04,0:36:55.56,*Default,NTP,0000,0000,0000,,为了你 还有我 还有队伍里的其他人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}For you and me and the rest of the team.
+Dialogue: 0,0:36:55.61,0:36:56.97,*Default,NTP,0000,0000,0000,,但最后居然是\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And who comes through my door
+Dialogue: 0,0:36:57.01,0:36:58.71,*Default,NTP,0000,0000,0000,,巴尔的摩的警察\N{\fnMicrosoft YaHei\fs14\2c&H111211&}but a Baltimore City Police
+Dialogue: 0,0:36:58.75,0:37:00.51,*Default,NTP,0000,0000,0000,,来我这儿想要给我找茬\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Iookin' to get up into my shit about it.
+Dialogue: 0,0:37:00.55,0:37:01.81,*Default,NTP,0000,0000,0000,,Clay 我都不知道这回事\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Clay, we didn't know about that.
+Dialogue: 0,0:37:01.85,0:37:03.54,*Default,NTP,0000,0000,0000,,抱歉 我得走了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm sorry, I gots to leave up out of here
+Dialogue: 0,0:37:03.58,0:37:05.52,*Default,NTP,0000,0000,0000,,不然我要发狂了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}before I lose my damn mind.
+Dialogue: 0,0:37:05.55,0:37:06.95,*Default,NTP,0000,0000,0000,,大家都不知道\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Nobody knew about that.
+Dialogue: 0,0:37:06.99,0:37:08.18,*Default,NTP,0000,0000,0000,,你想烧我的钱\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You want to run a campaign
+Dialogue: 0,0:37:08.22,0:37:10.02,*Default,NTP,0000,0000,0000,,来支持你的竞选\N{\fnMicrosoft YaHei\fs14\2c&H111211&}with my money pillowed under your ass,
+Dialogue: 0,0:37:10.06,0:37:13.69,*Default,NTP,0000,0000,0000,,你总得让你的人 他妈的配合一下吧 Clarence\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you need your people to back the fuck up, Clarence.
+Dialogue: 0,0:37:18.70,0:37:20.17,*Default,NTP,0000,0000,0000,,Krawczyk在1线上\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Krawczyk's on line one.
+Dialogue: 0,0:37:20.20,0:37:23.26,*Default,NTP,0000,0000,0000,,我去找Burrell和Demper\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'll jump on Burrell and Demper both.
+Dialogue: 0,0:37:23.30,0:37:24.56,*Default,NTP,0000,0000,0000,,看看到底是怎么回事\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Find out what the hell's going on.
+Dialogue: 0,0:37:24.60,0:37:27.20,*Default,NTP,0000,0000,0000,,等等\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Wait-- wait a minute.
+Dialogue: 0,0:37:27.24,0:37:30.44,*Default,NTP,0000,0000,0000,,那个新的司机 光头的 白人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}That new driver, the bald-headed, white kid.
+Dialogue: 0,0:37:30.48,0:37:32.60,*Default,NTP,0000,0000,0000,,他是哪儿来的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Where did he come here from?
+Dialogue: 0,0:37:32.65,0:37:34.34,*Default,NTP,0000,0000,0000,,Hoskins带他来的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hoskins brought him in, I think.
+Dialogue: 0,0:37:34.38,0:37:37.25,*Default,NTP,0000,0000,0000,,Hoskins 他的部门里\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hoskins: He doesn't have a better rabbi
+Dialogue: 0,0:37:37.28,0:37:38.65,*Default,NTP,0000,0000,0000,,没有更好的人选吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}in the department than that:
+Dialogue: 0,0:37:38.68,0:37:40.68,*Default,NTP,0000,0000,0000,,怎么 你想开掉他吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Why, you want to lose him?
+Dialogue: 0,0:37:40.72,0:37:42.52,*Default,NTP,0000,0000,0000,,我再想想\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Let me think about it.
+Dialogue: 0,0:37:55.54,0:37:58.27,*Default,NTP,0000,0000,0000,,对 Walker警官就是那种货色\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, man, Officer Walker be shady like that.
+Dialogue: 0,0:37:58.30,0:38:00.10,*Default,NTP,0000,0000,0000,,警察也偷\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Police be stealin', yo.
+Dialogue: 0,0:38:00.14,0:38:02.90,*Default,NTP,0000,0000,0000,,我最想要一辆Caprice\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, what I really wanna get is a bubble Caprice.
+Dialogue: 0,0:38:02.94,0:38:04.74,*Default,NTP,0000,0000,0000,,我也见到过一辆好的了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I seen a nice one, too.
+Dialogue: 0,0:38:04.78,0:38:08.24,*Default,NTP,0000,0000,0000,,94年的Caprice 22号街上的 那车真是靓啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}'94 caprice on 22's. Shit was tight.
+Dialogue: 0,0:38:08.28,0:38:10.55,*Default,NTP,0000,0000,0000,,你还是小心点吧 他们今天差点抓住你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You better be careful. They almost caught you today.
+Dialogue: 0,0:38:10.58,0:38:12.14,*Default,NTP,0000,0000,0000,,黑佬 他们才没有差点抓到我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Nigga, they ain't almost caught shit.
+Dialogue: 0,0:38:12.19,0:38:13.78,*Default,NTP,0000,0000,0000,,嘘 都安静点\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Shh. Be quiet, y'all.
+Dialogue: 0,0:38:13.82,0:38:15.15,*Default,NTP,0000,0000,0000,,你们都知道我是谁吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Y'all know who I am, right?
+Dialogue: 0,0:38:15.19,0:38:17.59,*Default,NTP,0000,0000,0000,,Carver 缉毒组的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Carver. You a narcos.
+Dialogue: 0,0:38:17.62,0:38:20.85,*Default,NTP,0000,0000,0000,,今天我是偷车组的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Today I'm auto theft.
+Dialogue: 0,0:38:20.89,0:38:22.88,*Default,NTP,0000,0000,0000,,善意的警告\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Fair warning.
+Dialogue: 0,0:38:22.93,0:38:24.26,*Default,NTP,0000,0000,0000,,如果再让我看到你们这些小杂碎\N{\fnMicrosoft YaHei\fs14\2c&H111211&}If I see any of y'all little hoppers
+Dialogue: 0,0:38:24.30,0:38:26.77,*Default,NTP,0000,0000,0000,,哪怕是朝着汽车笑一下\N{\fnMicrosoft YaHei\fs14\2c&H111211&}even smile at a motor vehicle again,
+Dialogue: 0,0:38:26.80,0:38:30.00,*Default,NTP,0000,0000,0000,,就不会有少年犯听证会 只有我的人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}it ain't gonna be no juvenile hearing. No, it's gonna be my people
+Dialogue: 0,0:38:30.04,0:38:32.27,*Default,NTP,0000,0000,0000,,同你们在巷子里解决 听懂了吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}settlin' up with y'all in the alleys. You understand?
+Dialogue: 0,0:38:32.31,0:38:34.67,*Default,NTP,0000,0000,0000,,- 喂 你不能这么做的 - 你试试 Namond\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- You can't do that, yo. - Try me, Namond.
+Dialogue: 0,0:38:34.71,0:38:36.83,*Default,NTP,0000,0000,0000,,对 没错 我知道你们的名字\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, that's right. I know your name,
+Dialogue: 0,0:38:36.88,0:38:38.57,*Default,NTP,0000,0000,0000,,我知道你们住在哪儿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I know where you live
+Dialogue: 0,0:38:38.61,0:38:40.60,*Default,NTP,0000,0000,0000,,我也知道你们玩在哪儿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and I know where y'all hang.
+Dialogue: 0,0:38:55.56,0:38:59.73,*Default,NTP,0000,0000,0000,,我靠啊 车真不错\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Damn, yo! Nice ride.
+Dialogue: 0,0:39:01.47,0:39:03.96,*Default,NTP,0000,0000,0000,,- 嘿 Bunk - 嗯?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Hey, Bunk. - Hmm?
+Dialogue: 0,0:39:04.00,0:39:05.90,*Default,NTP,0000,0000,0000,,找到你那枪手了不\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You have any luck finding your shooter?
+Dialogue: 0,0:39:05.94,0:39:08.13,*Default,NTP,0000,0000,0000,,没 还逃着呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Naw. He's runnin'.
+Dialogue: 0,0:39:08.17,0:39:10.64,*Default,NTP,0000,0000,0000,,但至少我知道枪手是谁\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But at least I know who my shooter is, right?
+Dialogue: 0,0:39:10.68,0:39:12.30,*Default,NTP,0000,0000,0000,,我只要找到那小子就好\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I just got to find the boy.
+Dialogue: 0,0:39:12.35,0:39:14.47,*Default,NTP,0000,0000,0000,,- 家人还不肯开口吗 - 对\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Family won't go for nothin'? - Nah.
+Dialogue: 0,0:39:14.51,0:39:16.78,*Default,NTP,0000,0000,0000,,当妈的一句话不说\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Mother wouldn't say shit.
+Dialogue: 0,0:39:16.82,0:39:18.48,*Default,NTP,0000,0000,0000,,但又不是一般妈妈撒谎的方式\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But it wasn't the usual way a mama lies.
+Dialogue: 0,0:39:18.52,0:39:21.39,*Default,NTP,0000,0000,0000,,- 你什么意思 - 我也不知道\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- What do you mean? - I don't know.
+Dialogue: 0,0:39:21.42,0:39:23.15,*Default,NTP,0000,0000,0000,,一种奇怪的感觉\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It was a weird vibe, man.
+Dialogue: 0,0:39:23.19,0:39:24.49,*Default,NTP,0000,0000,0000,,我没法解释\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I can't explain it.
+Dialogue: 0,0:39:24.52,0:39:27.32,*Default,NTP,0000,0000,0000,,感觉好像她在神游一样\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It was like she was off somewhere else in her head.
+Dialogue: 0,0:39:29.20,0:39:31.86,*Default,NTP,0000,0000,0000,,四号线 接啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Line four. Communication.
+Dialogue: 0,0:39:31.90,0:39:34.42,*Default,NTP,0000,0000,0000,,- 该谁了 - 到我了 我来接\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Who's up? - I'm up. I'll take it.
+Dialogue: 0,0:39:34.47,0:39:36.03,*Default,NTP,0000,0000,0000,,不 等等\N{\fnMicrosoft YaHei\fs14\2c&H111211&}No, wait.
+Dialogue: 0,0:39:36.07,0:39:38.16,*Default,NTP,0000,0000,0000,,如果是你接 你这走运的家伙\N{\fnMicrosoft YaHei\fs14\2c&H111211&}If it's yours, you lucky bitch,
+Dialogue: 0,0:39:38.20,0:39:41.17,*Default,NTP,0000,0000,0000,,一定是室内家暴 有四个证人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}then it's a domestic in a house with four wits.
+Dialogue: 0,0:39:41.21,0:39:43.18,*Default,NTP,0000,0000,0000,,- 你要接么 - 但如果我接了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- You want the call? - But I pick up that phone,
+Dialogue: 0,0:39:43.21,0:39:44.77,*Default,NTP,0000,0000,0000,,是不是就没运气了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}do I make it unlucky?
+Dialogue: 0,0:39:44.81,0:39:46.07,*Default,NTP,0000,0000,0000,,还是说这还算是你接的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Or is it still your call?
+Dialogue: 0,0:39:46.11,0:39:48.84,*Default,NTP,0000,0000,0000,,你要接就接呗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You want the call, pick it up.
+Dialogue: 0,0:39:48.88,0:39:51.37,*Default,NTP,0000,0000,0000,,不接拉倒\N{\fnMicrosoft YaHei\fs14\2c&H111211&}If you don't, don't.
+Dialogue: 0,0:39:53.32,0:39:55.18,*Default,NTP,0000,0000,0000,,凶杀组 Norris\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Homicide. Norris.
+Dialogue: 0,0:39:55.22,0:39:59.06,*Default,NTP,0000,0000,0000,,好的 嗯 我知道了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Right. Uh-huh. I got it.
+Dialogue: 0,0:40:01.73,0:40:05.19,*Default,NTP,0000,0000,0000,,Lanvale街1400号 街头凶杀 被邮差发现的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}1400 Lanvale, in the street, found by the post officer,
+Dialogue: 0,0:40:05.23,0:40:07.20,*Default,NTP,0000,0000,0000,,没有嫌犯 没有证人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}no suspects, no witnesses.
+Dialogue: 0,0:40:11.07,0:40:13.23,*Default,NTP,0000,0000,0000,,啊 兄弟\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Ah, man.
+Dialogue: 0,0:40:15.91,0:40:18.47,*Default,NTP,0000,0000,0000,,牛逼不如狗屎运啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Better to be lucky than to be good.
+Dialogue: 0,0:40:21.38,0:40:24.87,*Default,NTP,0000,0000,0000,,你想用重沙包吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You wanna work the heavy bag?
+Dialogue: 0,0:40:24.92,0:40:27.08,*Default,NTP,0000,0000,0000,,行 给你四轮\N{\fnMicrosoft YaHei\fs14\2c&H111211&}G'head. Four rounds.
+Dialogue: 0,0:40:41.40,0:40:42.39,*Default,NTP,0000,0000,0000,,嘿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hey.
+Dialogue: 0,0:40:42.44,0:40:43.90,*Default,NTP,0000,0000,0000,,- 嘿 - 我叫Gail\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Hey. - I'm Gail.
+Dialogue: 0,0:40:43.94,0:40:45.80,*Default,NTP,0000,0000,0000,,我给你还有其他人做了这个\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I made this for you and the other men
+Dialogue: 0,0:40:45.84,0:40:48.47,*Default,NTP,0000,0000,0000,,以表达我的谢意\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to let you know you're appreciated.
+Dialogue: 0,0:40:48.51,0:40:51.41,*Default,NTP,0000,0000,0000,,- 真不错 - 桃子馅饼\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- That's real nice. - Peach cobbler.
+Dialogue: 0,0:40:51.44,0:40:53.57,*Default,NTP,0000,0000,0000,,抱歉 我忘了你是谁的妈妈?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm sorry, I forgot whose mother you are.
+Dialogue: 0,0:40:53.61,0:40:54.81,*Default,NTP,0000,0000,0000,,哦 我没有儿子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Oh, I don't have any boys.
+Dialogue: 0,0:40:54.85,0:40:56.61,*Default,NTP,0000,0000,0000,,我只是很欣赏你的做法\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I just appreciate what you been doing,
+Dialogue: 0,0:40:56.65,0:40:58.84,*Default,NTP,0000,0000,0000,,你和那些教练们志愿做这些\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you and the other coaches volunteering and all.
+Dialogue: 0,0:40:58.88,0:41:00.78,*Default,NTP,0000,0000,0000,,谢谢 你人很不错\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Well, thank you, that's real nice.
+Dialogue: 0,0:41:00.82,0:41:03.65,*Default,NTP,0000,0000,0000,,我有三个女儿 你们不教女孩的 对吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I got three girls. Y'all don't teach girls, though, do you?
+Dialogue: 0,0:41:03.69,0:41:07.52,*Default,NTP,0000,0000,0000,,- 不 这方面我还是很老派的 - 哦 我同意\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- No, I'm real old-fashioned about that. - Oh, I agree wit' you.
+Dialogue: 0,0:41:07.56,0:41:10.19,*Default,NTP,0000,0000,0000,,男人有男人的样子 女人有女人的样子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Men should be men and women should be women.
+Dialogue: 0,0:41:10.23,0:41:12.06,*Default,NTP,0000,0000,0000,,我就是这么想的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}That's what I think.
+Dialogue: 0,0:41:17.57,0:41:20.20,*Default,NTP,0000,0000,0000,,一击致命 背部上方 没找到弹壳\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Single wound, upper back, no casings,
+Dialogue: 0,0:41:20.24,0:41:21.87,*Default,NTP,0000,0000,0000,,没有目击证人 搜查也没有结果\N{\fnMicrosoft YaHei\fs14\2c&H111211&}no witnesses, and nothing on the canvas.
+Dialogue: 0,0:41:21.91,0:41:24.54,*Default,NTP,0000,0000,0000,,- 你到的时候就死了 - 也没死透\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Dead when you got here? - Actually not.
+Dialogue: 0,0:41:24.58,0:41:27.05,*Default,NTP,0000,0000,0000,,我到的时候他还清醒着 在吐血\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He was still conscious and coughin' blood when I pulled up.
+Dialogue: 0,0:41:27.08,0:41:29.27,*Default,NTP,0000,0000,0000,,- 你问了是谁开枪的吗 - 对 我问了是谁开的枪\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- You ask who shot him? - Yeah, I asked who shot him.
+Dialogue: 0,0:41:29.32,0:41:31.72,*Default,NTP,0000,0000,0000,,他说是一个拿枪的人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He said it was a guy with a gun.
+Dialogue: 0,0:41:37.99,0:41:41.05,*Default,NTP,0000,0000,0000,,喂 你他妈一直给我打电话干吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, why the fuck you keep calling me?
+Dialogue: 0,0:41:41.09,0:41:42.75,*Default,NTP,0000,0000,0000,,他有消息 傻瓜\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He got the message, fool.
+Dialogue: 0,0:41:42.80,0:41:44.02,*Default,NTP,0000,0000,0000,,喂 Monk 那家伙是谁\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, Monk, who that, man?
+Dialogue: 0,0:41:44.06,0:41:46.40,*Default,NTP,0000,0000,0000,,Andre 老熟人Andre\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Andre. Old Face Andre.
+Dialogue: 0,0:41:48.10,0:41:49.57,*Default,NTP,0000,0000,0000,,喂 Monk 那家伙是谁\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, Monk, who that, man?
+Dialogue: 0,0:41:49.60,0:41:52.37,*Default,NTP,0000,0000,0000,,Andre 老熟人Andre\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Andre. Old Face Andre.
+Dialogue: 0,0:41:52.41,0:41:55.34,*Default,NTP,0000,0000,0000,,注意听这儿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Lemme key that.
+Dialogue: 0,0:41:55.37,0:41:56.74,*Default,NTP,0000,0000,0000,,喂 Monk 那家伙是谁\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, Monk. Who that, man?
+Dialogue: 0,0:41:56.78,0:41:58.94,*Default,NTP,0000,0000,0000,,Andre 老熟人Andre\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Andre. Old Face Andre.
+Dialogue: 0,0:42:02.55,0:42:04.78,*Default,NTP,0000,0000,0000,,喂 看看这儿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, check this out, man.
+Dialogue: 0,0:42:06.89,0:42:09.01,*Default,NTP,0000,0000,0000,,别为了这点破事催我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Don't rush me on shit.
+Dialogue: 0,0:42:09.06,0:42:11.39,*Default,NTP,0000,0000,0000,,- 到时候我自然会来找你 - 我只是说...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- I'll get at you when I'm at you. - I'm just saying...
+Dialogue: 0,0:42:14.16,0:42:15.86,*Default,NTP,0000,0000,0000,,老熟人Andre\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Old Face Andre.
+Dialogue: 0,0:42:15.90,0:42:17.36,*Default,NTP,0000,0000,0000,,想跟Monk Metcalf补货\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Tryin' to reup with Monk Metcalf.
+Dialogue: 0,0:42:17.40,0:42:19.69,*Default,NTP,0000,0000,0000,,对 Monk在自己的手机上接的电话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, well, Monk took the call on his cell phone.
+Dialogue: 0,0:42:19.73,0:42:21.36,*Default,NTP,0000,0000,0000,,但第二个声音却超过了他\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But that second voice ranked him.
+Dialogue: 0,0:42:21.40,0:42:22.83,*Default,NTP,0000,0000,0000,,从听上去看 是超过了所有人的声音\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Ranked everybody, by the sound of it.
+Dialogue: 0,0:42:22.87,0:42:25.36,*Default,NTP,0000,0000,0000,,Marlo Stanfield 在接电话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Marlo Stanfield. On the phone.
+Dialogue: 0,0:42:25.40,0:42:28.43,*Default,NTP,0000,0000,0000,,他冲着电话吼的样子 要我说 就是他\N{\fnMicrosoft YaHei\fs14\2c&H111211&}The way he shut that call down, I'd say, yeah, that was him.
+Dialogue: 0,0:42:28.47,0:42:30.64,*Default,NTP,0000,0000,0000,,对 但背景是什么声音 烟火还是...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, but what was all that in the background? Fireworks, or--
+Dialogue: 0,0:42:30.68,0:42:33.67,*Default,NTP,0000,0000,0000,,不 间隔很有规律 应该是半自动手枪\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Naw, it was regular intervals. Semi-auto from the sound.
+Dialogue: 0,0:42:33.71,0:42:35.37,*Default,NTP,0000,0000,0000,,也许是射击训练\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Target practice, maybe.
+Dialogue: 0,0:42:35.41,0:42:37.71,*Default,NTP,0000,0000,0000,,要么就是一个射击班\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Either that or a firing squad.
+Dialogue: 0,0:42:37.75,0:42:41.48,*Default,NTP,0000,0000,0000,,这家伙几个月没有人命案子了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}There are no bodies on this guy in months,
+Dialogue: 0,0:42:41.52,0:42:42.89,*Default,NTP,0000,0000,0000,,但他在接电话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}but we get him on the phone
+Dialogue: 0,0:42:42.92,0:42:44.55,*Default,NTP,0000,0000,0000,,接电话的地方又听起来像是在打仗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and it sounds like a war zone.
+Dialogue: 0,0:42:44.59,0:42:46.89,*Default,NTP,0000,0000,0000,,至少他还在时不时接电话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Well, at least he gets on a phone now and then.
+Dialogue: 0,0:42:46.93,0:42:49.72,*Default,NTP,0000,0000,0000,,- 也是一条线索 - 他口气真大 是不是\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- That's something. - Sounds arrogant, doesn't he?
+Dialogue: 0,0:42:49.76,0:42:52.06,*Default,NTP,0000,0000,0000,,感觉像是个万物之王\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Like he's the lil' king of everything.
+Dialogue: 0,0:42:52.10,0:42:53.93,*Default,NTP,0000,0000,0000,,啊 年轻人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Ah. Youth.
+Dialogue: 0,0:43:09.22,0:43:10.55,*Default,NTP,0000,0000,0000,,喂 老兄\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, bubs.
+Dialogue: 0,0:43:13.55,0:43:16.52,*Default,NTP,0000,0000,0000,,我还以为你睡着了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Thought you asleep.
+Dialogue: 0,0:43:16.56,0:43:19.35,*Default,NTP,0000,0000,0000,,如果你觉得好\N{\fnMicrosoft YaHei\fs14\2c&H111211&}If you want...
+Dialogue: 0,0:43:19.39,0:43:21.72,*Default,NTP,0000,0000,0000,,我可以去上学\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I could go to school some.
+Dialogue: 0,0:43:23.56,0:43:25.53,*Default,NTP,0000,0000,0000,,我休学了挺长一阵子的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I ain't been for a while,
+Dialogue: 0,0:43:25.56,0:43:29.36,*Default,NTP,0000,0000,0000,,所以我也不知道我能不能上学\N{\fnMicrosoft YaHei\fs14\2c&H111211&}so I don't even know if I can.
+Dialogue: 0,0:43:29.40,0:43:32.34,*Default,NTP,0000,0000,0000,,但如果你想要我去\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But if you want me to go...
+Dialogue: 0,0:43:32.37,0:43:34.36,*Default,NTP,0000,0000,0000,,也不是问题\N{\fnMicrosoft YaHei\fs14\2c&H111211&}ain't no thing.
+Dialogue: 0,0:44:22.12,0:44:24.35,*Default,NTP,0000,0000,0000,,法官大人气疯了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}His Honor was mad:
+Dialogue: 0,0:44:24.39,0:44:26.59,*Default,NTP,0000,0000,0000,,我都形容不出\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I can't begin to describe it.
+Dialogue: 0,0:44:26.63,0:44:29.46,*Default,NTP,0000,0000,0000,,- 他想要怎么样 - 把那张传票拦下来\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- What's he want from us? - To block the subpoenas,
+Dialogue: 0,0:44:29.50,0:44:32.19,*Default,NTP,0000,0000,0000,,但他知道我们做不到 因为传票已经发出去的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}but he knows we can't once those things go out.
+Dialogue: 0,0:44:32.23,0:44:34.53,*Default,NTP,0000,0000,0000,,我所能承诺他的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What I could promise him
+Dialogue: 0,0:44:34.57,0:44:37.80,*Default,NTP,0000,0000,0000,,只是我们这儿不再给他出意外\N{\fnMicrosoft YaHei\fs14\2c&H111211&}is no more surprises out of our shop.
+Dialogue: 0,0:44:37.84,0:44:39.90,*Default,NTP,0000,0000,0000,,是McNulty这混球搞的鬼么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Is this that cocksucker McNulty?
+Dialogue: 0,0:44:39.94,0:44:43.53,*Default,NTP,0000,0000,0000,,这次不是 他已经从那个组调离一年了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Not this time. He's been gone from that unit a year.
+Dialogue: 0,0:44:43.58,0:44:47.03,*Default,NTP,0000,0000,0000,,我猜最有可能的是Lester Freamon\N{\fnMicrosoft YaHei\fs14\2c&H111211&}My best guess would be Lester Freamon.
+Dialogue: 0,0:44:47.08,0:44:49.57,*Default,NTP,0000,0000,0000,,- Lester可会玩着呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Freamon? - Freamon? - Lester's got a helluva game.
+Dialogue: 0,0:44:49.62,0:44:51.48,*Default,NTP,0000,0000,0000,,那我们得好好治治这混帐东西\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Well, we need to sit on the motherfucker.
+Dialogue: 0,0:44:51.52,0:44:52.54,*Default,NTP,0000,0000,0000,,局长 那个组\N{\fnMicrosoft YaHei\fs14\2c&H111211&}All that unit needs, Commissioner,
+Dialogue: 0,0:44:52.59,0:44:54.71,*Default,NTP,0000,0000,0000,,只需要好好监管就可以了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}is proper supervision.
+Dialogue: 0,0:44:57.39,0:44:58.69,*Default,NTP,0000,0000,0000,,嘿 马里兰州\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hey, the State of Maryland
+Dialogue: 0,0:44:58.72,0:45:00.45,*Default,NTP,0000,0000,0000,,刚刚又失去了一名肯合作的证人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}just lost another cooperating witness,
+Dialogue: 0,0:45:00.49,0:45:02.86,*Default,NTP,0000,0000,0000,,而我也省了很多加班时间\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and I just found a lot of fucking overtime.
+Dialogue: 0,0:45:02.90,0:45:05.16,*Default,NTP,0000,0000,0000,,这件案子从"管他妈是谁"的毒品谋杀\N{\fnMicrosoft YaHei\fs14\2c&H111211&}This case went from a who-gives-a-fuck drug murder
+Dialogue: 0,0:45:05.20,0:45:07.19,*Default,NTP,0000,0000,0000,,一下就上了快车道\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to straight-up red ball.
+Dialogue: 0,0:45:11.20,0:45:14.20,*Default,NTP,0000,0000,0000,,操 我真该接那个电话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Fuck, I should've picked up that phone.
+Dialogue: 0,0:45:17.54,0:45:18.84,*Default,NTP,0000,0000,0000,,嘿 队长 我那受害人是个证人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hey, Sarge. My boy's a witness.
+Dialogue: 0,0:45:18.88,0:45:20.78,*Default,NTP,0000,0000,0000,,18部正在处理的毒品案子的证人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Drug case pending in part 18.
+Dialogue: 0,0:45:20.81,0:45:23.01,*Default,NTP,0000,0000,0000,,你确定他是因此被杀的吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You know for sure he's killed for that reason?
+Dialogue: 0,0:45:23.05,0:45:25.11,*Default,NTP,0000,0000,0000,,不知道 但从法院电脑的记录来看\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Don't know shit. But from the look of the court computer,
+Dialogue: 0,0:45:25.15,0:45:27.05,*Default,NTP,0000,0000,0000,,这家伙是检方手上唯一的牌了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}this guy's the state's whole case.
+Dialogue: 0,0:45:27.09,0:45:29.68,*Default,NTP,0000,0000,0000,,别告诉媒体受害者是证人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Don't put it in the 24 that the guy was a witness.
+Dialogue: 0,0:45:29.72,0:45:31.85,*Default,NTP,0000,0000,0000,,相信我 现在是选举年\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Trust me, we do not wanna kick shit
+Dialogue: 0,0:45:31.89,0:45:34.52,*Default,NTP,0000,0000,0000,,我们可不能出什么岔子 继续调查 抓牢吸毒过度这条线\N{\fnMicrosoft YaHei\fs14\2c&H111211&}in an election year. Work the case, take the O.T.,
+Dialogue: 0,0:45:34.56,0:45:37.89,*Default,NTP,0000,0000,0000,,在确定之前都不要提起那是个证人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}but bury the witness angle till we know for sure.
+Dialogue: 0,0:45:39.57,0:45:41.56,*Default,NTP,0000,0000,0000,,带上门\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And close the door.
+Dialogue: 0,0:45:56.42,0:45:57.88,*Default,NTP,0000,0000,0000,,对\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah.
+Dialogue: 0,0:45:57.92,0:45:59.54,*Default,NTP,0000,0000,0000,,我是Landsman 凶杀组的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It's Landsman. Homicide.
+Dialogue: 0,0:45:59.59,0:46:02.11,*Default,NTP,0000,0000,0000,,今早市长在么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Is the major in this morning?
+Dialogue: 0,0:46:02.15,0:46:03.92,*Default,NTP,0000,0000,0000,,下一条 班级纪律\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Next order of business: class rules.
+Dialogue: 0,0:46:03.96,0:46:05.95,*Default,NTP,0000,0000,0000,,我们组的人保持一致最有效\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It helps if the team is constant on these.
+Dialogue: 0,0:46:05.99,0:46:07.98,*Default,NTP,0000,0000,0000,,别给孩子们太多自由空间\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Less wiggle room for the children.
+Dialogue: 0,0:46:08.03,0:46:09.15,*Default,NTP,0000,0000,0000,,Scott女士\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Mrs. Scott:
+Dialogue: 0,0:46:09.19,0:46:11.19,*Default,NTP,0000,0000,0000,,和去年一样 双倍行距\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Same as last year, double space.
+Dialogue: 0,0:46:11.23,0:46:13.03,*Default,NTP,0000,0000,0000,,语言艺术 我们批了很多论文\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Language Arts, we grade a lot of papers.
+Dialogue: 0,0:46:13.07,0:46:14.66,*Default,NTP,0000,0000,0000,,虽然没有让他们写得更好些\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It doesn't make them write any better,
+Dialogue: 0,0:46:14.70,0:46:16.60,*Default,NTP,0000,0000,0000,,但我看着省力多了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}but it saves my eyesight.
+Dialogue: 0,0:46:16.64,0:46:18.93,*Default,NTP,0000,0000,0000,,记得要给他们示范明白\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Make sure you demonstrate it for them.
+Dialogue: 0,0:46:18.97,0:46:21.17,*Default,NTP,0000,0000,0000,,有些人觉得双倍行距 是可以在单词之间多点空格\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Some of them think double-space means more space between words.
+Dialogue: 0,0:46:21.21,0:46:22.83,*Default,NTP,0000,0000,0000,,我觉得八年级的学生\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'd of thought by eighth grade--
+Dialogue: 0,0:46:22.88,0:46:25.87,*Default,NTP,0000,0000,0000,,首要规则 Pryzbylewski先生 别假设\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Rule of thumb around here, Mr. Pryzbylewski: Never assume.
+Dialogue: 0,0:46:25.91,0:46:27.34,*Default,NTP,0000,0000,0000,,你想让他们做什么 就解释清楚\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Explain what you want them to do,
+Dialogue: 0,0:46:27.38,0:46:29.47,*Default,NTP,0000,0000,0000,,让他们做一次 然后再解释一次\N{\fnMicrosoft YaHei\fs14\2c&H111211&}have them do it, then explain again.
+Dialogue: 0,0:46:29.52,0:46:31.85,*Default,NTP,0000,0000,0000,,耐心操练之后 他们就明白了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}With time and patience, they'll get it.
+Dialogue: 0,0:46:31.88,0:46:34.82,*Default,NTP,0000,0000,0000,,- Shapiro女士 - 如果我们都用同样的抬头\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Mrs. Shapiro: - It's easier to keep track of lab work
+Dialogue: 0,0:46:34.85,0:46:36.79,*Default,NTP,0000,0000,0000,,那跟踪实验室报告就简单多了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}if we all use the same heading.
+Dialogue: 0,0:46:36.82,0:46:39.66,*Default,NTP,0000,0000,0000,,右上角 在第一条蓝线上方\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Upper right-hand corner, above the first blue line:
+Dialogue: 0,0:46:39.69,0:46:43.18,*Default,NTP,0000,0000,0000,,名字 日期 班级号 是这个顺序吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}name, date, and class number, in that order?
+Dialogue: 0,0:46:43.23,0:46:45.66,*Default,NTP,0000,0000,0000,,Pryzbylewski先生 你有什么想要说的吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Mr. Pryzbylewski, do you have anything you want addressed?
+Dialogue: 0,0:46:45.70,0:46:48.29,*Default,NTP,0000,0000,0000,,能让他们不嚼口香糖么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Can we have them not chew gum?
+Dialogue: 0,0:46:48.33,0:46:50.36,*Default,NTP,0000,0000,0000,,在Smapson女士的课堂他们就不嚼\N{\fnMicrosoft YaHei\fs14\2c&H111211&}They won't do it in Ms. Sampson's class,
+Dialogue: 0,0:46:50.40,0:46:52.84,*Default,NTP,0000,0000,0000,,但我花了4年 也没有办法阻止他们\N{\fnMicrosoft YaHei\fs14\2c&H111211&}but in four years, I have not been able to stop them.
+Dialogue: 0,0:46:52.87,0:46:55.67,*Default,NTP,0000,0000,0000,,你可以试试 但第一年 还是以基本的规则为主\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You can try, but first year, it's best to stick with basics.
+Dialogue: 0,0:46:55.71,0:46:57.07,*Default,NTP,0000,0000,0000,,我们组里的原则是 只有所有人都能做到的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And team rules-- we can only go
+Dialogue: 0,0:46:57.11,0:46:59.10,*Default,NTP,0000,0000,0000,,我们才记录在原则里\N{\fnMicrosoft YaHei\fs14\2c&H111211&}with what we can all enforce.
+Dialogue: 0,0:46:59.14,0:47:01.70,*Default,NTP,0000,0000,0000,,还有 记得关窗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Also, keep your windows closed.
+Dialogue: 0,0:47:01.75,0:47:04.48,*Default,NTP,0000,0000,0000,,让他们犯困 犯困是好事\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Makes them drowsy, and drowsy's good.
+Dialogue: 0,0:47:04.52,0:47:06.95,*Default,NTP,0000,0000,0000,,还有很多要学的 但现在\N{\fnMicrosoft YaHei\fs14\2c&H111211&}There's a lot to learn. But for now,
+Dialogue: 0,0:47:06.99,0:47:09.15,*Default,NTP,0000,0000,0000,,在教学计划里加上很多的活动\N{\fnMicrosoft YaHei\fs14\2c&H111211&}build in lots of activities in your lesson plan.
+Dialogue: 0,0:47:09.19,0:47:10.31,*Default,NTP,0000,0000,0000,,再怎么多也不为过\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You can't have enough.
+Dialogue: 0,0:47:10.36,0:47:13.19,*Default,NTP,0000,0000,0000,,他们忙起来就不会提防你了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You keep them busy, you keep them off-guard.
+Dialogue: 0,0:47:16.56,0:47:19.62,*Default,NTP,0000,0000,0000,,你的眼神要柔和些\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You need soft eyes.
+Dialogue: 0,0:47:19.67,0:47:21.66,*Default,NTP,0000,0000,0000,,什么?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Excuse me:
+Dialogue: 0,0:47:24.57,0:47:26.00,*Default,NTP,0000,0000,0000,,对 但这样你还是得用你老婆的名字\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yeah, but that doesn't prevent you
+Dialogue: 0,0:47:26.04,0:47:28.20,*Default,NTP,0000,0000,0000,,给更多的钱\N{\fnMicrosoft YaHei\fs14\2c&H111211&}from giving more under your wife's name,
+Dialogue: 0,0:47:28.24,0:47:29.94,*Default,NTP,0000,0000,0000,,如果你孩子用的是分开的帐号 那就更多了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}your children, if they got separate accounts...
+Dialogue: 0,0:47:29.98,0:47:31.60,*Default,NTP,0000,0000,0000,,对\N{\fnMicrosoft YaHei\fs14\2c&H111211&}yeah.
+Dialogue: 0,0:47:33.05,0:47:35.81,*Default,NTP,0000,0000,0000,,抱歉 Richie 你先别挂啊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Sorry, Richie, can you hold a moment?
+Dialogue: 0,0:47:35.85,0:47:37.68,*Default,NTP,0000,0000,0000,,你那警察公会的兄弟\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Your buddy from the F.O.P.
+Dialogue: 0,0:47:37.72,0:47:39.01,*Default,NTP,0000,0000,0000,,说有要紧的事情\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And he says it's important.
+Dialogue: 0,0:47:39.05,0:47:41.11,*Default,NTP,0000,0000,0000,,嘿 Stan\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hey, Stan.
+Dialogue: 0,0:47:41.15,0:47:43.85,*Default,NTP,0000,0000,0000,,我这儿有场选举要输 忙着哟\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm a little busy losing an election here.
+Dialogue: 0,0:47:43.89,0:47:45.95,*Default,NTP,0000,0000,0000,,你记得不 六个月前\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You remember about six months ago,
+Dialogue: 0,0:47:45.99,0:47:47.52,*Default,NTP,0000,0000,0000,,你告诉我要注意\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you told me to keep an eye for
+Dialogue: 0,0:47:47.56,0:47:49.29,*Default,NTP,0000,0000,0000,,有没有证人被杀的消息\N{\fnMicrosoft YaHei\fs14\2c&H111211&}any witnesses gettin' clipped?
+Dialogue: 0,0:47:49.33,0:47:51.32,*Default,NTP,0000,0000,0000,,你还记得不\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You remember that?
+Dialogue: 0,0:47:52.90,0:47:55.39,*Default,NTP,0000,0000,0000,,谁比我更在行呢 Tommy\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Who's better than me, Tommy?
+Dialogue: 0,0:47:57.40,0:47:59.87,*Default,NTP,0000,0000,0000,,嘿 Richie 我等会儿给你回电\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hey, Richie, can I call you back?
+Dialogue: 0,0:47:59.91,0:48:01.63,*Default,NTP,0000,0000,0000,,谢了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Thanks.
+Dialogue: 0,0:48:06.68,0:48:08.81,*Default,NTP,0000,0000,0000,,你还需要我做什么吗 Donnelly小姐\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Anything else you want me to do, Miss Donnelly?
+Dialogue: 0,0:48:08.85,0:48:10.31,*Default,NTP,0000,0000,0000,,呃...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Uh...
+Dialogue: 0,0:48:10.35,0:48:12.44,*Default,NTP,0000,0000,0000,,你住在Duquan Weems家附近 对吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you live near Duquan Weems, correct?
+Dialogue: 0,0:48:12.48,0:48:14.32,*Default,NTP,0000,0000,0000,,Dukie?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Dukie?
+Dialogue: 0,0:48:14.35,0:48:16.51,*Default,NTP,0000,0000,0000,,你把这个带给他吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I want you to take this to his house.
+Dialogue: 0,0:48:16.56,0:48:18.02,*Default,NTP,0000,0000,0000,,这些衣服干净不了多久的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}These clothes won't stay clean long.
+Dialogue: 0,0:48:18.06,0:48:20.36,*Default,NTP,0000,0000,0000,,保证得把它们直接给Duquan\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Make sure you deliver them just to Duquan,
+Dialogue: 0,0:48:20.39,0:48:21.83,*Default,NTP,0000,0000,0000,,而不是那栋房子里的大人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}not any of the adults in the house.
+Dialogue: 0,0:48:21.86,0:48:23.99,*Default,NTP,0000,0000,0000,,- 直接给Duquan - 今晚就送吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Just Duquan. - Want me to do it tonight?
+Dialogue: 0,0:48:24.03,0:48:26.66,*Default,NTP,0000,0000,0000,,那再好不过了 还有 Crystal 今天就到这里了 谢谢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}that would be great. And, Crystal, thanks for today.
+Dialogue: 0,0:48:26.70,0:48:29.17,*Default,NTP,0000,0000,0000,,不客气 Donnelly小姐\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You're welcome, Miss Donnelly.
+Dialogue: 0,0:48:29.20,0:48:31.33,*Default,NTP,0000,0000,0000,,- 有什么事吗 - 是这样的 夫人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Can I help you? - Yes, ma'am.
+Dialogue: 0,0:48:31.37,0:48:33.00,*Default,NTP,0000,0000,0000,,这位年轻人来注册上学\N{\fnMicrosoft YaHei\fs14\2c&H111211&}This young man has to be registered for school.
+Dialogue: 0,0:48:33.04,0:48:35.84,*Default,NTP,0000,0000,0000,,- 他之前来上过学吗 - 他应该来得\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Does he attend here: - He should.
+Dialogue: 0,0:48:35.87,0:48:38.74,*Default,NTP,0000,0000,0000,,我是说 你去年是几年级 亲爱的?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What I mean is, what grade were you in last year, dear?
+Dialogue: 0,0:48:40.68,0:48:42.84,*Default,NTP,0000,0000,0000,,他之前走上了歧路\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He kinda lost his way some time ago.
+Dialogue: 0,0:48:42.88,0:48:44.25,*Default,NTP,0000,0000,0000,,现在他同我住一起\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He's livin' with me now.
+Dialogue: 0,0:48:44.28,0:48:45.34,*Default,NTP,0000,0000,0000,,而你是他的...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And you are his...
+Dialogue: 0,0:48:45.38,0:48:47.38,*Default,NTP,0000,0000,0000,,叔叔 我是他叔叔\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Uncle. I'm his uncle.
+Dialogue: 0,0:48:48.72,0:48:50.88,*Default,NTP,0000,0000,0000,,来我的办公室吧\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Come into my office.
+Dialogue: 0,0:48:57.40,0:48:59.39,*Default,NTP,0000,0000,0000,,谢谢 借过\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Thank you. Excuse me.
+Dialogue: 0,0:49:16.55,0:49:18.81,*Default,NTP,0000,0000,0000,,喂 瞧瞧教练风流着呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, look at coach workin' it, yo.
+Dialogue: 0,0:49:22.86,0:49:25.22,*Default,NTP,0000,0000,0000,,好了 休息下 打得真好\N{\fnMicrosoft YaHei\fs14\2c&H111211&}A'ight, man, break. That's what I like to see, baby.
+Dialogue: 0,0:49:25.26,0:49:27.32,*Default,NTP,0000,0000,0000,,打得真是好 不过你得多用用左手\N{\fnMicrosoft YaHei\fs14\2c&H111211&}That's what I like to see. You gotta use that left
+Dialogue: 0,0:49:27.36,0:49:30.82,*Default,NTP,0000,0000,0000,,- 知道了不 - 喂 兄弟 完事了么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- a little more, though, a'ight? - Yo, man, you finished?
+Dialogue: 0,0:49:30.86,0:49:33.16,*Default,NTP,0000,0000,0000,,- 过两分钟再来一轮 - 得了吧 我马上要比赛了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Got another two minutes. - Fuck that, I got a fight coming up.
+Dialogue: 0,0:49:33.20,0:49:34.50,*Default,NTP,0000,0000,0000,,你过会儿再来 行不\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You can come back later, a'ight?
+Dialogue: 0,0:49:34.53,0:49:35.90,*Default,NTP,0000,0000,0000,,喂 我兄弟说了还有一轮 听到了没\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Yo, man said he got one more round, a'ight?
+Dialogue: 0,0:49:35.93,0:49:37.16,*Default,NTP,0000,0000,0000,,一边去 小崽子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Step aside, youngin'.
+Dialogue: 0,0:49:37.20,0:49:39.03,*Default,NTP,0000,0000,0000,,别这样 我可以用四轮沙包\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Naw, man, bag is mine for four rounds
+Dialogue: 0,0:49:39.07,0:49:42.20,*Default,NTP,0000,0000,0000,,- 我才打了三轮 - 去你的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- and I only did three. - Fuck that.
+Dialogue: 0,0:49:42.24,0:49:44.00,*Default,NTP,0000,0000,0000,,你他妈想干吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What the fuck you tryin' to prove, huh?
+Dialogue: 0,0:49:44.04,0:49:46.01,*Default,NTP,0000,0000,0000,,哇 哇 别这样 住手 住手\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Whoa, whoa. Come on, man, come on. Come on.
+Dialogue: 0,0:49:46.04,0:49:48.17,*Default,NTP,0000,0000,0000,,- 怎么了 小子们 - 我周六晚上有一场比赛\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- What's going on, boy? - I got a fight Saturday night,
+Dialogue: 0,0:49:48.21,0:49:49.34,*Default,NTP,0000,0000,0000,,那小子不肯把沙包让出来\N{\fnMicrosoft YaHei\fs14\2c&H111211&}an' the boy won't get off the bag.
+Dialogue: 0,0:49:49.38,0:49:50.91,*Default,NTP,0000,0000,0000,,他没事占着沙包不放做什么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What the fuck he on the bag for anyway, huh?
+Dialogue: 0,0:49:50.95,0:49:52.94,*Default,NTP,0000,0000,0000,,他不打架 连吵架都不吵\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He don't even fight. He don't even spar.
+Dialogue: 0,0:49:52.99,0:49:54.25,*Default,NTP,0000,0000,0000,,想吵哥随时奉陪\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Spar with your ass any day.
+Dialogue: 0,0:49:54.29,0:49:56.02,*Default,NTP,0000,0000,0000,,- 那就来啊 - 嘿 嘿 嘿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Come on, then. - Hey hey hey.
+Dialogue: 0,0:49:56.05,0:49:57.28,*Default,NTP,0000,0000,0000,,都住手 听到了么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Y'all be cool, you hear me?
+Dialogue: 0,0:49:57.32,0:49:59.35,*Default,NTP,0000,0000,0000,,我不许你们做这种傻事\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I ain't putting up with this foolishness.
+Dialogue: 0,0:49:59.39,0:50:01.86,*Default,NTP,0000,0000,0000,,过来 Michael\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Come here, Michael.
+Dialogue: 0,0:50:01.89,0:50:04.73,*Default,NTP,0000,0000,0000,,- 我现在能用沙包了吗 - 不行 等等\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- I can work the bag now, right? - Not yet. Just wait.
+Dialogue: 0,0:50:04.76,0:50:07.43,*Default,NTP,0000,0000,0000,,- 你说可以打四轮 - 对 我知道我说了什么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- You said four rounds. - Yeah, I know what I said.
+Dialogue: 0,0:50:07.47,0:50:10.37,*Default,NTP,0000,0000,0000,,你打完了就让Justin上\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You finish up your rounds, and then Justin gets on.
+Dialogue: 0,0:50:10.40,0:50:12.30,*Default,NTP,0000,0000,0000,,我不想再听到你们吵架\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I don't want hear no more street talk.
+Dialogue: 0,0:50:12.34,0:50:14.53,*Default,NTP,0000,0000,0000,,我们在这儿打拳击 不是打架\N{\fnMicrosoft YaHei\fs14\2c&H111211&}We boxin' up in here, we ain't fightin'.
+Dialogue: 0,0:50:14.57,0:50:16.04,*Default,NTP,0000,0000,0000,,他想要和我打一场\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He wanna get in the ring with me,
+Dialogue: 0,0:50:16.07,0:50:18.54,*Default,NTP,0000,0000,0000,,- 我就陪他玩玩 - 看着我 看着我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- we can go. - Look here, look here,
+Dialogue: 0,0:50:18.58,0:50:20.67,*Default,NTP,0000,0000,0000,,我这么告诉你吧 你来这儿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Iet me tell you something: You can come here,
+Dialogue: 0,0:50:20.71,0:50:22.20,*Default,NTP,0000,0000,0000,,锻炼 使用器材\N{\fnMicrosoft YaHei\fs14\2c&H111211&}work out, use the equipment.
+Dialogue: 0,0:50:22.25,0:50:23.54,*Default,NTP,0000,0000,0000,,但只有受训练的人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But nobody gets in that ring
+Dialogue: 0,0:50:23.58,0:50:25.38,*Default,NTP,0000,0000,0000,,才可以进拳击场\N{\fnMicrosoft YaHei\fs14\2c&H111211&}unless they're being trained.
+Dialogue: 0,0:50:25.42,0:50:27.41,*Default,NTP,0000,0000,0000,,你想训练么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You wanna be trained?
+Dialogue: 0,0:50:28.59,0:50:30.32,*Default,NTP,0000,0000,0000,,你打沙包的时候我观察过你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I've been watching you hit that bag.
+Dialogue: 0,0:50:30.36,0:50:32.05,*Default,NTP,0000,0000,0000,,你是天生的右手选手\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You got a natural right hand,
+Dialogue: 0,0:50:32.09,0:50:34.39,*Default,NTP,0000,0000,0000,,你出拳的方式 你击打的方式\N{\fnMicrosoft YaHei\fs14\2c&H111211&}the way you throw it, the way you land it.
+Dialogue: 0,0:50:34.43,0:50:35.72,*Default,NTP,0000,0000,0000,,如果要训练你的话\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Now if I was to train you,
+Dialogue: 0,0:50:35.76,0:50:37.16,*Default,NTP,0000,0000,0000,,我们要从基本功开始\N{\fnMicrosoft YaHei\fs14\2c&H111211&}we'd have to start with floor work.
+Dialogue: 0,0:50:37.20,0:50:39.06,*Default,NTP,0000,0000,0000,,因为如果你不知道该怎么移动\N{\fnMicrosoft YaHei\fs14\2c&H111211&}'Cause see, if you don't know how to move,
+Dialogue: 0,0:50:39.10,0:50:41.86,*Default,NTP,0000,0000,0000,,你就甭想进那个拳击场了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you ain't got no business being in that ring.
+Dialogue: 0,0:50:41.90,0:50:43.56,*Default,NTP,0000,0000,0000,,你觉得呢\N{\fnMicrosoft YaHei\fs14\2c&H111211&}So what you think?
+Dialogue: 0,0:50:43.60,0:50:46.44,*Default,NTP,0000,0000,0000,,我想亲自训练你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'd train you myself, personally.
+Dialogue: 0,0:50:48.77,0:50:52.24,*Default,NTP,0000,0000,0000,,不用了 我想现在这样就可以了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Nah, really I just wanna keep doing what I been doing.
+Dialogue: 0,0:50:52.28,0:50:53.61,*Default,NTP,0000,0000,0000,,好吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}All right.
+Dialogue: 0,0:51:00.29,0:51:01.51,*Default,NTP,0000,0000,0000,,瞧瞧这一拳\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Let's see that right.
+Dialogue: 0,0:51:01.55,0:51:02.54,*Default,NTP,0000,0000,0000,,Uh-huh.\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Uh-huh.
+Dialogue: 0,0:51:16.47,0:51:18.33,*Default,NTP,0000,0000,0000,,Dukie在家吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Is Dukie here:
+Dialogue: 0,0:51:18.37,0:51:21.10,*Default,NTP,0000,0000,0000,,那是啥 是给Duquan的对吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What's that? That's for Duquan, right?
+Dialogue: 0,0:51:21.14,0:51:23.87,*Default,NTP,0000,0000,0000,,我来拿给他\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I take it to him.
+Dialogue: 0,0:51:23.91,0:51:25.38,*Default,NTP,0000,0000,0000,,给我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Gimme.
+Dialogue: 0,0:51:25.41,0:51:27.54,*Default,NTP,0000,0000,0000,,嘿 Crystal\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hey, Crystal.
+Dialogue: 0,0:51:27.58,0:51:29.55,*Default,NTP,0000,0000,0000,,Donnelly小姐要我把这些给你\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Miss Donnelly said to give you these.
+Dialogue: 0,0:51:29.58,0:51:31.41,*Default,NTP,0000,0000,0000,,好 我马上下来\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Okay. I'll be right down.
+Dialogue: 0,0:51:33.59,0:51:36.08,*Default,NTP,0000,0000,0000,,怎么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What?
+Dialogue: 0,0:51:36.12,0:51:38.35,*Default,NTP,0000,0000,0000,,若我的竞争对手要说\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And for either of my opponents to suggest
+Dialogue: 0,0:51:38.39,0:51:40.65,*Default,NTP,0000,0000,0000,,市中心的发展建设资金是来源于\N{\fnMicrosoft YaHei\fs14\2c&H111211&}that downtown development comes at the expense
+Dialogue: 0,0:51:40.69,0:51:42.82,*Default,NTP,0000,0000,0000,,消减社区的资金\N{\fnMicrosoft YaHei\fs14\2c&H111211&}of our city's neighborhoods,
+Dialogue: 0,0:51:42.86,0:51:47.20,*Default,NTP,0000,0000,0000,,这实在是太不公平 也太不和谐了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}well, that's just unfair and, uh, divisive.
+Dialogue: 0,0:51:47.23,0:51:50.40,*Default,NTP,0000,0000,0000,,他们又说我的管理\N{\fnMicrosoft YaHei\fs14\2c&H111211&}For them to suggest that my administration
+Dialogue: 0,0:51:50.44,0:51:53.46,*Default,NTP,0000,0000,0000,,是不作为的 那又...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}has not been responsive, well...
+Dialogue: 0,0:51:53.51,0:51:55.84,*Default,NTP,0000,0000,0000,,经济发展不是一时半会儿的事情\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Economic development cannot be a band-aid.
+Dialogue: 0,0:51:55.87,0:51:59.57,*Default,NTP,0000,0000,0000,,这是一个长期的过程 需要决心\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It is a long-term process that requires commitment
+Dialogue: 0,0:51:59.61,0:52:02.58,*Default,NTP,0000,0000,0000,,需要重新教育我们的劳动力 并且 正如我之前所说\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to retraining our workforce and, as I said before,
+Dialogue: 0,0:52:02.61,0:52:04.01,*Default,NTP,0000,0000,0000,,只有在这个城市\N{\fnMicrosoft YaHei\fs14\2c&H111211&}this can only be successful
+Dialogue: 0,0:52:04.05,0:52:05.61,*Default,NTP,0000,0000,0000,,让人们感觉安全的情况下 经济才能发展\N{\fnMicrosoft YaHei\fs14\2c&H111211&}in a city where people feel safe.
+Dialogue: 0,0:52:05.65,0:52:07.52,*Default,NTP,0000,0000,0000,,所以 在我们大谈经济发展\N{\fnMicrosoft YaHei\fs14\2c&H111211&}So before we can even begin to think about
+Dialogue: 0,0:52:07.55,0:52:09.04,*Default,NTP,0000,0000,0000,,将新兴工业引入巴尔的摩等等之前\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Iuring new industries to Baltimore,
+Dialogue: 0,0:52:09.09,0:52:10.75,*Default,NTP,0000,0000,0000,,我们得想想 我们该怎么做\N{\fnMicrosoft YaHei\fs14\2c&H111211&}we need to think about how we can make
+Dialogue: 0,0:52:10.79,0:52:14.09,*Default,NTP,0000,0000,0000,,来让我们的社区和这个城市 重新变得安全\N{\fnMicrosoft YaHei\fs14\2c&H111211&}these neighborhoods and this city safe once again.
+Dialogue: 0,0:52:14.13,0:52:16.69,*Default,NTP,0000,0000,0000,,Carcetti先生也许觉得 煽动大家的恐怖情绪\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Mr. Carcetti may think it's in his interest
+Dialogue: 0,0:52:16.73,0:52:18.20,*Default,NTP,0000,0000,0000,,对他有利\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to exploit people's fears.
+Dialogue: 0,0:52:18.23,0:52:22.03,*Default,NTP,0000,0000,0000,,自从竞选开始他就对此乐此不疲\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He's been doing it throughout this campaign.
+Dialogue: 0,0:52:22.07,0:52:23.53,*Default,NTP,0000,0000,0000,,我个人对这种做法十分不满\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'm offended by it, personally.
+Dialogue: 0,0:52:23.57,0:52:25.26,*Default,NTP,0000,0000,0000,,但事实是\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But the fact is,
+Dialogue: 0,0:52:25.30,0:52:28.74,*Default,NTP,0000,0000,0000,,整个城市的暴力犯罪下降了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}that violent crime is down citywide,
+Dialogue: 0,0:52:28.77,0:52:31.61,*Default,NTP,0000,0000,0000,,我们的警局工作非常努力\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and our police department is working hard
+Dialogue: 0,0:52:31.64,0:52:32.87,*Default,NTP,0000,0000,0000,,来保证大家的安全\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to keep it that way--
+Dialogue: 0,0:52:32.91,0:52:35.88,*Default,NTP,0000,0000,0000,,并且在我的管理之下 会继续保持如此\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and will continue to do so under my administration.
+Dialogue: 0,0:52:35.91,0:52:37.04,*Default,NTP,0000,0000,0000,,Carcetti议员\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Councilman Carcetti,
+Dialogue: 0,0:52:37.08,0:52:39.55,*Default,NTP,0000,0000,0000,,你有两分钟可以回答\N{\fnMicrosoft YaHei\fs14\2c&H111211&}you have two minutes to respond.
+Dialogue: 0,0:52:39.58,0:52:40.88,*Default,NTP,0000,0000,0000,,在座的各位 真的相信\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Does anyone in this room really believe
+Dialogue: 0,0:52:40.92,0:52:42.72,*Default,NTP,0000,0000,0000,,巴尔的摩的犯罪率下降了吗\N{\fnMicrosoft YaHei\fs14\2c&H111211&}that crime is down in Baltimore?
+Dialogue: 0,0:52:42.75,0:52:44.38,*Default,NTP,0000,0000,0000,,你是说我是个骗子吗 Tommy\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You calling me a liar, Tommy?
+Dialogue: 0,0:52:44.42,0:52:46.62,*Default,NTP,0000,0000,0000,,先生们 请不要做交流\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Gentleman, please. No personal interactions.
+Dialogue: 0,0:52:46.66,0:52:49.46,*Default,NTP,0000,0000,0000,,- Carcetti议员 - 市长先生可否问心无愧地告诉\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Councilman Carcetti. - Can the mayor honestly tell
+Dialogue: 0,0:52:49.49,0:52:51.93,*Default,NTP,0000,0000,0000,,Rosemont 还有Belair Edison\N{\fnMicrosoft YaHei\fs14\2c&H111211&}the people of Rosemont, of Belair Edison,
+Dialogue: 0,0:52:51.96,0:52:53.40,*Default,NTP,0000,0000,0000,,还有Highlandtown 还有Cherry Hill的居民\N{\fnMicrosoft YaHei\fs14\2c&H111211&}of Highlandtown or Cherry Hill
+Dialogue: 0,0:52:53.43,0:52:56.40,*Default,NTP,0000,0000,0000,,毒品交易 暴力犯罪都下降了?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}there's less drug-dealing, less violence?
+Dialogue: 0,0:52:56.44,0:52:58.70,*Default,NTP,0000,0000,0000,,任何警局提供的数据\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Any statistics coming from the police department
+Dialogue: 0,0:52:58.74,0:53:00.57,*Default,NTP,0000,0000,0000,,都不可信 因为在这位市长的管理之下\N{\fnMicrosoft YaHei\fs14\2c&H111211&}cannot be trusted, because under this mayor,
+Dialogue: 0,0:53:00.61,0:53:02.33,*Default,NTP,0000,0000,0000,,警局更多考虑的是\N{\fnMicrosoft YaHei\fs14\2c&H111211&}the police are more concerned
+Dialogue: 0,0:53:02.37,0:53:05.54,*Default,NTP,0000,0000,0000,,如何保护Clarence Royce的政治目的 而非是同犯罪斗争\N{\fnMicrosoft YaHei\fs14\2c&H111211&}with protecting Clarence Royce politically than fighting crime.
+Dialogue: 0,0:53:05.58,0:53:08.51,*Default,NTP,0000,0000,0000,,没有领导可言 道德更是下降到了前所未有的低谷\N{\fnMicrosoft YaHei\fs14\2c&H111211&}There's no leadership and morale has never been lower.
+Dialogue: 0,0:53:08.55,0:53:09.88,*Default,NTP,0000,0000,0000,,我会改变这一切\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I'll change that.
+Dialogue: 0,0:53:09.92,0:53:12.18,*Default,NTP,0000,0000,0000,,在市政厅这一切都惯例为之\N{\fnMicrosoft YaHei\fs14\2c&H111211&}It's business as usual down at City Hall
+Dialogue: 0,0:53:12.22,0:53:14.69,*Default,NTP,0000,0000,0000,,而结果就是 我们对犯罪的回应\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and as a result, our response to crime
+Dialogue: 0,0:53:14.72,0:53:17.02,*Default,NTP,0000,0000,0000,,一次又一次地 显得\N{\fnMicrosoft YaHei\fs14\2c&H111211&}has been characterized time and time again
+Dialogue: 0,0:53:17.06,0:53:19.68,*Default,NTP,0000,0000,0000,,肆意无视\N{\fnMicrosoft YaHei\fs14\2c&H111211&}by wanton indifference.
+Dialogue: 0,0:53:19.73,0:53:21.22,*Default,NTP,0000,0000,0000,,...32码!\N{\fnMicrosoft YaHei\fs14\2c&H111211&}...32 yards!
+Dialogue: 0,0:53:21.26,0:53:24.52,*Default,NTP,0000,0000,0000,,我所说的惯例为之是何意\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What do I mean by business as usual?
+Dialogue: 0,0:53:24.56,0:53:26.76,*Default,NTP,0000,0000,0000,,我所谓的肆意无视是何意\N{\fnMicrosoft YaHei\fs14\2c&H111211&}What do I mean by wanton indifference?
+Dialogue: 0,0:53:26.80,0:53:29.36,*Default,NTP,0000,0000,0000,,昨晚 在西巴尔的摩\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Well, last night in West Baltimore,
+Dialogue: 0,0:53:29.40,0:53:31.20,*Default,NTP,0000,0000,0000,,Lanvale大街上\N{\fnMicrosoft YaHei\fs14\2c&H111211&}on Lanvale Street,
+Dialogue: 0,0:53:31.24,0:53:33.83,*Default,NTP,0000,0000,0000,,又有一名市民被枪击致死\N{\fnMicrosoft YaHei\fs14\2c&H111211&}another citizen was shot and killed.
+Dialogue: 0,0:53:33.87,0:53:35.67,*Default,NTP,0000,0000,0000,,这一次 被害者是一起将要开庭的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}This time, the victim was a key witness
+Dialogue: 0,0:53:35.71,0:53:37.61,*Default,NTP,0000,0000,0000,,毒品案件的关键证人\N{\fnMicrosoft YaHei\fs14\2c&H111211&}in a drug case that had yet to come to court.
+Dialogue: 0,0:53:37.64,0:53:40.61,*Default,NTP,0000,0000,0000,,他非常勇敢地站出来\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Courageously, this man had agreed to testify
+Dialogue: 0,0:53:40.65,0:53:42.58,*Default,NTP,0000,0000,0000,,将在两周之后为此案作证\N{\fnMicrosoft YaHei\fs14\2c&H111211&}in two weeks time in that case.
+Dialogue: 0,0:53:42.61,0:53:44.64,*Default,NTP,0000,0000,0000,,警察应该在保护他\N{\fnMicrosoft YaHei\fs14\2c&H111211&}The police should have been protecting him.
+Dialogue: 0,0:53:44.68,0:53:47.71,*Default,NTP,0000,0000,0000,,但他们没有 然后他被谋杀了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}They were not, and he was murdered.
+Dialogue: 0,0:53:47.75,0:53:49.88,*Default,NTP,0000,0000,0000,,- 哦 糟糕 - 为什么 因为这位市长\N{\fnMicrosoft YaHei\fs14\2c&H111211&}- Oh, shit. - Why? Because this mayor...
+Dialogue: 0,0:53:49.92,0:53:51.22,*Default,NTP,0000,0000,0000,,到黄金时段了 Eddie\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You're prime-time, Eddie.
+Dialogue: 0,0:53:51.26,0:53:53.59,*Default,NTP,0000,0000,0000,,不愿花钱保护他\N{\fnMicrosoft YaHei\fs14\2c&H111211&}...would not spend the money to protect him.
+Dialogue: 0,0:53:53.63,0:53:55.56,*Default,NTP,0000,0000,0000,,现在我完全相信\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Now I have no doubt that in a moment or two
+Dialogue: 0,0:53:55.59,0:53:57.39,*Default,NTP,0000,0000,0000,,Clarence Royce会指责我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Clarence Royce will accuse me of exploiting
+Dialogue: 0,0:53:57.43,0:53:59.73,*Default,NTP,0000,0000,0000,,为了个人政治目的而挖掘 这人死亡的真相\N{\fnMicrosoft YaHei\fs14\2c&H111211&}this man's death for my own political purpose.
+Dialogue: 0,0:53:59.77,0:54:01.82,*Default,NTP,0000,0000,0000,,但事实是\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But the truth is,
+Dialogue: 0,0:54:01.87,0:54:04.77,*Default,NTP,0000,0000,0000,,大约一年前 我给市长写了一封信\N{\fnMicrosoft YaHei\fs14\2c&H111211&}a year ago I wrote the mayor a letter.
+Dialogue: 0,0:54:04.80,0:54:06.36,*Default,NTP,0000,0000,0000,,我这儿有副本 想要的可以问我拿\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I have copies for anyone who wants one.
+Dialogue: 0,0:54:06.41,0:54:08.74,*Default,NTP,0000,0000,0000,,我请求他 花一些钱\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I begged him to spend the money
+Dialogue: 0,0:54:08.77,0:54:10.64,*Default,NTP,0000,0000,0000,,来加强对证人的保护\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and make witness protection a priority.
+Dialogue: 0,0:54:10.68,0:54:12.14,*Default,NTP,0000,0000,0000,,他无视了我\N{\fnMicrosoft YaHei\fs14\2c&H111211&}He ignored me.
+Dialogue: 0,0:54:12.18,0:54:14.04,*Default,NTP,0000,0000,0000,,我甚至同立法机构的领导\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I even teamed up with our legislative leaders--
+Dialogue: 0,0:54:14.08,0:54:15.55,*Default,NTP,0000,0000,0000,,Watkins代表及其他人一起\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Delegate Watkins and others--
+Dialogue: 0,0:54:15.58,0:54:17.51,*Default,NTP,0000,0000,0000,,为在安纳波利斯通过的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to get matching funds for witness protection
+Dialogue: 0,0:54:17.55,0:54:18.71,*Default,NTP,0000,0000,0000,,证人保护法案募集资金\N{\fnMicrosoft YaHei\fs14\2c&H111211&}approved in Annapolis.
+Dialogue: 0,0:54:18.75,0:54:20.84,*Default,NTP,0000,0000,0000,,令人难以置信的是 这些募集起来的资金\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And incredibly those matching funds
+Dialogue: 0,0:54:20.89,0:54:22.72,*Default,NTP,0000,0000,0000,,这个政府却从未向我们索要过\N{\fnMicrosoft YaHei\fs14\2c&H111211&}were never claimed by this administration.
+Dialogue: 0,0:54:22.75,0:54:25.19,*Default,NTP,0000,0000,0000,,现在提到这个也许是爆炸性的消息\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Now to mention this now may be exploitive--
+Dialogue: 0,0:54:25.22,0:54:27.71,*Default,NTP,0000,0000,0000,,我不知道 我只知道这是真事\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I don't know. I only know it's true,
+Dialogue: 0,0:54:27.76,0:54:30.02,*Default,NTP,0000,0000,0000,,正因其真实 我才恳请选民\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and on such truths I ask the voters
+Dialogue: 0,0:54:30.06,0:54:32.53,*Default,NTP,0000,0000,0000,,为我们的城市 考虑是否该做出改变\N{\fnMicrosoft YaHei\fs14\2c&H111211&}of our city to consider a change.
+Dialogue: 0,0:54:36.90,0:54:38.67,*Default,NTP,0000,0000,0000,,各位 请暂时不要鼓掌了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Folks, please, please, hold your applause
+Dialogue: 0,0:54:38.70,0:54:41.54,*Default,NTP,0000,0000,0000,,请等到这轮提问结束之后鼓掌\N{\fnMicrosoft YaHei\fs14\2c&H111211&}until after the round of questions is over.
+Dialogue: 0,0:54:41.57,0:54:42.60,*Default,NTP,0000,0000,0000,,Royce市长?\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Mayor Royce?
+Dialogue: 0,0:54:42.64,0:54:45.87,*Default,NTP,0000,0000,0000,,别再吓我们一跳了行不\N{\fnMicrosoft YaHei\fs14\2c&H111211&}No more surprises, huh:
+Dialogue: 0,0:54:45.91,0:54:49.64,*Default,NTP,0000,0000,0000,,我对Carcetti议员提到的那起案件\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I am unaware of the specifics of the incident
+Dialogue: 0,0:54:49.68,0:54:51.91,*Default,NTP,0000,0000,0000,,并不很清楚\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to which Councilman Carcetti is referring,
+Dialogue: 0,0:54:51.95,0:54:55.25,*Default,NTP,0000,0000,0000,,所以我无法直接回答这个问题\N{\fnMicrosoft YaHei\fs14\2c&H111211&}uh, so I can't answer that directly, um...
+Dialogue: 0,0:54:55.29,0:54:58.75,*Default,NTP,0000,0000,0000,,但我可以告诉大家 这座城市\N{\fnMicrosoft YaHei\fs14\2c&H111211&}however, I can say that this city places
+Dialogue: 0,0:54:58.79,0:55:02.59,*Default,NTP,0000,0000,0000,,将保护那些敢于出来作证的市民\N{\fnMicrosoft YaHei\fs14\2c&H111211&}the highest priority on protecting those citizens
+Dialogue: 0,0:55:02.63,0:55:04.19,*Default,NTP,0000,0000,0000,,视为头等大事\N{\fnMicrosoft YaHei\fs14\2c&H111211&}who come forward to testify,
+Dialogue: 0,0:55:04.23,0:55:07.13,*Default,NTP,0000,0000,0000,,而我们依然会继续如此\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and we will continue to do so.
+Dialogue: 0,0:55:07.17,0:55:11.12,*Default,NTP,0000,0000,0000,,Carcetti先生说他曾给我写过一封信\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Mr. Carcetti states that he wrote a letter
+Dialogue: 0,0:55:11.17,0:55:14.16,*Default,NTP,0000,0000,0000,,来表达他的担忧 我相信他的确写过\N{\fnMicrosoft YaHei\fs14\2c&H111211&}expressing his concerns, and I'm sure that he did.
+Dialogue: 0,0:55:14.21,0:55:15.64,*Default,NTP,0000,0000,0000,,我是说...\N{\fnMicrosoft YaHei\fs14\2c&H111211&}I mean it's-- it's--
+Dialogue: 0,0:55:15.67,0:55:17.16,*Default,NTP,0000,0000,0000,,写信当然简单\N{\fnMicrosoft YaHei\fs14\2c&H111211&}it's easy enough to write letters
+Dialogue: 0,0:55:17.21,0:55:19.80,*Default,NTP,0000,0000,0000,,你写完就完事了\N{\fnMicrosoft YaHei\fs14\2c&H111211&}when all you have to do is write letters.
+Dialogue: 0,0:55:19.85,0:55:23.18,*Default,NTP,0000,0000,0000,,但当你凭着\N{\fnMicrosoft YaHei\fs14\2c&H111211&}But when you are required
+Dialogue: 0,0:55:23.22,0:55:25.68,*Default,NTP,0000,0000,0000,,有限的资源\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to run a city
+Dialogue: 0,0:55:25.72,0:55:28.69,*Default,NTP,0000,0000,0000,,来管理一座城市\N{\fnMicrosoft YaHei\fs14\2c&H111211&}on limited resources,
+Dialogue: 0,0:55:28.72,0:55:30.85,*Default,NTP,0000,0000,0000,,平衡各种利弊\N{\fnMicrosoft YaHei\fs14\2c&H111211&}and balance priorities,
+Dialogue: 0,0:55:30.89,0:55:33.69,*Default,NTP,0000,0000,0000,,那你就得明白\N{\fnMicrosoft YaHei\fs14\2c&H111211&}well, then-- well, then you understand
+Dialogue: 0,0:55:33.73,0:55:36.69,*Default,NTP,0000,0000,0000,,写信解决不了问题\N{\fnMicrosoft YaHei\fs14\2c&H111211&}that writing letters will not solve the problem.
+Dialogue: 0,0:55:36.73,0:55:38.36,*Default,NTP,0000,0000,0000,,哦 不行\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Oh, no...
+Dialogue: 0,0:55:39.90,0:55:42.20,*Default,NTP,0000,0000,0000,,真要命 姑娘\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Shit, girl.
+Dialogue: 0,0:55:42.23,0:55:45.36,*Default,NTP,0000,0000,0000,,你知道我总跟你站一边的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You know I'm-a roll wit' you.
+Dialogue: 0,0:55:45.40,0:55:49.53,*Default,NTP,0000,0000,0000,,呵 我也要休息一下的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Huh, I need some kinda break.
+Dialogue: 0,0:55:49.57,0:55:51.74,*Default,NTP,0000,0000,0000,,嗯嗯\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Mm-hmm.
+Dialogue: 0,0:56:06.29,0:56:08.69,*Default,NTP,0000,0000,0000,,哦 我靠\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Oh, shit.
+Dialogue: 0,0:56:21.47,0:56:23.34,*Default,NTP,0000,0000,0000,,真想看看那些个婊子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Ain't nothin' worse than them bitches
+Dialogue: 0,0:56:23.38,0:56:27.51,*Default,NTP,0000,0000,0000,,涂花了指甲来打二十一点\N{\fnMicrosoft YaHei\fs14\2c&H111211&}with fucked-up nails at the blackjack table.
+Dialogue: 0,0:56:27.55,0:56:30.48,*Default,NTP,0000,0000,0000,,你懂的\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You know.
+Dialogue: 0,0:56:30.52,0:56:32.95,*Default,NTP,0000,0000,0000,,等一下\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Hold on.
+Dialogue: 0,0:56:32.98,0:56:34.68,*Default,NTP,0000,0000,0000,,你觉得我儿子\N{\fnMicrosoft YaHei\fs14\2c&H111211&}You think my son gonna go up
+Dialogue: 0,0:56:34.72,0:56:37.05,*Default,NTP,0000,0000,0000,,会穿得灰头土脸地去学校么\N{\fnMicrosoft YaHei\fs14\2c&H111211&}to that school lookin' like himself?
+Dialogue: 0,0:56:42.56,0:56:44.53,*Default,NTP,0000,0000,0000,,我觉得 除非先整治好了学校\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And I don't believe we can get a handle on crime
+Dialogue: 0,0:56:44.56,0:56:46.69,*Default,NTP,0000,0000,0000,,否则别谈什么整治犯罪\N{\fnMicrosoft YaHei\fs14\2c&H111211&}until we get a handle on the schools.
+Dialogue: 0,0:56:46.73,0:56:48.86,*Default,NTP,0000,0000,0000,,因为我们得在街头混混带坏这些孩子前\N{\fnMicrosoft YaHei\fs14\2c&H111211&}Because we need to be thinking about these kids
+Dialogue: 0,0:56:48.90,0:56:51.03,*Default,NTP,0000,0000,0000,,为他们做好打算\N{\fnMicrosoft YaHei\fs14\2c&H111211&}before the corners take them.
+Dialogue: 0,0:56:51.07,0:56:53.40,*Default,NTP,0000,0000,0000,,这意味着我们必须重新关注学校\N{\fnMicrosoft YaHei\fs14\2c&H111211&}And this means a renewed focus on our schools...
