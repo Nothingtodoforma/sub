@@ -1,0 +1,645 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,28,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,1,2,5,5,1,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.08,0:00:14.86,Default,,0,0,0,,所有乘客请注意\N{\fs24\1c}Attention, all passengers.
+Dialogue: 0,0:00:16.62,0:00:18.37,Default,,0,0,0,,室外温度\N{\fs24\1c}The temperature outside...
+Dialogue: 0,0:00:19.13,0:00:23.54,Default,,0,0,0,,是零下121.9摄氏度\N{\fs24\1c}...is minus 121.9 degrees Celsius.
+Dialogue: 0,0:00:24.63,0:00:29.84,Default,,0,0,0,,我们即将到达芝加哥 我们生命循环的出发点\N{\fs24\1c}As we approach Chicago, mile zero of our cycle of life,
+Dialogue: 0,0:00:30.85,0:00:32.38,Default,,0,0,0,,做好准备\N{\fs24\1c}be prepared to brace.
+Dialogue: 0,0:00:37.39,0:00:39.55,Default,,0,0,0,,我们都受到我们选择的困扰\N{\fs24\1c}We're all haunted by our choices.
+Dialogue: 0,0:00:40.98,0:00:44.98,Default,,0,0,0,,我们登上列车时所做出的个人选择\N{\fs24\1c}The personal choices we all made when we boarded this train.
+Dialogue: 0,0:00:46.99,0:00:49.81,Default,,0,0,0,,以及让我们走到那天的集体选择\N{\fs24\1c}And the collective choices that brought us to that day.
+Dialogue: 0,0:00:50.45,0:00:52.36,Default,,0,0,0,,数十年来做出的选择\N{\fs24\1c}Choices made over decades,
+Dialogue: 0,0:00:53.12,0:00:55.36,Default,,0,0,0,,即便当我们知道气候变化不是传说\N{\fs24\1c}even when we knew climate change was real.
+Dialogue: 0,0:00:58.87,0:01:03.74,Default,,0,0,0,,最后 是我的选择 挟持这座方舟\N{\fs24\1c}And finally my own choice to pirate this ark
+Dialogue: 0,0:01:04.38,0:01:05.87,Default,,0,0,0,,对你们所有人撒谎\N{\fs24\1c}and lie to you all...
+Dialogue: 0,0:01:07.92,0:01:09.88,Default,,0,0,0,,让我们走到了现在\N{\fs24\1c}which has brought us to where we are now.
+Dialogue: 0,0:01:11.55,0:01:15.67,Default,,0,0,0,,愿我们所有人在接下来都更加清醒地\N{\fs24\1c}May we all move forward with greater awareness
+Dialogue: 0,0:01:15.93,0:01:18.13,Default,,0,0,0,,认识到我们所做的选择\N{\fs24\1c}of the choices that we make.
+Dialogue: 0,0:01:19.69,0:01:21.68,Default,,0,0,0,,我们列车一心\N{\fs24\1c}We are one train.
+Dialogue: 0,0:01:22.77,0:01:26.73,Default,,0,0,0,,今天 列车选择了改变\N{\fs24\1c}And today that train chooses change.
+Dialogue: 0,0:01:27.90,0:01:31.02,Default,,0,0,0,,我在此将雪国列车的统治权\N{\fs24\1c}I hereby relinquish governance of Snowpiercer
+Dialogue: 0,0:01:31.36,0:01:33.11,Default,,0,0,0,,交给叛军\N{\fs24\1c}to the rebel forces.
+Dialogue: 0,0:01:35.24,0:01:37.24,Default,,0,0,0,,这是我们的循环\N{\fs24\1c}These are our revolutions,
+Dialogue: 0,0:01:37.75,0:01:43.12,Default,,0,0,0,,994节车厢\N{\fs24\1c}994 cars long.
+Dialogue: 0,0:02:07.98,0:02:09.73,Default,,0,0,0,,雪国列车的公民\N{\fs24\1c}Citizens of Snowpiercer...
+Dialogue: 0,0:02:12.82,0:02:14.73,Default,,0,0,0,,我是安德烈·莱顿\N{\fs24\1c}...my name is Andre Layton.
+Dialogue: 0,0:02:26.26,0:02:29.56,Default,,0,0,0,,{\an8\bord1\fs38\b1}雪国列车\N第一季 第十集[季终]
+Dialogue: 0,0:02:39.52,0:02:42.31,Default,,0,0,0,,好 我们开工吧\N{\fs24\1c}Okay. Let's get to work.
+Dialogue: 0,0:02:43.74,0:02:48.73,Default,,0,0,0,,-重置一下5 4 3号线 哈维  -好\N{\fs24\1c}-Alright, can you reset line 5, 4, and 3 for me, Javi?  -Alright.
+Dialogue: 0,0:02:51.35,0:02:52.68,Default,,0,0,0,,我们伤得不轻\N{\fs24\1c}We took a beating.
+Dialogue: 0,0:02:53.48,0:02:54.76,Default,,0,0,0,,是啊\N{\fs24\1c}No shit.
+Dialogue: 0,0:02:55.53,0:02:58.91,Default,,0,0,0,,有37节电池车下线了\N{\fs24\1c}So, we've got 37 battery cars offline,
+Dialogue: 0,0:02:58.99,0:03:01.00,Default,,0,0,0,,可能需要12小时充电\N{\fs24\1c}probably 12 hours to recharge.
+Dialogue: 0,0:03:01.08,0:03:02.54,Default,,0,0,0,,我们电力不足了\N{\fs24\1c}We're running low on juice.
+Dialogue: 0,0:03:02.61,0:03:04.78,Default,,0,0,0,,我把自己全天候锁在这里之前\N{\fs24\1c}Before I lock myself up here full time,
+Dialogue: 0,0:03:04.78,0:03:06.32,Default,,0,0,0,,我还得去做件事\N{\fs24\1c}there's something I need to go do.
+Dialogue: 0,0:03:07.54,0:03:08.57,Default,,0,0,0,,我能帮忙吗\N{\fs24\1c}Can I help?
+Dialogue: 0,0:03:10.20,0:03:11.20,Default,,0,0,0,,不能\N{\fs24\1c}No.
+Dialogue: 0,0:03:11.66,0:03:12.87,Default,,0,0,0,,你已经帮忙了\N{\fs24\1c}You already have.
+Dialogue: 0,0:03:13.83,0:03:14.95,Default,,0,0,0,,就是...\N{\fs24\1c}It's just, um  --
+Dialogue: 0,0:03:16.42,0:03:18.41,Default,,0,0,0,,有件事我已经推迟很久了\N{\fs24\1c}It's something I've put off for a long time.
+Dialogue: 0,0:03:23.26,0:03:25.34,Default,,0,0,0,,我们付出了沉重代价 迈尔斯\N{\fs24\1c}We paid a heavy price, Miles.
+Dialogue: 0,0:03:31.93,0:03:34.60,Default,,0,0,0,,最后的澳洲人他们 他们在后车\N{\fs24\1c}The Last Aussie and the guys, they're downtrain.
+Dialogue: 0,0:03:34.69,0:03:35.76,Default,,0,0,0,,他们想见你\N{\fs24\1c}They want to see you.
+Dialogue: 0,0:03:36.44,0:03:38.06,Default,,0,0,0,,奶奶也在那里\N{\fs24\1c}Mama Grande's there, too.
+Dialogue: 0,0:03:41.78,0:03:43.15,Default,,0,0,0,,我们失去乔茜了 是吧\N{\fs24\1c}We lost Josie, didn't we?
+Dialogue: 0,0:03:47.24,0:03:48.44,Default,,0,0,0,,是的\N{\fs24\1c}Yeah, we did.
+Dialogue: 0,0:04:01.51,0:04:03.17,Default,,0,0,0,,她爱你 迈尔斯\N{\fs24\1c}She loved you, Miles.
+Dialogue: 0,0:04:04.18,0:04:06.42,Default,,0,0,0,,好吗 她也爱我 她...\N{\fs24\1c}Okay? She loved me, too. She was  --
+Dialogue: 0,0:04:06.68,0:04:08.42,Default,,0,0,0,,她为我们付出了一切\N{\fs24\1c}She was all in for all of us.
+Dialogue: 0,0:04:09.31,0:04:12.72,Default,,0,0,0,,你知道车尾人怎么纪念离世吧\N{\fs24\1c}Hey, you know how a Tailie marks a passing, right?
+Dialogue: 0,0:04:13.43,0:04:14.39,Default,,0,0,0,,一起铭记\N{\fs24\1c}Together.
+Dialogue: 0,0:04:14.94,0:04:16.05,Default,,0,0,0,,不遗忘任何人\N{\fs24\1c}No one forgotten.
+Dialogue: 0,0:04:18.86,0:04:19.93,Default,,0,0,0,,不让任何人孤独\N{\fs24\1c}No one alone.
+Dialogue: 0,0:04:20.69,0:04:21.60,Default,,0,0,0,,没错\N{\fs24\1c}That's right.
+Dialogue: 0,0:04:25.32,0:04:27.02,Default,,0,0,0,,她会很为你骄傲的\N{\fs24\1c}She'd have been so proud of you.
+Dialogue: 0,0:04:43.30,0:04:45.05,Default,,0,0,0,,好了 我知道情况并不理想\N{\fs24\1c}Alright, I know conditions are not ideal,
+Dialogue: 0,0:04:45.05,0:04:46.55,Default,,0,0,0,,但我现在要做些解释\N{\fs24\1c}but I'm gonna explain some things right now.
+Dialogue: 0,0:04:46.55,0:04:50.15,Default,,0,0,0,,好了 听好 接下来是这样的\N{\fs24\1c}Okay, listen up! This is how this is going to go!
+Dialogue: 0,0:04:50.72,0:04:54.02,Default,,0,0,0,,司闸员和叛军将负责管事\N{\fs24\1c}The Brakemen and the rebel army will be in charge
+Dialogue: 0,0:04:54.02,0:04:57.77,Default,,0,0,0,,直到 当选委员会建立宪法\N{\fs24\1c}until an elected council can create a constitution
+Dialogue: 0,0:04:57.77,0:04:59.35,Default,,0,0,0,,成立代议政府\N{\fs24\1c}for a representative government.
+Dialogue: 0,0:04:59.36,0:05:02.61,Default,,0,0,0,,叛军在打劫 闯入舱室\N{\fs24\1c}The rebel army is looting and breaking into cabins!
+Dialogue: 0,0:05:02.61,0:05:04.52,Default,,0,0,0,,对 是发生了打劫\N{\fs24\1c}Yes, there has been some looting,
+Dialogue: 0,0:05:04.61,0:05:07.65,Default,,0,0,0,,但现在我们完全控制住了 好吗\N{\fs24\1c}but we are in total control now, okay?
+Dialogue: 0,0:05:07.66,0:05:09.86,Default,,0,0,0,,我向大家承诺\N{\fs24\1c}And I promise you all have my word
+Dialogue: 0,0:05:09.87,0:05:11.92,Default,,0,0,0,,不会再有复仇了\N{\fs24\1c}that there will be no reprisals.
+Dialogue: 0,0:05:12.37,0:05:16.00,Default,,0,0,0,,这场战争结束了 现在要开始工作\N{\fs24\1c}This war is over. Now the work begins.
+Dialogue: 0,0:05:16.00,0:05:18.67,Default,,0,0,0,,我们要让雪国列车动起来\N{\fs24\1c}We need to get Snowpiercer up and running.
+Dialogue: 0,0:05:18.67,0:05:20.58,Default,,0,0,0,,农业区的人不在这 因为他们所有人\N{\fs24\1c}Ag-Sec isn't here because every single one of them's
+Dialogue: 0,0:05:20.59,0:05:21.88,Default,,0,0,0,,都在岗位上坚守着我们食物来源\N{\fs24\1c}back there guarding our food supply.
+Dialogue: 0,0:05:21.88,0:05:23.45,Default,,0,0,0,,-我知道 我正努力  -你觉得当你杀了\N{\fs24\1c}-I know. I'm working  ---What do you expect
+Dialogue: 0,0:05:23.59,0:05:26.30,Default,,0,0,0,,保持秩序的安保人员后会出现什么情况\N{\fs24\1c}when you murder the security forces who kept order?
+Dialogue: 0,0:05:26.30,0:05:29.21,Default,,0,0,0,,他们用毒气杀我们 他们处决囚犯\N{\fs24\1c}They killed us with gas! They executed prisoners!
+Dialogue: 0,0:05:29.22,0:05:32.47,Default,,0,0,0,,人们需要看到改变 而不是秩序 露丝\N{\fs24\1c}The people need to see change, not order, Ruth.
+Dialogue: 0,0:05:32.47,0:05:33.64,Default,,0,0,0,,我们不会再截断手臂\N{\fs24\1c}We're not taking any arms.
+Dialogue: 0,0:05:33.64,0:05:35.23,Default,,0,0,0,,我们不会再把人放进抽屉\N{\fs24\1c}We're not putting people in drawers.
+Dialogue: 0,0:05:35.68,0:05:37.28,Default,,0,0,0,,我们现在靠自己了\N{\fs24\1c}We look to ourselves now.
+Dialogue: 0,0:05:40.48,0:05:43.93,Default,,0,0,0,,你们各位都是协会的领袖\N{\fs24\1c}Alright, now, you people, you are the leaders of the Guilds.
+Dialogue: 0,0:05:44.19,0:05:47.02,Default,,0,0,0,,没错 你们是各部门的头\N{\fs24\1c}Yes, you are Department Heads.
+Dialogue: 0,0:05:47.49,0:05:49.37,Default,,0,0,0,,你们是乘客代表\N{\fs24\1c}You're Passenger Representatives.
+Dialogue: 0,0:05:49.91,0:05:53.44,Default,,0,0,0,,我们对每个人的信息都很简单明了\N{\fs24\1c}Our message to everyone right now is very simple  --
+Dialogue: 0,0:05:55.29,0:05:57.11,Default,,0,0,0,,列车现在是你们的了\N{\fs24\1c}This train is yours now.
+Dialogue: 0,0:05:59.75,0:06:02.08,Default,,0,0,0,,今晚我们会经过芝加哥\N{\fs24\1c}Tonight we pass through Chicago...
+Dialogue: 0,0:06:04.84,0:06:06.08,Default,,0,0,0,,那是一切开始的地方\N{\fs24\1c}...where all of this started.
+Dialogue: 0,0:06:07.63,0:06:09.50,Default,,0,0,0,,跟你们的爱人纪念这一刻吧\N{\fs24\1c}Mark it with your loved ones.
+Dialogue: 0,0:06:10.80,0:06:12.63,Default,,0,0,0,,这是全新的一圈\N{\fs24\1c}It's a brand-new revolution.
+Dialogue: 0,0:06:16.14,0:06:17.38,Default,,0,0,0,,真是胡扯\N{\fs24\1c}This is some bullshit.
+Dialogue: 0,0:06:21.06,0:06:24.35,Default,,0,0,0,,这么多人里竟然是你 你支持这一切\N{\fs24\1c}You of all people, you're supporting this?
+Dialogue: 0,0:06:26.07,0:06:27.65,Default,,0,0,0,,你知道 如果乘客服务部\N{\fs24\1c}You know, this will be a lot easier
+Dialogue: 0,0:06:27.65,0:06:30.78,Default,,0,0,0,,能跟我们朝同一个方向走 一切都会简单很多 露丝\N{\fs24\1c}if Hospitality is paddling in the same direction, Ruth.
+Dialogue: 0,0:06:30.78,0:06:31.83,Default,,0,0,0,,那是什么方向\N{\fs24\1c}Which direction is that?
+Dialogue: 0,0:06:32.87,0:06:36.61,Default,,0,0,0,,乌托邦式的胡言乱语永远不能让这列车团结\N{\fs24\1c}Utopian twaddle will never hold this train together.
+Dialogue: 0,0:07:05.40,0:07:06.72,Default,,0,0,0,,这里是怎么回事\N{\fs24\1c}What's going on here?
+Dialogue: 0,0:07:07.65,0:07:09.02,Default,,0,0,0,,这是什么情况\N{\fs24\1c}Uh, what is this?
+Dialogue: 0,0:07:09.49,0:07:11.85,Default,,0,0,0,,你怎么进来的 派克先生\N{\fs24\1c}How'd you get in, Mr. Pike?
+Dialogue: 0,0:07:13.45,0:07:17.83,Default,,0,0,0,,我弄到了一个头等厢的芯片\N{\fs24\1c}I procured a custom First Class chip.
+Dialogue: 0,0:07:17.83,0:07:20.32,Default,,0,0,0,,现在这东西到处都是\N{\fs24\1c}They're suddenly everywhere these days.
+Dialogue: 0,0:07:20.91,0:07:22.45,Default,,0,0,0,,小莱 这是\N{\fs24\1c}LJ, this is, uh...
+Dialogue: 0,0:07:25.42,0:07:28.29,Default,,0,0,0,,我不知道这些人是谁 但这是安妮\N{\fs24\1c}I don't know who these people are, but this is Annie.
+Dialogue: 0,0:07:28.30,0:07:29.46,Default,,0,0,0,,安妮\N{\fs24\1c}Mm. Annie.
+Dialogue: 0,0:07:29.46,0:07:32.17,Default,,0,0,0,,这是特伦斯 保洁员之王\N{\fs24\1c}And this is Terence, King of the Janitors.
+Dialogue: 0,0:07:33.38,0:07:36.09,Default,,0,0,0,,爽 真是爽歪歪 对吧\N{\fs24\1c}Oh, yeah! How was that, huh?
+Dialogue: 0,0:07:36.47,0:07:39.72,Default,,0,0,0,,在头等厢的床上来一发\N{\fs24\1c}Having a go in a First Class bed, right?
+Dialogue: 0,0:07:40.22,0:07:41.43,Default,,0,0,0,,下一个是谁\N{\fs24\1c}Now, who's next here?
+Dialogue: 0,0:07:42.23,0:07:43.18,Default,,0,0,0,,好\N{\fs24\1c}Okay.
+Dialogue: 0,0:07:47.36,0:07:48.39,Default,,0,0,0,,不\N{\fs24\1c}No.
+Dialogue: 0,0:07:48.48,0:07:50.18,Default,,0,0,0,,这里有你喜欢的吗\N{\fs24\1c}You see anyone you like?
+Dialogue: 0,0:07:50.90,0:07:52.65,Default,,0,0,0,,也许你能给你的鸡巴收藏再添一个\N{\fs24\1c}Maybe you can add a dick to your collection.
+Dialogue: 0,0:07:52.65,0:07:54.27,Default,,0,0,0,,出去\N{\fs24\1c}Oh! Get out!
+Dialogue: 0,0:07:54.61,0:07:55.69,Default,,0,0,0,,请出去\N{\fs24\1c}Please get out.
+Dialogue: 0,0:07:56.37,0:08:00.03,Default,,0,0,0,,我家人死了 我要你们都离开\N{\fs24\1c}My family is dead, and I need you to leave.
+Dialogue: 0,0:08:00.20,0:08:03.58,Default,,0,0,0,,你们都给我离开 拜托了\N{\fs24\1c}I need you to leave, please. Please.
+Dialogue: 0,0:08:03.58,0:08:06.28,Default,,0,0,0,,你应该对反抗军更慷慨些\N{\fs24\1c}You should be more generous to the resistance.
+Dialogue: 0,0:08:06.75,0:08:08.33,Default,,0,0,0,,你又不是反抗军\N{\fs24\1c}You are not the resistance.
+Dialogue: 0,0:08:08.34,0:08:11.37,Default,,0,0,0,,你出卖了他们 他出卖了你们所有人\N{\fs24\1c}You sold them out. He sold you all out!
+Dialogue: 0,0:08:13.72,0:08:17.42,Default,,0,0,0,,这里现在是我的车厢了 懂吗\N{\fs24\1c}This is all my carriage now, okay?
+Dialogue: 0,0:08:17.55,0:08:19.59,Default,,0,0,0,,你没有朋友 小莱\N{\fs24\1c}You have no friends, LJ.
+Dialogue: 0,0:08:19.72,0:08:24.55,Default,,0,0,0,,这年头 没有朋友的人就是穷人\N{\fs24\1c}And these days, someone with no friends is poor,
+Dialogue: 0,0:08:24.73,0:08:26.55,Default,,0,0,0,,这意味着我是富人\N{\fs24\1c}and that makes me rich!
+Dialogue: 0,0:08:40.95,0:08:42.36,Default,,0,0,0,,甚高频波段收到了什么\N{\fs24\1c}What's the VHF picking up?
+Dialogue: 0,0:08:42.58,0:08:44.36,Default,,0,0,0,,我今早听到一阵短暂的声音\N{\fs24\1c}Oh, I heard a blip of that this morning.
+Dialogue: 0,0:08:45.00,0:08:46.24,Default,,0,0,0,,是列车里传来的\N{\fs24\1c}It's from the train.
+Dialogue: 0,0:08:46.58,0:08:49.03,Default,,0,0,0,,音乐吗 哪里来的\N{\fs24\1c}Music? Where's it coming from?
+Dialogue: 0,0:08:49.04,0:08:53.21,Default,,0,0,0,,农业区的无线或列车后方的无线电吗\N{\fs24\1c}Ag-Sec wireless or one of the HAM sets downtrain?
+Dialogue: 0,0:08:53.21,0:08:54.88,Default,,0,0,0,,他们还在放广播节目吗\N{\fs24\1c}Those guys are still broadcasting?
+Dialogue: 0,0:08:54.88,0:08:55.89,Default,,0,0,0,,我还以为他们不做了呢\N{\fs24\1c}I thought they'd given up.
+Dialogue: 0,0:08:58.51,0:08:59.75,Default,,0,0,0,,真奇怪\N{\fs24\1c}So weird.
+Dialogue: 0,0:09:20.12,0:09:21.11,Default,,0,0,0,,该死\N{\fs24\1c}Shit.
+Dialogue: 0,0:09:21.58,0:09:22.40,Default,,0,0,0,,怎么了\N{\fs24\1c}What happened?
+Dialogue: 0,0:09:23.29,0:09:24.90,Default,,0,0,0,,卫星信号消失了\N{\fs24\1c}We just lost the satellite feed.
+Dialogue: 0,0:09:24.91,0:09:26.82,Default,,0,0,0,,别担心 我来处理\N{\fs24\1c}Don't worry. I'm on it.
+Dialogue: 0,0:09:28.71,0:09:30.66,Default,,0,0,0,,我们需要它来定位信号\N{\fs24\1c}We need it back to locate the signal.
+Dialogue: 0,0:09:49.10,0:09:50.64,Default,,0,0,0,,你总算准备好了\N{\fs24\1c}You're finally ready now.
+Dialogue: 0,0:09:52.57,0:09:54.52,Default,,0,0,0,,你一直都在逃避\N{\fs24\1c}You've been avoiding this for a long time.
+Dialogue: 0,0:09:55.78,0:09:56.89,Default,,0,0,0,,现在我知道原因了\N{\fs24\1c}Now I know why.
+Dialogue: 0,0:09:57.78,0:09:59.73,Default,,0,0,0,,雪国列车是你的主意\N{\fs24\1c}Snowpiercer was your idea.
+Dialogue: 0,0:10:00.24,0:10:02.69,Default,,0,0,0,,为了让它运行 我做过一些不当的事\N{\fs24\1c}I've done questionable things to keep her going.
+Dialogue: 0,0:10:02.74,0:10:04.03,Default,,0,0,0,,你折磨人们\N{\fs24\1c}You tortured people.
+Dialogue: 0,0:10:04.74,0:10:06.24,Default,,0,0,0,,截断他们的手臂\N{\fs24\1c}You took their arms.
+Dialogue: 0,0:10:07.08,0:10:11.03,Default,,0,0,0,,还害死了147个最后的地球人\N{\fs24\1c}And sent 147 of the last souls on Earth to death.
+Dialogue: 0,0:10:11.96,0:10:13.37,Default,,0,0,0,,我得背负这些苟活\N{\fs24\1c}I have to live with that.
+Dialogue: 0,0:10:13.63,0:10:18.00,Default,,0,0,0,,你来这是因为对一件事耿耿于怀\N{\fs24\1c}You're here because there's something that you can't live with.
+Dialogue: 0,0:10:21.93,0:10:22.88,Default,,0,0,0,,听\N{\fs24\1c}Listen.
+Dialogue: 0,0:10:31.19,0:10:32.14,Default,,0,0,0,,听\N{\fs24\1c}Listen.
+Dialogue: 0,0:10:34.36,0:10:36.77,Default,,0,0,0,,让暖风唤醒你的记忆\N{\fs24\1c}Let the warm breeze bring your memory...
+Dialogue: 0,0:10:38.44,0:10:40.06,Default,,0,0,0,,你过往的气息\N{\fs24\1c}...the scent of your past...
+Dialogue: 0,0:10:41.91,0:10:42.94,Default,,0,0,0,,黑土\N{\fs24\1c}dark earth...
+Dialogue: 0,0:10:44.12,0:10:45.32,Default,,0,0,0,,湿岩\N{\fs24\1c}wet rocks...
+Dialogue: 0,0:10:46.74,0:10:47.82,Default,,0,0,0,,高草\N{\fs24\1c}and tall grass.
+Dialogue: 0,0:10:49.46,0:10:52.49,Default,,0,0,0,,想起那时\N{\fs24\1c}Remember when life...
+Dialogue: 0,0:10:54.92,0:10:58.25,Default,,0,0,0,,生命遍及你所看之处 所经之地\N{\fs24\1c}...was everywhere you looked, everywhere you walked.
+Dialogue: 0,0:10:58.92,0:11:01.83,Default,,0,0,0,,生命紧抱着你 赋予你奇迹\N{\fs24\1c}It cradled you, fed you wonder,
+Dialogue: 0,0:11:03.01,0:11:04.50,Default,,0,0,0,,让你成为现在的你\N{\fs24\1c}made you who you are.
+Dialogue: 0,0:11:05.64,0:11:09.13,Default,,0,0,0,,再倾听雪国列车\N{\fs24\1c}Now hear Snowpiercer.
+Dialogue: 0,0:11:11.82,0:11:14.20,Default,,0,0,0,,感受轨道\N{\fs24\1c}Feel the track.
+Dialogue: 0,0:11:21.29,0:11:22.37,Default,,0,0,0,,金属的摩擦碰撞\N{\fs24\1c}Metal on metal.
+Dialogue: 0,0:11:26.17,0:11:28.29,Default,,0,0,0,,永动机的流动\N{\fs24\1c}The flow of your Engine Eternal...
+Dialogue: 0,0:11:32.55,0:11:37.67,Default,,0,0,0,,它的血脉给予所有还活着的生命力量\N{\fs24\1c}...her veins bringing power to everything that's still alive.
+Dialogue: 0,0:11:53.11,0:11:57.57,Default,,0,0,0,,在你的脑海里 门一扇扇地打开\N{\fs24\1c}In your mind, a door opens on another door opening.
+Dialogue: 0,0:12:04.17,0:12:05.91,Default,,0,0,0,,你走进自己内心\N{\fs24\1c}You're stepping into yourself...
+Dialogue: 0,0:12:07.63,0:12:08.87,Default,,0,0,0,,越走越深\N{\fs24\1c}stepping deeper.
+Dialogue: 0,0:12:10.59,0:12:11.87,Default,,0,0,0,,你往更深处走去\N{\fs24\1c}You're going deeper...
+Dialogue: 0,0:12:13.97,0:12:15.38,Default,,0,0,0,,直到最后...\N{\fs24\1c}until finally...
+Dialogue: 0,0:12:18.80,0:12:22.47,Default,,0000,0000,0000,,{\an09\fs22\1c}♪ I've got your picture ♪
+Dialogue: 0,0:12:23.27,0:12:26.48,Default,,0000,0000,0000,,{\an09\fs22\1c}♪ That you gave to me ♪
+Dialogue: 0,0:12:27.06,0:12:29.81,Default,,0000,0000,0000,,{\an09\fs22\1c}♪ And it's signed with love ♪
+Dialogue: 0,0:12:30.36,0:12:32.57,Default,,0000,0000,0000,,{\an09\fs22\1c}♪ Just like it used to be ♪
+Dialogue: 0,0:12:32.36,0:12:33.73,Default,,0,0,0,,艾莉珊德拉\N{\fs24\1c}Alexandra.
+Dialogue: 0,0:12:34.07,0:12:36.70,Default,,0000,0000,0000,,{\an09\fs22\1c}♪ The only thing different ♪
+Dialogue: 0,0:12:37.95,0:12:40.95,Default,,0000,0000,0000,,{\an09\fs22\1c}♪ The only thing new ♪
+Dialogue: 0,0:12:42.08,0:12:44.79,Default,,0000,0000,0000,,{\an09\fs22\1c}♪ I've got your picture ♪
+Dialogue: 0,0:12:49.09,0:12:50.00,Default,,0,0,0,,是什么\N{\fs24\1c}What is it?
+Dialogue: 0,0:12:53.09,0:12:54.12,Default,,0,0,0,,你看到了什么\N{\fs24\1c}What is it?
+Dialogue: 0,0:12:55.13,0:12:57.75,Default,,0,0,0,,我的女儿 我的女儿\N{\fs24\1c}My daughter. My daughter.
+Dialogue: 0,0:12:59.97,0:13:02.47,Default,,0,0,0,,为了列车 我牺牲了我的女儿\N{\fs24\1c}I sacrificed my daughter for this train.
+Dialogue: 0,0:13:05.36,0:13:07.35,Default,,0,0,0,,当时我只顾着工作\N{\fs24\1c}I put my work first.
+Dialogue: 0,0:13:09.90,0:13:11.74,Default,,0,0,0,,即便在最后 我还在岗位上\N{\fs24\1c}Even at the end, I didn't stop.
+Dialogue: 0,0:13:12.53,0:13:16.61,Default,,0,0,0,,我没去她那 因为确信他们能上车\N{\fs24\1c}I didn't go to her, so certain that they'd be there.
+Dialogue: 0,0:13:19.66,0:13:20.69,Default,,0,0,0,,然而\N{\fs24\1c}But then...
+Dialogue: 0,0:13:23.08,0:13:28.78,Default,,0,0,0,,列车出发了 但他们没有\N{\fs24\1c}then the train was leaving, and  --and they weren't.
+Dialogue: 0,0:13:30.75,0:13:31.39,Default,,0,0,0,,然后\N{\fs24\1c}And...
+Dialogue: 0,0:13:32.88,0:13:35.00,Default,,0,0,0,,我留在了列车上\N{\fs24\1c}I stayed with the train.
+Dialogue: 0,0:13:39.97,0:13:41.17,Default,,0,0,0,,再往前走\N{\fs24\1c}Go further.
+Dialogue: 0,0:13:41.60,0:13:43.05,Default,,0,0,0,,如果艾莉克斯在这里\N{\fs24\1c}If Alex was here...
+Dialogue: 0,0:13:46.23,0:13:47.89,Default,,0,0,0,,你想对她说什么\N{\fs24\1c}...what would you want to say to her?
+Dialogue: 0,0:13:56.32,0:13:57.60,Default,,0,0,0,,我想你\N{\fs24\1c}I miss you.
+Dialogue: 0,0:13:59.66,0:14:00.98,Default,,0,0,0,,我想你\N{\fs24\1c}I miss you.
+Dialogue: 0,0:14:04.79,0:14:06.20,Default,,0,0,0,,我需要你\N{\fs24\1c}I need you.
+Dialogue: 0,0:14:08.46,0:14:09.37,Default,,0,0,0,,还有...\N{\fs24\1c}And...
+Dialogue: 0,0:14:11.83,0:14:14.96,Default,,0,0,0,,用手抚摸我的脸颊\N{\fs24\1c}Put your hand on my cheek.
+Dialogue: 0,0:14:25.26,0:14:26.93,Default,,0,0,0,,我很抱歉\N{\fs24\1c}I am so sorry.
+Dialogue: 0,0:14:33.19,0:14:36.48,Default,,0,0,0,,只要能再抱抱你 我愿意付出一切\N{\fs24\1c}I would give anything just to hold you again.
+Dialogue: 0,0:14:43.28,0:14:44.57,Default,,0,0,0,,对不起\N{\fs24\1c}I'm sorry.
+Dialogue: 0,0:14:46.66,0:14:47.91,Default,,0,0,0,,对不起\N{\fs24\1c}I'm sorry.
+Dialogue: 0,0:15:00.09,0:15:01.09,Default,,0,0,0,,真对不起\N{\fs24\1c}I'm sorry.
+Dialogue: 0,0:15:08.56,0:15:10.27,Default,,0,0,0,,她看起来像...\N{\fs24\1c}She looks like a  --
+Dialogue: 0,0:15:10.35,0:15:12.73,Default,,0,0,0,,我说不好 像个星座\N{\fs24\1c}I don't know  --like a constellation.
+Dialogue: 0,0:15:12.81,0:15:14.02,Default,,0,0,0,,你觉得宝宝是女孩吗\N{\fs24\1c}You think it's a she?
+Dialogue: 0,0:15:14.73,0:15:18.19,Default,,0,0,0,,我没多想 就这么脱口而出了 你呢\N{\fs24\1c}I didn't think. I just...said it. You?
+Dialogue: 0,0:15:19.65,0:15:20.57,Default,,0,0,0,,男孩\N{\fs24\1c}Boy.
+Dialogue: 0,0:15:20.65,0:15:22.36,Default,,0,0,0,,所以以后就是这样了 对吗\N{\fs24\1c}So that's how this is gonna go, huh?
+Dialogue: 0,0:15:23.03,0:15:24.91,Default,,0,0,0,,是的\N{\fs24\1c}Yeah.
+Dialogue: 0,0:15:25.53,0:15:26.57,Default,,0,0,0,,我想是吧\N{\fs24\1c}I guess so.
+Dialogue: 0,0:15:30.29,0:15:31.87,Default,,0,0,0,,不再以我们为中心\N{\fs24\1c}It's not about us anymore.
+Dialogue: 0,0:15:33.71,0:15:37.38,Default,,0,0,0,,我们不重要了 现在她才是重点\N{\fs24\1c}We're not important. It's about her now.
+Dialogue: 0,0:15:38.34,0:15:39.34,Default,,0,0,0,,没错\N{\fs24\1c}Yeah.
+Dialogue: 0,0:15:40.92,0:15:42.67,Default,,0,0,0,,或者是他\N{\fs24\1c}Or him.
+Dialogue: 0,0:15:44.22,0:15:45.72,Default,,0,0,0,,那么 我们该如何做\N{\fs24\1c}So, how do we do this?
+Dialogue: 0,0:15:46.55,0:15:47.70,Default,,0,0,0,,发生了这么多事\N{\fs24\1c}After everything.
+Dialogue: 0,0:15:50.72,0:15:51.79,Default,,0,0,0,,乔茜也去世了\N{\fs24\1c}After Josie.
+Dialogue: 0,0:16:00.52,0:16:03.35,Default,,0,0,0,,我们永远不可能成为以前梦想的家庭\N{\fs24\1c}We're never gonna be the family we dreamed of.
+Dialogue: 0,0:16:04.44,0:16:05.76,Default,,0,0,0,,但我们会找到办法\N{\fs24\1c}But we'll find a way.
+Dialogue: 0,0:16:15.37,0:16:17.78,Default,,0,0,0,,他们洗劫了家禽区 毁坏了水产区\N{\fs24\1c}They raided Poultry, damaged Aquaculture,
+Dialogue: 0,0:16:17.79,0:16:19.04,Default,,0,0,0,,偷走了半车厢生菜\N{\fs24\1c}stole half a car of lettuce.
+Dialogue: 0,0:16:19.04,0:16:20.90,Default,,0,0,0,,他们想拿什么就拿什么\N{\fs24\1c}They're taking anything they want.
+Dialogue: 0,0:16:20.91,0:16:22.50,Default,,0,0,0,,现在我面临严重的供应链问题\N{\fs24\1c}Now I have serious supply-chain issues,
+Dialogue: 0,0:16:22.50,0:16:25.00,Default,,0,0,0,,你还想要整辆列车的人都能摄入相等的卡路里\N{\fs24\1c}and you want the whole train to have equal calories?
+Dialogue: 0,0:16:25.00,0:16:26.08,Default,,0,0,0,,这是你要优先考虑的事\N{\fs24\1c}That's your first priority.
+Dialogue: 0,0:16:26.09,0:16:28.04,Default,,0,0,0,,我们少了16个熟练工人\N{\fs24\1c}We're down 16 trained men.
+Dialogue: 0,0:16:28.05,0:16:29.96,Default,,0,0,0,,已经48小时没合过眼\N{\fs24\1c}We're going on 48 hours no sleep.
+Dialogue: 0,0:16:29.96,0:16:32.17,Default,,0,0,0,,谢谢你的努力 珍珠\N{\fs24\1c}Oh, thank you for your efforts, Jinju.
+Dialogue: 0,0:16:32.22,0:16:33.88,Default,,0,0,0,,好了 我该走了\N{\fs24\1c}Okay, this is where I go
+Dialogue: 0,0:16:34.01,0:16:37.25,Default,,0,0,0,,让你们单独讨论一下供应链问题\N{\fs24\1c}and I let you two discuss your supply-chain issues.
+Dialogue: 0,0:16:43.44,0:16:46.89,Default,,0,0,0,,我不明白如此弥天大谎你怎么能瞒着我\N{\fs24\1c}I just don't understand how you could just keep such a big lie from me.
+Dialogue: 0,0:16:47.11,0:16:48.11,Default,,0,0,0,,还瞒着整辆列车\N{\fs24\1c}And the whole train.
+Dialogue: 0,0:16:48.11,0:16:49.60,Default,,0,0,0,,因为不瞒着只会变成这样\N{\fs24\1c}Because this is the alternative.
+Dialogue: 0,0:16:49.73,0:16:52.48,Default,,0,0,0,,如果人们需要一个威尔福德 何不给他们希望\N{\fs24\1c}And if the people needed a Wilford, why deny them that hope?
+Dialogue: 0,0:16:53.99,0:16:55.11,Default,,0,0,0,,拜托 提尔\N{\fs24\1c}Come on, Till.
+Dialogue: 0,0:16:56.20,0:16:58.17,Default,,0,0,0,,你真的宁愿孤独无援吗\N{\fs24\1c}Would you really rather be alone?
+Dialogue: 0,0:17:03.21,0:17:04.61,Default,,0,0,0,,我并非孤独一人\N{\fs24\1c}I'm not alone.
+Dialogue: 0,0:17:05.79,0:17:09.25,Default,,0,0,0,,我有和我统一战线的兄弟姐妹\N{\fs24\1c}I've got my sisters and brothers I stood with
+Dialogue: 0,0:17:09.25,0:17:10.92,Default,,0,0,0,,以及对雪国列车\N{\fs24\1c}and a responsibility to Snowpiercer
+Dialogue: 0,0:17:10.92,0:17:12.96,Default,,0,0,0,,前所未有的责任感\N{\fs24\1c}I have never felt before.
+Dialogue: 0,0:17:15.76,0:17:20.23,Default,,0,0,0,,这么说我们终于意见一致了 列车最重要\N{\fs24\1c}So we finally agree. The train comes first.
+Dialogue: 0,0:17:41.45,0:17:45.66,Default,,0,0,0,,你知道在雪国列车上分手的人会怎么说\N{\fs24\1c}You know what they say when you break up on Snowpiercer.
+Dialogue: 0,0:17:48.17,0:17:49.45,Default,,0,0,0,,"回头"见\N{\fs24\1c}See you around.
+Dialogue: 0,0:18:29.54,0:18:32.93,Default,,0,0,0,,{\an8}乘客服务部
+Dialogue: 0,0:18:59.03,0:19:00.37,Default,,0,0,0,,你是来退位的\N{\fs24\1c}So you've come to abdicate.
+Dialogue: 0,0:19:01.03,0:19:02.11,Default,,0,0,0,,你看起来准备好了\N{\fs24\1c}You look ready.
+Dialogue: 0,0:19:03.62,0:19:06.36,Default,,0,0,0,,准备好面对什么 无秩序\N{\fs24\1c}Ready for what? Anarchy?
+Dialogue: 0,0:19:07.33,0:19:08.66,Default,,0,0,0,,过道一片混乱\N{\fs24\1c}Chaos in the corridors?
+Dialogue: 0,0:19:08.83,0:19:10.96,Default,,0,0,0,,还是像沙丁鱼一样堆放的冰冻尸体\N{\fs24\1c}Frozen bodies stacked up like sardines
+Dialogue: 0,0:19:10.96,0:19:12.70,Default,,0,0,0,,因为肥料室都忙不过来了\N{\fs24\1c}because compost can't keep up,
+Dialogue: 0,0:19:12.96,0:19:15.08,Default,,0,0,0,,而你却从容地回到火车头\N{\fs24\1c}while you just swan off to the Engine,
+Dialogue: 0,0:19:16.09,0:19:18.21,Default,,0,0,0,,躲避你造成的这一切\N{\fs24\1c}hide from everything that you've wrought?
+Dialogue: 0,0:19:18.47,0:19:20.67,Default,,0,0,0,,是啊 把我丢在这应付这些...\N{\fs24\1c}Oh, yeah, leave me here with these...
+Dialogue: 0,0:19:22.68,0:19:23.75,Default,,0,0,0,,人\N{\fs24\1c}people?
+Dialogue: 0,0:19:25.18,0:19:28.06,Default,,0,0,0,,安德烈·莱顿的代表理事会\N{\fs24\1c}Andre Layton's Council of Representatives?
+Dialogue: 0,0:19:28.06,0:19:30.64,Default,,0,0,0,,-这是重新开始 露丝  -这绝对行不通\N{\fs24\1c}-It's a clean slate, Ruth.  -It's never gonna work.
+Dialogue: 0,0:19:30.64,0:19:32.43,Default,,0,0,0,,民主以前就行得通\N{\fs24\1c}Democracy used to work.
+Dialogue: 0,0:19:35.98,0:19:38.94,Default,,0,0,0,,有时 有些东西必须失去过才能再找回来\N{\fs24\1c}Sometimes you have to lose something to find it again.
+Dialogue: 0,0:19:41.45,0:19:45.28,Default,,0,0,0,,你把147个人送到外面等死\N{\fs24\1c}You put 147 people out there to die.
+Dialogue: 0,0:19:46.45,0:19:48.28,Default,,0,0,0,,其中有很多都是我的朋友\N{\fs24\1c}Many of them my friends.
+Dialogue: 0,0:19:48.66,0:19:50.45,Default,,0,0,0,,包括诺兰·格雷\N{\fs24\1c}Including Nolan Grey.
+Dialogue: 0,0:19:51.87,0:19:52.82,Default,,0,0,0,,那么...\N{\fs24\1c}Well...
+Dialogue: 0,0:19:55.79,0:19:57.83,Default,,0,0,0,,生存不需要爱 对吗\N{\fs24\1c}Survival doesn't need love, does it?
+Dialogue: 0,0:20:02.18,0:20:03.68,Default,,0,0,0,,我之前想错了\N{\fs24\1c}That's what I got so wrong.
+Dialogue: 0,0:20:06.98,0:20:09.11,Default,,0,0,0,,爱是最重要的\N{\fs24\1c}There's nothing more important than love.
+Dialogue: 0,0:20:24.41,0:20:26.04,Default,,0,0,0,,回头见 露丝\N{\fs24\1c}I'll see you around, Ruth.
+Dialogue: 0,0:20:26.12,0:20:28.13,Default,,0,0,0,,我们已经道过别了\N{\fs24\1c}We've already said our goodbyes.
+Dialogue: 0,0:21:01.65,0:21:03.40,Default,,0,0,0,,-你在三角测量吗  -我正在测\N{\fs24\1c}-You triangulating it?  -I'm trying.
+Dialogue: 0,0:21:03.64,0:21:05.67,Default,,0,0,0,,本 信号指向西北方\N{\fs24\1c}Ben, the signal's reading to the northwest.
+Dialogue: 0,0:21:07.10,0:21:08.26,Default,,0,0,0,,西北方\N{\fs24\1c}Northwest?
+Dialogue: 0,0:21:08.89,0:21:10.89,Default,,0,0,0,,拜托 哈维 外面什么都没有\N{\fs24\1c}Come on, Javi. There's nothing out there.
+Dialogue: 0,0:21:21.32,0:21:23.52,Default,,0,0,0,,我回来了\N{\fs24\1c}Hey. I'm back.
+Dialogue: 0,0:21:24.41,0:21:25.73,Default,,0,0,0,,你这身打扮真好看\N{\fs24\1c}That's a good look on you.
+Dialogue: 0,0:21:26.20,0:21:27.74,Default,,0,0,0,,非常感谢\N{\fs24\1c}Thank you very much.
+Dialogue: 0,0:21:28.12,0:21:31.87,Default,,0,0,0,,我们会在19:30经过芝加哥\N{\fs24\1c}Okay, so, we'll be passing through Chicago at 19:30,
+Dialogue: 0,0:21:31.87,0:21:34.00,Default,,0,0,0,,像往常一样把速度降下来 来标记起始点\N{\fs24\1c}slowing her down as usual to mark Mile Zero.
+Dialogue: 0,0:21:34.00,0:21:35.12,Default,,0,0,0,,梅 梅\N{\fs24\1c}Mel, Mel.
+Dialogue: 0,0:21:36.09,0:21:36.85,Default,,0,0,0,,听听这个\N{\fs24\1c}Listen to this.
+Dialogue: 0,0:21:40.85,0:21:41.35,Default,,0,0,0,,音乐\N{\fs24\1c}Music?
+Dialogue: 0,0:21:42.15,0:21:43.99,Default,,0,0,0,,如果这台老旧收音机都能收到\N{\fs24\1c}If that old radio picked it up,
+Dialogue: 0,0:21:44.06,0:21:46.11,Default,,0,0,0,,肯定来源于列车内部\N{\fs24\1c}it's probably just something from us.
+Dialogue: 0,0:21:46.11,0:21:49.09,Default,,0,0,0,,听我说 这信号来自于西北方\N{\fs24\1c}Guys, listen to me. It's coming from the northwest.
+Dialogue: 0,0:21:49.61,0:21:50.19,Default,,0,0,0,,在外面\N{\fs24\1c}Outside.
+Dialogue: 0,0:21:50.53,0:21:51.54,Default,,0,0,0,,在外面\N{\fs24\1c}Outside?
+Dialogue: 0,0:21:53.45,0:21:53.90,Default,,0,0,0,,天啊\N{\fs24\1c}Jesus.
+Dialogue: 0,0:21:56.49,0:21:57.60,Default,,0,0,0,,幸存者\N{\fs24\1c}Survivors?
+Dialogue: 0,0:22:01.51,0:22:03.71,Default,,0,0,0,,接收器的距离是多长\N{\fs24\1c}That receiver's range is what?
+Dialogue: 0,0:22:04.06,0:22:06.11,Default,,0,0,0,,最长80公里吗\N{\fs24\1c}80 kilometers max?
+Dialogue: 0,0:22:06.11,0:22:08.22,Default,,0,0,0,,本 外面有什么\N{\fs24\1c}Ben, what's out there?
+Dialogue: 0,0:22:08.23,0:22:11.13,Default,,0,0,0,,卫星链接断了 我正在处理\N{\fs24\1c}Satellite link's down. I'm working on it.
+Dialogue: 0,0:22:11.13,0:22:13.57,Default,,0,0,0,,该死 方向天线也冻住了\N{\fs24\1c}Damn it. Directional antenna froze, too.
+Dialogue: 0,0:22:13.57,0:22:15.43,Default,,0,0,0,,我无法找到第二个点来三角测量\N{\fs24\1c}I can't get a second point to triangulate.
+Dialogue: 0,0:22:15.66,0:22:16.40,Default,,0,0,0,,真的吗\N{\fs24\1c}Seriously?
+Dialogue: 0,0:22:16.59,0:22:18.10,Default,,0,0,0,,我正在处理 梅\N{\fs24\1c}I'm on it, Mel. I'm on it.
+Dialogue: 0,0:22:18.57,0:22:20.79,Default,,0,0,0,,但这个信号越来越强\N{\fs24\1c}But that signal is still getting stronger,
+Dialogue: 0,0:22:21.01,0:22:22.81,Default,,0,0,0,,这意味着我们离它越来越近\N{\fs24\1c}and that means we're getting closer.
+Dialogue: 0,0:22:23.33,0:22:24.01,Default,,0,0,0,,如果我们不减速的话\N{\fs24\1c}If we don't slow down,
+Dialogue: 0,0:22:24.01,0:22:25.92,Default,,0,0,0,,我们马上就会驶出接收范围\N{\fs24\1c}we're gonna be out of range in no time.
+Dialogue: 0,0:22:28.04,0:22:29.00,Default,,0,0,0,,我把莱顿叫过来\N{\fs24\1c}I'm gonna get Layton up here.
+Dialogue: 0,0:22:29.59,0:22:31.15,Default,,0,0,0,,梅 我们不用经过莱顿的批准\N{\fs24\1c}Mel, we don't need to go through Layton.
+Dialogue: 0,0:22:31.15,0:22:32.42,Default,,0,0,0,,本 需要经他批准\N{\fs24\1c}Yes, Ben, we do.
+Dialogue: 0,0:22:32.77,0:22:33.79,Default,,0,0,0,,这是辆全新的列车\N{\fs24\1c}It's a new train.
+Dialogue: 0,0:22:34.51,0:22:36.13,Default,,0,0,0,,有着全新的指挥链\N{\fs24\1c}It's a new chain of command.
+Dialogue: 0,0:22:36.62,0:22:38.03,Default,,0,0,0,,打扰一下 莱顿先生\N{\fs24\1c}Excuse me. Mr. Layton?
+Dialogue: 0,0:22:38.46,0:22:39.56,Default,,0,0,0,,我抓到这两个人想\N{\fs24\1c}I caught these two trying to smuggle
+Dialogue: 0,0:22:39.56,0:22:41.31,Default,,0,0,0,,把生菜偷拿去前车\N{\fs24\1c}a cart full of lettuce uptrain.
+Dialogue: 0,0:22:41.63,0:22:43.06,Default,,0,0,0,,车就在那里 老大\N{\fs24\1c}The cart was just there, boss.
+Dialogue: 0,0:22:43.06,0:22:44.48,Default,,0,0,0,,别跟我这么说话\N{\fs24\1c}Hey, look, don't gimme that shit.
+Dialogue: 0,0:22:44.48,0:22:45.48,Default,,0,0,0,,你打算拿到哪去\N{\fs24\1c}Where were you taking it?
+Dialogue: 0,0:22:48.74,0:22:51.92,Default,,0,0,0,,派克接管了头等厢 买卖脏物\N{\fs24\1c}Pike's set up in First, fencing stuff.
+Dialogue: 0,0:22:51.92,0:22:52.44,Default,,0,0,0,,派克\N{\fs24\1c}Pike.
+Dialogue: 0,0:22:52.44,0:22:54.11,Default,,0,0,0,,一位擅自主张的车尾人 想象一下\N{\fs24\1c}A rogue Tailie. Imagine that.
+Dialogue: 0,0:22:54.63,0:22:55.95,Default,,0,0,0,,安德烈·莱顿请到火车头\N{\fs24\1c}Andre Layton to the Engine.
+Dialogue: 0,0:22:56.25,0:22:58.17,Default,,0,0,0,,安德烈·莱顿请马上到火车头\N{\fs24\1c}Andre Layton to the Engine immediately.
+Dialogue: 0,0:22:58.18,0:22:58.90,Default,,0,0,0,,现在怎么办\N{\fs24\1c}Now what?
+Dialogue: 0,0:22:59.89,0:23:01.60,Default,,0,0,0,,我不知道 把他关禁闭吧\N{\fs24\1c}I don't know. Put them in lockup, okay?
+Dialogue: 0,0:23:01.60,0:23:02.72,Default,,0,0,0,,禁闭室满员了 先生\N{\fs24\1c}The lockups are full, sir.
+Dialogue: 0,0:23:02.72,0:23:05.99,Default,,0,0,0,,在我回来之前尽力维持秩序\N{\fs24\1c}Well, do something and keep order until I get back.
+Dialogue: 0,0:23:06.53,0:23:07.39,Default,,0,0,0,,生菜\N{\fs24\1c}Lettuce.
+Dialogue: 0,0:23:09.84,0:23:10.38,Default,,0,0,0,,"秩序"\N{\fs24\1c}"Order".
+Dialogue: 0,0:23:10.38,0:23:12.60,Default,,0,0,0,,听上去是那么的熟悉 对吗\N{\fs24\1c}Yeah, it's got a familiar ring to it, doesn't it?
+Dialogue: 0,0:23:13.05,0:23:14.80,Default,,0,0,0,,好的 走吧 小兔子们\N{\fs24\1c}Alright, let's go, bunny rabbits.
+Dialogue: 0,0:23:15.59,0:23:16.34,Default,,0,0,0,,我们走\N{\fs24\1c}Let's go!
+Dialogue: 0,0:23:18.41,0:23:20.68,Default,,0,0,0,,幸存者 这有可能吗\N{\fs24\1c}Survivors? Is that even possible?
+Dialogue: 0,0:23:21.04,0:23:21.80,Default,,0,0,0,,也许吧\N{\fs24\1c}Maybe.
+Dialogue: 0,0:23:22.63,0:23:23.86,Default,,0,0,0,,但自从我们上一次接到无线电信号\N{\fs24\1c}But it's been six and a half years
+Dialogue: 0,0:23:23.86,0:23:25.68,Default,,0,0,0,,已经有六年半了\N{\fs24\1c}since we've had a radio contact.
+Dialogue: 0,0:23:26.19,0:23:27.59,Default,,0,0,0,,谁能像这样坚持下来\N{\fs24\1c}Who could hold out like that?
+Dialogue: 0,0:23:28.02,0:23:30.08,Default,,0,0,0,,军队吗 私人地堡吗\N{\fs24\1c}Military? A private bunker?
+Dialogue: 0,0:23:30.08,0:23:32.08,Default,,0,0,0,,肯定是一座老塔 一个回路\N{\fs24\1c}It's gotta be an old tower, a loop,
+Dialogue: 0,0:23:32.08,0:23:33.29,Default,,0,0,0,,某种备份\N{\fs24\1c}some sort of backup.
+Dialogue: 0,0:23:33.29,0:23:34.80,Default,,0,0,0,,为什么我们之前从来没有听到过\N{\fs24\1c}Why haven't we heard it before?
+Dialogue: 0,0:23:34.86,0:23:37.24,Default,,0,0,0,,我们从没用过无线电 没有可以联系的人\N{\fs24\1c}We never use the radio. There's no one to talk to.
+Dialogue: 0,0:23:37.24,0:23:38.27,Default,,0,0,0,,我们的卫星图像在哪 本\N{\fs24\1c}Where's our sat pic, Ben?
+Dialogue: 0,0:23:38.27,0:23:39.14,Default,,0,0,0,,我正在恢复\N{\fs24\1c}I'm working on it.
+Dialogue: 0,0:23:39.14,0:23:41.66,Default,,0,0,0,,我无法确定来源 但信号正变得越来越强\N{\fs24\1c}I can't pinpoint it, but the signal keeps getting stronger.
+Dialogue: 0,0:23:43.33,0:23:43.70,Default,,0,0,0,,本\N{\fs24\1c}Ben?
+Dialogue: 0,0:23:43.83,0:23:45.65,Default,,0,0,0,,请说 这里是雪国列车 你能听到吗\N{\fs24\1c}Come in. This is Snowpiercer. Do you copy?
+Dialogue: 0,0:23:45.65,0:23:46.96,Default,,0,0,0,,我们需要更多时间 梅\N{\fs24\1c}We need more time, Mel.
+Dialogue: 0,0:23:46.96,0:23:47.82,Default,,0,0,0,,我们的时间不够用了\N{\fs24\1c}We're running out of that.
+Dialogue: 0,0:23:47.82,0:23:49.16,Default,,0,0,0,,你能听到吗 再重复一遍\N{\fs24\1c}Do you copy? I repeat.
+Dialogue: 0,0:23:49.16,0:23:51.50,Default,,0,0,0,,速度再放慢一些 试着获取图像\N{\fs24\1c}Let's slow further. Let's try and get a visual.
+Dialogue: 0,0:23:54.22,0:23:55.01,Default,,0,0,0,,问题在这儿\N{\fs24\1c}Here's the call.
+Dialogue: 0,0:23:56.16,0:23:59.51,Default,,0,0,0,,如果降低速度 我们就会出现短缺\N{\fs24\1c}If we take speed off, we'll be in deficit,
+Dialogue: 0,0:23:59.68,0:24:01.72,Default,,0,0,0,,消耗掉多于我们所生产的能量\N{\fs24\1c}using more power than we can generate.
+Dialogue: 0,0:24:01.92,0:24:03.91,Default,,0,0,0,,我们已经快接近应急能量储存线了\N{\fs24\1c}We're already near emergency reserves,
+Dialogue: 0,0:24:03.91,0:24:06.15,Default,,0,0,0,,而我们想放慢速度经过芝加哥\N{\fs24\1c}and we want to slow to go through Chicago.
+Dialogue: 0,0:24:07.27,0:24:09.58,Default,,0,0,0,,另一方面\N{\fs24\1c}Now, on the other hand,
+Dialogue: 0,0:24:10.19,0:24:13.08,Default,,0,0,0,,如果我们经过这个信号 却没有找到其来源\N{\fs24\1c}if we race past this signal without pinpointing it,
+Dialogue: 0,0:24:13.53,0:24:16.04,Default,,0,0,0,,那么再次听到它 就要再跑上一整圈\N{\fs24\1c}it'll be a full revolution before we can hear it again.
+Dialogue: 0,0:24:20.41,0:24:22.94,Default,,0,0,0,,如果可能存在着其他幸存者\N{\fs24\1c}If there's a possibility of other survivors,
+Dialogue: 0,0:24:23.72,0:24:27.33,Default,,0,0,0,,我们并不孤单 我们就得联系他们\N{\fs24\1c}that we're not alone, we have to make contact.
+Dialogue: 0,0:24:29.30,0:24:31.63,Default,,0,0,0,,同意 减慢列车速度\N{\fs24\1c}Agreed. Slowing the train.
+Dialogue: 0,0:24:38.38,0:24:39.12,Default,,0,0,0,,抱歉\N{\fs24\1c}Sorry.
+Dialogue: 0,0:24:42.14,0:24:42.72,Default,,0,0,0,,别碰我\N{\fs24\1c}Get off of me!
+Dialogue: 0,0:24:44.54,0:24:45.29,Default,,0,0,0,,停下来\N{\fs24\1c}Stop! Oh!
+Dialogue: 0,0:24:46.81,0:24:47.69,Default,,0,0,0,,搞什么鬼啊\N{\fs24\1c}Bloody hell!
+Dialogue: 0,0:24:50.23,0:24:51.91,Default,,0,0,0,,朝我另一边脸也打一拳吧\N{\fs24\1c}Take a crack at the other one, at least.
+Dialogue: 0,0:24:52.03,0:24:52.72,Default,,0,0,0,,什么\N{\fs24\1c}What?
+Dialogue: 0,0:24:55.46,0:24:55.94,Default,,0,0,0,,对不起\N{\fs24\1c}I'm sorry.
+Dialogue: 0,0:24:57.61,0:24:59.36,Default,,0,0,0,,抱歉 只是...\N{\fs24\1c}Sorry. Just...
+Dialogue: 0,0:25:00.69,0:25:03.69,Default,,0,0,0,,我失去了一切 我的全世界都崩塌了\N{\fs24\1c}I've lost everything, and my whole world is gone.
+Dialogue: 0,0:25:03.82,0:25:06.19,Default,,0,0,0,,而且大家都恨我\N{\fs24\1c}And everyone hates me.
+Dialogue: 0,0:25:06.32,0:25:07.95,Default,,0,0,0,,别担心 大家也都恨我\N{\fs24\1c}Don't worry. Everyone hates me, too.
+Dialogue: 0,0:25:11.08,0:25:12.08,Default,,0,0,0,,我知道你是谁\N{\fs24\1c}I know who you are.
+Dialogue: 0,0:25:13.23,0:25:13.95,Default,,0,0,0,,我们和好了吗\N{\fs24\1c}Are we good?
+Dialogue: 0,0:25:17.27,0:25:19.39,Default,,0,0,0,,车尾人把我从头等厢赶出来了\N{\fs24\1c}Tailies threw me out of First.
+Dialogue: 0,0:25:20.01,0:25:21.34,Default,,0,0,0,,没人愿意帮助我\N{\fs24\1c}And no one would help me.
+Dialogue: 0,0:25:22.14,0:25:24.50,Default,,0,0,0,,我没有任何可以用来交换的东西了 除了\N{\fs24\1c}And I don't even have anything left to trade except...
+Dialogue: 0,0:25:27.97,0:25:28.82,Default,,0,0,0,,这个可是好东西\N{\fs24\1c}That's not nothing.
+Dialogue: 0,0:25:29.61,0:25:30.30,Default,,0,0,0,,看\N{\fs24\1c}Look.
+Dialogue: 0,0:25:32.56,0:25:33.97,Default,,0,0,0,,我从三等厢餐厅里偷来的\N{\fs24\1c}I stole it from the mess hall.
+Dialogue: 0,0:25:35.15,0:25:37.87,Default,,0,0,0,,我们怎么才能把蛋壳剥了啊\N{\fs24\1c}Well, how are we even supposed to take the skin off?
+Dialogue: 0,0:25:40.75,0:25:42.27,Default,,0,0,0,,你不知道怎么剥鸡蛋吗\N{\fs24\1c}You don't know how to peel an egg?
+Dialogue: 0,0:25:44.62,0:25:47.54,Default,,0,0,0,,天啊 这很好笑 抱歉\N{\fs24\1c}Oh my... Well, that's funny. Sorry.
+Dialogue: 0,0:25:47.85,0:25:48.97,Default,,0,0,0,,我来给你演示一下\N{\fs24\1c}Come on. Let me show you.
+Dialogue: 0,0:25:50.39,0:25:51.53,Default,,0,0,0,,拿过来吧 小可爱 没事的\N{\fs24\1c}Come on, love. You're alright.
+Dialogue: 0,0:25:52.37,0:25:53.62,Default,,0,0,0,,我也是个坏蛋\N{\fs24\1c}I'm a bad egg, too.
+Dialogue: 0,0:26:17.22,0:26:19.29,Default,,0,0,0,,信号在达到峰值 我们应该快要遇到它了\N{\fs24\1c}Signal's peaking. We should be almost on top of it.
+Dialogue: 0,0:26:24.45,0:26:26.01,Default,,0,0,0,,马上就会出现画面了\N{\fs24\1c}Should have visual any second now.
+Dialogue: 0,0:26:34.39,0:26:35.16,Default,,0,0,0,,我的上帝啊\N{\fs24\1c}Oh, my God.
+Dialogue: 0,0:26:43.60,0:26:44.72,Default,,0,0,0,,所有人 请...\N{\fs24\1c}Um, everybody, please...
+Dialogue: 0,0:26:45.88,0:26:47.30,Default,,0,0,0,,露丝 露丝\N{\fs24\1c}Ruth! Ruth!
+Dialogue: 0,0:26:48.49,0:26:49.81,Default,,0,0,0,,外面出现了另一辆列车\N{\fs24\1c}Th-There's another train out there.
+Dialogue: 0,0:26:50.28,0:26:52.07,Default,,0,0,0,,露丝 发生了什么\N{\fs24\1c}Ruth? Wh-What's happening?
+Dialogue: 0,0:26:52.08,0:26:53.13,Default,,0,0,0,,还有其他人活着吗\N{\fs24\1c}Are there other people alive?
+Dialogue: 0,0:26:53.13,0:26:54.39,Default,,0,0,0,,借过 借过\N{\fs24\1c}Excuse me. Excuse me. Excuse me.
+Dialogue: 0,0:26:54.39,0:26:56.02,Default,,0,0,0,,露丝 外面还有人活着吗\N{\fs24\1c}Ruth, are there people alive out there?
+Dialogue: 0,0:26:56.63,0:26:57.78,Default,,0,0,0,,是的 在那里\N{\fs24\1c}Yes. There.
+Dialogue: 0,0:26:57.85,0:26:58.58,Default,,0,0,0,,你看\N{\fs24\1c}Look.
+Dialogue: 0,0:26:59.68,0:27:01.22,Default,,0,0,0,,我的老天\N{\fs24\1c}Sweet Jimmeny.
+Dialogue: 0,0:27:01.22,0:27:02.36,Default,,0,0,0,,他现在掌控补给列车\N{\fs24\1c}He's running the supply train.
+Dialogue: 0,0:27:02.37,0:27:03.99,Default,,0,0,0,,你不能确定是他 梅\N{\fs24\1c}You don't know it's him, Mel.
+Dialogue: 0,0:27:04.02,0:27:06.20,Default,,0,0,0,,等等 有补给列车吗\N{\fs24\1c}Wait. There's a supply train?
+Dialogue: 0,0:27:06.20,0:27:07.75,Default,,0,0,0,,-大爱丽丝  -谁\N{\fs24\1c}-It's Big Alice.  -Who?
+Dialogue: 0,0:27:08.30,0:27:09.95,Default,,0,0,0,,大爱丽丝 是引擎原型\N{\fs24\1c}Big Alice. She's a prototype Engine.
+Dialogue: 0,0:27:09.95,0:27:11.69,Default,,0,0,0,,-梅兰妮  -我要全速前进\N{\fs24\1c}-Melanie?  -I'm going to full speed.
+Dialogue: 0,0:27:11.75,0:27:13.06,Default,,0,0,0,,-能用上的全都给我  -我会的\N{\fs24\1c}-Give me everything we have.  -I will.
+Dialogue: 0,0:27:13.06,0:27:14.29,Default,,0,0,0,,那条支线是相连的 梅\N{\fs24\1c}That spur connects, Mel.
+Dialogue: 0,0:27:14.29,0:27:16.74,Default,,0,0,0,,不管是谁 他们都会开到我们后面\N{\fs24\1c}Whoever it is, they're gonna switch in behind us.
+Dialogue: 0,0:27:22.25,0:27:23.10,Default,,0,0,0,,是他\N{\fs24\1c}It's Him.
+Dialogue: 0,0:27:24.88,0:27:25.66,Default,,0,0,0,,是他\N{\fs24\1c}It's Him.
+Dialogue: 0,0:27:26.80,0:27:28.68,Default,,0,0,0,,梅兰妮 和我说说\N{\fs24\1c}Melanie, talk to me.
+Dialogue: 0,0:27:29.08,0:27:30.05,Default,,0,0,0,,他会想上登上我们的火车\N{\fs24\1c}He's gonna try and board us.
+Dialogue: 0,0:27:30.05,0:27:31.27,Default,,0,0,0,,你怎么知道是他 梅\N{\fs24\1c}You don't know it's Him, Mel.
+Dialogue: 0,0:27:31.27,0:27:31.76,Default,,0,0,0,,还会是谁 本\N{\fs24\1c}Who else, Ben?
+Dialogue: 0,0:27:31.76,0:27:33.62,Default,,0,0,0,,难道又是方舟海盗吗\N{\fs24\1c}Another merry band of ark pirates?
+Dialogue: 0,0:27:33.62,0:27:34.97,Default,,0,0,0,,-你是说...  -你是说威尔福德吗\N{\fs24\1c}-What are you talk---You mean Wilford?
+Dialogue: 0,0:27:34.97,0:27:36.01,Default,,0,0,0,,-什么  -没错\N{\fs24\1c}-What?!  -Yes.
+Dialogue: 0,0:27:36.62,0:27:38.33,Default,,0,0,0,,威尔福德先生回来了\N{\fs24\1c}Mr. Wilford is back!
+Dialogue: 0,0:27:38.67,0:27:40.41,Default,,0,0,0,,大家都冷静点 太好了\N{\fs24\1c}Everybody just stay calm! Yeah!
+Dialogue: 0,0:27:45.19,0:27:46.69,Default,,0,0,0,,如果威尔福德真的上了车\N{\fs24\1c}If Wilford does board us,
+Dialogue: 0,0:27:47.18,0:27:48.46,Default,,0,0,0,,我们的处境\N{\fs24\1c}we're in for something far worse
+Dialogue: 0,0:27:48.46,0:27:50.30,Default,,0,0,0,,就会比刚刚经历过得更糟糕\N{\fs24\1c}than anything we've just come through.
+Dialogue: 0,0:27:50.49,0:27:51.89,Default,,0,0,0,,那我会在列车后方组个作战队\N{\fs24\1c}Then I'll get a war party downtrain
+Dialogue: 0,0:27:51.89,0:27:53.61,Default,,0,0,0,,确保不会出现这种情况\N{\fs24\1c}and make sure that doesn't happen.
+Dialogue: 0,0:27:54.94,0:27:57.82,Default,,0,0,0,,莱顿 等乘客发现是他时\N{\fs24\1c}Layton. When the passengers realize it's Him,
+Dialogue: 0,0:27:57.97,0:27:59.04,Default,,0,0,0,,他们会产生分歧的\N{\fs24\1c}they'll be divided.
+Dialogue: 0,0:27:59.39,0:28:00.66,Default,,0,0,0,,我能让大家团结一致\N{\fs24\1c}I can keep us together.
+Dialogue: 0,0:28:01.57,0:28:02.35,Default,,0,0,0,,你必须做到\N{\fs24\1c}You have to.
+Dialogue: 0,0:28:06.46,0:28:08.28,Default,,0,0,0,,露丝 别说了 我们刚刚证实他已经死了\N{\fs24\1c}Ruth, stop. We just confirmed that He was dead.
+Dialogue: 0,0:28:08.28,0:28:09.33,Default,,0,0,0,,这是不可能的\N{\fs24\1c}It's not possible.
+Dialogue: 0,0:28:09.33,0:28:11.05,Default,,0,0,0,,还有谁能幸存下来\N{\fs24\1c}Who else could survive?
+Dialogue: 0,0:28:12.18,0:28:13.20,Default,,0,0,0,,回答我\N{\fs24\1c}Answer me that.
+Dialogue: 0,0:28:13.75,0:28:17.67,Default,,0,0,0,,他回来是要把我们从叛军手中解救出来\N{\fs24\1c}He's back to save us from these bloody rebels.
+Dialogue: 0,0:28:19.22,0:28:21.09,Default,,0,0,0,,特里斯坦 我们要办一个欢迎会\N{\fs24\1c}Tristan, we're gonna need a greeting party.
+Dialogue: 0,0:28:21.09,0:28:21.85,Default,,0,0,0,,欢迎会\N{\fs24\1c}Greeting party?
+Dialogue: 0,0:28:22.60,0:28:24.15,Default,,0,0,0,,糟了 规章不允许这样吗\N{\fs24\1c}No. Is that not the protocol?
+Dialogue: 0,0:28:24.48,0:28:25.31,Default,,0,0,0,,我不记得了\N{\fs24\1c}I can't remember.
+Dialogue: 0,0:28:25.69,0:28:27.27,Default,,0,0,0,,没事 我们会将就点\N{\fs24\1c}Never mind. We'll make do.
+Dialogue: 0,0:28:27.45,0:28:29.48,Default,,0,0,0,,好 你去梳洗一下\N{\fs24\1c}Okay, you tidy yourself up.
+Dialogue: 0,0:28:30.23,0:28:31.39,Default,,0,0,0,,我们现在要去车尾\N{\fs24\1c}We're going to The Tail.
+Dialogue: 0,0:28:31.70,0:28:32.49,Default,,0,0,0,,是的 长官\N{\fs24\1c}Yes, ma'am.
+Dialogue: 0,0:28:45.30,0:28:47.48,Default,,0,0,0,,梅 我们消耗了太多储存能量\N{\fs24\1c}Mel, we're pulling way too much from the banks.
+Dialogue: 0,0:28:47.97,0:28:48.59,Default,,0,0,0,,距离是多少\N{\fs24\1c}What's our distance?
+Dialogue: 0,0:28:48.59,0:28:50.23,Default,,0,0,0,,妈的 他们要跟车尾对接了\N{\fs24\1c}Shit. She's gonna dock with The Tail.
+Dialogue: 0,0:28:50.23,0:28:51.65,Default,,0,0,0,,所以他们要刹车\N{\fs24\1c}That's why they're hitting the brakes.
+Dialogue: 0,0:28:51.67,0:28:54.05,Default,,0,0,0,,该死的 他怎么回来了\N{\fs24\1c}Damn it. What is He doing back?
+Dialogue: 0,0:28:54.28,0:28:55.61,Default,,0,0,0,,梅 你要想清楚后果\N{\fs24\1c}Mel, you have to consider the outcomes.
+Dialogue: 0,0:28:55.61,0:28:57.12,Default,,0,0,0,,爱丽丝是一辆大火车\N{\fs24\1c}Alice is a big train.
+Dialogue: 0,0:28:57.17,0:28:59.06,Default,,0,0,0,,四十节车厢对它来说不算什么\N{\fs24\1c}40 cars is nothing for her.
+Dialogue: 0,0:28:59.06,0:29:01.45,Default,,0,0,0,,但是它是地转动火车 我们可以跑得比它快\N{\fs24\1c}But she's low-torqued. We can outrun Him.
+Dialogue: 0,0:29:01.45,0:29:03.72,Default,,0,0,0,,-数学证明它会赶上我们  -那就再看一次\N{\fs24\1c}-The math says He'll catch us. Then look again.
+Dialogue: 0,0:29:03.79,0:29:05.60,Default,,0,0,0,,你能找到的电流 我都要需要 哈维\N{\fs24\1c}I need every amp you can find, Javi,
+Dialogue: 0,0:29:05.60,0:29:07.11,Default,,0,0,0,,从农业区或是任何地方抽取\N{\fs24\1c}from Ag-Sec, from anywhere.
+Dialogue: 0,0:29:07.11,0:29:09.03,Default,,0,0,0,,-拜托 梅  -去试一下\N{\fs24\1c}-Come on, Mel.  -Just try.
+Dialogue: 0,0:29:09.35,0:29:10.43,Default,,0,0,0,,我们必须试试\N{\fs24\1c}We have to try.
+Dialogue: 0,0:29:10.44,0:29:11.81,Default,,0,0,0,,就快达到转接口\N{\fs24\1c}Nearly at the switch.
+Dialogue: 0,0:29:14.11,0:29:15.48,Default,,0,0,0,,它在我们后面开来\N{\fs24\1c}It's coming in behind us.
+Dialogue: 0,0:29:16.10,0:29:18.53,Default,,0,0,0,,快点 各位 你们要错过这场世界盛事了\N{\fs24\1c}Come on, guys. You're missing out on world events here!
+Dialogue: 0,0:29:18.53,0:29:20.79,Default,,0,0,0,,派对结束了 出去 快\N{\fs24\1c}Alright, party's over. Get out of here. Go.
+Dialogue: 0,0:29:21.55,0:29:22.58,Default,,0,0,0,,快出去\N{\fs24\1c}Come on! Out!
+Dialogue: 0,0:29:22.58,0:29:23.12,Default,,0,0,0,,出去\N{\fs24\1c}Clear out!
+Dialogue: 0,0:29:24.24,0:29:25.97,Default,,0,0,0,,-你 坐下  -出去 出去\N{\fs24\1c}-You. Sit down.  -Go. Get out of here. Go.
+Dialogue: 0,0:29:26.51,0:29:27.24,Default,,0,0,0,,快\N{\fs24\1c}Come on!
+Dialogue: 0,0:29:30.04,0:29:32.32,Default,,0,0,0,,-好  -谁能不爱民主啊\N{\fs24\1c}-Okay.  -Don't you just love democracy?
+Dialogue: 0,0:29:32.32,0:29:35.19,Default,,0,0,0,,在民主世界里你得参与 派克\N{\fs24\1c}You gotta participate in a democracy, Pike.
+Dialogue: 0,0:29:35.19,0:29:36.36,Default,,0,0,0,,快 现在是你的机会\N{\fs24\1c}Come on. Now's your chance.
+Dialogue: 0,0:29:36.80,0:29:38.27,Default,,0,0,0,,后面那人是我想的那人吗\N{\fs24\1c}Is that who I think it is behind us?
+Dialogue: 0,0:29:38.27,0:29:40.52,Default,,0,0,0,,如果是的话 那这一切还没开始\N{\fs24\1c}Yeah, well, if it is, then all of this might be over
+Dialogue: 0,0:29:40.52,0:29:42.12,Default,,0,0,0,,可能就会结束了 快点\N{\fs24\1c}before it even starts, so come on.
+Dialogue: 0,0:29:42.12,0:29:44.76,Default,,0,0,0,,我需要所有人团结起来对付共同的敌人\N{\fs24\1c}I need everybody united together against a common enemy.
+Dialogue: 0,0:29:44.77,0:29:48.26,Default,,0,0,0,,莱顿 你为什么总是要我做一个更好的人\N{\fs24\1c}Layton, why do you got to always ask me to be a better man?
+Dialogue: 0,0:29:48.26,0:29:49.78,Default,,0,0,0,,-把他拉起来  -走\N{\fs24\1c}-Get him up.  -Let's go.
+Dialogue: 0,0:29:49.78,0:29:51.35,Default,,0,0,0,,这该死的列车\N{\fs24\1c}God damn this train.
+Dialogue: 0,0:29:51.36,0:29:53.69,Default,,0,0,0,,我刚开始觉得有乐子了\N{\fs24\1c}You know, I was just starting to have some fun here.
+Dialogue: 0,0:29:54.23,0:29:56.17,Default,,0,0,0,,我们开往芝加哥的速度太快\N{\fs24\1c}We're coming too hard to go into Chicago.
+Dialogue: 0,0:29:56.17,0:29:57.34,Default,,0,0,0,,储存能源到达紧急水平了\N{\fs24\1c}Reserves are at emergency.
+Dialogue: 0,0:29:57.35,0:29:59.49,Default,,0,0,0,,要是用完 我们就完了 我要放慢速度\N{\fs24\1c}If we dry it out, it's over. I'm pulling her back.
+Dialogue: 0,0:29:59.49,0:30:01.91,Default,,0,0,0,,不行 这是命令\N{\fs24\1c}No! That's an order!
+Dialogue: 0,0:30:15.23,0:30:16.40,Default,,0,0,0,,他就在我们后面\N{\fs24\1c}He's right behind us!
+Dialogue: 0,0:30:16.88,0:30:18.74,Default,,0,0,0,,差点让车尾脱节\N{\fs24\1c}Almost took off the bloody Tail!
+Dialogue: 0,0:30:20.35,0:30:21.14,Default,,0,0,0,,散开\N{\fs24\1c}Hey! Break it up!
+Dialogue: 0,0:30:21.40,0:30:22.11,Default,,0,0,0,,散开\N{\fs24\1c}Hey! Break it up!
+Dialogue: 0,0:30:22.24,0:30:23.70,Default,,0,0,0,,散开 这是紧急事件\N{\fs24\1c}Hey! Break it up! It's an emergency!
+Dialogue: 0,0:30:23.70,0:30:25.77,Default,,0,0,0,,拜托 莱顿 威尔福德怎么可能回来\N{\fs24\1c}Come on, Layton. How can Wilford be back?
+Dialogue: 0,0:30:25.77,0:30:28.66,Default,,0,0,0,,不管是谁 他们都想登上我们的列车 好吗\N{\fs24\1c}Whoever it is, they are boarding us, okay?
+Dialogue: 0,0:30:28.66,0:30:30.35,Default,,0,0,0,,我们的车尾 我有15个司闸员\N{\fs24\1c}Our Tail! Now, I got 15 Brakemen.
+Dialogue: 0,0:30:30.35,0:30:32.27,Default,,0,0,0,,-我需要更多士兵  -还在等什么\N{\fs24\1c}-I need more soldiers.  -What are we waiting for?
+Dialogue: 0,0:30:32.27,0:30:33.05,Default,,0,0,0,,-我们走  -走\N{\fs24\1c}-Let's go.  -Let's go.
+Dialogue: 0,0:30:33.06,0:30:34.95,Default,,0,0,0,,其余的人 你们懂规矩\N{\fs24\1c}Okay, everybody else, you know the drill.
+Dialogue: 0,0:30:34.95,0:30:37.21,Default,,0,0,0,,在上下都设置障碍 准备把门焊接上\N{\fs24\1c}Barricades above and below! Be ready to weld the doors.
+Dialogue: 0,0:30:37.21,0:30:38.72,Default,,0,0,0,,听我指挥 去车尾\N{\fs24\1c}On me. To The Tail.
+Dialogue: 0,0:30:38.72,0:30:39.42,Default,,0,0,0,,走\N{\fs24\1c}Let's go!
+Dialogue: 0,0:30:45.17,0:30:45.94,Default,,0,0,0,,快啊\N{\fs24\1c}Come on, girl.
+Dialogue: 0,0:30:46.77,0:30:48.09,Default,,0,0,0,,保持距离\N{\fs24\1c}Just keep your distance.
+Dialogue: 0,0:30:48.91,0:30:49.62,Default,,0,0,0,,拜托\N{\fs24\1c}Come on.
+Dialogue: 0,0:30:50.92,0:30:51.62,Default,,0,0,0,,拜托\N{\fs24\1c}Come on.
+Dialogue: 0,0:30:53.63,0:30:54.37,Default,,0,0,0,,拜托\N{\fs24\1c}Come on.
+Dialogue: 0,0:31:23.45,0:31:24.80,Default,,0,0,0,,温妮 小心\N{\fs24\1c}Uh, Winnie, be careful.
+Dialogue: 0,0:31:35.05,0:31:35.85,Default,,0,0,0,,什么声音\N{\fs24\1c}Whoa. What was that?
+Dialogue: 0,0:31:35.96,0:31:37.66,Default,,0,0,0,,-你们还好吗  -我好怕\N{\fs24\1c}-Are you guys okay?  -I'm scared.
+Dialogue: 0,0:31:44.85,0:31:45.63,Default,,0,0,0,,我的天\N{\fs24\1c}Oh, my God.
+Dialogue: 0,0:31:58.56,0:32:00.80,Default,,0,0,0,,各位 他们想要连接上行线\N{\fs24\1c}Come on, guys. They're trying to uplink.
+Dialogue: 0,0:32:00.81,0:32:03.23,Default,,0,0,0,,他们要侵入了 他会占领系统\N{\fs24\1c}They're hacking in. He'll seize the system.
+Dialogue: 0,0:32:03.24,0:32:05.25,Default,,0,0,0,,他会占领火车头 他在拖慢我们\N{\fs24\1c}He'll seize the Engine. He's slowing us down.
+Dialogue: 0,0:32:05.25,0:32:07.26,Default,,0,0,0,,我要下线所有非关键系统\N{\fs24\1c}I'm taking non-critical systems offline.
+Dialogue: 0,0:32:07.64,0:32:08.88,Default,,0,0,0,,我们得出去\N{\fs24\1c}We gotta go outside.
+Dialogue: 0,0:32:09.52,0:32:10.94,Default,,0,0,0,,那太疯狂了\N{\fs24\1c}Come on. That's crazy.
+Dialogue: 0,0:32:11.05,0:32:12.41,Default,,0,0,0,,必须切断上行线\N{\fs24\1c}Gotta cut the uplink.
+Dialogue: 0,0:32:12.58,0:32:13.91,Default,,0,0,0,,哈维 你能拖住他吗\N{\fs24\1c}Javi, can you hold Him off?
+Dialogue: 0,0:32:13.91,0:32:15.44,Default,,0,0,0,,-拖不了太久 梅  -好\N{\fs24\1c}-Not for long, Mel.  -Okay.
+Dialogue: 0,0:32:15.44,0:32:16.32,Default,,0,0,0,,那我们最好加紧了\N{\fs24\1c}Then we better hurry.
+Dialogue: 0,0:32:16.38,0:32:17.74,Default,,0,0,0,,列车交给你了 我们走\N{\fs24\1c}You have the train. Let's go.
+Dialogue: 0,0:32:29.59,0:32:31.10,Default,,0,0,0,,你们退后\N{\fs24\1c}You guys fall back now, okay?
+Dialogue: 0,0:32:31.77,0:32:32.65,Default,,0,0,0,,那要不了多久\N{\fs24\1c}That won't take long.
+Dialogue: 0,0:32:32.66,0:32:34.99,Default,,0,0,0,,把这些床拖到后面去\N{\fs24\1c}These bunks, back 'em up, alright?
+Dialogue: 0,0:32:34.99,0:32:36.30,Default,,0,0,0,,我们需要空间\N{\fs24\1c}We're gonna need space.
+Dialogue: 0,0:32:38.27,0:32:42.19,Default,,0000,0000,0000,,{\an09\fs22\1c}♪ Lift up your hearts And give praise with our song ♪
+Dialogue: 0,0:32:42.15,0:32:45.99,Default,,0,0,0,,* 为了威尔福德先生 我们的呼声会很强烈 *\N{\fs24\1c}* For Mr. Wilford, our cry will be strong *
+Dialogue: 0,0:32:42.28,0:32:46.20,Default,,0000,0000,0000,,{\an09\fs22\1c}♪ For Mr. Wilford Our cry will be strong ♪
+Dialogue: 0,0:32:47.07,0:32:51.37,Default,,0000,0000,0000,,{\an09\fs22\1c}♪ Rising above Your mind's aim is true ♪
+Dialogue: 0,0:32:49.26,0:32:51.06,Default,,0,0,0,,* 名字是真的 *\N{\fs24\1c}* ...name is true *
+Dialogue: 0,0:32:51.42,0:32:55.72,Default,,0,0,0,,* 欢呼雀跃 因为我们尊敬你 *\N{\fs24\1c}* Cheer and rejoice, for we honor you *
+Dialogue: 0,0:32:51.45,0:32:55.79,Default,,0000,0000,0000,,{\an09\fs22\1c}♪ Cheer and rejoice For we honor you ♪
+Dialogue: 0,0:32:55.87,0:33:00.63,Default,,0000,0000,0000,,{\an09\fs22\1c}♪ Lift up your voice Though the path may be long ♪
+Dialogue: 0,0:32:55.89,0:33:00.34,Default,,0,0,0,,* 提高嗓门 尽管路可能很长 *\N{\fs24\1c}* Lift up your voice, though the path may be long *
+Dialogue: 0,0:33:00.79,0:33:01.48,Default,,0,0,0,,露丝\N{\fs24\1c}Ruth.
+Dialogue: 0,0:33:02.14,0:33:02.55,Default,,0,0,0,,露丝\N{\fs24\1c}Ruth!
+Dialogue: 0,0:33:02.88,0:33:04.62,Default,,0,0,0,,* 永远不会错 *\N{\fs24\1c}* ...will never be wrong *
+Dialogue: 0,0:33:04.62,0:33:06.09,Default,,0,0,0,,露丝 少胡来\N{\fs24\1c}Ruth, cut the crap!
+Dialogue: 0,0:33:06.21,0:33:09.31,Default,,0,0,0,,我是来办公的 罗切先生\N{\fs24\1c}I am here officially, Mr. Roche.
+Dialogue: 0,0:33:09.68,0:33:12.37,Default,,0,0,0,,根据规定 乘客服务部引导欢迎派对\N{\fs24\1c}Hospitality leads the welcoming party, as per protocol.
+Dialogue: 0,0:33:12.37,0:33:14.72,Default,,0,0,0,,我们现在处于军事状态 露丝\N{\fs24\1c}We're in a military situation here, Ruth.
+Dialogue: 0,0:33:14.72,0:33:16.15,Default,,0,0,0,,你得带这些孩子出去\N{\fs24\1c}You got to get these kids out of here.
+Dialogue: 0,0:33:16.15,0:33:18.10,Default,,0,0,0,,他们要闯进我们的列车了\N{\fs24\1c}They are breaching the goddamn train!
+Dialogue: 0,0:33:21.95,0:33:24.03,Default,,0,0,0,,退后 退后 大家退后\N{\fs24\1c}Okay, back up! Back up! Everybody back!
+Dialogue: 0,0:33:24.04,0:33:25.44,Default,,0,0,0,,我是高官\N{\fs24\1c}I'm a dignitary.
+Dialogue: 0,0:33:26.84,0:33:27.82,Default,,0,0,0,,我感觉到了\N{\fs24\1c}Yeah, I feel that.
+Dialogue: 0,0:33:28.56,0:33:32.38,Default,,0,0,0,,诺兰·格雷本可以穿着制服站在这里\N{\fs24\1c}Nolan Grey would have been here in his full dress uniform.
+Dialogue: 0,0:33:32.38,0:33:34.20,Default,,0,0,0,,我本可以站在他身旁\N{\fs24\1c}And I would have been right beside him
+Dialogue: 0,0:33:34.20,0:33:36.84,Default,,0,0,0,,因为我的制服是和平的体现\N{\fs24\1c}because my uniform says peace.
+Dialogue: 0,0:33:37.24,0:33:41.41,Default,,0,0,0,,这或许是你的民主实验 莱顿先生\N{\fs24\1c}Now, this may be your democratic experiment, Mr. Layton,
+Dialogue: 0,0:33:42.42,0:33:44.31,Default,,0,0,0,,但我是乘客服务部的老大\N{\fs24\1c}but I am Head of Hospitality.
+Dialogue: 0,0:33:44.54,0:33:47.66,Default,,0,0,0,,蓝绿色是外交的颜色\N{\fs24\1c}And teal is the color of diplomacy.
+Dialogue: 0,0:33:49.93,0:33:50.78,Default,,0,0,0,,放下武器\N{\fs24\1c}Weapons down.
+Dialogue: 0,0:33:50.99,0:33:52.52,Default,,0,0,0,,所有人放下武器\N{\fs24\1c}Everybody, put your weapons down.
+Dialogue: 0,0:33:52.52,0:33:53.32,Default,,0,0,0,,放下\N{\fs24\1c}Put them down.
+Dialogue: 0,0:33:54.69,0:33:55.39,Default,,0,0,0,,你是对的\N{\fs24\1c}You're right.
+Dialogue: 0,0:33:56.15,0:33:58.55,Default,,0,0,0,,你是对的 外交放在首位\N{\fs24\1c}You're right. Diplomacy first, right?
+Dialogue: 0,0:33:58.55,0:34:00.31,Default,,0,0,0,,没人想再经历一次战争\N{\fs24\1c}Nobody wants another war.
+Dialogue: 0,0:34:02.70,0:34:05.78,Default,,0,0,0,,当那道门打开后 我要你站在我身旁\N{\fs24\1c}When that door opens, I want you right by my side.
+Dialogue: 0,0:34:06.33,0:34:08.01,Default,,0,0,0,,我需要你 准备和谈\N{\fs24\1c}I need you there, ready to parlay,
+Dialogue: 0,0:34:08.01,0:34:10.48,Default,,0,0,0,,同时展现武力 作为支撑\N{\fs24\1c}with a show of force to back us up.
+Dialogue: 0,0:34:11.48,0:34:12.27,Default,,0,0,0,,同意吗\N{\fs24\1c}Agreed?
+Dialogue: 0,0:34:15.13,0:34:17.95,Default,,0,0,0,,我想到最前面去\N{\fs24\1c}I want to be right up there, in the front.
+Dialogue: 0,0:34:18.87,0:34:20.90,Default,,0,0,0,,我想要第一个和他握手\N{\fs24\1c}And I want to be the first one to shake His hand.
+Dialogue: 0,0:34:21.42,0:34:23.77,Default,,0,0,0,,嗯 必须是你\N{\fs24\1c}Yes. It has to be you.
+Dialogue: 0,0:34:25.10,0:34:26.19,Default,,0,0,0,,把枪给他 露丝\N{\fs24\1c}Give him the gun, Ruth.
+Dialogue: 0,0:34:30.03,0:34:31.97,Default,,0,0,0,,好了 把这些小孩带去安全的地方\N{\fs24\1c}Okay. Alright, get these kids somewhere safe.
+Dialogue: 0,0:34:31.97,0:34:34.47,Default,,0,0,0,,露丝 跟我到前面去\N{\fs24\1c}Ruth, come up front with me.
+Dialogue: 0,0:34:38.68,0:34:40.24,Default,,0,0,0,,我们到上面 以钩钩住\N{\fs24\1c}Okay, we pop the top, hook in,
+Dialogue: 0,0:34:40.78,0:34:41.55,Default,,0,0,0,,进入车尾\N{\fs24\1c}make our way to The Tail.
+Dialogue: 0,0:34:41.55,0:34:43.23,Default,,0,0,0,,然后用手切断上行线\N{\fs24\1c}Then we cut the uplink by hand.
+Dialogue: 0,0:34:43.47,0:34:44.91,Default,,0,0,0,,这是个乱套的计划 梅\N{\fs24\1c}It's a haywire plan, Mel.
+Dialogue: 0,0:34:44.92,0:34:47.12,Default,,0,0,0,,你有更好的主意吗\N{\fs24\1c}Yeah, well, you got a better one?
+Dialogue: 0,0:34:48.18,0:34:50.87,Default,,0,0,0,,因为他会拖慢我们的速度 冻死我们\N{\fs24\1c}'Cause he's gonna peel off our speed and freeze us out.
+Dialogue: 0,0:34:52.29,0:34:54.74,Default,,0,0,0,,或许我们该让步\N{\fs24\1c}Then maybe we have to stand down.
+Dialogue: 0,0:34:56.82,0:34:57.54,Default,,0,0,0,,拜托\N{\fs24\1c}Come on.
+Dialogue: 0,0:34:58.02,0:34:59.94,Default,,0,0,0,,你有想过那辆补给列车上有什么吗\N{\fs24\1c}Have you thought about what's on that supply train?
+Dialogue: 0,0:35:01.65,0:35:02.47,Default,,0,0,0,,有想过\N{\fs24\1c}Yeah, I have.
+Dialogue: 0,0:35:02.80,0:35:04.16,Default,,0,0,0,,因为我们需要它 梅\N{\fs24\1c}'Cause we need her, Mel.
+Dialogue: 0,0:35:05.59,0:35:07.40,Default,,0,0,0,,雪国列车快要分崩离析了\N{\fs24\1c}Snowpiercer is coming apart.
+Dialogue: 0,0:35:07.49,0:35:08.30,Default,,0,0,0,,你知道的\N{\fs24\1c}You know it.
+Dialogue: 0,0:35:08.69,0:35:09.82,Default,,0,0,0,,没有永动\N{\fs24\1c}There is no perpetual motion
+Dialogue: 0,0:35:09.82,0:35:12.23,Default,,0,0,0,,因为没有永恒的零件\N{\fs24\1c}because there are no perpetual parts.
+Dialogue: 0,0:35:12.48,0:35:14.52,Default,,0,0,0,,但是那辆补给列车上有很多\N{\fs24\1c}But that supply train is packed  --
+Dialogue: 0,0:35:14.95,0:35:18.94,Default,,0,0,0,,转向车发动机 牛培养菌 一个完整的基因实验室\N{\fs24\1c}bogie motors, bovine cultures, a full genetics lab.
+Dialogue: 0,0:35:19.08,0:35:21.10,Default,,0,0,0,,足以让我们继续行驶下去\N{\fs24\1c}Enough to keep us going.
+Dialogue: 0,0:35:21.37,0:35:22.60,Default,,0,0,0,,你怎么知道什么东西还在\N{\fs24\1c}How do you know what's still there?
+Dialogue: 0,0:35:23.33,0:35:24.84,Default,,0,0,0,,已经快七年了\N{\fs24\1c}It's been almost seven years.
+Dialogue: 0,0:35:24.90,0:35:26.00,Default,,0,0,0,,你知道还剩什么\N{\fs24\1c}How do you know what's left?
+Dialogue: 0,0:35:26.18,0:35:27.79,Default,,0,0,0,,或者他们建立了怎样的社会\N{\fs24\1c}Or what kind of society they've made?
+Dialogue: 0,0:35:27.80,0:35:29.64,Default,,0,0,0,,或者他们有怎样的疾病\N{\fs24\1c}Or what kind of diseases they carry?
+Dialogue: 0,0:35:29.64,0:35:31.34,Default,,0,0,0,,即使他们有我们所需的一切\N{\fs24\1c}And even if they have everything that we need,
+Dialogue: 0,0:35:31.34,0:35:33.16,Default,,0,0,0,,他会想要什么作为回报\N{\fs24\1c}what'll He want in return?
+Dialogue: 0,0:35:38.46,0:35:39.65,Default,,0,0,0,,你早知道他在那\N{\fs24\1c}You knew He was there.
+Dialogue: 0,0:35:40.90,0:35:43.00,Default,,0,0,0,,-我知道你会逃跑  -你知道多久了\N{\fs24\1c}-I knew you would run.  -How long did you know?
+Dialogue: 0,0:35:43.00,0:35:44.45,Default,,0,0,0,,我今早在卫星上看到他们\N{\fs24\1c}I saw them on the satellite this morning,
+Dialogue: 0,0:35:44.45,0:35:45.96,Default,,0,0,0,,但我立刻就知道是他了\N{\fs24\1c}but I knew it was Him right away.
+Dialogue: 0,0:35:45.96,0:35:47.30,Default,,0,0,0,,-所以你切断了信号  -是的\N{\fs24\1c}-So you killed the feed.  -Yeah.
+Dialogue: 0,0:35:47.31,0:35:49.14,Default,,0,0,0,,你让我们和他相遇\N{\fs24\1c}You steered us right into him!
+Dialogue: 0,0:35:49.64,0:35:50.94,Default,,0,0,0,,我们本可以逃避的\N{\fs24\1c}We could have evaded!
+Dialogue: 0,0:35:50.94,0:35:51.85,Default,,0,0,0,,最重要的是\N{\fs24\1c}And more importantly,
+Dialogue: 0,0:35:51.85,0:35:54.33,Default,,0,0,0,,你和我本可以一起做那个决定\N{\fs24\1c}you and I could have made that choice together!
+Dialogue: 0,0:35:58.51,0:35:59.99,Default,,0,0,0,,你做了一个单方面的决定\N{\fs24\1c}You made a unilateral move.
+Dialogue: 0,0:36:01.23,0:36:01.99,Default,,0,0,0,,现在该我了\N{\fs24\1c}Here's mine.
+Dialogue: 0,0:36:05.27,0:36:06.22,Default,,0,0,0,,搞什么 梅\N{\fs24\1c}What the hell, Mel?!
+Dialogue: 0,0:36:06.53,0:36:08.58,Default,,0,0,0,,我不会再把我的命运交到威尔福德手中\N{\fs24\1c}I will not put my faith in Wilford again,
+Dialogue: 0,0:36:09.05,0:36:11.12,Default,,0,0,0,,所以我要出去解放列车\N{\fs24\1c}so I am going out there to free the helm.
+Dialogue: 0,0:36:11.12,0:36:12.63,Default,,0,0,0,,无论如何\N{\fs24\1c}And one way or another...
+Dialogue: 0,0:36:14.18,0:36:16.51,Default,,0,0,0,,你都要在我离开期间保持方舟的运行\N{\fs24\1c}you're gonna keep this ark going when I'm gone.
+Dialogue: 0,0:36:18.58,0:36:20.26,Default,,0,0,0,,-别这样 梅  -放我走\N{\fs24\1c}-Don't do this, Mel.  -You let me go.
+Dialogue: 0,0:36:56.55,0:36:57.98,Default,,0,0,0,,我们在另一头见\N{\fs24\1c}I'll see you on the other side.
+Dialogue: 0,0:38:20.58,0:38:23.01,Default,,0,0,0,,哈维 她一个人出去了\N{\fs24\1c}Javi, she went out alone.
+Dialogue: 0,0:38:23.57,0:38:24.58,Default,,0,0,0,,我阻止不了她\N{\fs24\1c}I couldn't stop her.
+Dialogue: 0,0:38:43.54,0:38:44.31,Default,,0,0,0,,冲\N{\fs24\1c}Vamos.
+Dialogue: 0,0:38:44.80,0:38:45.82,Default,,0,0,0,,冲啊\N{\fs24\1c}Vamos.
+Dialogue: 0,0:39:23.77,0:39:24.52,Default,,0,0,0,,刹车\N{\fs24\1c}Brakes.
+Dialogue: 0,0:39:56.82,0:39:57.85,Default,,0,0,0,,我们被截停了\N{\fs24\1c}We're stopped.
+Dialogue: 0,0:40:08.69,0:40:09.69,Default,,0,0,0,,我们有多久时间\N{\fs24\1c}How long have we got?
+Dialogue: 0,0:40:10.13,0:40:11.53,Default,,0,0,0,,大概十分钟\N{\fs24\1c}10 minutes, give or take.
+Dialogue: 0,0:40:16.96,0:40:21.64,Default,,0,0,0,,雪国列车 不管谁在那道门后面\N{\fs24\1c}Snowpiercer, no matter who is on the other side of that door,
+Dialogue: 0,0:40:22.16,0:40:23.22,Default,,0,0,0,,记住一点\N{\fs24\1c}remember this  --
+Dialogue: 0,0:40:24.50,0:40:27.12,Default,,0,0,0,,-威尔福德只是个凡人  -一个伟人\N{\fs24\1c}-Wilford was only ever a man.  -A great man.
+Dialogue: 0,0:40:27.12,0:40:30.03,Default,,0,0,0,,不要在你脑海里把他想成别的\N{\fs24\1c}Do not build him up in your minds into something He isn't.
+Dialogue: 0,0:40:30.03,0:40:31.63,Default,,0,0,0,,他不是你的工程师\N{\fs24\1c}He is not your Engineer.
+Dialogue: 0,0:40:32.00,0:40:33.50,Default,,0,0,0,,这不是他的列车\N{\fs24\1c}This is not His train.
+Dialogue: 0,0:40:33.51,0:40:34.93,Default,,0,0,0,,我想你会发现这就是他的\N{\fs24\1c}I think you'll find that it is.
+Dialogue: 0,0:40:35.67,0:40:37.89,Default,,0,0,0,,雪国列车是我们的\N{\fs24\1c}Snowpiercer is ours!
+Dialogue: 0,0:40:37.89,0:40:39.73,Default,,0,0,0,,它属于它的公民\N{\fs24\1c}She belongs to her citizens!
+Dialogue: 0,0:40:39.73,0:40:40.89,Default,,0,0,0,,-没错  -没错\N{\fs24\1c}-Yeah!  -That's right!
+Dialogue: 0,0:41:38.46,0:41:39.41,Default,,0,0,0,,你是谁\N{\fs24\1c}Who are you?
+Dialogue: 0,0:41:40.23,0:41:41.75,Default,,0,0,0,,我们得发动我们的列车\N{\fs24\1c}We need to get our train moving.
+Dialogue: 0,0:41:41.75,0:41:45.34,Default,,0,0,0,,雪国列车向你问好 威尔福德先生在车上吗\N{\fs24\1c}Greetings from Snowpiercer. Is Mr. Wilford aboard?
+Dialogue: 0,0:41:45.34,0:41:47.94,Default,,0,0,0,,威尔福德先生已经控制了你们的引擎\N{\fs24\1c}Mr. Wilford has already seized control of your engine.
+Dialogue: 0,0:41:48.23,0:41:50.90,Default,,0,0,0,,你们有13分钟同意和平投降\N{\fs24\1c}You have about 13 minutes to agree to a peaceful surrender
+Dialogue: 0,0:41:50.90,0:41:53.80,Default,,0,0,0,,不然寒冷袭来 你们都将冻死\N{\fs24\1c}before the cold overcomes and you all freeze to death.
+Dialogue: 0,0:41:55.19,0:41:56.89,Default,,0,0,0,,告诉他我们需要见到他本人\N{\fs24\1c}Tell Him we need to see Him face-to-face.
+Dialogue: 0,0:41:56.90,0:42:00.29,Default,,0,0,0,,同意 我们欢迎他上车\N{\fs24\1c}Please, yes, and that we welcome him aboard.
+Dialogue: 0,0:42:00.29,0:42:02.07,Default,,0,0,0,,-你是乘客服务部的  -是的\N{\fs24\1c}-You're Hospitality?  -I am, yes.
+Dialogue: 0,0:42:02.19,0:42:05.35,Default,,0,0,0,,我叫露丝·沃德尔 听候吩咐\N{\fs24\1c}My name's Ruth Wardle, at your service.
+Dialogue: 0,0:42:09.07,0:42:10.52,Default,,0,0,0,,梅兰妮·卡维尔还活着吗\N{\fs24\1c}Is Melanie Cavill alive?
+Dialogue: 0,0:42:12.55,0:42:14.34,Default,,0,0,0,,是的 她还活着\N{\fs24\1c}Yes. Yes, she is.
+Dialogue: 0,0:42:16.10,0:42:16.95,Default,,0,0,0,,你是谁\N{\fs24\1c}Who are you?
+Dialogue: 0,0:42:21.21,0:42:23.06,Default,,0,0,0,,我叫艾莉珊德拉·卡维尔\N{\fs24\1c}My name is Alexandra Cavill.
+Dialogue: 0,0:42:28.12,0:42:29.83,Default,,0,0,0,,艾莉珊德拉\N{\fs24\1c}Alexandra?
+Dialogue: 0,0:42:33.28,0:42:35.00,Default,,0,0,0,,我妈妈在哪\N{\fs24\1c}Where is my mother?
