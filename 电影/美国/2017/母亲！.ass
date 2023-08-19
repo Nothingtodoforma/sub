@@ -1,0 +1,1287 @@
+[Script Info]
+﻿[Script Info]
+;SrtEdit 6.0.2011.1205
+;Copyright(C) 2005-2011 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,STKaiti,23,&H00E0E0E0,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,1,1,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:52.73,0:01:54.13,*Default,NTP,0000,0000,0000,,宝贝?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Baby?
+Dialogue: 0,0:03:59.03,0:04:00.58,*Default,NTP,0000,0000,0000,,你吓到我了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You scared me.
+Dialogue: 0,0:04:00.58,0:04:01.87,*Default,NTP,0000,0000,0000,,抱歉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sorry.
+Dialogue: 0,0:04:01.88,0:04:03.74,*Default,NTP,0000,0000,0000,,不是故意的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Didn't mean to.
+Dialogue: 0,0:04:05.05,0:04:06.51,*Default,NTP,0000,0000,0000,,你去过外面?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You were outside?
+Dialogue: 0,0:04:06.51,0:04:09.58,*Default,NTP,0000,0000,0000,,你为什么不叫醒我? - 我想独处\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why didn't you wake me? -I wanted to be alone.
+Dialogue: 0,0:04:09.88,0:04:11.57,*Default,NTP,0000,0000,0000,,我的意思是 清静头脑\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I mean, I needed to clear my head
+Dialogue: 0,0:04:11.57,0:04:13.74,*Default,NTP,0000,0000,0000,,思绪涌动\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}and get the ideas flowing.
+Dialogue: 0,0:04:14.37,0:04:15.90,*Default,NTP,0000,0000,0000,,有思绪了吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And did they?
+Dialogue: 0,0:04:17.14,0:04:18.40,*Default,NTP,0000,0000,0000,,没有\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No.
+Dialogue: 0,0:04:19.20,0:04:20.73,*Default,NTP,0000,0000,0000,,会有的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They will.
+Dialogue: 0,0:04:20.87,0:04:22.40,*Default,NTP,0000,0000,0000,,不用担心\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't worry.
+Dialogue: 0,0:04:22.70,0:04:24.23,*Default,NTP,0000,0000,0000,,会来的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It'll come.
+Dialogue: 0,0:04:28.19,0:04:30.89,*Default,NTP,0000,0000,0000,,我一定很臭 - 我喜欢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I must stink. -I like it.
+Dialogue: 0,0:04:30.93,0:04:32.56,*Default,NTP,0000,0000,0000,,我最好洗个澡\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I better shower.
+Dialogue: 0,0:06:32.09,0:06:34.05,*Default,NTP,0000,0000,0000,,我能拿几个吗 - 我来拿\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can I grab these? -I got it.
+Dialogue: 0,0:06:51.07,0:06:52.93,*Default,NTP,0000,0000,0000,,完美\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Perfect.
+Dialogue: 0,0:06:53.23,0:06:54.77,*Default,NTP,0000,0000,0000,,你没必要全做了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You didn't need to do all of this.
+Dialogue: 0,0:06:54.77,0:06:56.03,*Default,NTP,0000,0000,0000,,我愿意\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I wanted to.
+Dialogue: 0,0:06:56.07,0:06:58.03,*Default,NTP,0000,0000,0000,,你工作太努力了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You've been working so hard.
+Dialogue: 0,0:06:58.23,0:07:00.26,*Default,NTP,0000,0000,0000,,对\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah. Right.
+Dialogue: 0,0:07:55.28,0:07:56.84,*Default,NTP,0000,0000,0000,,在这等着\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait here.
+Dialogue: 0,0:08:10.03,0:08:11.70,*Default,NTP,0000,0000,0000,,不 没事的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, no. It's fine. It's fine.
+Dialogue: 0,0:08:11.70,0:08:13.43,*Default,NTP,0000,0000,0000,,请进来吧 - 谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come in. Please. -Thanks. Thanks.
+Dialogue: 0,0:08:14.50,0:08:16.13,*Default,NTP,0000,0000,0000,,你好 - 你好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello. -Hello.
+Dialogue: 0,0:08:16.56,0:08:18.82,*Default,NTP,0000,0000,0000,,这位先生刚刚在医院上班\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So this gentleman here just started working
+Dialogue: 0,0:08:18.83,0:08:20.56,*Default,NTP,0000,0000,0000,,他认为我们...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}at the hospital, and he thought we were...
+Dialogue: 0,0:08:20.56,0:08:22.75,*Default,NTP,0000,0000,0000,,你负责什么? - 我是骨科医生\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What do you do there? -I'm an orthopaedic surgeon.
+Dialogue: 0,0:08:22.76,0:08:23.85,*Default,NTP,0000,0000,0000,,真的?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Really?
+Dialogue: 0,0:08:23.85,0:08:25.89,*Default,NTP,0000,0000,0000,,但现在我主要从事研究和教学\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But mostly now I do research and teach.
+Dialogue: 0,0:08:26.02,0:08:27.18,*Default,NTP,0000,0000,0000,,研究\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Research.
+Dialogue: 0,0:08:27.19,0:08:29.62,*Default,NTP,0000,0000,0000,,这有点无聊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes. I know, it's a bit boring.
+Dialogue: 0,0:08:29.62,0:08:31.45,*Default,NTP,0000,0000,0000,,一点也不无聊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's not boring at all.
+Dialogue: 0,0:08:31.45,0:08:33.94,*Default,NTP,0000,0000,0000,,坐一会儿 来一杯吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sit for a second. Can we get you anything to drink?
+Dialogue: 0,0:08:33.95,0:08:36.31,*Default,NTP,0000,0000,0000,,不必了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No. That isn't... That's fine.
+Dialogue: 0,0:08:37.11,0:08:39.04,*Default,NTP,0000,0000,0000,,喝茶?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Some tea?
+Dialogue: 0,0:08:39.04,0:08:40.84,*Default,NTP,0000,0000,0000,,茶? - 不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Some tea? -No, no, no, no, no.
+Dialogue: 0,0:08:40.84,0:08:42.24,*Default,NTP,0000,0000,0000,,我不...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't...
+Dialogue: 0,0:08:43.77,0:08:45.50,*Default,NTP,0000,0000,0000,,我不想打扰\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't want to be a bother.
+Dialogue: 0,0:08:45.50,0:08:46.70,*Default,NTP,0000,0000,0000,,必须的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But you must.
+Dialogue: 0,0:08:46.93,0:08:49.07,*Default,NTP,0000,0000,0000,,客人兼医生?我是说 天知道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}A guest and a doctor? I mean, who knows?
+Dialogue: 0,0:08:49.07,0:08:50.70,*Default,NTP,0000,0000,0000,,说不定哪天我会滚下楼梯\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I might trip down the stairs one day.
+Dialogue: 0,0:08:50.70,0:08:52.43,*Default,NTP,0000,0000,0000,,希望不会吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let's hope not!
+Dialogue: 0,0:08:52.43,0:08:53.96,*Default,NTP,0000,0000,0000,,我去泡茶 - 谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll go make some. -Thank you.
+Dialogue: 0,0:08:53.96,0:08:55.56,*Default,NTP,0000,0000,0000,,请这边走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This way please.
+Dialogue: 0,0:08:55.86,0:08:57.02,*Default,NTP,0000,0000,0000,,对不起 一团糟\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sorry for the mess.
+Dialogue: 0,0:08:57.03,0:08:59.26,*Default,NTP,0000,0000,0000,,装修完几个月 我们就搬进来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We're moving in after months of construction.
+Dialogue: 0,0:08:59.26,0:09:00.96,*Default,NTP,0000,0000,0000,,不可思议的地方\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's an incredible place.
+Dialogue: 0,0:09:00.96,0:09:02.82,*Default,NTP,0000,0000,0000,,我妻子喜欢有伴\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}My wife loves having company.
+Dialogue: 0,0:09:02.82,0:09:04.09,*Default,NTP,0000,0000,0000,,你的妻子? - 是的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Your wife? -Yes.
+Dialogue: 0,0:09:04.39,0:09:05.98,*Default,NTP,0000,0000,0000,,我以为是你女儿\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I thought it was your daughter.
+Dialogue: 0,0:09:07.08,0:09:09.65,*Default,NTP,0000,0000,0000,,请坐 - 非常感谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sit down. -Thank you very much.
+Dialogue: 0,0:09:37.99,0:09:39.75,*Default,NTP,0000,0000,0000,,你没事吧?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You all right?
+Dialogue: 0,0:09:41.22,0:09:42.42,*Default,NTP,0000,0000,0000,,挺好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Fine.
+Dialogue: 0,0:10:21.02,0:10:22.08,*Default,NTP,0000,0000,0000,,有个病例\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Then there's this one case.
+Dialogue: 0,0:10:22.09,0:10:24.25,*Default,NTP,0000,0000,0000,,一名歌剧演唱家 近30岁\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This was an opera singer, late 20s.
+Dialogue: 0,0:10:24.28,0:10:26.81,*Default,NTP,0000,0000,0000,,她的股骨朝向内侧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Her femurs were rotated so far inward
+Dialogue: 0,0:10:26.81,0:10:30.24,*Default,NTP,0000,0000,0000,,她的膝盖不能分开一英尺\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}that she couldn't spread her knees more than a foot apart.
+Dialogue: 0,0:10:30.48,0:10:31.61,*Default,NTP,0000,0000,0000,,真的?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Really?
+Dialogue: 0,0:10:31.61,0:10:33.14,*Default,NTP,0000,0000,0000,,谢谢 - 你改喝酒了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you. -You've upgraded.
+Dialogue: 0,0:10:33.28,0:10:36.01,*Default,NTP,0000,0000,0000,,哪里来的? - 我总是随身携带\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where'd that come from? -I always carry a supply.
+Dialogue: 0,0:10:36.01,0:10:37.44,*Default,NTP,0000,0000,0000,,我从没尝过这种味道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I never tasted something like this.
+Dialogue: 0,0:10:37.70,0:10:40.23,*Default,NTP,0000,0000,0000,,很难搞到的 必须分享\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's hard to come by. I had to share.
+Dialogue: 0,0:10:40.24,0:10:41.43,*Default,NTP,0000,0000,0000,,你不来一杯吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Won't you join?
+Dialogue: 0,0:10:41.90,0:10:43.40,*Default,NTP,0000,0000,0000,,她不太会喝酒\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She's not much of a drinker.
+Dialogue: 0,0:10:43.60,0:10:44.70,*Default,NTP,0000,0000,0000,,我喝酒\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I drink.
+Dialogue: 0,0:10:44.70,0:10:46.80,*Default,NTP,0000,0000,0000,,那我在你的茶里放一点\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here, let me put a little in your tea.
+Dialogue: 0,0:10:47.40,0:10:49.79,*Default,NTP,0000,0000,0000,,我喝茶就够了 谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm fine with tea, thank you.
+Dialogue: 0,0:10:51.89,0:10:54.72,*Default,NTP,0000,0000,0000,,神医即将发表一篇重要论文\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The good doctor here is about to publish a major paper.
+Dialogue: 0,0:10:54.72,0:10:56.15,*Default,NTP,0000,0000,0000,,慷慨的"关于"\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}"About" is generous.
+Dialogue: 0,0:10:56.16,0:10:58.22,*Default,NTP,0000,0000,0000,,我还有大量的研究要写\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I still have reams of research to write up.
+Dialogue: 0,0:10:58.22,0:11:00.15,*Default,NTP,0000,0000,0000,,他搬到此间 来完成写作\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And he's moved here to finish it.
+Dialogue: 0,0:11:00.88,0:11:03.15,*Default,NTP,0000,0000,0000,,什么风把你吹来了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And... And what brings you to us?
+Dialogue: 0,0:11:03.15,0:11:05.21,*Default,NTP,0000,0000,0000,,据说这里有房间\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, they told me I could find a room here.
+Dialogue: 0,0:11:05.58,0:11:07.94,*Default,NTP,0000,0000,0000,,他误以为我们是早餐旅店\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He thought we were a bed and breakfast.
+Dialogue: 0,0:11:09.58,0:11:12.64,*Default,NTP,0000,0000,0000,,我们常说 此屋对我们俩来说太大了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We always talk about how this place is too big for the two of us.
+Dialogue: 0,0:11:16.10,0:11:18.84,*Default,NTP,0000,0000,0000,,我真的该走了 如果我要找另一间旅店...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, I really should be going if I'm going to find another...
+Dialogue: 0,0:11:18.84,0:11:21.47,*Default,NTP,0000,0000,0000,,胡扯 很晚了 在这里过夜吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Nonsense. No, no. No, it's late. Stay the night.
+Dialogue: 0,0:11:21.47,0:11:22.83,*Default,NTP,0000,0000,0000,,我不能 不能\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, I couldn't. No.
+Dialogue: 0,0:11:22.83,0:11:25.16,*Default,NTP,0000,0000,0000,,我们喜欢有伴儿 对吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please. We'd enjoy the company, right?
+Dialogue: 0,0:11:26.56,0:11:28.16,*Default,NTP,0000,0000,0000,,当然\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, of course.
+Dialogue: 0,0:11:29.03,0:11:30.69,*Default,NTP,0000,0000,0000,,你确定吗 - 绝对\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you sure? -Positive.
+Dialogue: 0,0:11:31.92,0:11:34.55,*Default,NTP,0000,0000,0000,,我把其余物件拿来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, then I'll just grab the rest of my stuff.
+Dialogue: 0,0:11:34.56,0:11:37.09,*Default,NTP,0000,0000,0000,,真是太好了 慷慨大方\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's incredibly kind and generous.
+Dialogue: 0,0:11:37.12,0:11:38.78,*Default,NTP,0000,0000,0000,,我放在了...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I just left it on the...
+Dialogue: 0,0:11:39.62,0:11:42.25,*Default,NTP,0000,0000,0000,,你没事吧? - 我很好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You all right? -I'm fine.
+Dialogue: 0,0:11:42.58,0:11:43.71,*Default,NTP,0000,0000,0000,,你确定?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You sure?
+Dialogue: 0,0:11:43.71,0:11:46.14,*Default,NTP,0000,0000,0000,,吸入气管了而已\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah. It just went down the wrong tube.
+Dialogue: 0,0:11:48.08,0:11:49.54,*Default,NTP,0000,0000,0000,,谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thanks.
+Dialogue: 0,0:11:50.47,0:11:52.07,*Default,NTP,0000,0000,0000,,我们不认识他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We don't know him.
+Dialogue: 0,0:11:52.07,0:11:53.30,*Default,NTP,0000,0000,0000,,他是个医生\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He's a doctor.
+Dialogue: 0,0:11:53.31,0:11:54.40,*Default,NTP,0000,0000,0000,,他是个陌生人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He's a stranger.
+Dialogue: 0,0:11:54.40,0:11:56.23,*Default,NTP,0000,0000,0000,,就这么让他睡在我们家?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We're just gonna let him sleep in our house?
+Dialogue: 0,0:11:57.27,0:11:59.23,*Default,NTP,0000,0000,0000,,要我叫他离开?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You want me to ask him to leave?
+Dialogue: 0,0:12:02.90,0:12:05.16,*Default,NTP,0000,0000,0000,,就这些吗 - 就这些\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Is that all? -That's everything.
+Dialogue: 0,0:12:06.79,0:12:08.09,*Default,NTP,0000,0000,0000,,我们不抽烟\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We don't smoke.
+Dialogue: 0,0:12:08.73,0:12:10.12,*Default,NTP,0000,0000,0000,,聪明\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's smart.
+Dialogue: 0,0:12:11.22,0:12:13.15,*Default,NTP,0000,0000,0000,,我是说在房子里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}In the house, I mean.
+Dialogue: 0,0:12:13.45,0:12:14.75,*Default,NTP,0000,0000,0000,,抱歉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sorry.
+Dialogue: 0,0:12:15.72,0:12:17.75,*Default,NTP,0000,0000,0000,,我去给你拿些被铺\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll go get you some linens.
+Dialogue: 0,0:12:17.75,0:12:19.81,*Default,NTP,0000,0000,0000,,我带你去房间 - 谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll show you to your room. -Thank you.
+Dialogue: 0,0:12:19.82,0:12:21.25,*Default,NTP,0000,0000,0000,,再次对不起 一团糟\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Once again, sorry for the mess.
+Dialogue: 0,0:12:21.25,0:12:23.78,*Default,NTP,0000,0000,0000,,没有 我真的很感激\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, please. I really appreciate this.
+Dialogue: 0,0:14:03.53,0:14:05.82,*Default,NTP,0000,0000,0000,,我喜欢这个\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And this! I love this.
+Dialogue: 0,0:14:05.82,0:14:07.85,*Default,NTP,0000,0000,0000,,你怎么会有这么多副本?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How come you have so many copies?
+Dialogue: 0,0:14:07.85,0:14:09.49,*Default,NTP,0000,0000,0000,,我写的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, I wrote it.
+Dialogue: 0,0:14:09.65,0:14:10.85,*Default,NTP,0000,0000,0000,,天\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, my.
+Dialogue: 0,0:14:11.25,0:14:12.78,*Default,NTP,0000,0000,0000,,是你吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's you?
+Dialogue: 0,0:14:13.15,0:14:15.58,*Default,NTP,0000,0000,0000,,我是超级粉丝 - 你读过吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm a huge fan. -You've read it?
+Dialogue: 0,0:14:15.58,0:14:17.64,*Default,NTP,0000,0000,0000,,我读过很多次了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've read it many, many times.
+Dialogue: 0,0:14:17.65,0:14:19.71,*Default,NTP,0000,0000,0000,,你的书改变了我的生活\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Your words have changed my life.
+Dialogue: 0,0:14:21.24,0:14:23.41,*Default,NTP,0000,0000,0000,,对不起 你一定\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry. You must...
+Dialogue: 0,0:14:23.41,0:14:24.94,*Default,NTP,0000,0000,0000,,你一定这种话听烦了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You must hear that all the time.
+Dialogue: 0,0:14:25.07,0:14:26.84,*Default,NTP,0000,0000,0000,,还没有\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Not really, no.
+Dialogue: 0,0:14:28.50,0:14:29.77,*Default,NTP,0000,0000,0000,,那个\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And that.
+Dialogue: 0,0:14:31.27,0:14:33.16,*Default,NTP,0000,0000,0000,,那是什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What is that?
+Dialogue: 0,0:14:33.30,0:14:34.66,*Default,NTP,0000,0000,0000,,小心\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Careful.
+Dialogue: 0,0:14:35.10,0:14:37.66,*Default,NTP,0000,0000,0000,,非常 非常易碎\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This is very, very delicate.
+Dialogue: 0,0:14:38.49,0:14:40.86,*Default,NTP,0000,0000,0000,,是礼物\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It was a gift.
+Dialogue: 0,0:14:41.42,0:14:43.69,*Default,NTP,0000,0000,0000,,特别的礼物\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}A very special gift.
+Dialogue: 0,0:14:44.82,0:14:46.72,*Default,NTP,0000,0000,0000,,你送的吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Is it from you?
+Dialogue: 0,0:14:49.65,0:14:50.85,*Default,NTP,0000,0000,0000,,不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No.
+Dialogue: 0,0:14:52.15,0:14:55.01,*Default,NTP,0000,0000,0000,,我小时候 一场大火 失去一切\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}When I was younger, I lost everything in a fire.
+Dialogue: 0,0:14:55.15,0:14:56.34,*Default,NTP,0000,0000,0000,,对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry.
+Dialogue: 0,0:14:56.51,0:14:58.51,*Default,NTP,0000,0000,0000,,很难想象这意味着什么\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's hard to imagine what that means.
+Dialogue: 0,0:14:58.51,0:14:59.71,*Default,NTP,0000,0000,0000,,失去一切\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Losing everything.
+Dialogue: 0,0:14:59.71,0:15:02.81,*Default,NTP,0000,0000,0000,,记忆 工作 甚至脏牙刷\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Your memories, your work, even your dirty toothbrush.
+Dialogue: 0,0:15:02.91,0:15:05.50,*Default,NTP,0000,0000,0000,,我不知道我是否还能再创作\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I didn't know if I could ever create again
+Dialogue: 0,0:15:05.57,0:15:08.70,*Default,NTP,0000,0000,0000,,直到我在灰烬中找到这个\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}until I found this in the ashes.
+Dialogue: 0,0:15:09.77,0:15:11.30,*Default,NTP,0000,0000,0000,,了不起吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Isn't that remarkable?
+Dialogue: 0,0:15:11.30,0:15:12.60,*Default,NTP,0000,0000,0000,,我能不能...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can I just...
+Dialogue: 0,0:15:12.76,0:15:15.53,*Default,NTP,0000,0000,0000,,它给了我重新开始的力量\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It gave me the strength to start again.
+Dialogue: 0,0:15:15.93,0:15:17.49,*Default,NTP,0000,0000,0000,,然后我遇见了她\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And then I met her.
+Dialogue: 0,0:15:17.49,0:15:18.79,*Default,NTP,0000,0000,0000,,你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You.
+Dialogue: 0,0:15:19.06,0:15:21.82,*Default,NTP,0000,0000,0000,,她的呼吸 使生命充满每个房间\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And she breathed life back into every room.
+Dialogue: 0,0:15:22.06,0:15:23.92,*Default,NTP,0000,0000,0000,,她重生了一切\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She redid all of it.
+Dialogue: 0,0:15:24.42,0:15:26.35,*Default,NTP,0000,0000,0000,,细致入微\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Every last detail.
+Dialogue: 0,0:15:27.08,0:15:28.65,*Default,NTP,0000,0000,0000,,都是你自己?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}By yourself?
+Dialogue: 0,0:15:30.65,0:15:33.18,*Default,NTP,0000,0000,0000,,所以你不止脸蛋漂亮\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So you're not just a pretty face.
+Dialogue: 0,0:15:34.91,0:15:38.64,*Default,NTP,0000,0000,0000,,我要准备睡觉了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I just came up to say I'm gonna get ready for bed.
+Dialogue: 0,0:15:39.31,0:15:41.27,*Default,NTP,0000,0000,0000,,对不起 我没有\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry. I didn't...
+Dialogue: 0,0:15:41.37,0:15:43.24,*Default,NTP,0000,0000,0000,,你没事吧?要喝水吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You okay? Want some water?
+Dialogue: 0,0:15:43.54,0:15:44.74,*Default,NTP,0000,0000,0000,,你没事吧?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you all right?
+Dialogue: 0,0:15:49.76,0:15:51.36,*Default,NTP,0000,0000,0000,,我马上就上去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll be up soon.
+Dialogue: 0,0:15:52.16,0:15:53.96,*Default,NTP,0000,0000,0000,,你真的不想喝水吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sure you don't want some water?
+Dialogue: 0,0:15:53.96,0:15:55.36,*Default,NTP,0000,0000,0000,,就一点点\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just a little bit.
+Dialogue: 0,0:15:55.46,0:15:56.66,*Default,NTP,0000,0000,0000,,给你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here you go.
+Dialogue: 0,0:15:57.49,0:15:58.99,*Default,NTP,0000,0000,0000,,坐下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sit down.
+Dialogue: 0,0:16:41.92,0:16:43.85,*Default,NTP,0000,0000,0000,,你只是喝多了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You just drank too much.
+Dialogue: 0,0:16:47.85,0:16:49.58,*Default,NTP,0000,0000,0000,,你很好 没事的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're okay. It's okay.
+Dialogue: 0,0:16:49.58,0:16:51.28,*Default,NTP,0000,0000,0000,,一切都好吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Is everything all right?
+Dialogue: 0,0:16:51.28,0:16:53.54,*Default,NTP,0000,0000,0000,,他喝得太多了 他会没事的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He drank too much. He'll be fine.
+Dialogue: 0,0:16:56.27,0:16:58.64,*Default,NTP,0000,0000,0000,,搞什么  - 给他一些隐私\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What is... -Give him some privacy.
+Dialogue: 0,0:16:59.80,0:17:01.87,*Default,NTP,0000,0000,0000,,好了 吐掉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, get it up.
+Dialogue: 0,0:17:01.97,0:17:03.63,*Default,NTP,0000,0000,0000,,吐干净\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just get it all up.
+Dialogue: 0,0:18:52.87,0:18:55.40,*Default,NTP,0000,0000,0000,,早安\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Good morning. -Morning.
+Dialogue: 0,0:18:56.40,0:18:57.93,*Default,NTP,0000,0000,0000,,闻起来很香\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Smells great.
+Dialogue: 0,0:18:57.93,0:18:59.43,*Default,NTP,0000,0000,0000,,昨晚发生什么事了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What happened last night?
+Dialogue: 0,0:18:59.43,0:19:01.63,*Default,NTP,0000,0000,0000,,我睡不着 太兴奋了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I couldn't sleep. I got so excited.
+Dialogue: 0,0:19:02.16,0:19:03.39,*Default,NTP,0000,0000,0000,,因为什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}From what?
+Dialogue: 0,0:19:03.40,0:19:05.39,*Default,NTP,0000,0000,0000,,他的故事 我爱他的思想\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}His stories. I love the man's mind.
+Dialogue: 0,0:19:05.96,0:19:09.99,*Default,NTP,0000,0000,0000,,对受众发言 更鼓舞人心\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It is so inspiring speaking to someone who really appreciates the work.
+Dialogue: 0,0:19:11.76,0:19:13.19,*Default,NTP,0000,0000,0000,,我喜欢你的作品\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I love your work.
+Dialogue: 0,0:19:14.45,0:19:17.32,*Default,NTP,0000,0000,0000,,当然 我知道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Of course you do. I know that.
+Dialogue: 0,0:19:20.01,0:19:21.55,*Default,NTP,0000,0000,0000,,他好点了吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So is he better?
+Dialogue: 0,0:19:21.85,0:19:23.28,*Default,NTP,0000,0000,0000,,不好意思?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Pardon?
+Dialogue: 0,0:19:23.28,0:19:25.08,*Default,NTP,0000,0000,0000,,他感觉好点了吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Is he feeling better?
+Dialogue: 0,0:19:26.68,0:19:29.87,*Default,NTP,0000,0000,0000,,他没事吧? - 挺好的 等一下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Is he all right? -Fine, fine. One sec.
+Dialogue: 0,0:19:38.87,0:19:41.03,*Default,NTP,0000,0000,0000,,抱歉 借个火\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sorry. Just need a light.
+Dialogue: 0,0:19:42.00,0:19:44.69,*Default,NTP,0000,0000,0000,,别担心 我去外面抽\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't worry about it. I'll take it outside.
+Dialogue: 0,0:19:48.09,0:19:50.12,*Default,NTP,0000,0000,0000,,早安\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Morning. -Good morning.
+Dialogue: 0,0:19:51.09,0:19:52.82,*Default,NTP,0000,0000,0000,,你感觉怎么样?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How are you feeling?
+Dialogue: 0,0:19:52.82,0:19:54.12,*Default,NTP,0000,0000,0000,,美妙\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wonderful.
+Dialogue: 0,0:19:56.58,0:19:58.11,*Default,NTP,0000,0000,0000,,你好多了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're all better?
+Dialogue: 0,0:19:58.31,0:19:59.78,*Default,NTP,0000,0000,0000,,好了点?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Better?
+Dialogue: 0,0:20:00.75,0:20:02.31,*Default,NTP,0000,0000,0000,,早安\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Morning! -Morning!
+Dialogue: 0,0:20:02.31,0:20:04.61,*Default,NTP,0000,0000,0000,,睡的怎么样? - 像个婴儿\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How did you sleep? -Like a baby.
+Dialogue: 0,0:20:05.28,0:20:08.67,*Default,NTP,0000,0000,0000,,鲜活的梦 一定是空气的缘故\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Really vivid dreams. Must be the air.
+Dialogue: 0,0:20:09.57,0:20:11.97,*Default,NTP,0000,0000,0000,,我很困惑\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, I'm confused.
+Dialogue: 0,0:20:12.17,0:20:13.77,*Default,NTP,0000,0000,0000,,那是谁? - 我去开\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Who's that? -I'll get it.
+Dialogue: 0,0:20:13.77,0:20:15.83,*Default,NTP,0000,0000,0000,,不 我去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, don't. I'll get it.
+Dialogue: 0,0:20:15.83,0:20:17.06,*Default,NTP,0000,0000,0000,,在等客人?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Expecting guests?
+Dialogue: 0,0:20:17.07,0:20:18.53,*Default,NTP,0000,0000,0000,,不是真的有访客\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We don't really get visitors.
+Dialogue: 0,0:20:18.60,0:20:20.06,*Default,NTP,0000,0000,0000,,那会把我逼疯的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That would drive me crazy.
+Dialogue: 0,0:20:20.06,0:20:21.63,*Default,NTP,0000,0000,0000,,说说看\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Tell me about it.
+Dialogue: 0,0:20:26.32,0:20:27.66,*Default,NTP,0000,0000,0000,,你好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello. -Hello.
+Dialogue: 0,0:20:27.66,0:20:29.62,*Default,NTP,0000,0000,0000,,我能为您效劳吗 - 你终于找到了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can I help you? -You made it!
+Dialogue: 0,0:20:30.29,0:20:31.79,*Default,NTP,0000,0000,0000,,我的好老婆\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}My better half.
+Dialogue: 0,0:20:40.41,0:20:42.44,*Default,NTP,0000,0000,0000,,很高兴看到你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Nice to meet you.
+Dialogue: 0,0:20:42.84,0:20:45.31,*Default,NTP,0000,0000,0000,,我的荣幸 - 请进来吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The pleasure is mine. -Well, come in.
+Dialogue: 0,0:20:48.60,0:20:50.80,*Default,NTP,0000,0000,0000,,没想到你结婚了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I didn't realise you were married.
+Dialogue: 0,0:20:50.84,0:20:52.10,*Default,NTP,0000,0000,0000,,不会吧?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Really?
+Dialogue: 0,0:20:53.77,0:20:55.36,*Default,NTP,0000,0000,0000,,早餐\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Breakfast!
+Dialogue: 0,0:20:55.37,0:20:57.13,*Default,NTP,0000,0000,0000,,我去拿她的手提箱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll grab her suitcase.
+Dialogue: 0,0:21:05.36,0:21:06.89,*Default,NTP,0000,0000,0000,,着火了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's burning.
+Dialogue: 0,0:21:07.09,0:21:08.62,*Default,NTP,0000,0000,0000,,不 不要\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, don't!
+Dialogue: 0,0:21:10.68,0:21:12.58,*Default,NTP,0000,0000,0000,,抱歉 - 我来弄\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sorry. -I got it!
+Dialogue: 0,0:21:12.58,0:21:14.81,*Default,NTP,0000,0000,0000,,坐下 - 我去开窗户\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sit down. -I'll get the windows.
+Dialogue: 0,0:21:14.81,0:21:16.51,*Default,NTP,0000,0000,0000,,让我看看\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let me look at it.
+Dialogue: 0,0:21:16.51,0:21:18.38,*Default,NTP,0000,0000,0000,,你没事吧? - 应该没事\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you all right? -I think so.
+Dialogue: 0,0:21:18.38,0:21:20.18,*Default,NTP,0000,0000,0000,,你没事 - 冰块\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're okay. Ice.
+Dialogue: 0,0:21:20.18,0:21:21.44,*Default,NTP,0000,0000,0000,,冰块\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Ice!
+Dialogue: 0,0:21:21.44,0:21:23.64,*Default,NTP,0000,0000,0000,,真笨\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So stupid.
+Dialogue: 0,0:21:23.77,0:21:27.14,*Default,NTP,0000,0000,0000,,还不错 没事的 你很好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's not bad. It's fine. You're fine.
+Dialogue: 0,0:21:28.24,0:21:30.03,*Default,NTP,0000,0000,0000,,谢谢 - 我真的很抱歉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you. -I'm really so sorry.
+Dialogue: 0,0:21:30.03,0:21:31.90,*Default,NTP,0000,0000,0000,,别担心\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't worry about it.
+Dialogue: 0,0:21:32.10,0:21:33.53,*Default,NTP,0000,0000,0000,,很高兴认识你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's very nice to meet you.
+Dialogue: 0,0:21:33.53,0:21:36.10,*Default,NTP,0000,0000,0000,,很高兴见到你  你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Very nice to meet... You.
+Dialogue: 0,0:21:46.29,0:21:47.95,*Default,NTP,0000,0000,0000,,拜托\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, please!
+Dialogue: 0,0:21:48.09,0:21:50.48,*Default,NTP,0000,0000,0000,,我不再幻想浪漫了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'd given up on romance.
+Dialogue: 0,0:21:50.48,0:21:52.91,*Default,NTP,0000,0000,0000,,我已经习惯了独处\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I was getting used to being alone.
+Dialogue: 0,0:21:53.05,0:21:54.51,*Default,NTP,0000,0000,0000,,谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you.
+Dialogue: 0,0:21:54.61,0:21:55.98,*Default,NTP,0000,0000,0000,,但是 - 美味\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But then... -Yummy.
+Dialogue: 0,0:21:55.98,0:21:57.98,*Default,NTP,0000,0000,0000,,一切发生得太快\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}...it just happened for us.
+Dialogue: 0,0:21:58.11,0:22:03.74,*Default,NTP,0000,0000,0000,,看到她 知道她是我想共度余生的女人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I saw her, and I knew she was the woman I wanted to spend the rest of my life with
+Dialogue: 0,0:22:03.94,0:22:06.10,*Default,NTP,0000,0000,0000,,一见钟情 - 在这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Love at first sight. -Same here.
+Dialogue: 0,0:22:06.10,0:22:07.60,*Default,NTP,0000,0000,0000,,对\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, right.
+Dialogue: 0,0:22:07.60,0:22:10.60,*Default,NTP,0000,0000,0000,,干嘛? - 我何以抗拒这张脸?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What? How could I resist this face?
+Dialogue: 0,0:22:10.60,0:22:12.63,*Default,NTP,0000,0000,0000,,你相信我吧?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You believe me, right?
+Dialogue: 0,0:22:12.70,0:22:14.63,*Default,NTP,0000,0000,0000,,来坐会儿\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come. Sit already.
+Dialogue: 0,0:22:16.13,0:22:19.16,*Default,NTP,0000,0000,0000,,你从来没有怀疑过? - 真的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So you never had a doubt? -That's true.
+Dialogue: 0,0:22:19.29,0:22:21.22,*Default,NTP,0000,0000,0000,,拜托 - 干嘛?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah. Come on. -What?
+Dialogue: 0,0:22:21.22,0:22:24.52,*Default,NTP,0000,0000,0000,,你不怀疑吗 - 不 一次也没有\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Didn't you have any doubts? -No! Not a one.
+Dialogue: 0,0:22:24.65,0:22:27.28,*Default,NTP,0000,0000,0000,,你懂这种关联吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You guys understand that kind of connection, right?
+Dialogue: 0,0:22:28.08,0:22:29.15,*Default,NTP,0000,0000,0000,,你必须的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You must.
+Dialogue: 0,0:22:29.15,0:22:31.02,*Default,NTP,0000,0000,0000,,我是说你们两个很不同\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I mean, you're both so different.
+Dialogue: 0,0:22:31.03,0:22:32.91,*Default,NTP,0000,0000,0000,,一定有某种纽带\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It must have been what pulled you together.
+Dialogue: 0,0:22:32.91,0:22:35.01,*Default,NTP,0000,0000,0000,,你真漂亮 过来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're so beautiful. Come here.
+Dialogue: 0,0:22:43.27,0:22:45.97,*Default,NTP,0000,0000,0000,,然后孩子们会搞砸一切\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And then the kids came and screwed it all up.
+Dialogue: 0,0:22:46.14,0:22:47.73,*Default,NTP,0000,0000,0000,,你有孩子? - 两个\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You have kids? -Two.
+Dialogue: 0,0:22:47.73,0:22:49.80,*Default,NTP,0000,0000,0000,,都是男孩 - 漂亮\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Boys. -Beautiful.
+Dialogue: 0,0:22:49.97,0:22:51.63,*Default,NTP,0000,0000,0000,,我的长子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here. This is my eldest.
+Dialogue: 0,0:22:51.63,0:22:53.23,*Default,NTP,0000,0000,0000,,让我看\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let me see.
+Dialogue: 0,0:22:53.23,0:22:55.99,*Default,NTP,0000,0000,0000,,她的宝贝 - 闭嘴\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And then her baby. -Shut up.
+Dialogue: 0,0:22:56.13,0:22:58.02,*Default,NTP,0000,0000,0000,,漂亮的眼睛\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Amazing eyes.
+Dialogue: 0,0:22:58.29,0:22:59.59,*Default,NTP,0000,0000,0000,,你们俩呢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And you two?
+Dialogue: 0,0:22:59.92,0:23:01.49,*Default,NTP,0000,0000,0000,,有孩子吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You have kids?
+Dialogue: 0,0:23:01.49,0:23:03.69,*Default,NTP,0000,0000,0000,,还没有 但我们想要生几个\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Not yet. But we want them.
+Dialogue: 0,0:23:07.72,0:23:09.25,*Default,NTP,0000,0000,0000,,那还等什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, what are you waiting for?
+Dialogue: 0,0:23:09.25,0:23:11.71,*Default,NTP,0000,0000,0000,,吃完早饭就做人吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why not finish breakfast and get to it?
+Dialogue: 0,0:23:13.74,0:23:17.24,*Default,NTP,0000,0000,0000,,我想把房子收拾好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, I want to finish the house,
+Dialogue: 0,0:23:17.24,0:23:20.74,*Default,NTP,0000,0000,0000,,他正在写新书\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}and he's working on a new piece.
+Dialogue: 0,0:23:20.74,0:23:22.44,*Default,NTP,0000,0000,0000,,你又在写了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So you're writing again?
+Dialogue: 0,0:23:22.80,0:23:24.03,*Default,NTP,0000,0000,0000,,嗯\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah.
+Dialogue: 0,0:23:24.24,0:23:26.40,*Default,NTP,0000,0000,0000,,太好了 - 终于开动了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's wonderful. -Finally, right?
+Dialogue: 0,0:23:26.40,0:23:27.60,*Default,NTP,0000,0000,0000,,是的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes.
+Dialogue: 0,0:23:28.06,0:23:29.80,*Default,NTP,0000,0000,0000,,我们妨碍你了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No. We're in the way.
+Dialogue: 0,0:23:29.80,0:23:31.20,*Default,NTP,0000,0000,0000,,这是世界上最讨厌的事...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's the last thing in the world...
+Dialogue: 0,0:23:31.20,0:23:32.63,*Default,NTP,0000,0000,0000,,不 不必\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, not at all. No, no.
+Dialogue: 0,0:23:32.63,0:23:35.52,*Default,NTP,0000,0000,0000,,只要愿意 随便呆多久\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're more than welcome to stay here as long as you want.
+Dialogue: 0,0:23:37.76,0:23:39.41,*Default,NTP,0000,0000,0000,,你真是太好了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's very kind of you.
+Dialogue: 0,0:23:39.42,0:23:41.42,*Default,NTP,0000,0000,0000,,我们不能强加意愿\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, we couldn't impose.
+Dialogue: 0,0:23:41.42,0:23:43.08,*Default,NTP,0000,0000,0000,,亲爱的 他们有足够的房间\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Honey, they've got plenty of room.
+Dialogue: 0,0:23:43.09,0:23:45.58,*Default,NTP,0000,0000,0000,,说到孩子 你有电话吗 我手机没有信号\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Speaking of kids, do you have a phone? I can't get a signal.
+Dialogue: 0,0:23:45.58,0:23:46.65,*Default,NTP,0000,0000,0000,,我们就喜欢如此\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's how we like it.
+Dialogue: 0,0:23:46.65,0:23:48.15,*Default,NTP,0000,0000,0000,,你不必每天给他打电话\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You don't have to call him every day.
+Dialogue: 0,0:23:48.15,0:23:49.81,*Default,NTP,0000,0000,0000,,厨房里有一部 我领你去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}There's one in the kitchen. I can show you.
+Dialogue: 0,0:23:49.81,0:23:51.34,*Default,NTP,0000,0000,0000,,不用 没事的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, it's all right.
+Dialogue: 0,0:23:52.08,0:23:53.98,*Default,NTP,0000,0000,0000,,我们能在周末放松一下吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can we just relax for the weekend?
+Dialogue: 0,0:23:53.98,0:23:56.24,*Default,NTP,0000,0000,0000,,不 亲爱的 我只想他知道我们很好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, honey, I just want to let him know we're okay.
+Dialogue: 0,0:23:56.24,0:23:57.57,*Default,NTP,0000,0000,0000,,简单电话一声\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just a quick call.
+Dialogue: 0,0:24:00.30,0:24:01.83,*Default,NTP,0000,0000,0000,,怎么了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's wrong?
+Dialogue: 0,0:24:02.30,0:24:04.93,*Default,NTP,0000,0000,0000,,你为什么不先问我?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why would you do that without asking me?
+Dialogue: 0,0:24:05.40,0:24:08.33,*Default,NTP,0000,0000,0000,,问什么? - 邀请他们留下来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Do what? -Invite them to stay.
+Dialogue: 0,0:24:09.26,0:24:11.46,*Default,NTP,0000,0000,0000,,我认为这不算什么大事\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I didn't think it was a big deal.
+Dialogue: 0,0:24:12.59,0:24:15.19,*Default,NTP,0000,0000,0000,,很奇怪  - 哪里奇怪?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's strange. -What?
+Dialogue: 0,0:24:16.12,0:24:17.99,*Default,NTP,0000,0000,0000,,你知道他有妻子吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Did you know he had a wife?
+Dialogue: 0,0:24:22.25,0:24:23.85,*Default,NTP,0000,0000,0000,,你的写作怎么办?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What about your writing?
+Dialogue: 0,0:24:26.28,0:24:29.91,*Default,NTP,0000,0000,0000,,我真的很享受不去思考写作\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I was actually enjoying not thinking about it.
+Dialogue: 0,0:24:31.24,0:24:32.97,*Default,NTP,0000,0000,0000,,但现在我得仔细思考了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But now that I am thinking about it,
+Dialogue: 0,0:24:32.98,0:24:35.94,*Default,NTP,0000,0000,0000,,我应该做点什么\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I should go and do something about it.
+Dialogue: 0,0:24:42.50,0:24:44.36,*Default,NTP,0000,0000,0000,,我真的该工作了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I really should work.
+Dialogue: 0,0:25:21.17,0:25:22.93,*Default,NTP,0000,0000,0000,,柠檬水\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Lemonade!
+Dialogue: 0,0:25:24.86,0:25:26.29,*Default,NTP,0000,0000,0000,,小心\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Careful.
+Dialogue: 0,0:25:26.49,0:25:28.46,*Default,NTP,0000,0000,0000,,我想你可能会喜欢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thought you might like some.
+Dialogue: 0,0:25:29.26,0:25:30.96,*Default,NTP,0000,0000,0000,,谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, thank you.
+Dialogue: 0,0:25:31.16,0:25:32.79,*Default,NTP,0000,0000,0000,,祖传秘方\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Secret family recipe.
+Dialogue: 0,0:25:32.79,0:25:34.65,*Default,NTP,0000,0000,0000,,哪一部分?柠檬?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Which part? The lemons?
+Dialogue: 0,0:25:38.72,0:25:40.25,*Default,NTP,0000,0000,0000,,你的手怎么样?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How's your hand?
+Dialogue: 0,0:25:41.28,0:25:43.65,*Default,NTP,0000,0000,0000,,仍然刺痛 - 对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Still stinging. -I'm sorry.
+Dialogue: 0,0:25:43.78,0:25:45.68,*Default,NTP,0000,0000,0000,,不像是你的错\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's not like it was your fault.
+Dialogue: 0,0:25:46.64,0:25:48.67,*Default,NTP,0000,0000,0000,,你没有止痛药吧?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You don't have any painkillers, do you?
+Dialogue: 0,0:25:51.47,0:25:53.50,*Default,NTP,0000,0000,0000,,你说的是真话?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you telling me the truth?
+Dialogue: 0,0:25:54.07,0:25:56.07,*Default,NTP,0000,0000,0000,,我真的没有止痛药 对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I really don't have any. I'm sorry.
+Dialogue: 0,0:25:58.63,0:26:00.00,*Default,NTP,0000,0000,0000,,{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}OK\NOkay.
+Dialogue: 0,0:26:00.13,0:26:01.96,*Default,NTP,0000,0000,0000,,你不渴吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're not thirsty?
+Dialogue: 0,0:26:01.96,0:26:03.30,*Default,NTP,0000,0000,0000,,对\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Right.
+Dialogue: 0,0:26:14.39,0:26:16.05,*Default,NTP,0000,0000,0000,,现在我明白了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Now I get it.
+Dialogue: 0,0:26:16.28,0:26:18.95,*Default,NTP,0000,0000,0000,,味道强劲 - 我第二杯了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's strong. -I'm on my second.
+Dialogue: 0,0:26:18.95,0:26:21.38,*Default,NTP,0000,0000,0000,,真不敢相信你自己做了这些事\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I can't believe you did all this work yourself.
+Dialogue: 0,0:26:21.81,0:26:24.21,*Default,NTP,0000,0000,0000,,为什么不呢 - 工程浩大\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why not? -It's a lot.
+Dialogue: 0,0:26:24.21,0:26:26.87,*Default,NTP,0000,0000,0000,,我们会长久在这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, we spend all our time here.
+Dialogue: 0,0:26:26.88,0:26:28.74,*Default,NTP,0000,0000,0000,,我想让它成为天堂\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I want to make it paradise.
+Dialogue: 0,0:26:30.74,0:26:32.60,*Default,NTP,0000,0000,0000,,我喜欢干活\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And I love the work.
+Dialogue: 0,0:26:34.34,0:26:35.97,*Default,NTP,0000,0000,0000,,很精致\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And it's exquisite.
+Dialogue: 0,0:26:36.10,0:26:37.30,*Default,NTP,0000,0000,0000,,谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you.
+Dialogue: 0,0:26:37.80,0:26:39.76,*Default,NTP,0000,0000,0000,,你能带我参观吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Would you take me on a tour?
+Dialogue: 0,0:26:39.76,0:26:41.13,*Default,NTP,0000,0000,0000,,当然\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sure.
+Dialogue: 0,0:26:46.39,0:26:48.72,*Default,NTP,0000,0000,0000,,感谢你的盛情款待\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I want to thank you for your hospitality.
+Dialogue: 0,0:26:49.62,0:26:53.68,*Default,NTP,0000,0000,0000,,你丈夫太友善了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Your husband has been so generous.
+Dialogue: 0,0:26:54.88,0:26:56.35,*Default,NTP,0000,0000,0000,,不客气\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're welcome.
+Dialogue: 0,0:26:58.21,0:27:01.08,*Default,NTP,0000,0000,0000,,那么 从哪里开始呢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, where to begin?
+Dialogue: 0,0:27:03.74,0:27:06.21,*Default,NTP,0000,0000,0000,,最麻烦的地方\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, this was the hardest part.
+Dialogue: 0,0:27:06.21,0:27:08.14,*Default,NTP,0000,0000,0000,,磨损巨大 踏面都消失了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}There was so much damage. The treads were gone,
+Dialogue: 0,0:27:08.14,0:27:10.00,*Default,NTP,0000,0000,0000,,栏杆 甚至天窗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}the railing, even the skylight.
+Dialogue: 0,0:27:10.00,0:27:11.30,*Default,NTP,0000,0000,0000,,所以我得买很多新材料\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So I had to get a lot of new material,
+Dialogue: 0,0:27:11.30,0:27:12.33,*Default,NTP,0000,0000,0000,,但我尽量节省\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}but I tried to save as much...
+Dialogue: 0,0:27:12.33,0:27:14.77,*Default,NTP,0000,0000,0000,,比毛胚房还难吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Isn't it a lot harder than just starting fresh?
+Dialogue: 0,0:27:14.77,0:27:16.30,*Default,NTP,0000,0000,0000,,你是什么意思?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How do you mean?
+Dialogue: 0,0:27:16.50,0:27:19.13,*Default,NTP,0000,0000,0000,,你为什么不建个新房子?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why didn't you just build a new house?
+Dialogue: 0,0:27:20.06,0:27:21.49,*Default,NTP,0000,0000,0000,,因为\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, it's...
+Dialogue: 0,0:27:21.66,0:27:23.19,*Default,NTP,0000,0000,0000,,这是他的家\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's his home.
+Dialogue: 0,0:27:26.82,0:27:28.72,*Default,NTP,0000,0000,0000,,你真的爱他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You really love him.
+Dialogue: 0,0:27:30.75,0:27:32.42,*Default,NTP,0000,0000,0000,,我能问你一个问题吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can I ask you a question?
+Dialogue: 0,0:27:33.48,0:27:35.08,*Default,NTP,0000,0000,0000,,你为什么不想要孩子?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why don't you want kids?
+Dialogue: 0,0:27:36.98,0:27:38.18,*Default,NTP,0000,0000,0000,,对不起?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me?
+Dialogue: 0,0:27:41.01,0:27:43.54,*Default,NTP,0000,0000,0000,,我看到你之前的反应了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I saw how you reacted earlier.
+Dialogue: 0,0:27:44.34,0:27:46.77,*Default,NTP,0000,0000,0000,,我知道初期的感觉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I know what it's like when you're just starting out,
+Dialogue: 0,0:27:46.77,0:27:49.54,*Default,NTP,0000,0000,0000,,你以为有全世界所有的时间\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}and you think you have all the time in the world.
+Dialogue: 0,0:27:50.17,0:27:53.44,*Default,NTP,0000,0000,0000,,你要知道 你不会永远年轻\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know, you're not going to be so young forever.
+Dialogue: 0,0:27:53.95,0:27:55.22,*Default,NTP,0000,0000,0000,,得生孩子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Have kids.
+Dialogue: 0,0:27:55.80,0:27:58.53,*Default,NTP,0000,0000,0000,,然后你们会齐心协力\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Then you'll be creating something together.
+Dialogue: 0,0:27:59.16,0:28:00.96,*Default,NTP,0000,0000,0000,,才能保证婚姻的连续\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's what keeps a marriage going.
+Dialogue: 0,0:28:00.96,0:28:03.02,*Default,NTP,0000,0000,0000,,都只是为了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This... This is all just
+Dialogue: 0,0:28:03.62,0:28:04.82,*Default,NTP,0000,0000,0000,,按部就班\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}setting.
+Dialogue: 0,0:28:17.48,0:28:19.34,*Default,NTP,0000,0000,0000,,你想要他们的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You do want them.
+Dialogue: 0,0:28:21.84,0:28:23.37,*Default,NTP,0000,0000,0000,,是他的缺陷?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Is it him?
+Dialogue: 0,0:28:25.20,0:28:29.07,*Default,NTP,0000,0000,0000,,我得回去工作了 - 那他为什么说...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm gonna get back to work. -Then why did he say...
+Dialogue: 0,0:28:29.77,0:28:30.97,*Default,NTP,0000,0000,0000,,对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry.
+Dialogue: 0,0:28:31.90,0:28:35.43,*Default,NTP,0000,0000,0000,,我太八卦了吗 我常犯这毛病\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Was I too forward? I do that sometimes.
+Dialogue: 0,0:28:35.70,0:28:37.99,*Default,NTP,0000,0000,0000,,每段关系都有自己的问题\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Every relationship has its issues.
+Dialogue: 0,0:28:37.99,0:28:39.96,*Default,NTP,0000,0000,0000,,你们之间隔了整整一代\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And when there's a full generation between you,
+Dialogue: 0,0:28:39.96,0:28:42.06,*Default,NTP,0000,0000,0000,,所以我只能想象\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I can only imagine.
+Dialogue: 0,0:28:43.29,0:28:44.52,*Default,NTP,0000,0000,0000,,那是他工作的地方吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Is that where he works?
+Dialogue: 0,0:28:44.89,0:28:45.99,*Default,NTP,0000,0000,0000,,那是私人的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's private.
+Dialogue: 0,0:28:45.99,0:28:48.68,*Default,NTP,0000,0000,0000,,不能给我瞄一眼吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can't you just give me a peek?
+Dialogue: 0,0:28:48.82,0:28:51.48,*Default,NTP,0000,0000,0000,,他不喜欢有人单独闯入\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He doesn't like anyone being in there without him!
+Dialogue: 0,0:28:52.55,0:28:54.48,*Default,NTP,0000,0000,0000,,你真的爱他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You really do love him.
+Dialogue: 0,0:28:54.95,0:28:57.04,*Default,NTP,0000,0000,0000,,上帝保佑你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}God help you.
+Dialogue: 0,0:28:58.68,0:28:59.87,*Default,NTP,0000,0000,0000,,你要去哪里?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where are you going?
+Dialogue: 0,0:28:59.87,0:29:02.01,*Default,NTP,0000,0000,0000,,我要带他出去 - 我们要去远足\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm gonna take him outside. -We're going on a hike.
+Dialogue: 0,0:29:02.41,0:29:03.50,*Default,NTP,0000,0000,0000,,远足?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}A hike?
+Dialogue: 0,0:29:03.51,0:29:05.30,*Default,NTP,0000,0000,0000,,我徒步旅行 - 快速的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Me on a hike! -Just a quick one.
+Dialogue: 0,0:29:05.30,0:29:06.53,*Default,NTP,0000,0000,0000,,慢点走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Go slow.
+Dialogue: 0,0:29:06.54,0:29:09.43,*Default,NTP,0000,0000,0000,,足够慢 免得烟烧得太快\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, slow enough so my smoke doesn't burn too quickly.
+Dialogue: 0,0:29:09.43,0:29:12.66,*Default,NTP,0000,0000,0000,,你不想来吗 - 不 我们有衣服要洗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You don't want to come? -No, we have laundry to do.
+Dialogue: 0,0:29:13.63,0:29:15.16,*Default,NTP,0000,0000,0000,,你会让我看的吧?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You'll show me where, right?
+Dialogue: 0,0:29:15.16,0:29:17.19,*Default,NTP,0000,0000,0000,,哪条路? - 无所谓\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Which way? -Doesn't matter.
+Dialogue: 0,0:29:18.89,0:29:21.42,*Default,NTP,0000,0000,0000,,你不觉得这俩男人惺惺相惜吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The boys have bonded, don't you think?
+Dialogue: 0,0:29:21.42,0:29:24.29,*Default,NTP,0000,0000,0000,,我家男人通常没有这么率性\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Mine's not usually such a nature boy.
+Dialogue: 0,0:29:24.85,0:29:27.72,*Default,NTP,0000,0000,0000,,我猜你还没到这个程度\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Guess you haven't quite got to this part yet.
+Dialogue: 0,0:29:28.08,0:29:29.95,*Default,NTP,0000,0000,0000,,这太重了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This is so heavy.
+Dialogue: 0,0:29:29.95,0:29:31.55,*Default,NTP,0000,0000,0000,,很多工具\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's a lot of tools.
+Dialogue: 0,0:29:31.55,0:29:32.94,*Default,NTP,0000,0000,0000,,我去拿\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll get it.
+Dialogue: 0,0:29:33.61,0:29:36.38,*Default,NTP,0000,0000,0000,,哪一个? - 在左边\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Which is which? -On the left.
+Dialogue: 0,0:29:39.14,0:29:40.84,*Default,NTP,0000,0000,0000,,满了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's full.
+Dialogue: 0,0:29:42.30,0:29:45.07,*Default,NTP,0000,0000,0000,,等等 我来帮你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait! I'll help you.
+Dialogue: 0,0:29:48.20,0:29:50.30,*Default,NTP,0000,0000,0000,,不 找到问题所在了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No. So that's the problem.
+Dialogue: 0,0:29:50.30,0:29:51.86,*Default,NTP,0000,0000,0000,,什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What?
+Dialogue: 0,0:29:53.86,0:29:56.09,*Default,NTP,0000,0000,0000,,穿这么保守怎么行?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're gonna have to try harder than this.
+Dialogue: 0,0:29:56.09,0:29:58.06,*Default,NTP,0000,0000,0000,,对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry.
+Dialogue: 0,0:29:58.82,0:30:01.75,*Default,NTP,0000,0000,0000,,相信我 当男人老了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Believe me, when they get older,
+Dialogue: 0,0:30:01.89,0:30:04.95,*Default,NTP,0000,0000,0000,,你得保持情趣\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}you got to keep it interesting.
+Dialogue: 0,0:30:05.42,0:30:06.85,*Default,NTP,0000,0000,0000,,他没那么老\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He's not that old.
+Dialogue: 0,0:30:07.75,0:30:09.61,*Default,NTP,0000,0000,0000,,老干部活动中心还好吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How's it going in that department?
+Dialogue: 0,0:30:12.71,0:30:16.60,*Default,NTP,0000,0000,0000,,我不喜欢谈论那种事情\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't feel comfortable talking about that stuff.
+Dialogue: 0,0:30:16.60,0:30:19.13,*Default,NTP,0000,0000,0000,,我只是想帮忙\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm just trying to help.
+Dialogue: 0,0:30:19.70,0:30:21.86,*Default,NTP,0000,0000,0000,,我是说看看你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I mean, look at you.
+Dialogue: 0,0:30:21.86,0:30:23.30,*Default,NTP,0000,0000,0000,,如果他对你没有全心全意\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}If he's not all over you,
+Dialogue: 0,0:30:23.34,0:30:25.97,*Default,NTP,0000,0000,0000,,不是因为他的年龄或\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}it's either because of his age or...
+Dialogue: 0,0:30:29.43,0:30:30.63,*Default,NTP,0000,0000,0000,,或什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Or what?
+Dialogue: 0,0:30:34.53,0:30:36.39,*Default,NTP,0000,0000,0000,,知道吗 算了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know what? Forget it.
+Dialogue: 0,0:30:37.19,0:30:39.32,*Default,NTP,0000,0000,0000,,这不关我的事\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's none of my business.
+Dialogue: 0,0:30:40.12,0:30:41.52,*Default,NTP,0000,0000,0000,,我想我上头了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I think this has gone to my head.
+Dialogue: 0,0:30:41.52,0:30:43.02,*Default,NTP,0000,0000,0000,,没事的 说说清楚\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, it's okay. Say what you were gonna say.
+Dialogue: 0,0:30:43.02,0:30:45.55,*Default,NTP,0000,0000,0000,,意思是他还爱你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, seriously. No, obviously he still loves you.
+Dialogue: 0,0:30:49.55,0:30:51.41,*Default,NTP,0000,0000,0000,,我去梳洗一下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm gonna freshen these up.
+Dialogue: 0,0:31:54.49,0:31:55.85,*Default,NTP,0000,0000,0000,,你好?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello?
+Dialogue: 0,0:32:02.55,0:32:04.08,*Default,NTP,0000,0000,0000,,你好?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello?
+Dialogue: 0,0:32:07.71,0:32:09.18,*Default,NTP,0000,0000,0000,,你好?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello?
+Dialogue: 0,0:33:43.53,0:33:46.32,*Default,NTP,0000,0000,0000,,我告诉过你 他不喜欢有人单独闯入\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I told you, he doesn't like anyone being in here without him.
+Dialogue: 0,0:33:46.32,0:33:48.32,*Default,NTP,0000,0000,0000,,太神奇了 这是什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's amazing. What is it?
+Dialogue: 0,0:33:48.32,0:33:50.35,*Default,NTP,0000,0000,0000,,我们真的得走了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We really have to leave.
+Dialogue: 0,0:33:50.99,0:33:52.95,*Default,NTP,0000,0000,0000,,拜托? - 我只想看看\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please? -I just want to look at it.
+Dialogue: 0,0:33:52.95,0:33:54.51,*Default,NTP,0000,0000,0000,,你得走了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You have to go.
+Dialogue: 0,0:33:54.55,0:33:57.91,*Default,NTP,0000,0000,0000,,我不知道你为什么小题大做\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't know why you have to make such a big deal of it.
+Dialogue: 0,0:34:02.34,0:34:03.54,*Default,NTP,0000,0000,0000,,他们回来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They're back.
+Dialogue: 0,0:34:04.52,0:34:06.07,*Default,NTP,0000,0000,0000,,这边 - 亲爱的?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This way. Here. -Honey?
+Dialogue: 0,0:34:06.07,0:34:08.10,*Default,NTP,0000,0000,0000,,给你拿点水来 - 你没事吧?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let's get you some water. -Are you all right?
+Dialogue: 0,0:34:12.87,0:34:15.07,*Default,NTP,0000,0000,0000,,这可恶的烟\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Your damn smoking.
+Dialogue: 0,0:34:15.43,0:34:16.63,*Default,NTP,0000,0000,0000,,拿着\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here.
+Dialogue: 0,0:34:17.10,0:34:19.03,*Default,NTP,0000,0000,0000,,你没事吧? - 刚刚开始\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You all right? -Just started.
+Dialogue: 0,0:34:19.03,0:34:21.29,*Default,NTP,0000,0000,0000,,我们去给你拿药\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come on. Let's go get you your pills.
+Dialogue: 0,0:34:21.53,0:34:24.09,*Default,NTP,0000,0000,0000,,如果我想要第三个孩子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}If I wanted a third child...
+Dialogue: 0,0:34:24.33,0:34:25.72,*Default,NTP,0000,0000,0000,,我猜你太过火了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I guess you overdid it.
+Dialogue: 0,0:34:27.69,0:34:29.02,*Default,NTP,0000,0000,0000,,太紧张了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That was intense.
+Dialogue: 0,0:34:29.02,0:34:30.82,*Default,NTP,0000,0000,0000,,你不会相信他刚告诉我的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And you won't believe what he just told me.
+Dialogue: 0,0:34:30.82,0:34:32.38,*Default,NTP,0000,0000,0000,,那个水槽还没准备就绪\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That sink's not braced yet.
+Dialogue: 0,0:34:32.62,0:34:33.82,*Default,NTP,0000,0000,0000,,什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What?
+Dialogue: 0,0:34:35.15,0:34:36.21,*Default,NTP,0000,0000,0000,,等等\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait.
+Dialogue: 0,0:34:36.21,0:34:38.04,*Default,NTP,0000,0000,0000,,怎么了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Something happened?
+Dialogue: 0,0:34:38.71,0:34:39.91,*Default,NTP,0000,0000,0000,,什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What?
+Dialogue: 0,0:34:42.38,0:34:44.74,*Default,NTP,0000,0000,0000,,怎么了?说话\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What is it? What?
+Dialogue: 0,0:34:45.77,0:34:48.64,*Default,NTP,0000,0000,0000,,他的行李里有你的一张照片\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He has one of those pictures of you in his luggage.
+Dialogue: 0,0:34:49.64,0:34:51.20,*Default,NTP,0000,0000,0000,,你翻他们行李做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What were you doing in their luggage?
+Dialogue: 0,0:34:51.20,0:34:52.83,*Default,NTP,0000,0000,0000,,这不是重点\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's not the point.
+Dialogue: 0,0:34:52.83,0:34:54.66,*Default,NTP,0000,0000,0000,,他并非碰巧找到我们的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He didn't just stumble on us.
+Dialogue: 0,0:34:54.66,0:34:56.93,*Default,NTP,0000,0000,0000,,他是个狂热的粉丝 - 我知道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He's a crazy fan. -I know.
+Dialogue: 0,0:34:57.76,0:34:58.86,*Default,NTP,0000,0000,0000,,不好意思?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me?
+Dialogue: 0,0:34:58.86,0:35:01.49,*Default,NTP,0000,0000,0000,,刚才他告诉我了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's what he told me on our walk.
+Dialogue: 0,0:35:01.86,0:35:03.39,*Default,NTP,0000,0000,0000,,他要死了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He's dying.
+Dialogue: 0,0:35:06.65,0:35:08.55,*Default,NTP,0000,0000,0000,,所以他才来这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's why he came here.
+Dialogue: 0,0:35:08.69,0:35:11.38,*Default,NTP,0000,0000,0000,,他想离世之前见我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He wanted to meet me before he's gone.
+Dialogue: 0,0:35:12.22,0:35:14.65,*Default,NTP,0000,0000,0000,,那他为什么不告诉我们?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, why didn't he tell us that?
+Dialogue: 0,0:35:14.65,0:35:16.88,*Default,NTP,0000,0000,0000,,为什么撒谎? - 我不知道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why lie? -I don't know. I don't know.
+Dialogue: 0,0:35:16.88,0:35:18.84,*Default,NTP,0000,0000,0000,,他是个骄傲的人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He's a proud man.
+Dialogue: 0,0:35:19.11,0:35:20.94,*Default,NTP,0000,0000,0000,,我很佩服\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I admire that.
+Dialogue: 0,0:35:29.33,0:35:31.40,*Default,NTP,0000,0000,0000,,你做了什么? - 对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What have you done? -I'm so sorry.
+Dialogue: 0,0:35:31.40,0:35:34.23,*Default,NTP,0000,0000,0000,,我们都很抱歉 我正在告诉她故事...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We're both sorry. I was telling her the story and...
+Dialogue: 0,0:35:34.23,0:35:35.73,*Default,NTP,0000,0000,0000,,然后我就手滑了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It just... It just fell out of my hand.
+Dialogue: 0,0:35:35.73,0:35:38.19,*Default,NTP,0000,0000,0000,,我们会为您另找一件 - 我们可以付钱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We'll search and find you another one. -We can pay for it.
+Dialogue: 0,0:35:38.19,0:35:39.72,*Default,NTP,0000,0000,0000,,安静\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Quiet!
+Dialogue: 0,0:36:03.67,0:36:06.84,*Default,NTP,0000,0000,0000,,很抱歉我吼了 我想静静\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry I screamed. I just need a moment.
+Dialogue: 0,0:36:18.99,0:36:20.85,*Default,NTP,0000,0000,0000,,这是个意外\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It was an accident.
+Dialogue: 0,0:36:21.02,0:36:22.89,*Default,NTP,0000,0000,0000,,我想你们最好离开\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I think it's best if you leave.
+Dialogue: 0,0:36:23.22,0:36:24.88,*Default,NTP,0000,0000,0000,,我们说了对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We said we were sorry.
+Dialogue: 0,0:36:24.89,0:36:28.12,*Default,NTP,0000,0000,0000,,亲爱的别争辩 - 你还想怎样?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Honey, don't antagonise her. -Well, what more do you want?
+Dialogue: 0,0:36:28.12,0:36:30.05,*Default,NTP,0000,0000,0000,,不会有事的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just... It'll be okay.
+Dialogue: 0,0:36:44.64,0:36:45.83,*Default,NTP,0000,0000,0000,,拜托\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please.
+Dialogue: 0,0:36:46.10,0:36:47.40,*Default,NTP,0000,0000,0000,,拜托\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please!
+Dialogue: 0,0:39:18.70,0:39:20.40,*Default,NTP,0000,0000,0000,,你在做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing?
+Dialogue: 0,0:39:20.87,0:39:22.53,*Default,NTP,0000,0000,0000,,你在做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing?
+Dialogue: 0,0:39:22.53,0:39:24.76,*Default,NTP,0000,0000,0000,,他们再也进不来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They will never get in here again.
+Dialogue: 0,0:39:26.59,0:39:29.09,*Default,NTP,0000,0000,0000,,别担心 我要赶他们走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, don't worry. I'm kicking them out.
+Dialogue: 0,0:39:29.09,0:39:31.06,*Default,NTP,0000,0000,0000,,他们能去哪里?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah. And where will they go?
+Dialogue: 0,0:39:47.58,0:39:48.84,*Default,NTP,0000,0000,0000,,需要什么吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Need something?
+Dialogue: 0,0:39:51.21,0:39:53.57,*Default,NTP,0000,0000,0000,,你准备好了吗 - 什么意思?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you ready? -What do you mean?
+Dialogue: 0,0:39:54.60,0:39:56.13,*Default,NTP,0000,0000,0000,,你们得离开\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We want you out.
+Dialogue: 0,0:39:57.40,0:39:58.93,*Default,NTP,0000,0000,0000,,我们?还是你?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We? Or you?
+Dialogue: 0,0:39:59.87,0:40:02.26,*Default,NTP,0000,0000,0000,,我已经努力过了  - 好吧 听着\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've tried very hard... -Yeah, well, look,
+Dialogue: 0,0:40:02.26,0:40:04.39,*Default,NTP,0000,0000,0000,,我得去看看我丈夫\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I have to check on my husband.
+Dialogue: 0,0:40:14.05,0:40:16.48,*Default,NTP,0000,0000,0000,,你好?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello? Hello!
+Dialogue: 0,0:40:16.88,0:40:18.45,*Default,NTP,0000,0000,0000,,大家都去哪了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where is everybody?
+Dialogue: 0,0:40:22.08,0:40:23.38,*Default,NTP,0000,0000,0000,,你是谁?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Who are you?
+Dialogue: 0,0:40:23.71,0:40:26.04,*Default,NTP,0000,0000,0000,,你是谁?你在这里干什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Who are you? What are you doing here?
+Dialogue: 0,0:40:26.04,0:40:27.51,*Default,NTP,0000,0000,0000,,我们所有人不都是吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are any of us doing here, right?
+Dialogue: 0,0:40:29.07,0:40:30.27,*Default,NTP,0000,0000,0000,,我妈妈在哪里?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where's my mother?
+Dialogue: 0,0:40:32.04,0:40:33.93,*Default,NTP,0000,0000,0000,,她...请等在这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She's... Wait here.
+Dialogue: 0,0:40:34.90,0:40:36.33,*Default,NTP,0000,0000,0000,,风景不错\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Nice view.
+Dialogue: 0,0:40:40.03,0:40:41.99,*Default,NTP,0000,0000,0000,,你邀请了你儿子吗 - 你来做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Did you invite your son? -What are you doing here?
+Dialogue: 0,0:40:42.00,0:40:43.73,*Default,NTP,0000,0000,0000,,妈妈 我打过电话 但没能打通\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Mom, I tried calling, but I couldn't get through.
+Dialogue: 0,0:40:43.73,0:40:44.86,*Default,NTP,0000,0000,0000,,怎么了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's wrong?
+Dialogue: 0,0:40:44.86,0:40:46.42,*Default,NTP,0000,0000,0000,,他来到家里 找到了遗嘱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He came to the house and found the will.
+Dialogue: 0,0:40:46.42,0:40:47.82,*Default,NTP,0000,0000,0000,,什么? - 对 他失控了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What? -Yeah, he's out of control.
+Dialogue: 0,0:40:47.82,0:40:49.09,*Default,NTP,0000,0000,0000,,对不起 不管什么情况\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry, but whatever this is,
+Dialogue: 0,0:40:49.09,0:40:50.75,*Default,NTP,0000,0000,0000,,你们得先离开 - 爸爸\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}you'll have to finish this... -Dad!
+Dialogue: 0,0:40:50.85,0:40:52.22,*Default,NTP,0000,0000,0000,,他在此? - 不!\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He's here? -What? No.
+Dialogue: 0,0:40:52.22,0:40:53.94,*Default,NTP,0000,0000,0000,,那是谁? - 爸爸\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Who's that? -Dad! Dad!
+Dialogue: 0,0:40:54.35,0:40:55.85,*Default,NTP,0000,0000,0000,,直接跑去妈妈那里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, ran straight to Mommy.
+Dialogue: 0,0:40:55.85,0:40:57.25,*Default,NTP,0000,0000,0000,,你跟踪我 你什么毛病?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You followed me. What's wrong with you?
+Dialogue: 0,0:40:57.25,0:40:59.28,*Default,NTP,0000,0000,0000,,你不该在这里的 - 爸爸呢 他在哪?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You shouldn't be here. -Where's Dad? Where is he?
+Dialogue: 0,0:40:59.28,0:41:01.18,*Default,NTP,0000,0000,0000,,她是谁?你是谁?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Who is she? Who are you? Who are you?
+Dialogue: 0,0:41:01.18,0:41:03.71,*Default,NTP,0000,0000,0000,,他不想见你 - 那不是真的 他在不在?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He doesn't want to see you. -That's not true. Is he here?
+Dialogue: 0,0:41:03.71,0:41:05.21,*Default,NTP,0000,0000,0000,,爸爸 - 儿子们?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Dad! -Boys?
+Dialogue: 0,0:41:05.21,0:41:06.51,*Default,NTP,0000,0000,0000,,孩子们 你们怎么来了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Boys, why are you here?
+Dialogue: 0,0:41:06.51,0:41:08.63,*Default,NTP,0000,0000,0000,,这是什么?知道你签了什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What is this? Do you know what you've signed?
+Dialogue: 0,0:41:08.63,0:41:10.26,*Default,NTP,0000,0000,0000,,当然知道 - 回去躺下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Of course I do! -Go lie back down.
+Dialogue: 0,0:41:10.26,0:41:11.35,*Default,NTP,0000,0000,0000,,你说已经告诉他了的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You said that you told him.
+Dialogue: 0,0:41:11.35,0:41:12.78,*Default,NTP,0000,0000,0000,,没有 亲爱的 我是说我正要告诉他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, honey, I didn't say that. I was going to.
+Dialogue: 0,0:41:12.78,0:41:14.68,*Default,NTP,0000,0000,0000,,你想要这个?你怎么能这样?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You wanted this? How could you?
+Dialogue: 0,0:41:14.77,0:41:16.30,*Default,NTP,0000,0000,0000,,我自有道理 儿子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's for a good reason, son.
+Dialogue: 0,0:41:16.30,0:41:17.25,*Default,NTP,0000,0000,0000,,让我解释给他听\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let me explain to him.
+Dialogue: 0,0:41:17.26,0:41:18.64,*Default,NTP,0000,0000,0000,,我跟他说 - 不 由我跟他解释\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll talk to him. -No, I'll talk to him.
+Dialogue: 0,0:41:18.65,0:41:21.44,*Default,NTP,0000,0000,0000,,你是对的 我应该亲自告诉你的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're right. I should have told you myself.
+Dialogue: 0,0:41:22.09,0:41:26.32,*Default,NTP,0000,0000,0000,,抱歉 我保证我有考虑过你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And I'm sorry. I promise you that I was thinking about you.
+Dialogue: 0,0:41:26.32,0:41:28.52,*Default,NTP,0000,0000,0000,,住手 这样对大家都好 - 听爸爸的话\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stop it! About what's best for all of us. -Just listen to Dad!
+Dialogue: 0,0:41:28.52,0:41:30.42,*Default,NTP,0000,0000,0000,,这是信任 做出的决定\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's a trust. You have to make a decision
+Dialogue: 0,0:41:30.42,0:41:32.52,*Default,NTP,0000,0000,0000,,必须考虑所有人 免得无谓\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}as a group before anything can be spent.
+Dialogue: 0,0:41:32.52,0:41:35.75,*Default,NTP,0000,0000,0000,,这行不通 难道我连小便也要他们许可?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It won't work. I have to get permission from them every time I take a piss?
+Dialogue: 0,0:41:35.75,0:41:36.91,*Default,NTP,0000,0000,0000,,这样会迫使你和睦相处\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It will force you to get along.
+Dialogue: 0,0:41:36.91,0:41:38.15,*Default,NTP,0000,0000,0000,,这才最重要\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's the most important thing.
+Dialogue: 0,0:41:38.15,0:41:39.42,*Default,NTP,0000,0000,0000,,她每次都支持他 - 你没在听我说话\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She will side with him every time. - You're not listening to me!
+Dialogue: 0,0:41:42.11,0:41:43.21,*Default,NTP,0000,0000,0000,,支持我?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Support me?
+Dialogue: 0,0:41:43.21,0:41:44.81,*Default,NTP,0000,0000,0000,,你只想对我指手画脚\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You just want to tell me what I can and can't do.
+Dialogue: 0,0:41:44.81,0:41:45.90,*Default,NTP,0000,0000,0000,,这不公平\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That is not fair!
+Dialogue: 0,0:41:45.91,0:41:48.14,*Default,NTP,0000,0000,0000,,你从来不相信我或我的所为\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You never believe in me or anything I try to do.
+Dialogue: 0,0:41:48.14,0:41:49.60,*Default,NTP,0000,0000,0000,,别这样 爸爸 他们恨我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't do this, Dad. They hate me!
+Dialogue: 0,0:41:49.60,0:41:51.57,*Default,NTP,0000,0000,0000,,他们不恨你 - 我们爱你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They don't hate you. -We love you.
+Dialogue: 0,0:41:51.57,0:41:52.67,*Default,NTP,0000,0000,0000,,你是我的儿子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're my son.
+Dialogue: 0,0:41:52.67,0:41:53.90,*Default,NTP,0000,0000,0000,,那就把我当儿子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, then treat me like one!
+Dialogue: 0,0:41:53.90,0:41:55.76,*Default,NTP,0000,0000,0000,,儿子们来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The sons are here.
+Dialogue: 0,0:41:55.80,0:41:57.49,*Default,NTP,0000,0000,0000,,他们这样闯进来 我无法阻止\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They just barged in. I couldn't stop them.
+Dialogue: 0,0:41:57.49,0:41:58.59,*Default,NTP,0000,0000,0000,,我知道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I know.
+Dialogue: 0,0:41:58.59,0:41:59.79,*Default,NTP,0000,0000,0000,,如果不是你浪费了一切\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, if you don't waste it all.
+Dialogue: 0,0:41:59.79,0:42:01.13,*Default,NTP,0000,0000,0000,,闭嘴 - 又来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Shut up! -Here we go again.
+Dialogue: 0,0:42:01.13,0:42:03.42,*Default,NTP,0000,0000,0000,,他没有得偿所愿 脾气就失控\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Losing his temper when he doesn't get his way.
+Dialogue: 0,0:42:03.42,0:42:05.15,*Default,NTP,0000,0000,0000,,我们去外面讨论吧 主人来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let's discuss this outside. Our hosts are here.
+Dialogue: 0,0:42:05.16,0:42:06.65,*Default,NTP,0000,0000,0000,,不 我现在就想谈谈\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! I want to talk about it now.
+Dialogue: 0,0:42:06.65,0:42:08.62,*Default,NTP,0000,0000,0000,,我现在就想谈谈 爸爸 - 闭嘴\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I want to talk about it now, Dad. -Shut up!
+Dialogue: 0,0:42:08.62,0:42:10.15,*Default,NTP,0000,0000,0000,,如果你需要钱 我会给你钱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}If you need money, I'll give you money.
+Dialogue: 0,0:42:10.15,0:42:11.55,*Default,NTP,0000,0000,0000,,我不想你的零钱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't want your chump change!
+Dialogue: 0,0:42:11.55,0:42:13.31,*Default,NTP,0000,0000,0000,,别碰我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't touch me!
+Dialogue: 0,0:42:13.95,0:42:16.15,*Default,NTP,0000,0000,0000,,冷静 冷静\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Calm down. Calm down.
+Dialogue: 0,0:42:16.48,0:42:19.01,*Default,NTP,0000,0000,0000,,你是诗人?伟大的作家?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're the poet? The great writer?
+Dialogue: 0,0:42:19.61,0:42:20.81,*Default,NTP,0000,0000,0000,,你什么都不知道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You don't know anything.
+Dialogue: 0,0:42:20.81,0:42:22.67,*Default,NTP,0000,0000,0000,,他们骗了我 他们在抢劫我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They lied to me. They're robbing me.
+Dialogue: 0,0:42:22.67,0:42:25.27,*Default,NTP,0000,0000,0000,,我不知道他们的故事 但你冷静先?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't know their story, but will you calm down?
+Dialogue: 0,0:42:26.87,0:42:28.40,*Default,NTP,0000,0000,0000,,行不行?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Will you?
+Dialogue: 0,0:42:31.53,0:42:32.73,*Default,NTP,0000,0000,0000,,谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you.
+Dialogue: 0,0:42:33.03,0:42:34.56,*Default,NTP,0000,0000,0000,,你可以坐在那里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You can sit in there.
+Dialogue: 0,0:42:34.86,0:42:36.39,*Default,NTP,0000,0000,0000,,我们坐下来讨论一下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let's go sit down and discuss this.
+Dialogue: 0,0:42:36.40,0:42:38.09,*Default,NTP,0000,0000,0000,,不 妈妈 爸爸要死了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! Mom, Dad's dying,
+Dialogue: 0,0:42:38.09,0:42:40.42,*Default,NTP,0000,0000,0000,,他只关心他的钱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}and all he cares about is his damn money!
+Dialogue: 0,0:42:40.43,0:42:43.22,*Default,NTP,0000,0000,0000,,不 住手 - 孩子们 住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! Stop it! -Boys! Boys, stop it!
+Dialogue: 0,0:42:43.22,0:42:45.25,*Default,NTP,0000,0000,0000,,看看爸爸 看看你做了什么\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look at Dad! Look what you did!
+Dialogue: 0,0:42:50.38,0:42:51.61,*Default,NTP,0000,0000,0000,,住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stop!
+Dialogue: 0,0:42:51.95,0:42:53.81,*Default,NTP,0000,0000,0000,,孩子们 住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Boys! Stop it!
+Dialogue: 0,0:42:53.81,0:42:55.68,*Default,NTP,0000,0000,0000,,住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stop! Please!
+Dialogue: 0,0:42:55.68,0:42:57.81,*Default,NTP,0000,0000,0000,,你能呼吸吗 呼吸\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can you breathe? Breathe.
+Dialogue: 0,0:43:02.17,0:43:03.37,*Default,NTP,0000,0000,0000,,不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No!
+Dialogue: 0,0:43:05.10,0:43:07.13,*Default,NTP,0000,0000,0000,,过来 - 等等 住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come here! -Wait! Stop!
+Dialogue: 0,0:43:07.13,0:43:08.87,*Default,NTP,0000,0000,0000,,你有什么毛病? - 住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's wrong with you? -Stop it!
+Dialogue: 0,0:43:10.30,0:43:11.73,*Default,NTP,0000,0000,0000,,不 住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! Stop!
+Dialogue: 0,0:43:11.73,0:43:13.13,*Default,NTP,0000,0000,0000,,不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No!
+Dialogue: 0,0:43:15.46,0:43:17.49,*Default,NTP,0000,0000,0000,,不 不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! No!
+Dialogue: 0,0:43:17.63,0:43:18.99,*Default,NTP,0000,0000,0000,,放开\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get off!
+Dialogue: 0,0:43:20.19,0:43:21.39,*Default,NTP,0000,0000,0000,,起来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get up.
+Dialogue: 0,0:43:21.96,0:43:23.59,*Default,NTP,0000,0000,0000,,起来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get up! Get up!
+Dialogue: 0,0:43:23.62,0:43:25.35,*Default,NTP,0000,0000,0000,,别装了 起来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stop faking. Get up.
+Dialogue: 0,0:43:25.42,0:43:27.12,*Default,NTP,0000,0000,0000,,起来 看着我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get up. Look at me!
+Dialogue: 0,0:43:30.11,0:43:32.48,*Default,NTP,0000,0000,0000,,不 不是我的错\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No. It's not my fault.
+Dialogue: 0,0:43:32.48,0:43:34.81,*Default,NTP,0000,0000,0000,,不是我的错 他们从来没有真正爱过我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's not my fault. They never really loved me.
+Dialogue: 0,0:43:34.81,0:43:37.44,*Default,NTP,0000,0000,0000,,他们总是更爱他 弃我于不顾\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They always loved him more. They were leaving me behind.
+Dialogue: 0,0:43:37.44,0:43:39.21,*Default,NTP,0000,0000,0000,,告诉我你懂\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just tell me you understand.
+Dialogue: 0,0:43:39.21,0:43:40.94,*Default,NTP,0000,0000,0000,,告诉我你懂\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Tell me you understand!
+Dialogue: 0,0:43:41.87,0:43:43.60,*Default,NTP,0000,0000,0000,,你必须懂\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You have to understand.
+Dialogue: 0,0:43:46.20,0:43:47.80,*Default,NTP,0000,0000,0000,,你对你兄弟干了什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What have you done to your brother?
+Dialogue: 0,0:43:47.80,0:43:49.60,*Default,NTP,0000,0000,0000,,宝贝\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}My baby. My baby.
+Dialogue: 0,0:43:49.83,0:43:51.53,*Default,NTP,0000,0000,0000,,你做了什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What did you do?
+Dialogue: 0,0:43:51.96,0:43:54.06,*Default,NTP,0000,0000,0000,,你做了什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What did you do?
+Dialogue: 0,0:43:54.46,0:43:56.26,*Default,NTP,0000,0000,0000,,是你干的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You did this.
+Dialogue: 0,0:43:57.16,0:43:59.95,*Default,NTP,0000,0000,0000,,醒醒 做点什么 帮帮他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wake up! Do something! Help him!
+Dialogue: 0,0:44:00.85,0:44:03.05,*Default,NTP,0000,0000,0000,,毛巾 - OK\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Towels. Towels. -Okay.
+Dialogue: 0,0:44:12.31,0:44:14.41,*Default,NTP,0000,0000,0000,,现在放松 - 父亲\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Easy now. -Father...
+Dialogue: 0,0:44:14.41,0:44:16.34,*Default,NTP,0000,0000,0000,,医生 去找他 - OK\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The doctor. Go get him. -Okay.
+Dialogue: 0,0:44:19.14,0:44:20.74,*Default,NTP,0000,0000,0000,,快来 - 干嘛?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come quick! -What?
+Dialogue: 0,0:44:20.74,0:44:22.63,*Default,NTP,0000,0000,0000,,发生什么事了? - 他在流血\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's happening? -He's bleeding.
+Dialogue: 0,0:44:22.64,0:44:25.20,*Default,NTP,0000,0000,0000,,太糟糕了 真的很糟糕 - 他醒不过来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's bad! It's really bad. -He's not waking up. He's not waking up.
+Dialogue: 0,0:44:25.20,0:44:28.13,*Default,NTP,0000,0000,0000,,小心 别掉下去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Careful. Careful! Don't drop him.
+Dialogue: 0,0:44:28.13,0:44:29.66,*Default,NTP,0000,0000,0000,,我会从医院给你打电话\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll call you from the hospital.
+Dialogue: 0,0:44:29.66,0:44:32.19,*Default,NTP,0000,0000,0000,,保持头部扬起 - 不要 请和我在一起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Keep his head up. -No! No, please stay with me.
+Dialogue: 0,0:44:32.19,0:44:33.52,*Default,NTP,0000,0000,0000,,不他 我们需要你丈夫\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please, we need him.
+Dialogue: 0,0:44:33.53,0:44:35.16,*Default,NTP,0000,0000,0000,,锁门 我会尽快回来的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Lock the doors. I'll be back as soon as I can.
+Dialogue: 0,0:44:35.16,0:44:36.92,*Default,NTP,0000,0000,0000,,请不要离开我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please don't leave me! Please don't leave me!
+Dialogue: 0,0:50:49.33,0:50:51.19,*Default,NTP,0000,0000,0000,,他们丢下你一个人?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They left you all alone?
+Dialogue: 0,0:50:54.66,0:50:56.36,*Default,NTP,0000,0000,0000,,你是个明白人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You do understand.
+Dialogue: 0,0:51:09.85,0:51:11.38,*Default,NTP,0000,0000,0000,,祝你好运\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Good luck.
+Dialogue: 0,0:51:23.33,0:51:25.76,*Default,NTP,0000,0000,0000,,911 什么急事?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}911. What's your emergency?
+Dialogue: 0,0:51:25.77,0:51:27.76,*Default,NTP,0000,0000,0000,,你有什么急事?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's your emergency?
+Dialogue: 0,0:51:28.00,0:51:29.23,*Default,NTP,0000,0000,0000,,你没事吧?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You all right?
+Dialogue: 0,0:51:29.23,0:51:30.43,*Default,NTP,0000,0000,0000,,有个人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He was here!
+Dialogue: 0,0:51:30.43,0:51:32.19,*Default,NTP,0000,0000,0000,,我知道 警察送我回家的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I know. I know. The police brought me home.
+Dialogue: 0,0:51:32.19,0:51:33.33,*Default,NTP,0000,0000,0000,,他们会找到他的 不用担心\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They'll find him. Don't worry.
+Dialogue: 0,0:51:33.33,0:51:34.56,*Default,NTP,0000,0000,0000,,他伤害你没有? - 没有\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Did he hurt you? -No.
+Dialogue: 0,0:51:34.56,0:51:35.89,*Default,NTP,0000,0000,0000,,没有? - 没有\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No? -No.
+Dialogue: 0,0:51:35.89,0:51:37.09,*Default,NTP,0000,0000,0000,,{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}OK\NOkay.
+Dialogue: 0,0:51:38.16,0:51:40.09,*Default,NTP,0000,0000,0000,,好的 坐下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, sit.
+Dialogue: 0,0:51:42.08,0:51:44.35,*Default,NTP,0000,0000,0000,,我给你拿点水来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let me get you some water.
+Dialogue: 0,0:51:51.88,0:51:53.31,*Default,NTP,0000,0000,0000,,给你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here.
+Dialogue: 0,0:51:54.67,0:51:56.11,*Default,NTP,0000,0000,0000,,没事了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's okay.
+Dialogue: 0,0:51:58.50,0:52:00.04,*Default,NTP,0000,0000,0000,,没事了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's all right.
+Dialogue: 0,0:52:03.67,0:52:06.00,*Default,NTP,0000,0000,0000,,医院怎么样?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What happened at the hospital?
+Dialogue: 0,0:52:09.66,0:52:14.52,*Default,NTP,0000,0000,0000,,他死的时候 我握着那男孩的手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I was holding the boy's hand when he died.
+Dialogue: 0,0:52:19.35,0:52:20.88,*Default,NTP,0000,0000,0000,,太可怕了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's awful.
+Dialogue: 0,0:52:24.41,0:52:25.98,*Default,NTP,0000,0000,0000,,你没事吧?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you all right?
+Dialogue: 0,0:52:26.78,0:52:28.64,*Default,NTP,0000,0000,0000,,我累坏了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm exhausted.
+Dialogue: 0,0:52:29.78,0:52:31.64,*Default,NTP,0000,0000,0000,,我要洗个热水澡\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I need a hot shower.
+Dialogue: 0,0:52:31.67,0:52:33.21,*Default,NTP,0000,0000,0000,,你来吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Will you come?
+Dialogue: 0,0:52:33.57,0:52:34.87,*Default,NTP,0000,0000,0000,,嗯\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah.
+Dialogue: 0,0:52:42.03,0:52:43.66,*Default,NTP,0000,0000,0000,,这是什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What is it?
+Dialogue: 0,0:52:44.46,0:52:47.26,*Default,NTP,0000,0000,0000,,我一会儿就上来 - 你确定?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll be up in a minute. -You sure?
+Dialogue: 0,0:52:47.59,0:52:48.92,*Default,NTP,0000,0000,0000,,嗯\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah.
+Dialogue: 0,0:54:10.75,0:54:11.99,*Default,NTP,0000,0000,0000,,在这里?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}In here?
+Dialogue: 0,0:54:12.55,0:54:14.88,*Default,NTP,0000,0000,0000,,穿过厨房直走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, straight ahead in the kitchen.
+Dialogue: 0,0:54:21.79,0:54:23.22,*Default,NTP,0000,0000,0000,,他们很快就回来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They came back quick.
+Dialogue: 0,0:54:23.38,0:54:24.64,*Default,NTP,0000,0000,0000,,他们在这里做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are they doing here?
+Dialogue: 0,0:54:24.64,0:54:25.77,*Default,NTP,0000,0000,0000,,他们无处可去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They had nowhere to go,
+Dialogue: 0,0:54:25.78,0:54:29.54,*Default,NTP,0000,0000,0000,,所以我告诉他们 不如邀请朋友和家人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}so I told them it would be all right to invite some friends and family.
+Dialogue: 0,0:54:29.74,0:54:31.44,*Default,NTP,0000,0000,0000,,我去安排他们\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll go deal with them.
+Dialogue: 0,0:54:44.79,0:54:47.09,*Default,NTP,0000,0000,0000,,对不起 - 谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm so sorry. -Thank you.
+Dialogue: 0,0:54:47.09,0:54:48.95,*Default,NTP,0000,0000,0000,,很抱歉你的损失\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm so sorry for your loss.
+Dialogue: 0,0:54:54.92,0:54:56.55,*Default,NTP,0000,0000,0000,,但这里欢迎你们\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're all so welcome here.
+Dialogue: 0,0:54:56.55,0:54:58.01,*Default,NTP,0000,0000,0000,,请你们随意\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please make yourselves at home.
+Dialogue: 0,0:54:58.01,0:54:59.98,*Default,NTP,0000,0000,0000,,我很抱歉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm so sorry.
+Dialogue: 0,0:55:02.11,0:55:03.97,*Default,NTP,0000,0000,0000,,要不要来一杯?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Shall we have a toast?
+Dialogue: 0,0:55:04.67,0:55:05.67,*Default,NTP,0000,0000,0000,,好啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, let's.
+Dialogue: 0,0:55:05.67,0:55:07.70,*Default,NTP,0000,0000,0000,,确保每人一杯\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Make sure everyone has one.
+Dialogue: 0,0:55:07.74,0:55:09.10,*Default,NTP,0000,0000,0000,,你能说点什么吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Would you say something?
+Dialogue: 0,0:55:09.10,0:55:10.67,*Default,NTP,0000,0000,0000,,他很尊重你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He so respects you.
+Dialogue: 0,0:55:10.67,0:55:12.43,*Default,NTP,0000,0000,0000,,当然 - 谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Of course. -Thank you.
+Dialogue: 0,0:55:12.43,0:55:14.03,*Default,NTP,0000,0000,0000,,诸位\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Everyone.
+Dialogue: 0,0:55:15.60,0:55:19.43,*Default,NTP,0000,0000,0000,,如何明白你的痛苦\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, how can one begin to understand your pain?
+Dialogue: 0,0:55:21.46,0:55:22.89,*Default,NTP,0000,0000,0000,,父母的牺牲\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The sacrifice of the parent.
+Dialogue: 0,0:55:22.89,0:55:23.96,*Default,NTP,0000,0000,0000,,给你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here you go.
+Dialogue: 0,0:55:23.96,0:55:26.32,*Default,NTP,0000,0000,0000,,这么多年的担心\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All those years of worry.
+Dialogue: 0,0:55:26.32,0:55:30.22,*Default,NTP,0000,0000,0000,,每天每时每秒\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Years in days, days in hours, hours in seconds.
+Dialogue: 0,0:55:30.22,0:55:32.15,*Default,NTP,0000,0000,0000,,但每一秒\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But in each second,
+Dialogue: 0,0:55:32.78,0:55:35.31,*Default,NTP,0000,0000,0000,,都是无限的爱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}an infinite amount of love.
+Dialogue: 0,0:55:35.68,0:55:37.21,*Default,NTP,0000,0000,0000,,现在\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And now,
+Dialogue: 0,0:55:37.55,0:55:39.08,*Default,NTP,0000,0000,0000,,突然\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}suddenly,
+Dialogue: 0,0:55:39.64,0:55:41.84,*Default,NTP,0000,0000,0000,,似乎没有什么值得爱的了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}it seems there is nothing to love.
+Dialogue: 0,0:55:43.21,0:55:48.14,*Default,NTP,0000,0000,0000,,巨大而寂寥的黑暗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just a vast and silent darkness.
+Dialogue: 0,0:55:49.30,0:55:51.83,*Default,NTP,0000,0000,0000,,但不要害怕\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But fear not.
+Dialogue: 0,0:55:52.37,0:55:56.86,*Default,NTP,0000,0000,0000,,内心 有个声音在呼喊着\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}From inside it, there's a voice crying out to be heard,
+Dialogue: 0,0:55:58.13,0:56:00.22,*Default,NTP,0000,0000,0000,,响亮强烈\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}loud and strong.
+Dialogue: 0,0:56:01.36,0:56:02.89,*Default,NTP,0000,0000,0000,,听听\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just listen.
+Dialogue: 0,0:56:06.35,0:56:08.08,*Default,NTP,0000,0000,0000,,天啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, God.
+Dialogue: 0,0:56:15.55,0:56:17.31,*Default,NTP,0000,0000,0000,,你听到了吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Do you hear that?
+Dialogue: 0,0:56:18.61,0:56:21.11,*Default,NTP,0000,0000,0000,,听到了吗 生命的声音\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Do you hear that? That is the sound of life.
+Dialogue: 0,0:56:21.11,0:56:23.34,*Default,NTP,0000,0000,0000,,人类的声音\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That is the sound of humanity.
+Dialogue: 0,0:56:24.50,0:56:26.70,*Default,NTP,0000,0000,0000,,你儿子的声音\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That is your son's voice.
+Dialogue: 0,0:56:29.80,0:56:31.66,*Default,NTP,0000,0000,0000,,他爱的呼声\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}His cry of love.
+Dialogue: 0,0:56:31.90,0:56:33.76,*Default,NTP,0000,0000,0000,,他对你的爱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}His love for you.
+Dialogue: 0,0:56:36.56,0:56:38.03,*Default,NTP,0000,0000,0000,,谢谢 - 我的荣幸\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you. -My pleasure.
+Dialogue: 0,0:56:38.03,0:56:39.29,*Default,NTP,0000,0000,0000,,听\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hear, hear!
+Dialogue: 0,0:56:39.29,0:56:40.42,*Default,NTP,0000,0000,0000,,听\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hear, hear!
+Dialogue: 0,0:56:41.49,0:56:45.02,*Default,NTP,0000,0000,0000,,今晚谢谢大家\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you all for coming here and being with us tonight.
+Dialogue: 0,0:56:45.15,0:56:47.68,*Default,NTP,0000,0000,0000,,我夫妻二人都很感动\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}My husband and I are so touched.
+Dialogue: 0,0:56:47.82,0:56:49.88,*Default,NTP,0000,0000,0000,,我们今天失去了孩子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We lost our baby today.
+Dialogue: 0,0:56:51.31,0:56:52.48,*Default,NTP,0000,0000,0000,,我无法...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I just...
+Dialogue: 0,0:56:52.48,0:56:54.34,*Default,NTP,0000,0000,0000,,仅仅几小时前\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I can't believe that just a few hours ago,
+Dialogue: 0,0:56:54.35,0:56:58.37,*Default,NTP,0000,0000,0000,,他站在那里 我抱着他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}he was standing there, and I was holding him in my arms.
+Dialogue: 0,0:56:58.38,0:57:00.34,*Default,NTP,0000,0000,0000,,他充满了生命气息\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He was so full of life.
+Dialogue: 0,0:57:00.34,0:57:01.90,*Default,NTP,0000,0000,0000,,他一直都是\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He always was.
+Dialogue: 0,0:57:05.00,0:57:07.10,*Default,NTP,0000,0000,0000,,你好 - 谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello. -Thank you.
+Dialogue: 0,0:57:09.77,0:57:12.03,*Default,NTP,0000,0000,0000,,这个放在哪里? - 这里好了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where should I put this? -Maybe in here.
+Dialogue: 0,0:57:18.82,0:57:21.29,*Default,NTP,0000,0000,0000,,现在他再也不会流浪了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Now he'll never wander again.
+Dialogue: 0,0:57:21.29,0:57:23.79,*Default,NTP,0000,0000,0000,,我再也不会像今天这样抱着他了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll never hold him again like I did today.
+Dialogue: 0,0:57:23.79,0:57:26.38,*Default,NTP,0000,0000,0000,,他不会再笑了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He'll never laugh again.
+Dialogue: 0,0:57:26.52,0:57:30.11,*Default,NTP,0000,0000,0000,,我只想感谢你们的到来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I just want to thank you all for being here.
+Dialogue: 0,0:57:30.25,0:57:33.78,*Default,NTP,0000,0000,0000,,这意味着很多 我不知道还能说什么\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It means so much. I don't know what else to say.
+Dialogue: 0,0:57:34.24,0:57:38.44,*Default,NTP,0000,0000,0000,,感谢主人的盛情款待\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I just want to thank our dear host for his hospitality
+Dialogue: 0,0:57:38.44,0:57:40.24,*Default,NTP,0000,0000,0000,,真是及时雨 - 当然\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}in our time of need. -Of course.
+Dialogue: 0,0:57:40.24,0:57:41.97,*Default,NTP,0000,0000,0000,,请吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}So, please,
+Dialogue: 0,0:57:42.17,0:57:45.77,*Default,NTP,0000,0000,0000,,我想为你的好意干杯\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'd like to drink to your kindness.
+Dialogue: 0,0:57:50.50,0:57:52.09,*Default,NTP,0000,0000,0000,,对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me.
+Dialogue: 0,0:57:55.33,0:57:57.32,*Default,NTP,0000,0000,0000,,亲爱的 你不必这么做\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sweetheart, you don't have to do this.
+Dialogue: 0,0:57:57.32,0:57:59.09,*Default,NTP,0000,0000,0000,,我愿意\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, I want to.
+Dialogue: 0,0:57:59.65,0:58:01.42,*Default,NTP,0000,0000,0000,,我爱我的儿子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I loved my son.
+Dialogue: 0,0:58:02.19,0:58:03.68,*Default,NTP,0000,0000,0000,,我爱他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I loved him.
+Dialogue: 0,0:58:06.58,0:58:08.55,*Default,NTP,0000,0000,0000,,真不敢相信\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I can't believe this.
+Dialogue: 0,0:58:10.51,0:58:12.54,*Default,NTP,0000,0000,0000,,但我不应该赞扬他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But I shouldn't be eulogising him.
+Dialogue: 0,0:58:12.54,0:58:13.78,*Default,NTP,0000,0000,0000,,他会说\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He'd say...
+Dialogue: 0,0:58:16.37,0:58:18.54,*Default,NTP,0000,0000,0000,,对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry...
+Dialogue: 0,0:58:20.67,0:58:22.37,*Default,NTP,0000,0000,0000,,对不起 我不能\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry. I can't.
+Dialogue: 0,0:58:22.90,0:58:25.03,*Default,NTP,0000,0000,0000,,拜托有谁...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Would someone please...
+Dialogue: 0,0:58:26.76,0:58:28.43,*Default,NTP,0000,0000,0000,,说点什么\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Would you say something?
+Dialogue: 0,0:58:37.26,0:58:38.65,*Default,NTP,0000,0000,0000,,我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I...
+Dialogue: 0,0:58:41.72,0:58:43.35,*Default,NTP,0000,0000,0000,,为了你的孩子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}For your child.
+Dialogue: 0,0:58:45.51,0:58:48.35,*Default,NTP,0000,0000,0000,,为了你的孩子 来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}For both your children. Come.
+Dialogue: 0,0:58:48.35,0:58:52.11,*Default,NTP,0000,0000,0000,,别忘了还在荒野中的那个\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let's not forget the one still in the wilderness.
+Dialogue: 0,0:58:52.34,0:58:54.54,*Default,NTP,0000,0000,0000,,无论他去哪里 无论他在哪里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wherever he goes, wherever he is...
+Dialogue: 0,0:58:54.54,0:58:56.04,*Default,NTP,0000,0000,0000,,欢迎 请加入我们\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Welcome. Please join us.
+Dialogue: 0,0:58:56.04,0:58:57.50,*Default,NTP,0000,0000,0000,,我要把这个放进厨房\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm just gonna put this in the kitchen.
+Dialogue: 0,0:58:57.50,0:58:58.77,*Default,NTP,0000,0000,0000,,穿过那里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, through there.
+Dialogue: 0,0:58:58.77,0:59:02.30,*Default,NTP,0000,0000,0000,,愿他能找到仁慈和慈悲\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}May he find kindness, compassion...
+Dialogue: 0,0:59:02.77,0:59:05.10,*Default,NTP,0000,0000,0000,,我在这里等 - 我马上回来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll wait here. -I'll be right back.
+Dialogue: 0,0:59:05.80,0:59:07.13,*Default,NTP,0000,0000,0000,,你好吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, how you doing?
+Dialogue: 0,0:59:07.13,0:59:08.59,*Default,NTP,0000,0000,0000,,我很好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm good, considering.
+Dialogue: 0,0:59:08.59,0:59:10.36,*Default,NTP,0000,0000,0000,,对不起 你能从那里下来吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me. Could you get down from there?
+Dialogue: 0,0:59:10.36,0:59:11.86,*Default,NTP,0000,0000,0000,,那个水槽还不能用\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That sink's not braced yet.
+Dialogue: 0,0:59:12.92,0:59:14.52,*Default,NTP,0000,0000,0000,,对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry.
+Dialogue: 0,0:59:15.92,0:59:17.65,*Default,NTP,0000,0000,0000,,这里有玻璃\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}There's glass here.
+Dialogue: 0,0:59:32.57,0:59:35.20,*Default,NTP,0000,0000,0000,,太美了 不是吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That was so beautiful, no?
+Dialogue: 0,0:59:36.50,0:59:38.10,*Default,NTP,0000,0000,0000,,没事了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's all right.
+Dialogue: 0,0:59:39.00,0:59:40.47,*Default,NTP,0000,0000,0000,,可以借用电话吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can I use your phone?
+Dialogue: 0,0:59:40.60,0:59:42.73,*Default,NTP,0000,0000,0000,,当然 在厨房里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sure. It's in the kitchen.
+Dialogue: 0,0:59:43.33,0:59:44.53,*Default,NTP,0000,0000,0000,,不 只是...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, it's just...
+Dialogue: 0,0:59:46.36,0:59:47.89,*Default,NTP,0000,0000,0000,,对不起?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me?
+Dialogue: 0,0:59:51.66,0:59:53.19,*Default,NTP,0000,0000,0000,,你去哪里了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where did you go?
+Dialogue: 0,0:59:54.52,0:59:56.22,*Default,NTP,0000,0000,0000,,我只是在...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I was just in the...
+Dialogue: 0,0:59:57.52,1:00:00.18,*Default,NTP,0000,0000,0000,,我真的很抱歉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm really sorry, again.
+Dialogue: 0,1:00:00.18,1:00:01.88,*Default,NTP,0000,0000,0000,,我知道你抱歉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I know you are.
+Dialogue: 0,1:00:02.18,1:00:04.04,*Default,NTP,0000,0000,0000,,我无法想象  - 不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I can't imagine... -No.
+Dialogue: 0,1:00:05.48,1:00:09.77,*Default,NTP,0000,0000,0000,,你无法想象 没有孩子会是什么感觉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You can't imagine what it feels like if you don't have a child.
+Dialogue: 0,1:00:10.67,1:00:13.24,*Default,NTP,0000,0000,0000,,你不停付出\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You give, and you give, and you give, and...
+Dialogue: 0,1:00:15.14,1:00:18.67,*Default,NTP,0000,0000,0000,,永远不够\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's just never enough.
+Dialogue: 0,1:00:21.80,1:00:23.46,*Default,NTP,0000,0000,0000,,我明白 - 是吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I understand. -Do you?
+Dialogue: 0,1:00:25.83,1:00:28.69,*Default,NTP,0000,0000,0000,,你为什么不穿点像样的?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why don't you at least put on something decent?
+Dialogue: 0,1:01:09.32,1:01:10.72,*Default,NTP,0000,0000,0000,,你不能在这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You can't be in here.
+Dialogue: 0,1:01:10.79,1:01:13.68,*Default,NTP,0000,0000,0000,,对不起? - 你们得离开\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry? -You need to leave.
+Dialogue: 0,1:01:13.68,1:01:16.98,*Default,NTP,0000,0000,0000,,就一会儿 - 这是我们的房间\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We'll just be a minute. -This is our room!
+Dialogue: 0,1:01:19.61,1:01:20.81,*Default,NTP,0000,0000,0000,,算了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's okay.
+Dialogue: 0,1:01:24.21,1:01:25.74,*Default,NTP,0000,0000,0000,,你们的房间\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's your room.
+Dialogue: 0,1:01:27.71,1:01:30.20,*Default,NTP,0000,0000,0000,,我们再找个地方\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come on. Let's find another spot.
+Dialogue: 0,1:02:01.71,1:02:02.88,*Default,NTP,0000,0000,0000,,对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me.
+Dialogue: 0,1:02:02.88,1:02:04.74,*Default,NTP,0000,0000,0000,,只是随便看看\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just exploring.
+Dialogue: 0,1:02:30.85,1:02:31.92,*Default,NTP,0000,0000,0000,,对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me.
+Dialogue: 0,1:02:31.92,1:02:33.45,*Default,NTP,0000,0000,0000,,请你们下楼去好吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Could you please go downstairs?
+Dialogue: 0,1:02:33.95,1:02:36.38,*Default,NTP,0000,0000,0000,,这边? - 是的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This way? -Yes.
+Dialogue: 0,1:02:36.95,1:02:38.34,*Default,NTP,0000,0000,0000,,当然\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sure.
+Dialogue: 0,1:03:02.79,1:03:04.32,*Default,NTP,0000,0000,0000,,搞什么\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What is...
+Dialogue: 0,1:03:11.82,1:03:13.38,*Default,NTP,0000,0000,0000,,你在做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing?
+Dialogue: 0,1:03:13.38,1:03:14.48,*Default,NTP,0000,0000,0000,,没什么大不了的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's no big deal.
+Dialogue: 0,1:03:14.48,1:03:16.14,*Default,NTP,0000,0000,0000,,我大学念的就是这科\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I worked my way through college doing this.
+Dialogue: 0,1:03:16.15,1:03:18.71,*Default,NTP,0000,0000,0000,,你为什么要粉刷我的房子?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But why are you painting my house?
+Dialogue: 0,1:03:18.71,1:03:20.57,*Default,NTP,0000,0000,0000,,他对每个人都很好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, he's been so kind to everyone,
+Dialogue: 0,1:03:20.57,1:03:21.91,*Default,NTP,0000,0000,0000,,这是我们力所能及的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}it's the least we could do.
+Dialogue: 0,1:03:24.04,1:03:25.20,*Default,NTP,0000,0000,0000,,住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stop!
+Dialogue: 0,1:03:25.20,1:03:27.57,*Default,NTP,0000,0000,0000,,你们俩住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Both of you. Stop!
+Dialogue: 0,1:03:27.83,1:03:29.10,*Default,NTP,0000,0000,0000,,没关系\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No problem.
+Dialogue: 0,1:03:31.96,1:03:34.26,*Default,NTP,0000,0000,0000,,当然 我的就是你的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, of course. What's mine is yours.
+Dialogue: 0,1:03:34.26,1:03:36.19,*Default,NTP,0000,0000,0000,,你来了 我的女神 过来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}There you are! My goddess. Come here.
+Dialogue: 0,1:03:36.19,1:03:38.66,*Default,NTP,0000,0000,0000,,请给她腾点地方 谢谢 过来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please, make some room for her. Thank you. Here.
+Dialogue: 0,1:03:38.66,1:03:40.69,*Default,NTP,0000,0000,0000,,你一定要听这些故事\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You've got to hear these stories.
+Dialogue: 0,1:03:40.69,1:03:41.92,*Default,NTP,0000,0000,0000,,所有这些人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All these people!
+Dialogue: 0,1:03:41.92,1:03:43.69,*Default,NTP,0000,0000,0000,,我知道 他们只是在发泄\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I know. They're just letting off steam.
+Dialogue: 0,1:03:43.69,1:03:45.52,*Default,NTP,0000,0000,0000,,他们在粉刷我们的房子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They're painting our house!
+Dialogue: 0,1:03:47.48,1:03:49.21,*Default,NTP,0000,0000,0000,,你没事吧?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You all right?
+Dialogue: 0,1:03:49.22,1:03:50.98,*Default,NTP,0000,0000,0000,,我叫你别再喝酒了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I told you to stop drinking.
+Dialogue: 0,1:03:50.98,1:03:52.11,*Default,NTP,0000,0000,0000,,我来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I got it.
+Dialogue: 0,1:03:52.11,1:03:54.01,*Default,NTP,0000,0000,0000,,餐巾 - 我有\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Napkins! -Yeah, I got some.
+Dialogue: 0,1:03:54.78,1:03:55.84,*Default,NTP,0000,0000,0000,,你没事吧?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you all right?
+Dialogue: 0,1:03:55.84,1:03:57.84,*Default,NTP,0000,0000,0000,,椅子可能不太好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The chair might not be all right.
+Dialogue: 0,1:04:01.31,1:04:03.80,*Default,NTP,0000,0000,0000,,和妈妈呆了几天之后...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}After spending a few days with my mother...
+Dialogue: 0,1:04:03.80,1:04:05.97,*Default,NTP,0000,0000,0000,,拜托 从那里下来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please! Get down from there.
+Dialogue: 0,1:04:05.97,1:04:07.53,*Default,NTP,0000,0000,0000,,抱歉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sorry.
+Dialogue: 0,1:04:07.53,1:04:08.93,*Default,NTP,0000,0000,0000,,对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me.
+Dialogue: 0,1:04:13.73,1:04:16.12,*Default,NTP,0000,0000,0000,,她有什么问题? - 我不知道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's her problem? -I don't know.
+Dialogue: 0,1:04:16.13,1:04:17.19,*Default,NTP,0000,0000,0000,,我们还没见过\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We haven't met.
+Dialogue: 0,1:04:17.19,1:04:19.39,*Default,NTP,0000,0000,0000,,我认识这家人很多年了 你呢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've known this family for years. And you?
+Dialogue: 0,1:04:19.99,1:04:21.42,*Default,NTP,0000,0000,0000,,这是我的房子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This is my house.
+Dialogue: 0,1:04:23.12,1:04:26.05,*Default,NTP,0000,0000,0000,,美丽的家 去散散步吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, it's a beautiful home. You want to take a walk?
+Dialogue: 0,1:04:26.55,1:04:29.01,*Default,NTP,0000,0000,0000,,什么? - 散步 和我一起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What? -A walk. With me.
+Dialogue: 0,1:04:29.55,1:04:31.41,*Default,NTP,0000,0000,0000,,不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No. No.
+Dialogue: 0,1:04:31.65,1:04:33.34,*Default,NTP,0000,0000,0000,,拜托\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please!
+Dialogue: 0,1:04:33.58,1:04:35.87,*Default,NTP,0000,0000,0000,,拿我的号码 - 不 我不想要你的号码\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Take my number. -No, I don't want your number.
+Dialogue: 0,1:04:35.88,1:04:37.51,*Default,NTP,0000,0000,0000,,你为什么这么说?你根本不了解我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why would you say that? You don't even know me.
+Dialogue: 0,1:04:37.51,1:04:38.64,*Default,NTP,0000,0000,0000,,给你电话号码\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let me give you my number.
+Dialogue: 0,1:04:38.64,1:04:40.47,*Default,NTP,0000,0000,0000,,放开我 - 为什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let go of me! -Why?
+Dialogue: 0,1:04:40.47,1:04:42.24,*Default,NTP,0000,0000,0000,,因为我不认识你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Because I don't know you.
+Dialogue: 0,1:04:42.40,1:04:44.00,*Default,NTP,0000,0000,0000,,从那里下来 - 从哪里来?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get down from there. -From where?
+Dialogue: 0,1:04:44.00,1:04:46.33,*Default,NTP,0000,0000,0000,,你不知道我能为你做什么\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You don't know what I could do for you.
+Dialogue: 0,1:04:46.33,1:04:48.26,*Default,NTP,0000,0000,0000,,我不想要你的任何东西\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't want anything from you.
+Dialogue: 0,1:04:48.33,1:04:49.53,*Default,NTP,0000,0000,0000,,无礼\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sassy.
+Dialogue: 0,1:04:49.80,1:04:51.46,*Default,NTP,0000,0000,0000,,别烦我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Leave me alone.
+Dialogue: 0,1:04:52.83,1:04:54.92,*Default,NTP,0000,0000,0000,,不如你滚开吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know what? Get out of my face.
+Dialogue: 0,1:04:54.93,1:04:57.06,*Default,NTP,0000,0000,0000,,傲慢的婊子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're an arrogant cunt.
+Dialogue: 0,1:04:57.86,1:04:59.52,*Default,NTP,0000,0000,0000,,这个水槽没有问题\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This sink. There's nothing wrong with it.
+Dialogue: 0,1:04:59.52,1:05:00.69,*Default,NTP,0000,0000,0000,,真的很好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's really okay.
+Dialogue: 0,1:05:00.82,1:05:03.15,*Default,NTP,0000,0000,0000,,别这样 住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, stop doing that. Don't do that. Stop!
+Dialogue: 0,1:05:03.15,1:05:05.35,*Default,NTP,0000,0000,0000,,别这样 住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stop doing that! Stop, stop!
+Dialogue: 0,1:05:11.21,1:05:14.07,*Default,NTP,0000,0000,0000,,出去 你们都给我滚出去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get out! Get out, all of you!
+Dialogue: 0,1:05:14.07,1:05:15.44,*Default,NTP,0000,0000,0000,,怎么了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What happened?
+Dialogue: 0,1:05:15.57,1:05:16.94,*Default,NTP,0000,0000,0000,,他们不会听的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They won't listen!
+Dialogue: 0,1:05:17.17,1:05:19.84,*Default,NTP,0000,0000,0000,,没关系 我们会修好的 能修好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's all right. We'll fix it. It can be fixed.
+Dialogue: 0,1:05:19.84,1:05:21.93,*Default,NTP,0000,0000,0000,,我们正受到惩罚 - 求你别走 别走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We're being punished. -Please, don't go. Don't go.
+Dialogue: 0,1:05:21.94,1:05:23.80,*Default,NTP,0000,0000,0000,,我们会关掉水阀 - 很荣幸\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We'll turn it off. -It's been an honour.
+Dialogue: 0,1:05:23.80,1:05:25.40,*Default,NTP,0000,0000,0000,,永远不会忘记你为我们所做的一切\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We will never forget all you've done for us.
+Dialogue: 0,1:05:25.40,1:05:27.03,*Default,NTP,0000,0000,0000,,你们要去哪里?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where will you go?
+Dialogue: 0,1:06:22.25,1:06:23.78,*Default,NTP,0000,0000,0000,,他们都走了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They're gone.
+Dialogue: 0,1:06:24.61,1:06:26.94,*Default,NTP,0000,0000,0000,,我们去睡觉吧 你不必如此的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come. Let's go to bed. You don't need to do that.
+Dialogue: 0,1:06:26.95,1:06:28.24,*Default,NTP,0000,0000,0000,,如此什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Do what?
+Dialogue: 0,1:06:28.68,1:06:30.34,*Default,NTP,0000,0000,0000,,清理他们的烂摊子?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Clean up their mess?
+Dialogue: 0,1:06:32.61,1:06:34.27,*Default,NTP,0000,0000,0000,,我们做了件好事\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We did a good thing.
+Dialogue: 0,1:06:34.27,1:06:35.94,*Default,NTP,0000,0000,0000,,他们需要地方来庆祝人生\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They needed a place to celebrate life.
+Dialogue: 0,1:06:35.94,1:06:37.10,*Default,NTP,0000,0000,0000,,今晚就需要\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They needed tonight.
+Dialogue: 0,1:06:37.10,1:06:38.90,*Default,NTP,0000,0000,0000,,那我的需要呢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What about what I needed?
+Dialogue: 0,1:06:39.27,1:06:42.76,*Default,NTP,0000,0000,0000,,今天有个男孩死在这里 我擦了他的血\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}A boy died here today. I mopped up his blood.
+Dialogue: 0,1:06:42.76,1:06:46.36,*Default,NTP,0000,0000,0000,,你抛弃了我 - 不 我没有抛弃你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And you abandoned me. -No, no, I didn't abandon you.
+Dialogue: 0,1:06:46.36,1:06:49.59,*Default,NTP,0000,0000,0000,,他们刚失去一个儿子 是两个儿子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They just lost a son. They lost, well, two sons!
+Dialogue: 0,1:06:49.59,1:06:52.42,*Default,NTP,0000,0000,0000,,我在帮他们 与我们无关 关于他们的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I was helping them. This is not about us. It's about them.
+Dialogue: 0,1:06:52.42,1:06:55.42,*Default,NTP,0000,0000,0000,,不是关于他们 是关于你的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! It's not about them. It's about you.
+Dialogue: 0,1:06:55.55,1:06:58.88,*Default,NTP,0000,0000,0000,,总是与你和你的工作有关\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's always about you and your work.
+Dialogue: 0,1:06:58.88,1:07:01.11,*Default,NTP,0000,0000,0000,,这能帮你写作?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You think that's gonna help you write?
+Dialogue: 0,1:07:01.12,1:07:03.08,*Default,NTP,0000,0000,0000,,什么都没有\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Nothing does!
+Dialogue: 0,1:07:03.08,1:07:05.78,*Default,NTP,0000,0000,0000,,我重建了整栋房子 墙连墙\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I rebuilt this entire house, wall to wall.
+Dialogue: 0,1:07:05.78,1:07:07.61,*Default,NTP,0000,0000,0000,,你一句话都没写出来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You haven't written a word!
+Dialogue: 0,1:07:07.61,1:07:10.87,*Default,NTP,0000,0000,0000,,我知道 对不起  我不能写作\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I know! I know! I'm sorry! I can't... I can't write!
+Dialogue: 0,1:07:10.87,1:07:12.11,*Default,NTP,0000,0000,0000,,我没有思路\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I can't think!
+Dialogue: 0,1:07:12.11,1:07:14.94,*Default,NTP,0000,0000,0000,,我要做的 就是把生命带进这房子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All I'm trying to do is bring life into this house!
+Dialogue: 0,1:07:14.94,1:07:17.97,*Default,NTP,0000,0000,0000,,开门纳入新人 新的想法\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Open the door to new people, new ideas.
+Dialogue: 0,1:07:18.23,1:07:19.93,*Default,NTP,0000,0000,0000,,你认为你不能呼吸?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You think you can't breathe?
+Dialogue: 0,1:07:19.93,1:07:22.00,*Default,NTP,0000,0000,0000,,我要窒息于此了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm the one who's suffocating here
+Dialogue: 0,1:07:22.26,1:07:24.89,*Default,NTP,0000,0000,0000,,而你却假装一切正常\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}while you pretend that nothing is wrong!
+Dialogue: 0,1:07:25.03,1:07:27.76,*Default,NTP,0000,0000,0000,,"一切都会好的"\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}"Everything will be all right. Everything will be good. You'll be fine."
+Dialogue: 0,1:07:27.76,1:07:31.49,*Default,NTP,0000,0000,0000,,生活不如意 十有八九\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You know what? Life doesn't always work out the way you want it to.
+Dialogue: 0,1:07:32.05,1:07:33.49,*Default,NTP,0000,0000,0000,,你是对的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're right.
+Dialogue: 0,1:07:34.45,1:07:35.98,*Default,NTP,0000,0000,0000,,我不对\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Mine certainly didn't.
+Dialogue: 0,1:07:36.15,1:07:37.35,*Default,NTP,0000,0000,0000,,对不起?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me?
+Dialogue: 0,1:07:38.05,1:07:42.24,*Default,NTP,0000,0000,0000,,你说要孩子 但你都不干我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You talk about wanting kids, but you can't even fuck me.
+Dialogue: 0,1:07:46.74,1:07:49.21,*Default,NTP,0000,0000,0000,,过来 - 不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come here. Come here! -No! No!
+Dialogue: 0,1:08:56.05,1:08:57.65,*Default,NTP,0000,0000,0000,,我怀孕了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm pregnant.
+Dialogue: 0,1:09:02.81,1:09:04.21,*Default,NTP,0000,0000,0000,,我怀孕了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm pregnant.
+Dialogue: 0,1:09:09.44,1:09:11.33,*Default,NTP,0000,0000,0000,,我们要有孩子了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We're gonna have a baby.
+Dialogue: 0,1:09:15.93,1:09:17.56,*Default,NTP,0000,0000,0000,,我是认真的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm serious.
+Dialogue: 0,1:09:19.73,1:09:21.59,*Default,NTP,0000,0000,0000,,你怎么知道?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How could you know?
+Dialogue: 0,1:09:21.73,1:09:23.59,*Default,NTP,0000,0000,0000,,因为我知道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Because I know.
+Dialogue: 0,1:09:25.16,1:09:26.45,*Default,NTP,0000,0000,0000,,我怀孕了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm pregnant.
+Dialogue: 0,1:09:34.71,1:09:36.58,*Default,NTP,0000,0000,0000,,孩子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}A baby.
+Dialogue: 0,1:09:39.54,1:09:42.17,*Default,NTP,0000,0000,0000,,你开心吗 - 开心?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you happy? -Happy?
+Dialogue: 0,1:09:48.07,1:09:51.90,*Default,NTP,0000,0000,0000,,最赞的礼物\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's the most beautiful gift.
+Dialogue: 0,1:10:00.79,1:10:01.99,*Default,NTP,0000,0000,0000,,干嘛?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What?
+Dialogue: 0,1:10:12.78,1:10:15.18,*Default,NTP,0000,0000,0000,,钢笔\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Pen, pen, pen.
+Dialogue: 0,1:10:21.24,1:10:22.94,*Default,NTP,0000,0000,0000,,你在做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing?
+Dialogue: 0,1:10:24.07,1:10:25.34,*Default,NTP,0000,0000,0000,,我在写字\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm writing.
+Dialogue: 0,1:10:25.57,1:10:27.03,*Default,NTP,0000,0000,0000,,什么? - 写作\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What? -Writing.
+Dialogue: 0,1:10:27.04,1:10:28.90,*Default,NTP,0000,0000,0000,,昨晚那些人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Last night, those people.
+Dialogue: 0,1:10:28.90,1:10:31.63,*Default,NTP,0000,0000,0000,,他们的痛苦 先苦后爱 然后\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Their pain. Their love behind the pain. And then...
+Dialogue: 0,1:10:32.96,1:10:34.13,*Default,NTP,0000,0000,0000,,你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You.
+Dialogue: 0,1:10:35.13,1:10:36.43,*Default,NTP,0000,0000,0000,,我们\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Us.
+Dialogue: 0,1:10:36.63,1:10:38.66,*Default,NTP,0000,0000,0000,,现在\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And now that.
+Dialogue: 0,1:10:39.22,1:10:40.76,*Default,NTP,0000,0000,0000,,生命\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Life.
+Dialogue: 0,1:10:41.39,1:10:43.32,*Default,NTP,0000,0000,0000,,文思泉涌\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's coming to me. It's...
+Dialogue: 0,1:10:43.45,1:10:46.28,*Default,NTP,0000,0000,0000,,我有想法了 只需写出来便成\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I know what to say. I have to find the words. That's all.
+Dialogue: 0,1:10:46.28,1:10:48.02,*Default,NTP,0000,0000,0000,,惊人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Amazing.
+Dialogue: 0,1:10:50.75,1:10:52.41,*Default,NTP,0000,0000,0000,,我不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, I won't...
+Dialogue: 0,1:10:52.41,1:10:53.64,*Default,NTP,0000,0000,0000,,我不想打断你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't want to interrupt.
+Dialogue: 0,1:10:53.65,1:10:57.34,*Default,NTP,0000,0000,0000,,我去准备启示录(育婴)\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll just get started on the apocalypse.
+Dialogue: 0,1:10:59.84,1:11:01.14,*Default,NTP,0000,0000,0000,,我爱你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I love you.
+Dialogue: 0,1:12:36.52,1:12:38.05,*Default,NTP,0000,0000,0000,,它动了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It moved!
+Dialogue: 0,1:12:38.92,1:12:40.48,*Default,NTP,0000,0000,0000,,它动了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It moved!
+Dialogue: 0,1:12:44.65,1:12:46.11,*Default,NTP,0000,0000,0000,,怎么了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What is it?
+Dialogue: 0,1:12:53.04,1:12:54.57,*Default,NTP,0000,0000,0000,,完成了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Is that it?
+Dialogue: 0,1:12:56.70,1:12:58.37,*Default,NTP,0000,0000,0000,,我完成了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I finished it.
+Dialogue: 0,1:13:10.76,1:13:12.02,*Default,NTP,0000,0000,0000,,可以吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}May I?
+Dialogue: 0,1:14:20.60,1:14:22.13,*Default,NTP,0000,0000,0000,,真漂亮\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's beautiful.
+Dialogue: 0,1:14:25.39,1:14:26.79,*Default,NTP,0000,0000,0000,,真的?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Really?
+Dialogue: 0,1:14:29.02,1:14:30.69,*Default,NTP,0000,0000,0000,,你为什么哭?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why are you crying?
+Dialogue: 0,1:14:31.39,1:14:33.92,*Default,NTP,0000,0000,0000,,只是忍不住\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's just a lot.
+Dialogue: 0,1:14:35.62,1:14:37.32,*Default,NTP,0000,0000,0000,,你觉得好吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You think it's good?
+Dialogue: 0,1:14:38.92,1:14:40.48,*Default,NTP,0000,0000,0000,,太完美了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's perfect.
+Dialogue: 0,1:14:45.91,1:14:49.37,*Default,NTP,0000,0000,0000,,但这是怎么了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But then what's going on?
+Dialogue: 0,1:14:50.84,1:14:52.70,*Default,NTP,0000,0000,0000,,我会失去你吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Am I going to lose you?
+Dialogue: 0,1:14:56.73,1:14:57.93,*Default,NTP,0000,0000,0000,,永不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Never.
+Dialogue: 0,1:15:11.22,1:15:12.42,*Default,NTP,0000,0000,0000,,你好?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hello?
+Dialogue: 0,1:15:13.45,1:15:15.02,*Default,NTP,0000,0000,0000,,你好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hi.
+Dialogue: 0,1:15:17.08,1:15:18.28,*Default,NTP,0000,0000,0000,,怎么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes?
+Dialogue: 0,1:15:20.25,1:15:21.48,*Default,NTP,0000,0000,0000,,真的?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Really?
+Dialogue: 0,1:15:23.28,1:15:25.14,*Default,NTP,0000,0000,0000,,不会吧 - 那是谁?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Really. -Who is that?
+Dialogue: 0,1:15:25.27,1:15:27.90,*Default,NTP,0000,0000,0000,,给我一秒钟 他们很喜欢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}One moment. Give me a second. They loved it.
+Dialogue: 0,1:15:28.14,1:15:29.30,*Default,NTP,0000,0000,0000,,谁喜欢?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Who did?
+Dialogue: 0,1:15:29.30,1:15:32.33,*Default,NTP,0000,0000,0000,,我马上就来 请稍后\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What? Yeah, I'll be here, standing by.
+Dialogue: 0,1:15:32.63,1:15:34.50,*Default,NTP,0000,0000,0000,,你在吗 喂?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you there? Hello?
+Dialogue: 0,1:15:36.60,1:15:38.63,*Default,NTP,0000,0000,0000,,那是谁? - 我的出版商\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Who was that? -My publisher.
+Dialogue: 0,1:15:39.46,1:15:42.43,*Default,NTP,0000,0000,0000,,她读过了? - 当然 怎么了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}She's read it? -Yes. Of course. Why?
+Dialogue: 0,1:15:46.09,1:15:47.45,*Default,NTP,0000,0000,0000,,是\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes.
+Dialogue: 0,1:15:47.76,1:15:49.09,*Default,NTP,0000,0000,0000,,嗨 又来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hi, again.
+Dialogue: 0,1:15:49.09,1:15:52.68,*Default,NTP,0000,0000,0000,,出版?你知道我的想法\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Press? Well, you know how I feel about it.
+Dialogue: 0,1:15:53.72,1:15:58.11,*Default,NTP,0000,0000,0000,,我宁愿不 除非你认为必须\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'd rather not. But if you think it's a must.
+Dialogue: 0,1:15:58.65,1:16:01.28,*Default,NTP,0000,0000,0000,,我会在这里等你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll be here, waiting.
+Dialogue: 0,1:18:27.08,1:18:28.68,*Default,NTP,0000,0000,0000,,惊人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Amazing!
+Dialogue: 0,1:18:28.91,1:18:30.94,*Default,NTP,0000,0000,0000,,我们在庆祝\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, we're celebrating.
+Dialogue: 0,1:18:31.08,1:18:33.94,*Default,NTP,0000,0000,0000,,书在一天内售罄\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}One day, every copy sold.
+Dialogue: 0,1:18:34.08,1:18:36.04,*Default,NTP,0000,0000,0000,,你真漂亮\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're so beautiful.
+Dialogue: 0,1:18:40.27,1:18:43.70,*Default,NTP,0000,0000,0000,,让自己舒服点 其余我来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Make yourself comfortable. I'll go get everything.
+Dialogue: 0,1:18:45.33,1:18:47.13,*Default,NTP,0000,0000,0000,,看起来很好吃\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Looks delicious.
+Dialogue: 0,1:18:47.43,1:18:49.60,*Default,NTP,0000,0000,0000,,让我帮你 - 不 坐下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let me help you. -No, sit.
+Dialogue: 0,1:18:49.60,1:18:52.33,*Default,NTP,0000,0000,0000,,我帮下较好 - OK\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, I'm helping. -Okay.
+Dialogue: 0,1:18:52.46,1:18:54.42,*Default,NTP,0000,0000,0000,,你能带些面包吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Will you bring the bread in?
+Dialogue: 0,1:18:54.79,1:18:56.29,*Default,NTP,0000,0000,0000,,好吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right.
+Dialogue: 0,1:19:20.44,1:19:22.80,*Default,NTP,0000,0000,0000,,请等一下 我能见见他吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No. Wait, please. Can I see him?
+Dialogue: 0,1:19:44.11,1:19:46.31,*Default,NTP,0000,0000,0000,,对不起 我有个问题\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me. I have a question.
+Dialogue: 0,1:19:46.85,1:19:48.64,*Default,NTP,0000,0000,0000,,你们做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing?
+Dialogue: 0,1:19:49.18,1:19:51.21,*Default,NTP,0000,0000,0000,,他们是谁? - 我不知道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Who are they? -I don't know.
+Dialogue: 0,1:19:52.51,1:19:55.34,*Default,NTP,0000,0000,0000,,请等等 - 等等\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please. Wait. -Wait.
+Dialogue: 0,1:19:55.34,1:19:56.60,*Default,NTP,0000,0000,0000,,他们想要什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What do they want?
+Dialogue: 0,1:19:56.60,1:19:59.47,*Default,NTP,0000,0000,0000,,我不知道 他们是来找我的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't know. They've come here to see me.
+Dialogue: 0,1:19:59.77,1:20:02.63,*Default,NTP,0000,0000,0000,,求你了 我只是想和他合影\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please, I just want to take a photo with him.
+Dialogue: 0,1:20:02.77,1:20:04.16,*Default,NTP,0000,0000,0000,,他一会儿就回来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He'll be back in a moment.
+Dialogue: 0,1:20:04.16,1:20:06.53,*Default,NTP,0000,0000,0000,,晚餐先暖着 我马上就来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just keep everything warm. I'll be right in.
+Dialogue: 0,1:20:07.79,1:20:08.96,*Default,NTP,0000,0000,0000,,就一个提问\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You had a question.
+Dialogue: 0,1:20:08.96,1:20:10.09,*Default,NTP,0000,0000,0000,,嗯 - 是什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah. -What is it?
+Dialogue: 0,1:20:10.09,1:20:13.12,*Default,NTP,0000,0000,0000,,正如我所说 我们都走了很远\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}As I was saying, we've all travelled a great distance,
+Dialogue: 0,1:20:13.12,1:20:15.35,*Default,NTP,0000,0000,0000,,我觉得\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}and I feel that...
+Dialogue: 0,1:20:15.45,1:20:17.68,*Default,NTP,0000,0000,0000,,这些语句\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, these words,
+Dialogue: 0,1:20:17.69,1:20:20.58,*Default,NTP,0000,0000,0000,,我觉得他们写的是我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I feel like they were written for me.
+Dialogue: 0,1:20:21.38,1:20:23.11,*Default,NTP,0000,0000,0000,,当然了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Of course they were.
+Dialogue: 0,1:21:37.48,1:21:39.18,*Default,NTP,0000,0000,0000,,我的女神 过来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}My goddess! Come here.
+Dialogue: 0,1:21:39.78,1:21:40.98,*Default,NTP,0000,0000,0000,,来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come.
+Dialogue: 0,1:21:41.28,1:21:44.24,*Default,NTP,0000,0000,0000,,离我远点 - 请离开她 谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, stay away from me! -Please leave her. Thank you.
+Dialogue: 0,1:21:44.24,1:21:46.14,*Default,NTP,0000,0000,0000,,他们喜欢书 他们全都理解\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They love it. They understand all of it.
+Dialogue: 0,1:21:46.14,1:21:47.81,*Default,NTP,0000,0000,0000,,但书以不同的方式影响着每个人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But it affects everyone in a different way.
+Dialogue: 0,1:21:47.81,1:21:50.10,*Default,NTP,0000,0000,0000,,非常了不起 来吧 他们想见你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It is remarkable. Come. They want to meet you.
+Dialogue: 0,1:21:50.10,1:21:52.10,*Default,NTP,0000,0000,0000,,我不想去 进屋吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, I don't want to. I don't want to. Come inside.
+Dialogue: 0,1:21:52.10,1:21:54.03,*Default,NTP,0000,0000,0000,,但他们走了那么远\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But they've come from so far.
+Dialogue: 0,1:21:54.83,1:21:56.27,*Default,NTP,0000,0000,0000,,看着我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look at me!
+Dialogue: 0,1:21:56.27,1:21:58.13,*Default,NTP,0000,0000,0000,,我要有孩子了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm about to have our baby.
+Dialogue: 0,1:21:58.13,1:21:59.83,*Default,NTP,0000,0000,0000,,对你来说 还不够?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why is that not enough for you?
+Dialogue: 0,1:21:59.93,1:22:01.79,*Default,NTP,0000,0000,0000,,当然够了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Of course it's enough.
+Dialogue: 0,1:22:01.93,1:22:04.59,*Default,NTP,0000,0000,0000,,我哪儿也不去 我在这里陪你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm not going anywhere. I'm here, with you.
+Dialogue: 0,1:22:04.59,1:22:07.26,*Default,NTP,0000,0000,0000,,我想和你独处\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I want to be alone with you.
+Dialogue: 0,1:22:07.26,1:22:08.85,*Default,NTP,0000,0000,0000,,我和你一起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm with you.
+Dialogue: 0,1:22:08.86,1:22:10.22,*Default,NTP,0000,0000,0000,,给我一秒钟\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Give me a second.
+Dialogue: 0,1:22:37.30,1:22:38.96,*Default,NTP,0000,0000,0000,,来吧 快点\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come, come, come. Quick, quick.
+Dialogue: 0,1:22:38.96,1:22:40.16,*Default,NTP,0000,0000,0000,,等一下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just hang in there. Hold it in.
+Dialogue: 0,1:22:40.16,1:22:43.32,*Default,NTP,0000,0000,0000,,那边有个卫生间 应该很近\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sure there's a bathroom really close.
+Dialogue: 0,1:22:43.33,1:22:44.59,*Default,NTP,0000,0000,0000,,等等 - 对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hold it in. -Excuse me.
+Dialogue: 0,1:22:44.59,1:22:46.12,*Default,NTP,0000,0000,0000,,你知道洗手间在哪里吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Do you know where the bathroom is?
+Dialogue: 0,1:22:46.12,1:22:48.32,*Default,NTP,0000,0000,0000,,你得离开 - 我该去哪里?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You need to leave. -Where should I go?
+Dialogue: 0,1:22:48.32,1:22:50.75,*Default,NTP,0000,0000,0000,,我不知道 但你不能在这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't know, but you can't be in here.
+Dialogue: 0,1:22:50.75,1:22:52.32,*Default,NTP,0000,0000,0000,,但我的儿子 他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But my son, he...
+Dialogue: 0,1:22:54.45,1:22:56.11,*Default,NTP,0000,0000,0000,,跟我来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. Come with me.
+Dialogue: 0,1:22:56.11,1:22:58.34,*Default,NTP,0000,0000,0000,,非常感谢 我会回来收拾干净的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you so much. I'll come back and clean up.
+Dialogue: 0,1:22:58.34,1:23:00.01,*Default,NTP,0000,0000,0000,,是你打开的?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Did you open this?
+Dialogue: 0,1:23:00.01,1:23:03.27,*Default,NTP,0000,0000,0000,,OK 再多一点点时间\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, here we go. Just a little bit longer.
+Dialogue: 0,1:23:04.37,1:23:06.17,*Default,NTP,0000,0000,0000,,没关系 我们会把你弄干的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's okay. We'll get you dried off.
+Dialogue: 0,1:23:07.87,1:23:11.23,*Default,NTP,0000,0000,0000,,完后 你们必须回到外面去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}After you've finished, I really need you to go back outside.
+Dialogue: 0,1:23:11.37,1:23:12.90,*Default,NTP,0000,0000,0000,,你在做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing?
+Dialogue: 0,1:23:12.97,1:23:14.90,*Default,NTP,0000,0000,0000,,给点隐私好吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How about a little privacy?
+Dialogue: 0,1:23:15.20,1:23:16.46,*Default,NTP,0000,0000,0000,,拜托?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please?
+Dialogue: 0,1:23:16.46,1:23:17.86,*Default,NTP,0000,0000,0000,,先生\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sir!
+Dialogue: 0,1:23:17.86,1:23:20.62,*Default,NTP,0000,0000,0000,,我已经等了很长时间了 对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've been waiting a long time. Excuse me.
+Dialogue: 0,1:23:20.63,1:23:22.66,*Default,NTP,0000,0000,0000,,派对 女士 - 不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait your turn, lady! -No!
+Dialogue: 0,1:23:22.69,1:23:23.92,*Default,NTP,0000,0000,0000,,你们怎么进来的?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How did you get in here?
+Dialogue: 0,1:23:23.92,1:23:25.45,*Default,NTP,0000,0000,0000,,我们两人行吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Could you get the two of us, please?
+Dialogue: 0,1:23:25.46,1:23:26.95,*Default,NTP,0000,0000,0000,,我弄好了 - 谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, I got it. I got it. -Thanks.
+Dialogue: 0,1:23:26.95,1:23:29.88,*Default,NTP,0000,0000,0000,,好了 蹲下 - 太美了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, get down on the floor. -It's beautiful.
+Dialogue: 0,1:23:30.02,1:23:31.45,*Default,NTP,0000,0000,0000,,别碰那个\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't touch that!
+Dialogue: 0,1:23:31.45,1:23:32.58,*Default,NTP,0000,0000,0000,,非常有生机\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's so organic.
+Dialogue: 0,1:23:32.58,1:23:34.48,*Default,NTP,0000,0000,0000,,别推了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stop pushing!
+Dialogue: 0,1:23:34.48,1:23:36.94,*Default,NTP,0000,0000,0000,,你们都要出去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All of you need to go outside.
+Dialogue: 0,1:23:39.84,1:23:40.97,*Default,NTP,0000,0000,0000,,先生\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sir!
+Dialogue: 0,1:23:40.97,1:23:44.60,*Default,NTP,0000,0000,0000,,我想躺下休息 我感觉不太好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm just gonna lie down for a bit. I don't feel so good.
+Dialogue: 0,1:23:44.60,1:23:47.67,*Default,NTP,0000,0000,0000,,不 你不能躺在这里 - 为什么 你住这里?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, you cannot lie down here. -Why? You staying in here?
+Dialogue: 0,1:23:47.67,1:23:49.47,*Default,NTP,0000,0000,0000,,我住在这里 这是我的房子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I live here. This is my house.
+Dialogue: 0,1:23:49.47,1:23:51.90,*Default,NTP,0000,0000,0000,,"我的房子"?"我的房子"?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}"My house"? "My house"?
+Dialogue: 0,1:23:52.03,1:23:54.20,*Default,NTP,0000,0000,0000,,诗人说 这是所有人的家\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The poet says it's everyone's house!
+Dialogue: 0,1:23:55.39,1:23:57.26,*Default,NTP,0000,0000,0000,,食物和饮料 我的朋友\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Food and drink, my friends.
+Dialogue: 0,1:23:57.39,1:24:01.52,*Default,NTP,0000,0000,0000,,我相信就在后面\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I believe it's, yes, right back here.
+Dialogue: 0,1:24:02.66,1:24:04.12,*Default,NTP,0000,0000,0000,,这很好 我们有蔬菜\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This is nice. We've got vegetables...
+Dialogue: 0,1:24:04.12,1:24:05.79,*Default,NTP,0000,0000,0000,,住手 你们所有人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stop! All of you.
+Dialogue: 0,1:24:05.79,1:24:07.38,*Default,NTP,0000,0000,0000,,检查一下橱柜还有冰箱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Check the cabinets. And the fridge!
+Dialogue: 0,1:24:07.38,1:24:09.02,*Default,NTP,0000,0000,0000,,你在做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing?
+Dialogue: 0,1:24:09.88,1:24:11.15,*Default,NTP,0000,0000,0000,,美丽\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Beautiful!
+Dialogue: 0,1:24:11.48,1:24:13.71,*Default,NTP,0000,0000,0000,,不 那不是给你的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! No! That's not for you.
+Dialogue: 0,1:24:13.71,1:24:15.58,*Default,NTP,0000,0000,0000,,他说要分享\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He said to share.
+Dialogue: 0,1:24:15.71,1:24:18.14,*Default,NTP,0000,0000,0000,,但这不是你的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But it's not yours!
+Dialogue: 0,1:24:18.14,1:24:21.17,*Default,NTP,0000,0000,0000,,他们又饥又渴 给你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They're hungry and thirsty. Here you go.
+Dialogue: 0,1:24:21.31,1:24:25.60,*Default,NTP,0000,0000,0000,,现在 拿水果 奶酪和泡菜\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Now, take the fruit and the cheese and the pickles.
+Dialogue: 0,1:24:25.84,1:24:27.00,*Default,NTP,0000,0000,0000,,对不起 小心你的后背\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me. Watch your backs.
+Dialogue: 0,1:24:27.00,1:24:30.20,*Default,NTP,0000,0000,0000,,你可以放在那里 去那边\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You can put that over there. And that goes over there.
+Dialogue: 0,1:24:30.20,1:24:31.50,*Default,NTP,0000,0000,0000,,看起来不错 我们一起分享吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Looks great. Let's share it.
+Dialogue: 0,1:24:31.50,1:24:33.33,*Default,NTP,0000,0000,0000,,我把这切成薄片\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll slice this up.
+Dialogue: 0,1:24:35.03,1:24:36.26,*Default,NTP,0000,0000,0000,,你可以坐这儿 先生\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You can sit here, sir.
+Dialogue: 0,1:24:36.26,1:24:38.89,*Default,NTP,0000,0000,0000,,没有照片 只是签名\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}There'll be no photos, just autographs!
+Dialogue: 0,1:24:39.02,1:24:40.69,*Default,NTP,0000,0000,0000,,你的文笔真美\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Your writing is so beautiful.
+Dialogue: 0,1:24:40.69,1:24:42.72,*Default,NTP,0000,0000,0000,,这是什么?你在做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What is this? What are you doing?
+Dialogue: 0,1:24:42.72,1:24:45.02,*Default,NTP,0000,0000,0000,,我向他们展示我的感激之情\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm showing them my appreciation.
+Dialogue: 0,1:24:45.02,1:24:46.58,*Default,NTP,0000,0000,0000,,你好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hi!
+Dialogue: 0,1:24:47.28,1:24:49.08,*Default,NTP,0000,0000,0000,,我的天才\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}My genius.
+Dialogue: 0,1:24:50.38,1:24:51.88,*Default,NTP,0000,0000,0000,,看看你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look at you.
+Dialogue: 0,1:24:51.88,1:24:53.28,*Default,NTP,0000,0000,0000,,第二本出版物 - 好极了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The second printing is here. -Great.
+Dialogue: 0,1:24:53.28,1:24:55.08,*Default,NTP,0000,0000,0000,,我希望你能告诉我这次集会\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes. I wish you would've told me about this turnout.
+Dialogue: 0,1:24:55.08,1:24:57.67,*Default,NTP,0000,0000,0000,,来见见我的... - 她来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Have you met my... -There she is.
+Dialogue: 0,1:25:00.14,1:25:01.50,*Default,NTP,0000,0000,0000,,灵感\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The inspiration.
+Dialogue: 0,1:25:02.04,1:25:03.20,*Default,NTP,0000,0000,0000,,好吧 我得说实话\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right, I have to be honest.
+Dialogue: 0,1:25:03.20,1:25:06.37,*Default,NTP,0000,0000,0000,,我有点担心 他会和你一起躲在这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I was a little worried about him being holed up here with you.
+Dialogue: 0,1:25:06.40,1:25:07.83,*Default,NTP,0000,0000,0000,,我很紧张 你再也不写了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I was nervous you'd never write again.
+Dialogue: 0,1:25:07.83,1:25:09.03,*Default,NTP,0000,0000,0000,,当然不是\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Of course not.
+Dialogue: 0,1:25:09.16,1:25:11.83,*Default,NTP,0000,0000,0000,,但不管你做了什么 都是值得的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But whatever you did, it was worth it.
+Dialogue: 0,1:25:13.33,1:25:15.72,*Default,NTP,0000,0000,0000,,看看你 你已经准备好了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And look at you. You're ready to pop!
+Dialogue: 0,1:25:16.32,1:25:18.22,*Default,NTP,0000,0000,0000,,感觉怎么样 热吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How are you feeling? Hot?
+Dialogue: 0,1:25:18.22,1:25:20.42,*Default,NTP,0000,0000,0000,,这里很热 是不是因为我?我很焦灼\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's hot in here. Is it me? It's broiling.
+Dialogue: 0,1:25:20.42,1:25:21.52,*Default,NTP,0000,0000,0000,,我把它放在这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've got it right here.
+Dialogue: 0,1:25:21.52,1:25:23.05,*Default,NTP,0000,0000,0000,,请原谅\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes. Will you excuse me?
+Dialogue: 0,1:25:23.15,1:25:24.68,*Default,NTP,0000,0000,0000,,让我想想 把它拿出来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let me see. Take it out!
+Dialogue: 0,1:25:25.38,1:25:27.65,*Default,NTP,0000,0000,0000,,这正是我想要的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes. That's exactly what I wanted.
+Dialogue: 0,1:25:27.65,1:25:30.15,*Default,NTP,0000,0000,0000,,原件在哪里? - 就在桌子那边\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The original, where is it? -It's right there by the desk.
+Dialogue: 0,1:25:30.15,1:25:31.74,*Default,NTP,0000,0000,0000,,我知道了 - 对不起\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've got it! -Excuse me.
+Dialogue: 0,1:25:32.21,1:25:34.41,*Default,NTP,0000,0000,0000,,我明白了 - 我要了 谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I've got it. -I'll take that, thank you.
+Dialogue: 0,1:25:34.54,1:25:36.54,*Default,NTP,0000,0000,0000,,没关系 - 别碰它\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, it's okay. -No, don't touch it!
+Dialogue: 0,1:25:36.54,1:25:38.20,*Default,NTP,0000,0000,0000,,没事 - 别碰它\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, it's fine. -Don't touch it!
+Dialogue: 0,1:25:38.21,1:25:40.04,*Default,NTP,0000,0000,0000,,把你的手拿开 - 发生什么事了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! Get your hands off it! -What happened?
+Dialogue: 0,1:25:40.04,1:25:42.20,*Default,NTP,0000,0000,0000,,等等 放松\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait, wait! Easy, easy, easy.
+Dialogue: 0,1:25:42.34,1:25:44.13,*Default,NTP,0000,0000,0000,,我想一起合影进去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm trying to put it in this frame.
+Dialogue: 0,1:25:44.13,1:25:46.26,*Default,NTP,0000,0000,0000,,我来了 一切都好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, I'll do it. It's all good.
+Dialogue: 0,1:25:52.43,1:25:54.66,*Default,NTP,0000,0000,0000,,住手 还给我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stop! Give that back. Give it back.
+Dialogue: 0,1:25:54.66,1:25:57.92,*Default,NTP,0000,0000,0000,,不 我必须拥有他的东西 不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, I have to have something of his! No!
+Dialogue: 0,1:26:00.82,1:26:02.68,*Default,NTP,0000,0000,0000,,是我的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's mine!
+Dialogue: 0,1:26:02.75,1:26:06.05,*Default,NTP,0000,0000,0000,,你干的 现在我不得不另找一件了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You did it! Now I got to find something else!
+Dialogue: 0,1:26:07.98,1:26:10.14,*Default,NTP,0000,0000,0000,,出去 你们所有人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get out! All of you!
+Dialogue: 0,1:26:10.14,1:26:12.91,*Default,NTP,0000,0000,0000,,住手 这不属于你们\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stop! This doesn't belong to you!
+Dialogue: 0,1:26:21.87,1:26:23.07,*Default,NTP,0000,0000,0000,,911 什么情况?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}911. What is your emergency?
+Dialogue: 0,1:26:23.07,1:26:24.50,*Default,NTP,0000,0000,0000,,你可以帮我吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Can you help me?
+Dialogue: 0,1:26:24.50,1:26:25.76,*Default,NTP,0000,0000,0000,,你有什么急事 夫人?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What is your emergency, ma'am?
+Dialogue: 0,1:26:25.76,1:26:28.03,*Default,NTP,0000,0000,0000,,他们在偷东西\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They're stealing everything!
+Dialogue: 0,1:26:29.03,1:26:30.19,*Default,NTP,0000,0000,0000,,谢谢\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you.
+Dialogue: 0,1:26:30.19,1:26:31.62,*Default,NTP,0000,0000,0000,,电话我正在用\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I was using that!
+Dialogue: 0,1:26:31.63,1:26:33.89,*Default,NTP,0000,0000,0000,,没关系 分享 就像诗人说的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's all right. Share, like the poet said.
+Dialogue: 0,1:26:33.89,1:26:35.32,*Default,NTP,0000,0000,0000,,对 分享\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, share.
+Dialogue: 0,1:26:35.32,1:26:37.35,*Default,NTP,0000,0000,0000,,那是不对的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's not right.
+Dialogue: 0,1:26:48.48,1:26:50.91,*Default,NTP,0000,0000,0000,,看 他给你做了记号\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look, he marked you. He marked you.
+Dialogue: 0,1:26:52.64,1:26:55.10,*Default,NTP,0000,0000,0000,,我也要 拜托 - OK\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Me, too. Please. -Okay.
+Dialogue: 0,1:26:56.44,1:26:58.40,*Default,NTP,0000,0000,0000,,谢谢 - 住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you. -Stop!
+Dialogue: 0,1:26:58.53,1:27:01.73,*Default,NTP,0000,0000,0000,,住手 别碰他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stop! Stop touching him!
+Dialogue: 0,1:27:01.87,1:27:03.63,*Default,NTP,0000,0000,0000,,他们毁了一切\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They're ruining everything.
+Dialogue: 0,1:27:03.76,1:27:05.00,*Default,NTP,0000,0000,0000,,那只些物件\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Those are just things.
+Dialogue: 0,1:27:05.00,1:27:07.23,*Default,NTP,0000,0000,0000,,可以被替换 不用担心\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They can be replaced. Don't worry.
+Dialogue: 0,1:27:07.23,1:27:09.06,*Default,NTP,0000,0000,0000,,原谅我 几张照片而已 - 当然\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Forgive me. Just a few shots. -Of course.
+Dialogue: 0,1:27:09.06,1:27:10.56,*Default,NTP,0000,0000,0000,,来了 - 不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here we go. -No!
+Dialogue: 0,1:27:10.56,1:27:12.56,*Default,NTP,0000,0000,0000,,看镜头 把他拍进去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look right in the lens, make sure you're getting him.
+Dialogue: 0,1:27:15.29,1:27:16.49,*Default,NTP,0000,0000,0000,,不 别走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, no, no, don't go!
+Dialogue: 0,1:27:16.49,1:27:17.82,*Default,NTP,0000,0000,0000,,拜托 再来一张\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please, just one more!
+Dialogue: 0,1:28:32.22,1:28:35.18,*Default,NTP,0000,0000,0000,,请把谢意钉在门上\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're welcome to pin your thanks on the door.
+Dialogue: 0,1:28:37.12,1:28:38.61,*Default,NTP,0000,0000,0000,,他的语句是描写你的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}His words are yours.
+Dialogue: 0,1:28:41.41,1:28:43.44,*Default,NTP,0000,0000,0000,,请注意脚下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Watch your step going down.
+Dialogue: 0,1:28:44.74,1:28:46.44,*Default,NTP,0000,0000,0000,,下一个 请 往前走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Next, please. Step forward.
+Dialogue: 0,1:28:46.54,1:28:48.44,*Default,NTP,0000,0000,0000,,他的语句是描写你的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}His words are yours.
+Dialogue: 0,1:28:48.57,1:28:50.87,*Default,NTP,0000,0000,0000,,如果你愿意 把你的想法钉在墙上\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}If you please, pin your thoughts on the wall.
+Dialogue: 0,1:28:53.03,1:28:54.60,*Default,NTP,0000,0000,0000,,往前走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Step forward.
+Dialogue: 0,1:28:56.40,1:28:58.16,*Default,NTP,0000,0000,0000,,他的语句是描写你的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}His words are yours.
+Dialogue: 0,1:28:58.16,1:28:59.60,*Default,NTP,0000,0000,0000,,下一个\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Next.
+Dialogue: 0,1:29:21.84,1:29:23.11,*Default,NTP,0000,0000,0000,,你在这儿\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}There you are!
+Dialogue: 0,1:29:24.01,1:29:25.31,*Default,NTP,0000,0000,0000,,你躲到哪里去了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where have you been hiding?
+Dialogue: 0,1:29:31.50,1:29:33.20,*Default,NTP,0000,0000,0000,,你为什么要这么做?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why are you doing this?
+Dialogue: 0,1:29:34.07,1:29:35.76,*Default,NTP,0000,0000,0000,,证明我们在这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Proof we were here.
+Dialogue: 0,1:29:36.40,1:29:38.26,*Default,NTP,0000,0000,0000,,放开我 - 见鬼\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get off of me! -What the hell!
+Dialogue: 0,1:29:39.16,1:29:40.93,*Default,NTP,0000,0000,0000,,我要杀了你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'll kill you!
+Dialogue: 0,1:29:41.23,1:29:43.62,*Default,NTP,0000,0000,0000,,小心你的后背 - 抬头 借过\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Watch your back. -Heads up. Coming through.
+Dialogue: 0,1:29:44.36,1:29:46.62,*Default,NTP,0000,0000,0000,,不 不要\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! Don't.
+Dialogue: 0,1:30:15.96,1:30:17.23,*Default,NTP,0000,0000,0000,,不 放手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! Let go!
+Dialogue: 0,1:30:17.23,1:30:19.29,*Default,NTP,0000,0000,0000,,不 你不能走 他爱你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, you can't leave! He loves you!
+Dialogue: 0,1:30:19.29,1:30:21.59,*Default,NTP,0000,0000,0000,,我来 你要去哪里?不要 别走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I got it. Where are you going? Don't. Don't go.
+Dialogue: 0,1:30:21.59,1:30:23.06,*Default,NTP,0000,0000,0000,,你不希望我在这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You don't want me here.
+Dialogue: 0,1:30:23.22,1:30:25.12,*Default,NTP,0000,0000,0000,,过来 看这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come here. Look here.
+Dialogue: 0,1:30:25.12,1:30:26.32,*Default,NTP,0000,0000,0000,,我在这里 - 我不能\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm here. -I can't.
+Dialogue: 0,1:30:26.32,1:30:28.52,*Default,NTP,0000,0000,0000,,我有事要告诉你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Listen, I have to tell you something.
+Dialogue: 0,1:30:31.28,1:30:32.48,*Default,NTP,0000,0000,0000,,怎么了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What?
+Dialogue: 0,1:30:34.38,1:30:36.91,*Default,NTP,0000,0000,0000,,孩子?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The baby? The baby?
+Dialogue: 0,1:30:40.44,1:30:42.94,*Default,NTP,0000,0000,0000,,过来 - 锁上后门\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come here. Come, come. -Lock the back door!
+Dialogue: 0,1:30:46.44,1:30:48.67,*Default,NTP,0000,0000,0000,,我们需要空间\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We need space! We need space!
+Dialogue: 0,1:30:49.43,1:30:51.46,*Default,NTP,0000,0000,0000,,等一下 我马上回来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hold on here. I'll be right back.
+Dialogue: 0,1:30:52.63,1:30:56.29,*Default,NTP,0000,0000,0000,,后退 给我们点空间\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Back! Back! Give us some room!
+Dialogue: 0,1:31:00.62,1:31:01.79,*Default,NTP,0000,0000,0000,,警察 趴到地上\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Police! Get on the ground!
+Dialogue: 0,1:31:01.79,1:31:03.62,*Default,NTP,0000,0000,0000,,帮帮我 帮帮我 不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Help me. Help me. No!
+Dialogue: 0,1:31:03.62,1:31:04.72,*Default,NTP,0000,0000,0000,,靠墙\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Against the wall!
+Dialogue: 0,1:31:04.72,1:31:06.38,*Default,NTP,0000,0000,0000,,请不要 我的孩子 请不要\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please don't! My baby! Please don't!
+Dialogue: 0,1:31:06.39,1:31:08.32,*Default,NTP,0000,0000,0000,,放开她 放开\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get off her! Get off!
+Dialogue: 0,1:31:08.32,1:31:09.85,*Default,NTP,0000,0000,0000,,退后\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Back off!
+Dialogue: 0,1:31:29.93,1:31:31.33,*Default,NTP,0000,0000,0000,,我有权利\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I call dibs!
+Dialogue: 0,1:31:59.67,1:32:02.17,*Default,NTP,0000,0000,0000,,你要去哪里?进去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where are you going? Get inside!
+Dialogue: 0,1:32:03.40,1:32:05.73,*Default,NTP,0000,0000,0000,,来人救命\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Somebody help us, please!
+Dialogue: 0,1:32:25.08,1:32:26.28,*Default,NTP,0000,0000,0000,,闭嘴\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Shut up!
+Dialogue: 0,1:32:30.44,1:32:32.28,*Default,NTP,0000,0000,0000,,天使怎么样? - 污染\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}How's Angel? -Tainted.
+Dialogue: 0,1:32:32.28,1:32:33.88,*Default,NTP,0000,0000,0000,,检查异教徒\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Check the goyim.
+Dialogue: 0,1:32:43.73,1:32:45.17,*Default,NTP,0000,0000,0000,,让开\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Move!
+Dialogue: 0,1:33:31.83,1:33:33.86,*Default,NTP,0000,0000,0000,,我什么都没做 - 进去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I didn't do anything! -Get in there!
+Dialogue: 0,1:33:33.92,1:33:36.49,*Default,NTP,0000,0000,0000,,安静 - 闭嘴\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Quiet! -Keep your mouths shut.
+Dialogue: 0,1:33:47.38,1:33:48.91,*Default,NTP,0000,0000,0000,,灵感\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The inspiration!
+Dialogue: 0,1:33:49.04,1:33:50.74,*Default,NTP,0000,0000,0000,,你躲到哪里去了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where have you been hiding?
+Dialogue: 0,1:33:50.87,1:33:52.07,*Default,NTP,0000,0000,0000,,干掉她\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Finish her.
+Dialogue: 0,1:33:52.87,1:33:54.41,*Default,NTP,0000,0000,0000,,跪下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}On your knees!
+Dialogue: 0,1:33:54.64,1:33:56.50,*Default,NTP,0000,0000,0000,,好吧 再六个\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}All right, six more.
+Dialogue: 0,1:34:02.70,1:34:04.00,*Default,NTP,0000,0000,0000,,分散\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Disperse!
+Dialogue: 0,1:34:18.48,1:34:19.68,*Default,NTP,0000,0000,0000,,不许动\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Freeze!
+Dialogue: 0,1:34:21.08,1:34:23.15,*Default,NTP,0000,0000,0000,,不 快来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No. Come on.
+Dialogue: 0,1:34:33.74,1:34:35.04,*Default,NTP,0000,0000,0000,,你受伤了吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are you hurt?
+Dialogue: 0,1:34:35.50,1:34:36.80,*Default,NTP,0000,0000,0000,,婴儿\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The baby...
+Dialogue: 0,1:34:43.86,1:34:45.16,*Default,NTP,0000,0000,0000,,医生\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Medic!
+Dialogue: 0,1:34:48.76,1:34:50.02,*Default,NTP,0000,0000,0000,,这边\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This way.
+Dialogue: 0,1:34:50.02,1:34:51.89,*Default,NTP,0000,0000,0000,,快点走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Go, hurry. Just go!
+Dialogue: 0,1:35:15.90,1:35:18.06,*Default,NTP,0000,0000,0000,,亲爱的 是我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}My darling! It's me! It's me.
+Dialogue: 0,1:35:21.16,1:35:22.69,*Default,NTP,0000,0000,0000,,怎么了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's happening?
+Dialogue: 0,1:35:22.83,1:35:25.56,*Default,NTP,0000,0000,0000,,不知道 我得带你去个安全的地方\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't know. I have to take you somewhere safe.
+Dialogue: 0,1:35:25.56,1:35:27.06,*Default,NTP,0000,0000,0000,,那里 - 不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}There. -No, no, no.
+Dialogue: 0,1:35:27.06,1:35:28.36,*Default,NTP,0000,0000,0000,,出去 - 太危险了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Out! -It's too dangerous.
+Dialogue: 0,1:35:28.36,1:35:30.05,*Default,NTP,0000,0000,0000,,跟我来 别出声\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come with me. Quietly.
+Dialogue: 0,1:35:33.88,1:35:35.08,*Default,NTP,0000,0000,0000,,这边\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This way.
+Dialogue: 0,1:35:40.55,1:35:42.84,*Default,NTP,0000,0000,0000,,门 - 不 是这边\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The door! -No, no, it's this way.
+Dialogue: 0,1:35:42.88,1:35:44.91,*Default,NTP,0000,0000,0000,,是他 是诗人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's him! It's the poet!
+Dialogue: 0,1:35:44.97,1:35:47.84,*Default,NTP,0000,0000,0000,,他还没有抛弃我们\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He hasn't forsaken us after all!
+Dialogue: 0,1:35:48.57,1:35:50.50,*Default,NTP,0000,0000,0000,,我们得快点 别靠近\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We need to hurry. Stay close.
+Dialogue: 0,1:35:50.50,1:35:54.03,*Default,NTP,0000,0000,0000,,我们需要钱 我们要吃东西 拜托\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We need money! We need to eat! Please!
+Dialogue: 0,1:35:54.17,1:35:57.36,*Default,NTP,0000,0000,0000,,退回去 我没办法\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get back! Get back! I can't! I can't!
+Dialogue: 0,1:35:57.50,1:36:00.43,*Default,NTP,0000,0000,0000,,对不起 我不能\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry. I'm sorry. I can't!
+Dialogue: 0,1:36:03.39,1:36:05.52,*Default,NTP,0000,0000,0000,,我不会忘记你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I will not forget you.
+Dialogue: 0,1:36:05.52,1:36:07.89,*Default,NTP,0000,0000,0000,,诗人 看这里 快\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Poet, over here! Come on!
+Dialogue: 0,1:36:08.05,1:36:10.09,*Default,NTP,0000,0000,0000,,在上面\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Up here! Up here!
+Dialogue: 0,1:36:10.09,1:36:12.15,*Default,NTP,0000,0000,0000,,在上面\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Up there! Up there.
+Dialogue: 0,1:36:12.95,1:36:14.71,*Default,NTP,0000,0000,0000,,他们会保护我们的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They will protect us.
+Dialogue: 0,1:36:14.85,1:36:16.95,*Default,NTP,0000,0000,0000,,我抓到你了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Come. I've got you.
+Dialogue: 0,1:36:19.31,1:36:20.91,*Default,NTP,0000,0000,0000,,抓住那只手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Grab the hand.
+Dialogue: 0,1:36:21.84,1:36:23.87,*Default,NTP,0000,0000,0000,,退后 我会回来的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get back! Get back! I will return!
+Dialogue: 0,1:36:27.90,1:36:30.10,*Default,NTP,0000,0000,0000,,把他们推回去\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hold them back!
+Dialogue: 0,1:36:30.50,1:36:32.67,*Default,NTP,0000,0000,0000,,坐这儿 休息\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Sit here. Rest.
+Dialogue: 0,1:36:32.67,1:36:34.86,*Default,NTP,0000,0000,0000,,我是医生 - 医生?请帮助她\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm a doctor! -A doctor? Please help her.
+Dialogue: 0,1:36:35.17,1:36:37.93,*Default,NTP,0000,0000,0000,,请帮助她 这里 我马上回来\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Help her, please. Here. I'll be right back.
+Dialogue: 0,1:36:39.73,1:36:41.43,*Default,NTP,0000,0000,0000,,很好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's good.
+Dialogue: 0,1:36:41.56,1:36:43.56,*Default,NTP,0000,0000,0000,,别离开我们\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't leave us!
+Dialogue: 0,1:36:43.56,1:36:44.72,*Default,NTP,0000,0000,0000,,放开\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get off!
+Dialogue: 0,1:36:44.72,1:36:46.85,*Default,NTP,0000,0000,0000,,看着我 听我的声音\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look at me. Listen to my voice.
+Dialogue: 0,1:36:48.35,1:36:49.75,*Default,NTP,0000,0000,0000,,孩子快出来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The baby's almost here.
+Dialogue: 0,1:36:50.72,1:36:53.08,*Default,NTP,0000,0000,0000,,再努力一点 你能做到的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just a little bit further. You can do this.
+Dialogue: 0,1:36:53.15,1:36:54.68,*Default,NTP,0000,0000,0000,,用力\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Push.
+Dialogue: 0,1:36:54.68,1:36:56.08,*Default,NTP,0000,0000,0000,,用力\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just push.
+Dialogue: 0,1:36:56.98,1:36:58.31,*Default,NTP,0000,0000,0000,,不 - 对\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No. -Yes, yes!
+Dialogue: 0,1:36:58.34,1:37:00.51,*Default,NTP,0000,0000,0000,,你得用力\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You have to push. Push!
+Dialogue: 0,1:37:02.51,1:37:05.44,*Default,NTP,0000,0000,0000,,用力 就快成了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Push. You're almost there. Yes!
+Dialogue: 0,1:37:06.37,1:37:08.10,*Default,NTP,0000,0000,0000,,再来一次\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Do it again.
+Dialogue: 0,1:37:08.54,1:37:10.73,*Default,NTP,0000,0000,0000,,你做得很好\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, you're doing very good.
+Dialogue: 0,1:37:10.83,1:37:13.20,*Default,NTP,0000,0000,0000,,我能感觉到头 - 请让开 我来帮她\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I can feel the head. -Please move. I've got her.
+Dialogue: 0,1:37:16.23,1:37:18.99,*Default,NTP,0000,0000,0000,,等等 我能帮你 - 我要接生我的孩子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait! I can help. -I'm delivering my baby!
+Dialogue: 0,1:37:18.99,1:37:21.06,*Default,NTP,0000,0000,0000,,让我帮忙 - 把门关上\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let me help! -Shut the door!
+Dialogue: 0,1:37:22.06,1:37:23.59,*Default,NTP,0000,0000,0000,,闭嘴\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Shut it!
+Dialogue: 0,1:37:24.49,1:37:25.55,*Default,NTP,0000,0000,0000,,我们很安全\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We're safe.
+Dialogue: 0,1:37:25.55,1:37:27.58,*Default,NTP,0000,0000,0000,,没关系 我们的孩子来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's okay. Our baby's coming.
+Dialogue: 0,1:37:27.72,1:37:30.55,*Default,NTP,0000,0000,0000,,我们的孩子来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Our baby's coming. Our baby's coming.
+Dialogue: 0,1:37:30.68,1:37:32.28,*Default,NTP,0000,0000,0000,,我们的孩子来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Our baby's coming.
+Dialogue: 0,1:37:50.83,1:37:51.96,*Default,NTP,0000,0000,0000,,{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}OK\NOkay.
+Dialogue: 0,1:37:51.96,1:37:53.50,*Default,NTP,0000,0000,0000,,就快了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's almost here.
+Dialogue: 0,1:37:57.83,1:38:00.22,*Default,NTP,0000,0000,0000,,出来了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's here. It's coming. It's coming!
+Dialogue: 0,1:38:12.48,1:38:14.01,*Default,NTP,0000,0000,0000,,是个男孩\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's a boy.
+Dialogue: 0,1:38:23.70,1:38:24.90,*Default,NTP,0000,0000,0000,,是个男孩\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's a boy.
+Dialogue: 0,1:38:25.14,1:38:26.93,*Default,NTP,0000,0000,0000,,男孩 看\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's a boy, look.
+Dialogue: 0,1:38:27.10,1:38:28.63,*Default,NTP,0000,0000,0000,,男孩\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's a boy.
+Dialogue: 0,1:38:43.92,1:38:45.45,*Default,NTP,0000,0000,0000,,盖好他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Cover him.
+Dialogue: 0,1:39:09.30,1:39:10.83,*Default,NTP,0000,0000,0000,,怎么了?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What's happening?
+Dialogue: 0,1:39:11.00,1:39:13.86,*Default,NTP,0000,0000,0000,,他们为什么这么安静? - 我不知道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why are they so quiet? -I don't know.
+Dialogue: 0,1:39:29.78,1:39:30.98,*Default,NTP,0000,0000,0000,,不要\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't!
+Dialogue: 0,1:39:32.91,1:39:34.51,*Default,NTP,0000,0000,0000,,别这样\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't do that.
+Dialogue: 0,1:39:34.64,1:39:36.11,*Default,NTP,0000,0000,0000,,没事的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's okay.
+Dialogue: 0,1:39:49.10,1:39:51.26,*Default,NTP,0000,0000,0000,,关上门\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Shut the door.
+Dialogue: 0,1:39:51.26,1:39:52.79,*Default,NTP,0000,0000,0000,,封门\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Seal it!
+Dialogue: 0,1:39:59.65,1:40:01.62,*Default,NTP,0000,0000,0000,,他们给我们带来了礼物\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They brought us gifts.
+Dialogue: 0,1:40:09.48,1:40:11.68,*Default,NTP,0000,0000,0000,,拿着 - 他们在做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here. -What are they doing?
+Dialogue: 0,1:40:12.48,1:40:15.51,*Default,NTP,0000,0000,0000,,他们只是在等\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They're just waiting.
+Dialogue: 0,1:40:17.74,1:40:19.33,*Default,NTP,0000,0000,0000,,等什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Waiting for what?
+Dialogue: 0,1:40:20.00,1:40:21.53,*Default,NTP,0000,0000,0000,,我不知道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I don't know.
+Dialogue: 0,1:40:25.40,1:40:27.06,*Default,NTP,0000,0000,0000,,让他们走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Make them go.
+Dialogue: 0,1:40:28.33,1:40:29.86,*Default,NTP,0000,0000,0000,,拜托\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please.
+Dialogue: 0,1:40:32.32,1:40:33.86,*Default,NTP,0000,0000,0000,,请让他们走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please make them.
+Dialogue: 0,1:40:35.99,1:40:38.02,*Default,NTP,0000,0000,0000,,拜托 - OK\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please. -Okay, okay.
+Dialogue: 0,1:41:23.95,1:41:27.04,*Default,NTP,0000,0000,0000,,更多的礼物 看啊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}More gifts. Look. Look.
+Dialogue: 0,1:41:27.51,1:41:29.87,*Default,NTP,0000,0000,0000,,给你的 干净衣服\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}For you. Clean clothes.
+Dialogue: 0,1:41:34.10,1:41:35.70,*Default,NTP,0000,0000,0000,,他们要走了吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Are they leaving?
+Dialogue: 0,1:41:37.53,1:41:38.73,*Default,NTP,0000,0000,0000,,什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What?
+Dialogue: 0,1:41:40.10,1:41:42.73,*Default,NTP,0000,0000,0000,,不 他们  他们只是想见见他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, they... They just want to see him.
+Dialogue: 0,1:41:42.73,1:41:43.93,*Default,NTP,0000,0000,0000,,不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No.
+Dialogue: 0,1:41:45.86,1:41:47.72,*Default,NTP,0000,0000,0000,,让他们走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Make them go.
+Dialogue: 0,1:41:47.73,1:41:48.86,*Default,NTP,0000,0000,0000,,我不能\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I can't. I can't.
+Dialogue: 0,1:41:48.86,1:41:52.52,*Default,NTP,0000,0000,0000,,你可以 他们崇拜你 他们会听你的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, you can! They adore you. They would listen to you.
+Dialogue: 0,1:41:52.65,1:41:55.05,*Default,NTP,0000,0000,0000,,为什么不 - 我不想让他们走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Why won't you? -I don't want them to go!
+Dialogue: 0,1:42:04.28,1:42:05.98,*Default,NTP,0000,0000,0000,,他很漂亮\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}He's beautiful.
+Dialogue: 0,1:42:08.21,1:42:10.07,*Default,NTP,0000,0000,0000,,让我抱抱 - 不行\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let me hold him. -No.
+Dialogue: 0,1:42:13.67,1:42:15.47,*Default,NTP,0000,0000,0000,,让我抱抱他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, let me hold him.
+Dialogue: 0,1:42:16.83,1:42:19.36,*Default,NTP,0000,0000,0000,,让我抱着孩子 - 不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let me hold my baby. -No.
+Dialogue: 0,1:42:20.83,1:42:22.69,*Default,NTP,0000,0000,0000,,让我抱抱 - 不行\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Let me hold him. -No.
+Dialogue: 0,1:42:23.19,1:42:26.06,*Default,NTP,0000,0000,0000,,我是他父亲 - 我是他母亲\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm his father! -I'm his mother!
+Dialogue: 0,1:44:07.40,1:44:08.93,*Default,NTP,0000,0000,0000,,让我... - 不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Here, let me... -No!
+Dialogue: 0,1:44:43.50,1:44:45.10,*Default,NTP,0000,0000,0000,,求你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please?
+Dialogue: 0,1:44:45.84,1:44:48.10,*Default,NTP,0000,0000,0000,,请让他们走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please make them go.
+Dialogue: 0,1:45:57.87,1:46:01.24,*Default,NTP,0000,0000,0000,,不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No. No. No.
+Dialogue: 0,1:46:01.90,1:46:03.03,*Default,NTP,0000,0000,0000,,不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No!
+Dialogue: 0,1:46:03.03,1:46:04.87,*Default,NTP,0000,0000,0000,,把我的孩子还给我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Give me back my baby!
+Dialogue: 0,1:46:07.66,1:46:09.20,*Default,NTP,0000,0000,0000,,他在哪?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where is he?
+Dialogue: 0,1:46:12.23,1:46:13.76,*Default,NTP,0000,0000,0000,,等等 住手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Wait! Stop!
+Dialogue: 0,1:46:13.76,1:46:15.49,*Default,NTP,0000,0000,0000,,不 那是我的宝贝\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! That's my baby!
+Dialogue: 0,1:46:16.06,1:46:18.06,*Default,NTP,0000,0000,0000,,不 还给我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! No! Give me back...
+Dialogue: 0,1:46:18.06,1:46:20.25,*Default,NTP,0000,0000,0000,,哈利路亚 - 赞美\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hallelujah! -Praise be!
+Dialogue: 0,1:46:21.55,1:46:22.72,*Default,NTP,0000,0000,0000,,哈利路亚\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Hallelujah!
+Dialogue: 0,1:46:22.72,1:46:24.25,*Default,NTP,0000,0000,0000,,你会伤害他的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're gonna hurt him!
+Dialogue: 0,1:46:24.25,1:46:26.88,*Default,NTP,0000,0000,0000,,求你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please! Please! Please!
+Dialogue: 0,1:46:27.01,1:46:28.61,*Default,NTP,0000,0000,0000,,你会伤害他的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're gonna hurt him!
+Dialogue: 0,1:46:29.71,1:46:31.91,*Default,NTP,0000,0000,0000,,你在伤害他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're hurting him! You're hurting him!
+Dialogue: 0,1:46:47.56,1:46:49.09,*Default,NTP,0000,0000,0000,,他在哪?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where is he?
+Dialogue: 0,1:46:49.69,1:46:51.86,*Default,NTP,0000,0000,0000,,我的孩子呢 - 他没死\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where's my baby? -He's not dead.
+Dialogue: 0,1:46:51.86,1:46:53.96,*Default,NTP,0000,0000,0000,,什么?他在哪? - 声音\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What? Where is he? -A voice
+Dialogue: 0,1:46:53.96,1:46:57.65,*Default,NTP,0000,0000,0000,,仍然呼喊着要被听到 响亮强烈\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}still cries out to be heard, loud and strong.
+Dialogue: 0,1:46:57.85,1:46:59.72,*Default,NTP,0000,0000,0000,,听 - 什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Listen. -What?
+Dialogue: 0,1:47:03.72,1:47:05.58,*Default,NTP,0000,0000,0000,,你听到了吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Do you hear that?
+Dialogue: 0,1:47:05.91,1:47:08.78,*Default,NTP,0000,0000,0000,,不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! No!
+Dialogue: 0,1:47:15.84,1:47:17.50,*Default,NTP,0000,0000,0000,,你听到了吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Do you hear that?
+Dialogue: 0,1:47:17.74,1:47:19.97,*Default,NTP,0000,0000,0000,,生命的声音\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's the sound of life.
+Dialogue: 0,1:47:20.17,1:47:22.36,*Default,NTP,0000,0000,0000,,人类的声音\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The sound of humanity!
+Dialogue: 0,1:47:22.53,1:47:24.36,*Default,NTP,0000,0000,0000,,他爱的呐喊\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}His cry of love!
+Dialogue: 0,1:47:24.36,1:47:26.56,*Default,NTP,0000,0000,0000,,他对你的爱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}His love for you!
+Dialogue: 0,1:47:37.02,1:47:39.05,*Default,NTP,0000,0000,0000,,扔掉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Get off! Get off!
+Dialogue: 0,1:47:48.51,1:47:50.77,*Default,NTP,0000,0000,0000,,你们杀了他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You killed him!
+Dialogue: 0,1:48:02.26,1:48:04.16,*Default,NTP,0000,0000,0000,,去死 婊子 - 肮脏的婊子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Die, cunt! -Dirty whore!
+Dialogue: 0,1:48:04.16,1:48:05.59,*Default,NTP,0000,0000,0000,,婊子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Slut! Bitch!
+Dialogue: 0,1:48:05.59,1:48:06.93,*Default,NTP,0000,0000,0000,,肥猪\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Fat pig!
+Dialogue: 0,1:48:07.03,1:48:08.32,*Default,NTP,0000,0000,0000,,你这个\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You bitch!
+Dialogue: 0,1:48:10.19,1:48:12.32,*Default,NTP,0000,0000,0000,,吃一拳 流浪汉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Take that, tramp!
+Dialogue: 0,1:48:13.52,1:48:15.72,*Default,NTP,0000,0000,0000,,婊子 - 杀了那头猪\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Cunt! -Kill the pig!
+Dialogue: 0,1:48:18.12,1:48:19.28,*Default,NTP,0000,0000,0000,,拜托\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please!
+Dialogue: 0,1:48:19.28,1:48:21.65,*Default,NTP,0000,0000,0000,,请停下\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please stop! Stop, please!
+Dialogue: 0,1:48:21.78,1:48:24.51,*Default,NTP,0000,0000,0000,,走开 放开她 你们做什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Go away. Leave her alone. What are you doing?
+Dialogue: 0,1:48:24.51,1:48:26.54,*Default,NTP,0000,0000,0000,,看看他们对你做了什么\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look what they've done to you.
+Dialogue: 0,1:48:29.27,1:48:30.94,*Default,NTP,0000,0000,0000,,看看他们对你做了什么\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Look what they've done to you.
+Dialogue: 0,1:48:30.94,1:48:34.20,*Default,NTP,0000,0000,0000,,你们干了什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing? What are you doing?
+Dialogue: 0,1:48:34.34,1:48:37.83,*Default,NTP,0000,0000,0000,,他们杀了我的孩子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They killed my baby!
+Dialogue: 0,1:48:39.47,1:48:41.86,*Default,NTP,0000,0000,0000,,你杀了他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You killed him.
+Dialogue: 0,1:48:42.66,1:48:45.03,*Default,NTP,0000,0000,0000,,你杀了他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You killed him.
+Dialogue: 0,1:48:45.26,1:48:47.06,*Default,NTP,0000,0000,0000,,我很抱歉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I'm so sorry. I'm so sorry.
+Dialogue: 0,1:48:47.06,1:48:49.36,*Default,NTP,0000,0000,0000,,他们只想见见他 他们只想抚摸他\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They just want to see him. They just want to touch him,
+Dialogue: 0,1:48:49.36,1:48:51.05,*Default,NTP,0000,0000,0000,,然后他们\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}and then they...
+Dialogue: 0,1:48:52.45,1:48:53.98,*Default,NTP,0000,0000,0000,,这是\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It was...
+Dialogue: 0,1:48:54.75,1:48:58.18,*Default,NTP,0000,0000,0000,,太可怕了 对不起 我很抱歉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's horrible. I'm sorry. I'm so sorry.
+Dialogue: 0,1:48:59.18,1:49:00.85,*Default,NTP,0000,0000,0000,,但我们不能\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}But we can't...
+Dialogue: 0,1:49:00.85,1:49:03.54,*Default,NTP,0000,0000,0000,,我们不能让他死得一无所值\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We can't let him die for nothing. We can't.
+Dialogue: 0,1:49:04.34,1:49:08.17,*Default,NTP,0000,0000,0000,,也许发生的一切都能改变一切\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Maybe what happened could change everything.
+Dialogue: 0,1:49:08.51,1:49:10.07,*Default,NTP,0000,0000,0000,,改变所有人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Everyone.
+Dialogue: 0,1:49:10.31,1:49:12.34,*Default,NTP,0000,0000,0000,,你在说什么? - 我们...\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you talking about? -We...
+Dialogue: 0,1:49:13.80,1:49:18.03,*Default,NTP,0000,0000,0000,,你和我 我们必须想办法原谅他们\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You and I, we have to find a way to forgive them.
+Dialogue: 0,1:49:22.19,1:49:24.09,*Default,NTP,0000,0000,0000,,他们屠杀了我们的儿子\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They butchered our son!
+Dialogue: 0,1:49:25.23,1:49:27.62,*Default,NTP,0000,0000,0000,,我知道\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I know. I know.
+Dialogue: 0,1:49:27.76,1:49:29.42,*Default,NTP,0000,0000,0000,,你疯了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You're insane.
+Dialogue: 0,1:49:29.55,1:49:31.69,*Default,NTP,0000,0000,0000,,听我说 - 你疯了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Listen to me. -You're insane.
+Dialogue: 0,1:49:31.69,1:49:34.35,*Default,NTP,0000,0000,0000,,听听他们 他们很抱歉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Well, listen to them. They are so sorry.
+Dialogue: 0,1:49:35.12,1:49:36.81,*Default,NTP,0000,0000,0000,,他们真的很抱歉\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}They are truly sorry.
+Dialogue: 0,1:49:36.85,1:49:38.71,*Default,NTP,0000,0000,0000,,对我有信心 务必\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Listen. Have faith in me. Please. Please.
+Dialogue: 0,1:49:38.78,1:49:41.88,*Default,NTP,0000,0000,0000,,我们得原谅他们\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}We need to forgive them. We need to forgive them!
+Dialogue: 0,1:49:41.94,1:49:45.24,*Default,NTP,0000,0000,0000,,拜托 我们必须这么做\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please. Please! We have to!
+Dialogue: 0,1:50:05.56,1:50:08.42,*Default,NTP,0000,0000,0000,,不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No!
+Dialogue: 0,1:50:11.78,1:50:14.15,*Default,NTP,0000,0000,0000,,杀人犯\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Murderers!
+Dialogue: 0,1:50:14.35,1:50:16.08,*Default,NTP,0000,0000,0000,,凶手\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Murderer!
+Dialogue: 0,1:50:16.88,1:50:21.64,*Default,NTP,0000,0000,0000,,是时候滚出我的房子了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's time to get the fuck out of my house!
+Dialogue: 0,1:50:21.68,1:50:23.04,*Default,NTP,0000,0000,0000,,不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no. No, no, no!
+Dialogue: 0,1:50:23.04,1:50:25.24,*Default,NTP,0000,0000,0000,,不 请别走\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No! Please! Don't leave!
+Dialogue: 0,1:50:25.31,1:50:27.07,*Default,NTP,0000,0000,0000,,求你 我求你了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please! I beg you!
+Dialogue: 0,1:50:27.20,1:50:29.74,*Default,NTP,0000,0000,0000,,别跑 我们会重建的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't run off! We will rebuild!
+Dialogue: 0,1:50:41.53,1:50:44.22,*Default,NTP,0000,0000,0000,,不要 别丢下我一个人\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't! Don't leave me alone!
+Dialogue: 0,1:51:00.87,1:51:03.51,*Default,NTP,0000,0000,0000,,这边 她去了这里\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}This way! She went down here!
+Dialogue: 0,1:51:04.97,1:51:08.07,*Default,NTP,0000,0000,0000,,停下 等等\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Stop! Stop! Wait. Wait.
+Dialogue: 0,1:51:12.60,1:51:14.43,*Default,NTP,0000,0000,0000,,不要\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Don't! Don't! Don't!
+Dialogue: 0,1:51:14.43,1:51:15.96,*Default,NTP,0000,0000,0000,,请不要\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Please don't.
+Dialogue: 0,1:51:16.76,1:51:18.29,*Default,NTP,0000,0000,0000,,我爱你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I love you.
+Dialogue: 0,1:51:18.53,1:51:20.26,*Default,NTP,0000,0000,0000,,你从没爱过我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You never loved me.
+Dialogue: 0,1:51:21.99,1:51:24.55,*Default,NTP,0000,0000,0000,,你只是爱我爱你\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You just loved how much I loved you.
+Dialogue: 0,1:51:26.02,1:51:27.72,*Default,NTP,0000,0000,0000,,我给了你一切\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I gave you everything!
+Dialogue: 0,1:51:31.35,1:51:33.38,*Default,NTP,0000,0000,0000,,你放弃了一切\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You gave it all away.
+Dialogue: 0,1:51:34.88,1:51:36.71,*Default,NTP,0000,0000,0000,,不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No. No. No.
+Dialogue: 0,1:51:36.84,1:51:38.87,*Default,NTP,0000,0000,0000,,不要\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, no, no!
+Dialogue: 0,1:52:29.86,1:52:31.53,*Default,NTP,0000,0000,0000,,你是什么?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What are you?
+Dialogue: 0,1:52:31.53,1:52:32.73,*Default,NTP,0000,0000,0000,,我?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Me?
+Dialogue: 0,1:52:33.69,1:52:35.49,*Default,NTP,0000,0000,0000,,我是我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I am I.
+Dialogue: 0,1:52:35.96,1:52:37.32,*Default,NTP,0000,0000,0000,,你?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You?
+Dialogue: 0,1:52:38.32,1:52:39.85,*Default,NTP,0000,0000,0000,,你回家了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}You were home.
+Dialogue: 0,1:52:43.09,1:52:45.08,*Default,NTP,0000,0000,0000,,你要带我去哪?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Where are you taking me?
+Dialogue: 0,1:52:48.81,1:52:50.01,*Default,NTP,0000,0000,0000,,源头\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}The beginning.
+Dialogue: 0,1:53:09.83,1:53:11.19,*Default,NTP,0000,0000,0000,,是这样吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Is that it?
+Dialogue: 0,1:53:13.19,1:53:15.56,*Default,NTP,0000,0000,0000,,不会疼很久的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It won't hurt much longer.
+Dialogue: 0,1:53:16.12,1:53:19.65,*Default,NTP,0000,0000,0000,,最让我伤心的是 有我还不够\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}What hurts me the most is that I wasn't enough.
+Dialogue: 0,1:53:20.02,1:53:21.88,*Default,NTP,0000,0000,0000,,这不是你的错\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's not your fault.
+Dialogue: 0,1:53:22.98,1:53:24.95,*Default,NTP,0000,0000,0000,,没有什么是永远不够的\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Nothing is ever enough.
+Dialogue: 0,1:53:25.45,1:53:27.81,*Default,NTP,0000,0000,0000,,我不能创造它 如果它已存在\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I couldn't create if it was.
+Dialogue: 0,1:53:28.18,1:53:30.98,*Default,NTP,0000,0000,0000,,我必须这么做 这就是我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}And I have to. That's what I do.
+Dialogue: 0,1:53:32.11,1:53:34.34,*Default,NTP,0000,0000,0000,,这就是我\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}That's what I am.
+Dialogue: 0,1:53:36.24,1:53:39.10,*Default,NTP,0000,0000,0000,,现在我必须再试一次\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Now I must try it all again.
+Dialogue: 0,1:53:39.20,1:53:40.37,*Default,NTP,0000,0000,0000,,不\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}No.
+Dialogue: 0,1:53:41.50,1:53:43.43,*Default,NTP,0000,0000,0000,,让我走吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Just let me go.
+Dialogue: 0,1:53:47.13,1:53:49.49,*Default,NTP,0000,0000,0000,,我需要最后一样东西\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I need one last thing.
+Dialogue: 0,1:53:51.19,1:53:53.82,*Default,NTP,0000,0000,0000,,我没有什么可给的了\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}I have nothing left to give.
+Dialogue: 0,1:53:56.62,1:53:57.89,*Default,NTP,0000,0000,0000,,你的爱\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Your love.
+Dialogue: 0,1:54:05.95,1:54:07.88,*Default,NTP,0000,0000,0000,,它还在那里 不是吗\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}It's still there, isn't it?
+Dialogue: 0,1:54:16.00,1:54:17.30,*Default,NTP,0000,0000,0000,,继续\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Go ahead.
+Dialogue: 0,1:54:19.77,1:54:21.10,*Default,NTP,0000,0000,0000,,拿去吧\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Take it.
+Dialogue: 0,1:56:19.36,1:56:20.76,*Default,NTP,0000,0000,0000,,宝贝?\N{\fnCronos Pro Subhead\fs14\1c&H3CF1F3&}Baby?
